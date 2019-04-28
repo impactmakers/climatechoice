@@ -7,7 +7,7 @@ const Footer = () => (
   <footer className={Styles.container}>
     <div className={`${GlobalStyles.inner} ${Styles.ctaInner}`}>
       <div className={Styles.ctaContent}>
-        <h1 className={Styles.ctaTitle}>Title here</h1>
+        <h1 className={Styles.ctaTitle}>Title</h1>
         <p className={Styles.ctaText}>Description</p>
       </div>
       <div className={Styles.ctaActions}>
