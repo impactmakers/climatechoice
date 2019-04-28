@@ -3,7 +3,7 @@ path: example
 date: 2019-03-14T11:10:21.824Z
 image: 'http://piggypot-blog.s3.amazonaws.com/1-10-release/013.jpg'
 title: Example blog post with a lot of content to style so it is
-author: Gavin Shields
+author: Steven Hylands
 ---
 Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
