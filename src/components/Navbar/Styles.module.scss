@@ -1,0 +1,63 @@
+@import '../../styles/Variables.module.scss';
+@import '../../styles/Mixins.module.scss';
+@import '../../styles/Typography.module.scss';
+
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: $black;
+  color: $white;
+}
+
+.inner {
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 11px 0;
+  @include mq('tablet') {
+    flex-direction: row;
+  }
+}
+.logo {
+  margin: 0;
+  line-height: 0;
+  height: 50px;
+}
+
+
+
+.navList {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  @include mq('tablet') {
+    flex-direction: row;
+  }
+}
+
+.navItem {
+  margin-left: 30px;
+  @include links-on-dark;
+  @include font-size($text-small);
+  a {
+    text-decoration: none;
+  }
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+
+
+.navItemAction {
+  a {
+    color: $blue;
+    font-weight: bold;
+  }
+}

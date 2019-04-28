@@ -1,0 +1,148 @@
+@import '../../styles/Variables.module.scss';
+@import '../../styles/Mixins.module.scss';
+@import '../../styles/Typography.module.scss';
+
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include mar-bot-large;
+}
+
+.inner {
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  
+  @include mq('tablet') {
+    @include mar-bot-large;
+  }
+}
+
+.contentItemsContainer {
+  width: 100%;
+  background: $greenLight;
+  @include pad-bot-large;
+}
+
+
+.contentItems {
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 40px;
+  margin-top: -20px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr;
+  @include mq('tablet') {
+    grid-gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -100px;
+    position: relative;
+    z-index: 2;
+  }
+  @include mq('desktop') {
+    margin-top: -180px;
+  }
+} 
+
+.contentItem {
+  @include white-box;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  top: 0;
+  &:hover {
+    box-shadow: 0 1px 40px 0 rgba(50,47,68,0.2);
+    top: -2px;
+    position: relative;
+  }
+  &:active {
+    box-shadow: 0 1px 40px 0 rgba(50,47,68,0.2);
+    top: 1px;
+    position: relative;
+  }
+}
+
+.contentItemLink {
+  text-decoration: none;
+}
+
+
+.contentImage {
+  img {
+    width: 100%;
+    background: grey;
+  }
+}
+
+.contentText {
+  padding: 30px;
+  @include link-states;
+  @include mq('tablet') {
+    padding: 40px;
+    margin: 0;
+  }
+}
+
+.contentTitle {
+  margin: 0 0 15px;
+  text-decoration: none;
+  display: flex;
+  border: none !important;
+  color: $black;
+  @include font-size($title-small); 
+}
+
+
+
+.contentExcerpt {
+  margin: 0;
+  @include font-size($text-small);
+}
+
+.contentMeta {
+  border-top: 1px solid $grayBorder;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  padding-top: 40px;
+  margin-top: 40px;
+}
+
+.contentDate {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: $textBody;
+}
+
+.contentAuthor {
+  display: flex;
+  align-items: center;
+  color: $black;
+}
+
+.contentAuthorAvatar {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+.contentAuthorName {
+
+}
+
+

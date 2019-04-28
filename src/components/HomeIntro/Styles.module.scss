@@ -1,0 +1,55 @@
+@import '../../styles/Variables.module.scss';
+@import '../../styles/Mixins.module.scss';
+@import '../../styles/Typography.module.scss';
+
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inner {
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  @include mq('tablet') {
+
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.title {
+  width: 100%;
+  margin: 0;
+  font-family: $serif;
+}
+
+
+.ctaButton {
+  @include no-underline;
+}
+
+.ctaSecondary {
+  @include links-on-light;
+  color: $textBody;
+  @include font-size($text-xsmall);
+  @include mar-top-small;
+  padding-top: 15px;
+  a {
+    color: $textBody;
+    font-weight: normal;
+    border-bottom: 1px solid $gray;
+  }
+}
+

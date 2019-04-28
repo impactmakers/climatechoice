@@ -1,0 +1,207 @@
+@import '../../styles/Variables.module.scss';
+@import '../../styles/Mixins.module.scss';
+@import '../../styles/Typography.module.scss';
+
+
+.container {
+  background: $white;
+  color: $black;
+  @include pad-top-standard;
+  @include pad-bot-standard;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inner {
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  @include mq('tablet') {
+
+  }
+}
+
+.top { 
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @include mq('tablet') {
+    flex-direction: row;
+  }
+}
+
+.company {
+  width: 100%;
+  margin-top: 15px;
+  @include mq('tablet') {
+    max-width: 170px;
+    margin-top: 8px;
+  }
+}
+.description {
+  margin-top: 12px;
+  @include font-size($text-small);
+  color: $black;
+}
+ 
+.social {
+  display: flex;
+  list-style-type: none;
+  margin: 30px 0 35px 0;
+  padding: 0;
+  justify-content: space-between;
+  width: 95px;
+  @include mq('tablet') {
+    margin-bottom: 0;
+  }
+}
+
+
+.socialLink {
+  padding: 0;
+  margin: 0 15px 0 0;
+  a {
+    fill: $black;
+  }
+  a:hover {
+    fill: $linkHover;
+  }
+  a:active {
+    fill: $linkActive;
+  }
+}
+
+
+.nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @include mq('tablet') {
+    flex-direction: row;
+    max-width: 65%;
+  }
+}
+
+.navCol {
+}
+
+.navTitle {
+  color: $black;
+  padding: 0;
+  margin: 0 0 13px;
+  @include title-small;
+  line-height: 10px;
+}
+.navList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 30px 0;
+  @include font-size($text-small);
+  a {
+    text-decoration: none;
+  }
+  @include mq('tablet') {
+    margin-bottom: 0;
+  }
+}
+
+.choiceLists {
+  display: flex;
+  flex-direction: column;
+  @include mq('tablet') {
+    flex-direction: row;
+  } 
+}
+
+.choiceList {
+  list-style-type: decimal;
+  padding-left: 17px;
+  @include mq('tablet') {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-gap: 0 30px;
+  } 
+}
+
+.navItem {
+  padding: 0;
+  margin: 0;
+  @include font-size($text-small);
+  @include links-on-light;
+
+}
+
+
+
+
+.bottom {
+  width: 100%;
+  color: $black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @include links-on-light;
+  p {
+    @include font-size($text-xsmall);
+    color:$black;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
+.disclaimer {}
+
+
+
+.impactMakers {
+  background-color: $grayLightest;
+  width: 100%;
+  @include mar-top-standard;
+  @include pad-bot-standard;
+  padding: 40px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  @include mq('tablet') {
+    background-size: contain;
+    background-position: top center;
+  }
+}
+
+.impactMakersTitle {
+  @include font-size($title-small);
+  font-weight: bold;
+}
+
+.impactMakersCreators {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px auto 30px;
+  display: flex;
+}
+
+.impactMakersCreator {
+  margin: 0 30px 0 0;
+  @include links-on-light;
+  &:last-child {
+    margin: 0;
+  }
+}
+
+.impactMakersDescription {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.impactMakersCta {
+  @include no-underline;
+  margin: 30px auto 0;
+}
+
+

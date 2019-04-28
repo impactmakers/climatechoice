@@ -1,0 +1,233 @@
+@import '../styles/Variables.module.scss';
+@import '../styles/Mixins.module.scss';
+@import '../styles/Typography.module.scss';
+
+
+/* Layout
+/* ---------------------------------------------------------- */
+
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inner {
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  max-width: $sub;
+  @include mq('tablet') {
+
+  }
+}
+
+.title {
+  text-align: center;
+  margin: 0;
+}
+
+.meta {
+  @include mar-bot-standard;
+
+}
+
+.coverImage {
+    width: 100%;
+    @include mar-bot-standard;
+}
+
+/* Prev/next nav
+/* ---------------------------------------------------------- */
+
+
+.contentNav {
+    @include mar-top-standard;
+    @include mar-bot-standard;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    @include links-on-light;
+    @include font-size($text-body);
+    a {
+        color: $black;
+        border: none;
+    }
+
+  }
+  .contentNavItem {
+    padding: 0;
+  } 
+
+
+/* Content styling
+/* ---------------------------------------------------------- */
+
+
+.content {
+  ol,
+  ul {
+      list-style: none;
+  }
+  blockquote,
+  q {
+      quotes: none;
+  }
+  blockquote:before,
+  blockquote:after,
+  q:before,
+  q:after {
+      content: "";
+      content: none;
+  }
+  
+  b,
+  strong {
+      font-weight: bold;
+  }
+  i,
+  em,
+  dfn {
+      font-style: italic;
+  }
+  
+  sup {
+      position: relative;
+      font-size: 75%;
+      line-height: 0;
+      vertical-align: baseline;
+  }
+  img {
+      border: 0;
+  }
+  svg:not(:root) {
+      overflow: hidden;
+  }
+  mark {
+      background-color: #fdffb6;
+  }
+  code,
+  kbd,
+  pre,
+  samp {
+      font-family: monospace, monospace;
+      font-size: 1em;
+  }
+  
+  
+  p,
+  ul,
+  ol,
+  dl,
+  blockquote {
+      margin: 0 0 1.5em 0;
+  }
+
+  ol,
+  ul {
+      padding-left: 1.3em;
+      padding-right: 1.5em;
+  }
+
+  ol ol,
+  ul ul,
+  ul ol,
+  ol ul {
+      margin: 0.5em 0 1em;
+  }
+
+  ul {
+      list-style: disc;
+  }
+
+  ol {
+      list-style: decimal;
+  }
+
+  ul,
+  ol {
+      max-width: 100%;
+  }
+
+  li {
+      margin: 0.5em 0;
+      padding-left: 0;
+      @include font-size($text-body);
+      color: $textBody;
+  }
+
+  dt {
+      float: left;
+      margin: 0 20px 0 0;
+      width: 120px;
+      font-weight: 500;
+      text-align: right;
+  }
+
+  dd {
+      margin: 0 0 5px 0;
+      text-align: left;
+  }
+
+  blockquote {
+      margin: 0.3em 0 1.8em;
+      padding: 0 1.6em 0 1.6em;
+      border-left: $orange 4px solid;
+  }
+
+  blockquote p {
+      margin: 0.8em 0;
+      color: $orange;
+      font-weight: bold;
+  }
+
+  blockquote small {
+      display: inline-block;
+      margin: 0.8em 0 0.8em 1.5em;
+      font-size: 0.9em;
+      opacity: 0.8;
+  }
+  /* Quotation marks */
+  blockquote small:before {
+      content: "\2014 \00A0";
+  }
+
+  blockquote cite {
+      font-weight: bold;
+  }
+  blockquote cite a {
+      font-weight: normal;
+  }
+
+  a {
+      @include links-on-light;
+  }
+
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+      margin-top: 0;
+      text-rendering: optimizeLegibility;
+  }
+
+  h1 {
+
+  }
+
+  h2 {
+    color: $green;
+  }
+
+}
+
+
+

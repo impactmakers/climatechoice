@@ -1,0 +1,200 @@
+@mixin section-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  @include mq('tablet') {
+    width: 50%;
+  }
+  @include mq('desktop') {
+    width: 40%;
+  }
+}
+
+@mixin page-top {
+  padding-top: 70px;
+  @include mq('tablet') {
+    padding-top: 70px;
+  }
+}
+
+@mixin subpage-top {
+  padding-top: 80px;
+  @include mq('tablet') {
+    padding-top: 100px;
+  }
+  @include mq('desktop') {
+    padding-top: 140px;
+  }
+}
+
+@mixin post-top {
+  padding-top: 70px;
+  @include mq('tablet') {
+    padding-top: 90px;
+  }
+  @include mq('desktop') {
+    padding-top: 90px;
+  }
+}
+
+/* Spacing - Standard */
+
+@mixin pad-top-standard {
+  padding-top: 20px;
+  @include mq('tablet') {padding-top: 40px;}
+  @include mq('desktop') {padding-top: 60px;}
+}
+
+@mixin mar-top-standard {
+  margin-top: 20px;
+  @include mq('tablet') {margin-top: 40px;}
+  @include mq('desktop') {margin-top: 60px;}
+}
+
+@mixin pad-bot-standard {
+  padding-bottom: 20px;
+  @include mq('tablet') {padding-bottom: 40px;}
+  @include mq('desktop') {padding-bottom: 60px;}
+}
+
+@mixin mar-bot-standard {
+  margin-bottom: 20px;
+  @include mq('tablet') {margin-bottom: 40px;}
+  @include mq('desktop') {margin-bottom: 60px;}
+}
+
+/* Spacing - Large */
+
+@mixin pad-top-large {
+  padding-top: 40px;
+  @include mq('tablet') {padding-top: 80px;}
+  @include mq('desktop') {padding-top: 140px;}
+}
+
+@mixin mar-top-large {
+  margin-top: 40px;
+  @include mq('tablet') {margin-top: 80px;}
+  @include mq('desktop') {margin-top: 140px;}
+}
+
+@mixin pad-bot-large {
+  padding-bottom: 40px;
+  @include mq('tablet') {padding-bottom: 80px;}
+  @include mq('desktop') {padding-bottom: 140px;}
+}
+
+@mixin mar-bot-large {
+  margin-bottom: 40px;
+  @include mq('tablet') {margin-bottom: 80px;}
+  @include mq('desktop') {margin-bottom: 140px;}
+}
+
+
+/* Spacing - Small */
+
+@mixin pad-top-small {
+  padding-top: 10px;
+  @include mq('tablet') {padding-top: 20px;}
+}
+
+@mixin mar-top-small {
+  margin-top: 10px;
+  @include mq('tablet') {margin-top: 20px;}
+}
+
+@mixin pad-bot-small {
+  padding-bottom: 10px;
+  @include mq('tablet') {padding-bottom: 20px;}
+}
+
+@mixin mar-bot-small {
+  margin-bottom: 10px;
+  @include mq('tablet') {margin-bottom: 20px;}
+}
+
+
+// Media Queries
+
+@mixin mq($width, $type: min) {
+  @if map_has_key($breakpoints, $width) {
+    $width: map_get($breakpoints, $width);
+
+    @if $type == max {
+      $width: $width - 1px;
+    }
+
+    @media only screen and (#{$type}-width: $width) { @content; }
+  }
+}
+
+
+// Link States
+
+@mixin link-states {
+  a {
+    text-decoration: underline;
+    font-weight: 700;
+  }
+  a:hover, a.hover {
+    color: $linkHover;
+    -webkit-transition: top .04s ease-out;
+  }
+  a:active {
+    color: $linkActive;
+    position: relative;
+    top: 1px;
+  }
+}
+
+@mixin links-on-light {
+  a {
+    font-weight: 400;
+    text-decoration: none;
+    color: $link;
+  }
+  @include link-states;
+}
+
+@mixin links-on-dark {
+  @include link-states;
+  a {
+    text-decoration: underline;
+    color: $white;
+  }
+}
+
+@mixin no-underline {
+  text-decoration: none !important;
+  a {
+    text-decoration: none !important;
+  }
+  &:hover, &.hover {
+    text-decoration: none !important;
+  }
+}
+
+
+
+
+
+@mixin no-border-link {
+  border: none!important;
+  text-decoration: none;
+a {
+  border: none!important;
+}
+a:hover, a.hover {
+  border: none!important;
+  -webkit-transition: top .04s ease-out;
+}
+a:active {
+  border: none!important;
+  position: relative;
+  top: 1px;
+}
+}
+
+@mixin white-box {
+  background: $white;
+  box-shadow: 0 1px 40px 0 rgba(50,47,68,0.09);
+}

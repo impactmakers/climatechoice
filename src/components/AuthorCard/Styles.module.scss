@@ -1,0 +1,63 @@
+@import '../../styles/Variables.module.scss';
+@import '../../styles/Mixins.module.scss';
+@import '../../styles/Typography.module.scss';
+@import '../../styles/Buttons.module.scss';
+
+
+
+.authorCard {
+  background: $grayLight;
+  border-radius: $border-radius;
+  display: flex;
+  padding: 5%;
+  width:90%;
+}
+
+.authorAvatar {
+  width: 80px;
+  height: 80px;
+  margin-right: 5%;
+  border-radius: 3px;
+  @include mq('tablet') {
+    width: 100px;
+    height: 100px;
+  }
+}
+.authorContent {
+  display: flex;
+  flex-direction: column;
+}
+.authorTitle {
+  margin: 0;
+}
+
+.authorBio {
+  margin: 0;
+
+}
+
+.links {
+  @include links-on-light;
+  list-style-type: none;
+  margin: 8px 0 0 0;
+  padding: 0;
+  a, a:hover  {
+    border: none;
+  }
+  @include mq('tablet') {
+    margin-top: 15px;;
+  }
+}
+
+.linkItem {
+  @include font-size($text-body);
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  svg {
+    margin-right: 5px;
+    fill: currentColor;
+  }
+}

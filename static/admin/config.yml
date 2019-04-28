@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: shylands/climatechoice
+
+media_folder: static/assets
+public_folder: assets
+
+collections:
+  - name: blog
+    label: Blog
+    folder: content/blog
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: date }
+      - { name: image, label: Image }
+      - { name: title, label: Title }
+      - { name: author, label: Author }
+      - { name: body, label: Body, widget: markdown }
