@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Logo from '../Images/Logos/LogoOnDark';
 import GlobalStyles from '../../styles/Global.module.scss';
-import ButtonStyles from '../../styles/Buttons.module.scss';
 import Styles from './Styles.module.scss';
 
 const Navbar = class extends React.Component {
@@ -19,28 +18,22 @@ const Navbar = class extends React.Component {
               <Logo />
             </Link>
           </div>
-          <ul
-            className={Styles.navList}
-          >
-          <li className={Styles.navItem}>
-            <Link title="Title" to="/about">
-              About
-            </Link>
-          </li>
-          <li className={Styles.navItem}>
-            <Link title="Read our blog" to="/blog">
-              Blog
-            </Link>
+          <ul className={Styles.navList}>
+            <li className={Styles.navItem}>
+              <Link title="Title" to="/about">
+                About
+              </Link>
             </li>
-          <li className={`${Styles.navItem} ${Styles.navItemAction}`}>
-            <Link
-              title="Title"
-              to="/contact"
-            >
-              Contact
-            </Link>
+            <li className={Styles.navItem}>
+              <Link title="Read our blog" to="/blog">
+                Blog
+              </Link>
             </li>
-
+            <li className={`${Styles.navItem} ${Styles.navItemAction}`}>
+              <Link title="Title" to="/contact">
+                Contact
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>

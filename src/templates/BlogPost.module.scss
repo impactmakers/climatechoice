@@ -9,6 +9,7 @@
 
 .container {
   box-sizing: border-box;
+  @include page-top;
   width: 100%;
   display: flex;
   flex-direction: column;

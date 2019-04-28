@@ -52,7 +52,7 @@
 .btn-md {
   font-size: 21px;
   font-family: inherit;
-  padding: 5px 12px;
+  padding: 18px 12px 5px;
 }
 .btn-sm {
   padding: 3px 10px;
@@ -113,7 +113,7 @@
 .btn-simple.btn-md,
 .btn-gradient.btn-md {
   font-size: 21px;
-  padding: 12px 20px 15px;
+  padding: 15px 30px 15px;
   font-family: inherit;
 
 }
@@ -192,7 +192,6 @@
 }
 .btn-bordered.btn-md {
   font-size: 21px;
-
   font-family: inherit;
 
 }
@@ -325,12 +324,12 @@
           transform: translateX(10px) rotate(0.001deg);
 }
 .btn-minimal.btn-xs {
-  padding: 3px 8px;
+
   font-size: 12px;
   font-family: inherit;
 }
 .btn-minimal.btn-sm {
-  padding: 3px 10px;
+
   font-size: 16px;
   font-family: inherit;
 }
@@ -340,7 +339,7 @@
 
 }
 .btn-minimal.btn-lg {
-  padding: 8px 15px;
+
   font-size: 24px;
   font-family: inherit;
 }

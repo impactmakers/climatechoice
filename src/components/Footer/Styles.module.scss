@@ -42,9 +42,10 @@
     margin-top: 8px;
   }
 }
+
 .description {
   margin-top: 12px;
-  @include font-size($text-small);
+  @include font-size($text-xsmall);
   color: $black;
 }
  
@@ -145,6 +146,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  @include mar-top-standard;
   @include links-on-light;
   p {
     @include font-size($text-xsmall);
@@ -154,21 +156,24 @@
     }
   }
 }
+
 .disclaimer {}
 
 
 
 .impactMakers {
   background-color: $grayLightest;
-  width: 100%;
+  width: 85%;
   @include mar-top-standard;
   @include pad-bot-standard;
-  padding: 40px;
+  padding: 20px 7.5% 30px;
   display: flex;
   text-align: center;
   flex-direction: column;
   justify-content: space-between;
   @include mq('tablet') {
+    width: 100%;
+    padding: 40px 0;
     background-size: contain;
     background-position: top center;
   }
@@ -177,6 +182,7 @@
 .impactMakersTitle {
   @include font-size($title-small);
   font-weight: bold;
+  font-family: $sans;
 }
 
 .impactMakersCreators {

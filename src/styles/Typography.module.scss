@@ -53,6 +53,7 @@ $title-xlarge: (
 
 @mixin title-xlarge {
   @include font-size($title-xlarge);
+  font-family: $serif;
   font-weight: bold;
   color: $black;
   letter-spacing: -0.24px;
@@ -70,6 +71,7 @@ $title-large: (
 );
 
 @mixin title-large {
+  font-family: $serif;
   @include font-size($title-large);
   font-weight: bold;
   color: $black;

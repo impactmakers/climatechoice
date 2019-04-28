@@ -11,7 +11,7 @@ const Footer = () => (
         <p className={Styles.ctaText}>Description</p>
       </div>
       <div className={Styles.ctaActions}>
-        <a className={Styles.ctaButton} href="#" title="Main">
+        <a className={Styles.ctaButton} href="/" title="Main">
           <button
             className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
               ButtonStyles.btnPrimary
@@ -20,7 +20,7 @@ const Footer = () => (
             Main
           </button>
         </a>
-        <a className={Styles.ctaButton} href="#" title="Secondary">
+        <a className={Styles.ctaButton} href="/" title="Secondary">
           <button
             className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
               ButtonStyles.btnBordered

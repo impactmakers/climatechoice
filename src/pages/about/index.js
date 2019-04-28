@@ -9,7 +9,7 @@ const AboutPage = () => (
     <Helmet>
       <title>About</title>
     </Helmet>
-    <section className={Styles.introContainer}>
+    <section className={Styles.container}>
       <div className={`${GlobalStyles.inner} ${Styles.inner}`}>
         <div className={Styles.introContent}>
           <h1 className={`${Styles.title} ${Styles.introTitle}`}>About</h1>

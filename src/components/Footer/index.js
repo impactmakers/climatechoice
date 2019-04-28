@@ -30,18 +30,12 @@ const Footer = () => (
               </a>
             </li>
             <li className={Styles.socialLink}>
-              <a
-                href="https://facebook.com/"
-                title="Like us on Facebook"
-              >
+              <a href="https://facebook.com/" title="Like us on Facebook">
                 <FacebookIcon />
               </a>
             </li>
             <li className={Styles.socialLink}>
-              <a
-                href="https://instagram.com/"
-                title="Follow us on Instagram"
-              >
+              <a href="https://instagram.com/" title="Follow us on Instagram">
                 <InstagramIcon />
               </a>
             </li>
@@ -65,7 +59,7 @@ const Footer = () => (
                 </Link>
               </li>
               <li className={Styles.navItem}>
-                <Link to="/contribute" title="Learn how Yomo works">
+                <Link to="/contribute" title="Contribute to ClimateChoice">
                   Contribute
                 </Link>
               </li>
@@ -117,11 +111,13 @@ const Footer = () => (
         </div>
       </div>
       <div className={Styles.bottom}>
-        <div className={Styles.disclaimer}>
-          <p>
-            Disclaimer: The content of this site is based on researched material from around the web. We’re doing our best to provide you as much accurate info as possible, but some of the data and suggestions may be incorrect. If you’re unsure we recommend doing further research on your own.
-          </p>
-        </div>
+        <p className={Styles.disclaimer}>
+          Disclaimer: The content of this site is based on researched material
+          from around the web. We’re doing our best to provide you as much
+          accurate info as possible, but some of the data and suggestions may be
+          incorrect. If you’re unsure we recommend doing further research on
+          your own.
+        </p>
       </div>
       <div className={Styles.impactMakers}>
         <h1 className={Styles.impactMakersTitle}>
@@ -137,26 +133,25 @@ const Footer = () => (
             </a>
           </li>
           <li className={Styles.impactMakersCreator}>
-            <a
-              href="https://twitter.com/"
-              title="Follow @????? on Twitter"
-            >
+            <a href="https://twitter.com/" title="Follow @????? on Twitter">
               @?????
             </a>
           </li>
           <li className={Styles.impactMakersCreator}>
-            <a
-              href="https://twitter.com/"
-              title="Follow @????? on Twitter"
-            >
+            <a href="https://twitter.com/" title="Follow @????? on Twitter">
               @?????
             </a>
           </li>
         </ul>
         <p className={Styles.impactMakersDescription}>
-          Impact Makers is a community of tech people who want to have a positive impact by helping prevent earth’s climate breaking down.
+          Impact Makers is a community of tech people who want to have a
+          positive impact by helping prevent earth’s climate breaking down.
         </p>
-        <a className={Styles.impactMakersCta} href="https://techimpactmakers.com" title="Find out more about us">
+        <a
+          className={Styles.impactMakersCta}
+          href="https://techimpactmakers.com"
+          title="Find out more about us"
+        >
           <button
             className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
               ButtonStyles.btnGreen

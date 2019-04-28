@@ -12,6 +12,8 @@
 }
 
 .inner {
+  @include pad-top-standard;
+  @include pad-bot-standard;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
@@ -32,11 +34,13 @@
 .title {
   width: 100%;
   margin: 0;
+  font-weight: 700;
   font-family: $serif;
 }
 
 
 .ctaButton {
+  margin-top: 30px;
   @include no-underline;
 }
 
@@ -49,7 +53,6 @@
   a {
     color: $textBody;
     font-weight: normal;
-    border-bottom: 1px solid $gray;
   }
 }
 

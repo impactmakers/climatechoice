@@ -10,32 +10,17 @@
   }
 }
 
+
 @mixin page-top {
-  padding-top: 70px;
+  padding-top: 20px;
   @include mq('tablet') {
-    padding-top: 70px;
+    padding-top: 40px;
+  }
+  @include mq('desktop') {
+    padding-top: 60px;
   }
 }
 
-@mixin subpage-top {
-  padding-top: 80px;
-  @include mq('tablet') {
-    padding-top: 100px;
-  }
-  @include mq('desktop') {
-    padding-top: 140px;
-  }
-}
-
-@mixin post-top {
-  padding-top: 70px;
-  @include mq('tablet') {
-    padding-top: 90px;
-  }
-  @include mq('desktop') {
-    padding-top: 90px;
-  }
-}
 
 /* Spacing - Standard */
 
