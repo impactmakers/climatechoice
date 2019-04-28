@@ -1,10 +1,9 @@
 ---
-
 path: hello-world
 date: 2019-02-21T11:07:21.702Z
 image: 'https://yomo-website-assets.s3.amazonaws.com/blog/covers/why-yomo-exists.jpg'
 title: Hello World
-author: Will McNeilly
+author: Steven Hylands
 ---
 This is my first post on my new fake blog! How exciting!
 
