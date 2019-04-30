@@ -1,9 +1,11 @@
-import React from 'react';
-import Helmet from 'react-helmet';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import FooterCta from '../components/FooterCta';
-import '../styles/normalize.css';
+import React from "react";
+import Helmet from "react-helmet";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import FooterCta from "../components/FooterCta";
+import SpreadMessageCTA from "../components/SpreadMessageCTA";
+import "../styles/normalize.css";
+
 class Layout extends React.Component {
   render() {
     const { children } = this.props;
@@ -18,6 +20,7 @@ class Layout extends React.Component {
 
         <FooterCta />
         <Footer />
+        <SpreadMessageCTA />
       </div>
     );
   }
