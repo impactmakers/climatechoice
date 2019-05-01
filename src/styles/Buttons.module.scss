@@ -106,7 +106,7 @@
 }
 .btn-simple.btn-sm,
 .btn-gradient.btn-sm {
-  padding: 3px 10px;
+  padding: 10px 20px;
   font-size: 16px;
   font-family: inherit;
 }
@@ -447,4 +447,8 @@
   @include mq('tablet') {
     width: auto;
   }
+}
+
+.btn-header {
+  background: #1F3357;
 }

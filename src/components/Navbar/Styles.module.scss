@@ -31,7 +31,9 @@
 .navList {
   padding: 0;
   margin: 0;
+  height: 40px;
   display: flex;
+  align-items: center;
   flex-direction: column;
   list-style-type: none;
   @include mq('tablet') {
@@ -40,10 +42,11 @@
 }
 
 .navItem {
-
   @include links-on-dark;
   @include font-size($text-small);
+
   a {
+    font-weight: normal;
     text-decoration: none;
   }
   &:first-child {
@@ -55,10 +58,11 @@
 }
 
 
-
 .navItemAction {
   a {
-    color: $blue;
+    color: $white;
     font-weight: bold;
+    background: #1F3357;
+    border-radius: 4px;
   }
 }
