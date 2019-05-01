@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const LogoOnDark = ({ fillColor }) => (
   <svg
@@ -12,7 +12,7 @@ const LogoOnDark = ({ fillColor }) => (
     <title>ClimateChoice</title>
     <desc>ClimateChoice logo</desc>
 
-    <g fill="none" fill-rule="evenodd">
+    <g fill="none" fillRule="evenodd">
       <g transform="translate(-.000089 .444312)">
         <path
           d="m47.5871416 23.7930767c0 13.1408016-10.6527691 23.7935706-23.7935707 23.7935706s-23.79357062-10.652769-23.79357062-23.7935706 10.65276902-23.79307691 23.79357062-23.79307691 23.7935707 10.65227531 23.7935707 23.79307691"
