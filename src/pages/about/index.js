@@ -1,14 +1,12 @@
-import React from 'react';
-import Layout from '../../components/layout';
-import Helmet from 'react-helmet';
-import GlobalStyles from '../../styles/Global.module.scss';
-import Styles from './about.module.scss';
+import React from "react";
+import Layout from "../../components/layout";
+import SEO from "../../components/seo";
+import GlobalStyles from "../../styles/Global.module.scss";
+import Styles from "./about.module.scss";
 
 const AboutPage = () => (
   <Layout>
-    <Helmet>
-      <title>About</title>
-    </Helmet>
+    <SEO title="About" keywords={[`about`, `ClimateChoice`]} />
     <section className={Styles.container}>
       <div className={`${GlobalStyles.inner} ${Styles.inner}`}>
         <div className={Styles.introContent}>

@@ -2,7 +2,6 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4740b85b-51d2-436a-a0b2-ddfd6ce6cb23/deploy-status)](https://app.netlify.com/sites/climatechoice/deploys)
 
-
 ## Installing
 
 Clone the repo to your computer.
@@ -13,10 +12,10 @@ cd climatechoice
 ```
 
 Then install dependencies
-```bash
-npm install
-```
 
+```bash
+yarn install
+```
 
 ## Running
 
@@ -29,8 +28,8 @@ gatsby develop
 &nbsp;
 
 ## Branching and Deploying
-When you begin working on something new please branch off `develop`. When you're finished submit a Pull Request to `develop`. When changes are ready to go live `develop` should be merged into `master` and pushed to Netlify.
 
+When you begin working on something new please branch off `develop`. When you're finished submit a Pull Request to `develop`. When changes are ready to go live `develop` should be merged into `master` and pushed to Netlify.
 
 # Site Structure
 
