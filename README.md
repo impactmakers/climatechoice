@@ -28,8 +28,9 @@ gatsby develop
 
 &nbsp;
 
-## Deploying with Netlify
-Merge changes to master and push.
+## Branching and Deploying
+When you begin working on something new please branch off `develop`. When you're finished submit a Pull Request to `develop`. When changes are ready to go live `develop` should be merged into `master` and pushed to Netlify.
+
 
 # Site Structure
 
