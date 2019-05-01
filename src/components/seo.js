@@ -11,6 +11,7 @@ function SEO({ description, lang, meta, keywords, title, image }) {
         const metaDescription =
           description || data.site.siteMetadata.description;
         const pageImage = image || data.site.siteMetadata.defaultImage;
+        const ogTitle = title || data.site.siteMetadata.title;
 
         return (
           <Helmet
@@ -27,7 +28,7 @@ function SEO({ description, lang, meta, keywords, title, image }) {
               },
               {
                 property: `og:title`,
-                content: title
+                content: ogTitle
               },
               {
                 property: `og:description`,
@@ -51,7 +52,7 @@ function SEO({ description, lang, meta, keywords, title, image }) {
               },
               {
                 name: `twitter:title`,
-                content: title
+                content: ogTitle
               },
               {
                 name: `twitter:description`,
