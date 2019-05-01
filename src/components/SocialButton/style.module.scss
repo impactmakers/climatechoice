@@ -1,0 +1,9 @@
+@import "../../styles/Variables.module.scss";
+
+.button {
+  background-color: $grayLightest;
+  width: min-content;
+  height: 30px;
+  padding: 0.5em;
+  border-radius: 20%;
+}
