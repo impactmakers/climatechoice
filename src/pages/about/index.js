@@ -6,9 +6,7 @@ import Styles from './Styles.module.scss';
 
 const AboutPage = () => (
   <Layout>
-    <Helmet>
-      <title>About</title>
-    </Helmet>
+    <SEO title="About" keywords={[`about`, `ClimateChoice`]} />
     <section className={Styles.container}>
       <div className={`${GlobalStyles.inner} ${Styles.inner}`}>
         <div className={Styles.introContent}>

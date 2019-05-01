@@ -1,9 +1,9 @@
-import React from 'react';
-import { Link, graphql } from 'gatsby';
-import Layout from '../../components/layout';
-import SEO from '../../components/seo';
-import GlobalStyles from '../../styles/Global.module.scss';
-import Styles from './blog.module.scss';
+import React from "react";
+import { Link, graphql } from "gatsby";
+import Layout from "../../components/layout";
+import SEO from "../../components/seo";
+import GlobalStyles from "../../styles/Global.module.scss";
+import Styles from "./blog.module.scss";
 
 class BlogIndex extends React.Component {
   render() {
@@ -25,7 +25,7 @@ class BlogIndex extends React.Component {
               {posts.map(({ node }) => {
                 const title = node.frontmatter.title || node.fields.slug;
                 return (
-                  <div className={Styles.contentItem}>
+                  <div className={Styles.contentItem} key={node.fields.slug}>
                     <Link
                       className={Styles.contentItemLink}
                       to={node.fields.slug}
