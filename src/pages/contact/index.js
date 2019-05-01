@@ -1,14 +1,12 @@
 import React from 'react';
 import Layout from '../../components/layout';
-import Helmet from 'react-helmet';
+import SEO from '../../components/seo';
 import GlobalStyles from '../../styles/Global.module.scss';
 import Styles from './Styles.module.scss';
 
 const ContactPage = () => (
   <Layout>
-    <Helmet>
-      <title>Get in touch</title>
-    </Helmet>
+    <SEO title="Contact" keywords={[`Contact`, `ClimateChoice`]} />
     <section className={Styles.container}>
       <div className={`${GlobalStyles.inner} ${Styles.inner}`}>
         <div className={Styles.introContent}>

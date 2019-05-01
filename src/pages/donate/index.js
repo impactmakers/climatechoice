@@ -1,14 +1,12 @@
 import React from 'react';
 import Layout from '../../components/layout';
-import Helmet from 'react-helmet';
+import SEO from '../../components/seo';
 import GlobalStyles from '../../styles/Global.module.scss';
 import Styles from './Styles.module.scss';
 
 const DonatePage = () => (
   <Layout>
-    <Helmet>
-      <title>Donate</title>
-    </Helmet>
+    <SEO title="Donate" keywords={[`Donate`, `ClimateChoice`]} />
     <section className={Styles.container}>
       <div className={`${GlobalStyles.inner} ${Styles.inner}`}>
         <div className={Styles.introContent}>
