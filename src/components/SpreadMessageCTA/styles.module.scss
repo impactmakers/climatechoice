@@ -3,7 +3,7 @@
 
 .container {
   background-color: $green;
-  height: 300px;
+  height: 400px;
   color: $white;
   display: flex;
   justify-content: space-between;
@@ -12,6 +12,7 @@
 }
 
 .ctaCopy {
+  width: 100%;
   margin: 2em;
 }
 
@@ -33,14 +34,20 @@
   align-items: center;
   background-color: $white;
   color: $black;
-  max-width: 50%;
-
+  width: 100%;
   text-align: "justify";
-  padding: 1em 0;
+  padding: 2em 0;
 }
 
 .socialBlock .subTitle {
   font-weight: 600;
   font-size: 24px;
   max-width: 80%;
+}
+
+.socialBlock p {
+  max-width: 80%;
+  color: $grayDark;
+  line-height: 1.5em;
+  margin: 0.7em;
 }

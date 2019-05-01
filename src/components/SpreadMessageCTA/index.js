@@ -44,10 +44,9 @@ export default function SpreadMessageCTA() {
           <h3 className={styles.subTitle}>
             Want to let others know how they can change what they eat?
           </h3>
-          <p style={{ maxWidth: "80%", color: "#0d1626", lineHeight: "1.5em" }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          <p>
+            Then share this web page with your friends, family and followers via
+            our handy pre-written message!
           </p>
           <div
             style={{
