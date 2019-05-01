@@ -4,15 +4,17 @@ import Helmet from 'react-helmet';
 import GlobalStyles from '../../styles/Global.module.scss';
 import Styles from './Styles.module.scss';
 
-const AboutPage = () => (
+const ContactPage = () => (
   <Layout>
     <Helmet>
-      <title>About</title>
+      <title>Get in touch</title>
     </Helmet>
     <section className={Styles.container}>
       <div className={`${GlobalStyles.inner} ${Styles.inner}`}>
         <div className={Styles.introContent}>
-          <h1 className={`${Styles.title} ${Styles.introTitle}`}>About</h1>
+          <h1 className={`${Styles.title} ${Styles.introTitle}`}>
+            Get in touch
+          </h1>
           <p className={`${Styles.description} ${Styles.introDescription}`}>
             Content here
           </p>
@@ -22,4 +24,4 @@ const AboutPage = () => (
   </Layout>
 );
 
-export default AboutPage;
+export default ContactPage;
