@@ -2,9 +2,9 @@
 @import "../../styles/Typography.module.scss";
 
 .container {
-  background-color: #00b364;
+  background-color: $green;
   height: 300px;
-  color: #ffffff;
+  color: $white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,19 +24,19 @@
 .copy {
   text-align: justify;
   line-height: 1.5em;
-  color: #ffffff;
+  color: $white;
 }
 
 .socialBlock {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ffffff;
-  color: #0d1626;
+  background-color: $white;
+  color: $black;
   max-width: 50%;
-  margin: 1em;
+
   text-align: "justify";
-  padding: 1.5em 0;
+  padding: 1em 0;
 }
 
 .socialBlock .subTitle {

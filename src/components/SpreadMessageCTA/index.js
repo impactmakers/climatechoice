@@ -3,21 +3,28 @@ import styles from "./styles.module.scss";
 import GlobalStyles from "../../styles/Global.module.scss";
 import SocialButton from "../SocialButton";
 
+import TwitterIcon from "../Images/Icons/TwitterIcon";
+
 const socialButtons = [
   {
-    description: "Twitter"
+    description: "Twitter",
+    logo: TwitterIcon
   },
   {
-    description: "Facebook"
+    description: "Facebook",
+    logo: TwitterIcon
   },
   {
-    description: "WhatsApp"
+    description: "WhatsApp",
+    logo: TwitterIcon
   },
   {
-    description: "LinkedIn"
+    description: "LinkedIn",
+    logo: TwitterIcon
   },
   {
-    description: "Email"
+    description: "Email",
+    logo: TwitterIcon
   }
 ];
 
@@ -43,11 +50,16 @@ export default function SpreadMessageCTA() {
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           </p>
           <div
-            style={{ display: "flex", justifyContent: "center", width: "80%" }}
+            style={{
+              display: "flex",
+              width: "80%",
+              alignItems: "center",
+              flexWrap: "wrap"
+            }}
           >
             {socialButtons.map(item => (
               <div style={{ margin: "0 0.5em" }}>
-                <SocialButton description={item.description} />
+                <SocialButton description={item.description} logo={item.logo} />
               </div>
             ))}
           </div>

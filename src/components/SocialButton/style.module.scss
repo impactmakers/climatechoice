@@ -1,9 +1,13 @@
 @import "../../styles/Variables.module.scss";
 
 .button {
-  background-color: $grayLightest;
-  width: min-content;
+  background-color: $grayLight;
+  min-width: 110px;
+  max-width: max-content;
   height: 30px;
   padding: 0.5em;
-  border-radius: 20%;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  margin-top: 0.5em;
 }
