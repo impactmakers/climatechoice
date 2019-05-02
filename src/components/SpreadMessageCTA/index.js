@@ -1,30 +1,33 @@
 import React from "react";
+
 import styles from "./styles.module.scss";
 import GlobalStyles from "../../styles/Global.module.scss";
 import SocialButton from "../SocialButton";
-
 import TwitterIcon from "../Images/Icons/TwitterIcon";
+import FacebookIcon from "../Images/Icons/FacebookIcon";
+import LinkedinIcon from "../Images/Icons/LinkedinIcon";
+import EmailIcon from "../Images/Icons/EmailIcon";
 
 const socialButtons = [
   {
     description: "Twitter",
-    logo: TwitterIcon
+    logo: <TwitterIcon fillColor="rgb(0, 172, 237)" />
   },
   {
     description: "Facebook",
-    logo: TwitterIcon
+    logo: <FacebookIcon fillColor="rgb(59, 89, 152)" />
   },
   {
     description: "WhatsApp",
-    logo: TwitterIcon
+    logo: <FacebookIcon fillColor="rgb(59, 89, 152)" />
   },
   {
     description: "LinkedIn",
-    logo: TwitterIcon
+    logo: <LinkedinIcon fillColor="rgb(0, 127, 177)" />
   },
   {
     description: "Email",
-    logo: TwitterIcon
+    logo: <EmailIcon fillColor="#62646F" />
   }
 ];
 
@@ -48,12 +51,12 @@ export default function SpreadMessageCTA() {
             Then share this web page with your friends, family and followers via
             our handy pre-written message!
           </p>
+
           <div
             style={{
               display: "flex",
-              width: "80%",
-              alignItems: "center",
-              flexWrap: "wrap"
+              flexWrap: "wrap",
+              padding: "0 3em"
             }}
           >
             {socialButtons.map(item => (
