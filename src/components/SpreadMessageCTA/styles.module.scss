@@ -13,7 +13,7 @@
 
   @include mq("tablet") {
     padding: 2em;
-    justify-content: space-between;
+    justify-content: center;
   }
   @include mq("desktop") {
     justify-content: space-between;
