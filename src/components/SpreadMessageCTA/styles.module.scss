@@ -1,14 +1,26 @@
 @import "../../styles/Variables.module.scss";
 @import "../../styles/Typography.module.scss";
+@import "../../styles/Mixins.module.scss";
 
 .container {
   background-color: $green;
-  height: 400px;
+  height: min-content;
   color: $white;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 2em;
+  flex-wrap: wrap;
+
+  @include mq("tablet") {
+    padding: 2em;
+    justify-content: space-between;
+  }
+  @include mq("desktop") {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height: 400px;
+    padding: 2em;
+  }
 }
 
 .ctaCopy {
@@ -34,10 +46,14 @@
   align-items: center;
   background-color: $white;
   color: $black;
-  width: 100%;
-  text-align: "justify";
-  padding: 2em 0;
-  margin: 2em;
+  width: 90%;
+  padding: 1em 0;
+
+  @include mq("desktop") {
+    padding: 2em 0;
+    width: 100%;
+    text-align: "justify";
+  }
 }
 
 .socialBlock .subTitle {
@@ -51,4 +67,21 @@
   color: $grayDark;
   line-height: 1.5em;
   margin: 0.7em;
+}
+.socialBlock .socialContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 1em;
+
+  @include mq("tablet") {
+    margin: 0 2em;
+  }
+  @include mq("desktop") {
+    padding: 0 3em;
+    margin: 0;
+  }
+}
+
+.socialBlock .socialButtons {
+  margin: 0 0.5em;
 }

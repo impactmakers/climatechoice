@@ -52,15 +52,9 @@ export default function SpreadMessageCTA() {
             our handy pre-written message!
           </p>
 
-          <div
-            style={{
-              display: "flex",
-              flexWrap: "wrap",
-              padding: "0 3em"
-            }}
-          >
+          <div className={styles.socialContainer}>
             {socialButtons.map(item => (
-              <div style={{ margin: "0 0.5em" }}>
+              <div className={styles.socialButtons}>
                 <SocialButton description={item.description} logo={item.logo} />
               </div>
             ))}
