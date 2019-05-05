@@ -1,4 +1,5 @@
 @import "../../styles/Variables.module.scss";
+@import "../../styles/Mixins.module.scss";
 
 .button {
   background-color: $grayLight;
@@ -11,4 +12,7 @@
   align-items: center;
   justify-content: flex-start;
   margin-top: 0.5em;
+  @include mq("tablet") {
+    min-width: 100px;
+  }
 }
