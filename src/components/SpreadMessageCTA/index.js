@@ -11,6 +11,10 @@ import LinkedinIcon from "../Images/Icons/LinkedinIcon";
 import TwitterIcon from "../Images/Icons/TwitterIcon";
 import WhatsappIcon from "../Images/Icons/WhatsappIcon";
 
+const BoldText = ({ children }) => (
+  <b style={{ fontWeight: "bold" }}>{children}</b>
+);
+
 const socialButtons = [
   {
     description: "Twitter",
@@ -37,28 +41,35 @@ const socialButtons = [
     logo: <CopyLinkIcon fillColor="#16243E" />
   }
 ];
+const ctaTitle = "Spread the Message!";
+const ctaCopy = (
+  <>
+    <BoldText>Dont assume</BoldText> everyone knows they should change the way
+    that they eat to revent climate breakdown.{" "}
+    <BoldText>We need everyone to become informed </BoldText>so they can also
+    make a choice about what they eat.
+  </>
+);
+
+const socialTitle =
+  "Want to let others know how they can change what they eat?";
+const socialCopy =
+  "Then share this web page with your friends, family and followers via our handy pre-written message!";
 
 export default function SpreadMessageCTA() {
   return (
     <div className={GlobalStyles.inner}>
       <div className={styles.container}>
+        {/* cta block / right col */}
         <div className={styles.ctaCopy}>
-          <div className={styles.title}>Spread the Message!</div>
-          <p className={styles.copy}>
-            Don't assume everyone knows they should change the way that they eat
-            to revent climate breakdown. We need everyone to become informed so
-            they can also make a choice about what they eat.
-          </p>
+          <div className={styles.title}>{ctaTitle}</div>
+          <p className={styles.copy}>{ctaCopy}</p>
         </div>
-        <div className={styles.socialBlock}>
-          <h3 className={styles.subTitle}>
-            Want to let others know how they can change what they eat?
-          </h3>
-          <p>
-            Then share this web page with your friends, family and followers via
-            our handy pre-written message!
-          </p>
 
+        {/* social block  / right col */}
+        <div className={styles.socialBlock}>
+          <h3 className={styles.subTitle}>{socialTitle}</h3>
+          <p>{socialCopy}</p>
           <div className={styles.socialContainer}>
             {socialButtons.map(item => (
               <div className={styles.socialButtons}>
