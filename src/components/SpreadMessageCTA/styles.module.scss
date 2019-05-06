@@ -3,6 +3,7 @@
 @import "../../styles/Mixins.module.scss";
 
 .container {
+  position: relative;
   background-color: $green;
   height: min-content;
   color: $white;
