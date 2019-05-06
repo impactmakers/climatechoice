@@ -1,16 +1,15 @@
 import React from "react";
 
-import styles from "./styles.module.scss";
-import GlobalStyles from "../../styles/Global.module.scss";
-import SocialButton from "../SocialButton";
-import CopyLinkButton from "../SocialButton/CopyLinkButton";
-import EmailButton from "../SocialButton/EmailButton";
-import TwitterButton from "../SocialButton/TwitterButton";
-import FacebookButton from "../SocialButton/FacebookButton";
-import WhatsappButton from "../SocialButton/WhatsappButton";
-import LinkedinButton from "../SocialButton/LinkedInButton";
+import styles from "./Styles.module.scss";
 
-export default function SpreadMessageCTA({
+import CopyLinkButton from "../SocialButtons/CopyLinkButton";
+import EmailButton from "../SocialButtons/EmailButton";
+import TwitterButton from "../SocialButtons/TwitterButton";
+import FacebookButton from "../SocialButtons/FacebookButton";
+import WhatsappButton from "../SocialButtons/WhatsappButton";
+import LinkedinButton from "../SocialButtons/LinkedInButton";
+
+export default function ShareSocialCta({
   children,
   ctaCopy,
   ctaTitle,
@@ -33,7 +32,7 @@ export default function SpreadMessageCTA({
           <TwitterButton />
           <FacebookButton />
           <WhatsappButton />
-          {/* do we want to show the whatsapp button  on desktop? */}
+          {/* do we want to show the whatsapp button on desktop? */}
           <LinkedinButton />
           <EmailButton />
           <CopyLinkButton />

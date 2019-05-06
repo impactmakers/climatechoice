@@ -3,7 +3,7 @@ import Helmet from "react-helmet";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import FooterCta from "../components/FooterCta";
-import SpreadMessageCTA from "../components/SpreadMessageCTA";
+import ShareSocialCTA from "../components/SpreadMessageCTA";
 import "../styles/normalize.css";
 
 import homePageConfig from "../configs/pages/homepageConfig";
@@ -19,7 +19,7 @@ class Layout extends React.Component {
 
         <Navbar />
         <main>{children}</main>
-        <SpreadMessageCTA
+        <ShareSocialCTA
           ctaCopy={homePageConfig.ctaCopy}
           ctaTitle={homePageConfig.ctaTitle}
           socialTitle={homePageConfig.socialTitle}

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function CopyLInkICon({ fillColor }) {
+export default function CopyLinkIcon({ fillColor }) {
   return (
     <svg
       width="22px"
