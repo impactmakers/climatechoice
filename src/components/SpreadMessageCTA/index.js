@@ -33,6 +33,7 @@ export default function SpreadMessageCTA({
           <TwitterButton />
           <FacebookButton />
           <WhatsappButton />
+          {/* do we want to show the whatsapp button  on desktop? */}
           <LinkedinButton />
           <EmailButton />
           <CopyLinkButton />
