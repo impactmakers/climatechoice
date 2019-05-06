@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Email({ fillColor }) {
+export default function EmailIcon({ fillColor }) {
   return (
     <svg
       height="16"
