@@ -3,23 +3,26 @@ import React from "react";
 import styles from "./styles.module.scss";
 import GlobalStyles from "../../styles/Global.module.scss";
 import SocialButton from "../SocialButton";
-import TwitterIcon from "../Images/Icons/TwitterIcon";
+
+import EmailIcon from "../Images/Icons/EmailIcon";
+import CopyLinkIcon from "../Images/Icons/CopyLinkIcon";
 import FacebookIcon from "../Images/Icons/FacebookIcon";
 import LinkedinIcon from "../Images/Icons/LinkedinIcon";
-import EmailIcon from "../Images/Icons/EmailIcon";
+import TwitterIcon from "../Images/Icons/TwitterIcon";
+import WhatsappIcon from "../Images/Icons/WhatsappIcon";
 
 const socialButtons = [
   {
     description: "Twitter",
-    logo: <TwitterIcon fillColor="rgb(0, 172, 237)" />
+    logo: <TwitterIcon fillColor="#76a9ea" />
   },
   {
     description: "Facebook",
-    logo: <FacebookIcon fillColor="rgb(59, 89, 152)" />
+    logo: <FacebookIcon fillColor="#1877f2" />
   },
   {
     description: "WhatsApp",
-    logo: <FacebookIcon fillColor="rgb(59, 89, 152)" />
+    logo: <WhatsappIcon fillColor="#40c351" />
   },
   {
     description: "LinkedIn",
@@ -27,7 +30,11 @@ const socialButtons = [
   },
   {
     description: "Email",
-    logo: <EmailIcon fillColor="#62646F" />
+    logo: <EmailIcon fillColor="#898c92" />
+  },
+  {
+    description: "Copy Link",
+    logo: <CopyLinkIcon fillColor="#16243E" />
   }
 ];
 
