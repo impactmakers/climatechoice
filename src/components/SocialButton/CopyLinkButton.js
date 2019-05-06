@@ -19,9 +19,8 @@ export default function CopyLinkButton() {
     if (!showNotification) {
       setShowNotification(true);
     }
-    if (showNotification) {
-      setTimeout(() => setShowNotification(false), 2000);
-    }
+
+    setTimeout(() => setShowNotification(false), 3000);
   }
   return (
     <>

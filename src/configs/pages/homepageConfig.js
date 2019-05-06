@@ -1,40 +1,13 @@
 import React from "react";
 
 import EmailIcon from "../../components/Images/Icons/EmailIcon";
-import FacebookIcon from "../../components/Images/Icons/FacebookIcon";
 import LinkedinIcon from "../../components/Images/Icons/LinkedinIcon";
-import TwitterIcon from "../../components/Images/Icons/TwitterIcon";
-import WhatsappIcon from "../../components/Images/Icons/WhatsappIcon";
 
 const BoldText = ({ children }) => (
   <b style={{ fontWeight: "bold" }}>{children}</b>
 );
 
 const homePageConfig = {
-  socialButtons: [
-    {
-      description: "Twitter",
-      logo: <TwitterIcon fillColor="#76a9ea" />,
-      href: "https://twitter.com/climatechoice"
-    },
-    {
-      description: "Facebook",
-      logo: <FacebookIcon fillColor="#1877f2" />
-    },
-    {
-      description: "WhatsApp",
-      logo: <WhatsappIcon fillColor="#40c351" /> // should we only show this on mobile?
-    },
-    {
-      description: "LinkedIn",
-      logo: <LinkedinIcon fillColor="rgb(0, 127, 177)" />
-    },
-    {
-      description: "Email",
-      logo: <EmailIcon fillColor="#898c92" />
-    }
-  ],
-
   ctaTitle: "Spread the Message!",
 
   ctaCopy: (
