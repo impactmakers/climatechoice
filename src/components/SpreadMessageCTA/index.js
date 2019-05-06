@@ -3,12 +3,12 @@ import React from "react";
 import styles from "./styles.module.scss";
 import GlobalStyles from "../../styles/Global.module.scss";
 import SocialButton from "../SocialButton";
+import CopyLinkButton from "../SocialButton/CopyLinkButton";
 
 export default function SpreadMessageCTA({
   children,
   ctaCopy,
   ctaTitle,
-  onClick,
   socialTitle,
   socialCopy,
   socialButtons
@@ -37,6 +37,7 @@ export default function SpreadMessageCTA({
                 />
               </div>
             ))}
+            <CopyLinkButton />
           </div>
         </div>
       </div>

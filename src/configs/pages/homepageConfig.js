@@ -1,7 +1,6 @@
 import React from "react";
 
 import EmailIcon from "../../components/Images/Icons/EmailIcon";
-import CopyLinkIcon from "../../components/Images/Icons/CopyLinkIcon";
 import FacebookIcon from "../../components/Images/Icons/FacebookIcon";
 import LinkedinIcon from "../../components/Images/Icons/LinkedinIcon";
 import TwitterIcon from "../../components/Images/Icons/TwitterIcon";
@@ -33,21 +32,6 @@ const homePageConfig = {
     {
       description: "Email",
       logo: <EmailIcon fillColor="#898c92" />
-    },
-    {
-      description: "Copy Link",
-      logo: <CopyLinkIcon fillColor="#16243E" />,
-      onClick: () => {
-        const input = document.createElement("input"),
-          text = window.location.href;
-
-        document.body.appendChild(input);
-        input.value = text;
-        input.select();
-        document.execCommand("copy");
-        document.body.removeChild(input);
-        alert("copied to clipboard");
-      }
     }
   ],
 
