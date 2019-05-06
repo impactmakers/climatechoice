@@ -6,7 +6,7 @@ import FooterCta from "../components/FooterCta";
 import SpreadMessageCTA from "../components/SpreadMessageCTA";
 import "../styles/normalize.css";
 
-import * as assets from "../../configs/pages/homepageCTA";
+import homepageCTA from "../configs/pages/homepageCTA";
 
 class Layout extends React.Component {
   render() {
@@ -22,7 +22,13 @@ class Layout extends React.Component {
 
         <FooterCta />
         <Footer />
-        <SpreadMessageCTA {...assets} />
+        <SpreadMessageCTA
+          socialButtons={homepageCTA.socialButtons}
+          ctaCopy={homepageCTA.ctaCopy}
+          ctaTitle={homepageCTA.ctaTitle}
+          socialTitle={homepageCTA.socialTitle}
+          socialCopy={homepageCTA.socialCopy}
+        />
       </div>
     );
   }
