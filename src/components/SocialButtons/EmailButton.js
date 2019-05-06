@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./styles.module.scss";
+import styles from "./Styles.module.scss";
 import buttonStyles from "../../styles/Buttons.module.scss";
 import EmailIcon from "../Images/Icons/EmailIcon";
 
