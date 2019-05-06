@@ -15,30 +15,27 @@ export default function SpreadMessageCTA({
   ctaCopy,
   ctaTitle,
   socialTitle,
-  socialCopy,
-  socialButtons
+  socialCopy
 }) {
   return (
-    <div className={GlobalStyles.inner}>
-      <div className={styles.container}>
-        {/* cta block / right col */}
-        <div className={styles.ctaCopy}>
-          <div className={styles.title}>{ctaTitle}</div>
-          <p className={styles.copy}>{ctaCopy}</p>
-        </div>
-        {children}
-        {/* social block  / right col */}
-        <div className={styles.socialBlock}>
-          <h3 className={styles.subTitle}>{socialTitle}</h3>
-          <p>{socialCopy}</p>
-          <div className={styles.socialContainer}>
-            <TwitterButton />
-            <FacebookButton />
-            <WhatsappButton />
-            <LinkedinButton />
-            <EmailButton />
-            <CopyLinkButton />
-          </div>
+    <div className={styles.container}>
+      {/* cta block / right col */}
+      <div className={styles.ctaCopy}>
+        <div className={styles.title}>{ctaTitle}</div>
+        <p className={styles.copy}>{ctaCopy}</p>
+      </div>
+      {children}
+      {/* social block  / right col */}
+      <div className={styles.socialBlock}>
+        <h3 className={styles.subTitle}>{socialTitle}</h3>
+        <p>{socialCopy}</p>
+        <div className={styles.socialContainer}>
+          <TwitterButton />
+          <FacebookButton />
+          <WhatsappButton />
+          <LinkedinButton />
+          <EmailButton />
+          <CopyLinkButton />
         </div>
       </div>
     </div>

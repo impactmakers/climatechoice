@@ -19,15 +19,14 @@ class Layout extends React.Component {
 
         <Navbar />
         <main>{children}</main>
-
-        <FooterCta />
-        <Footer />
         <SpreadMessageCTA
           ctaCopy={homePageConfig.ctaCopy}
           ctaTitle={homePageConfig.ctaTitle}
           socialTitle={homePageConfig.socialTitle}
           socialCopy={homePageConfig.socialCopy}
         />
+        <FooterCta />
+        <Footer />
       </div>
     );
   }
