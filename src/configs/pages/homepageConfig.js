@@ -11,11 +11,12 @@ const BoldText = ({ children }) => (
   <b style={{ fontWeight: "bold" }}>{children}</b>
 );
 
-const homePageCTA = {
+const homePageConfig = {
   socialButtons: [
     {
       description: "Twitter",
-      logo: <TwitterIcon fillColor="#76a9ea" />
+      logo: <TwitterIcon fillColor="#76a9ea" />,
+      href: "https://twitter.com/climatechoice"
     },
     {
       description: "Facebook",
@@ -23,7 +24,7 @@ const homePageCTA = {
     },
     {
       description: "WhatsApp",
-      logo: <WhatsappIcon fillColor="#40c351" />
+      logo: <WhatsappIcon fillColor="#40c351" /> // should we only show this on mobile?
     },
     {
       description: "LinkedIn",
@@ -35,7 +36,18 @@ const homePageCTA = {
     },
     {
       description: "Copy Link",
-      logo: <CopyLinkIcon fillColor="#16243E" />
+      logo: <CopyLinkIcon fillColor="#16243E" />,
+      onClick: () => {
+        const input = document.createElement("input"),
+          text = window.location.href;
+
+        document.body.appendChild(input);
+        input.value = text;
+        input.select();
+        document.execCommand("copy");
+        document.body.removeChild(input);
+        alert("copied to clipboard");
+      }
     }
   ],
 
@@ -55,4 +67,4 @@ const homePageCTA = {
     "Then share this web page with your friends, family and followers via our handy pre-written message!"
 };
 
-export default homePageCTA;
+export default homePageConfig;

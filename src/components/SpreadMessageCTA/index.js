@@ -32,7 +32,8 @@ export default function SpreadMessageCTA({
                 <SocialButton
                   description={item.description}
                   logo={item.logo}
-                  onClick={onClick}
+                  href={item.href}
+                  onClick={item.onClick}
                 />
               </div>
             ))}

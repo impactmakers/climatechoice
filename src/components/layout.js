@@ -7,7 +7,7 @@ import Notification from "../components/Notification";
 import SpreadMessageCTA from "../components/SpreadMessageCTA";
 import "../styles/normalize.css";
 
-import homepageCTA from "../configs/pages/homepageCTA";
+import homePageConfig from "../configs/pages/homepageConfig";
 
 class Layout extends React.Component {
   constructor(props) {
@@ -17,7 +17,7 @@ class Layout extends React.Component {
     };
   }
 
-  closeModal = () => {
+  closeNotification = () => {
     setTimeout(() => {
       if (this.state.alert) {
         this.setState({ alert: false });
@@ -25,19 +25,11 @@ class Layout extends React.Component {
     }, 3000);
   };
 
-  copyUrl = () => {
-    const input = document.createElement("input"),
-      text = window.location.href;
-
-    document.body.appendChild(input);
-    input.value = text;
-    input.select();
-    document.execCommand("copy");
-    document.body.removeChild(input);
+  showNotification = () => {
     if (!this.state.alert) {
       this.setState({ alert: true });
     }
-    this.closeModal();
+    this.closeNotification();
   };
 
   render() {
@@ -55,12 +47,11 @@ class Layout extends React.Component {
         <FooterCta />
         <Footer />
         <SpreadMessageCTA
-          socialButtons={homepageCTA.socialButtons}
-          ctaCopy={homepageCTA.ctaCopy}
-          ctaTitle={homepageCTA.ctaTitle}
-          socialTitle={homepageCTA.socialTitle}
-          socialCopy={homepageCTA.socialCopy}
-          onClick={this.copyUrl}
+          socialButtons={homePageConfig.socialButtons}
+          ctaCopy={homePageConfig.ctaCopy}
+          ctaTitle={homePageConfig.ctaTitle}
+          socialTitle={homePageConfig.socialTitle}
+          socialCopy={homePageConfig.socialCopy}
         >
           {alert && <Notification />}
         </SpreadMessageCTA>
