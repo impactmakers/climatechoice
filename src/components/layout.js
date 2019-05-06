@@ -6,6 +6,8 @@ import FooterCta from "../components/FooterCta";
 import SpreadMessageCTA from "../components/SpreadMessageCTA";
 import "../styles/normalize.css";
 
+import * as assets from "../../configs/pages/homepageCTA";
+
 class Layout extends React.Component {
   render() {
     const { children } = this.props;
@@ -20,7 +22,7 @@ class Layout extends React.Component {
 
         <FooterCta />
         <Footer />
-        <SpreadMessageCTA />
+        <SpreadMessageCTA {...assets} />
       </div>
     );
   }

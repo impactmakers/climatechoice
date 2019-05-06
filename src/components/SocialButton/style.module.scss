@@ -12,7 +12,8 @@
   align-items: center;
   justify-content: flex-start;
   margin-top: 0.5em;
-  @include mq("tablet") {
-    min-width: 100px;
-  }
+}
+
+.logo {
+  margin-right: 0.5em;
 }

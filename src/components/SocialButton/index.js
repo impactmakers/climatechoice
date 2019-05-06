@@ -4,7 +4,7 @@ import styles from "./style.module.scss";
 export default function SocialButton({ logo, description }) {
   return (
     <div className={styles.button}>
-      <div style={{ marginRight: "0.5em" }}>{logo}</div>
+      <div className={styles.logo}>{logo}</div>
       {description}
     </div>
   );
