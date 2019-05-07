@@ -31,7 +31,9 @@
 .navList {
   padding: 0;
   margin: 0;
+  height: 40px;
   display: flex;
+  align-items: center;
   flex-direction: column;
   list-style-type: none;
   @include mq('tablet') {
@@ -40,25 +42,27 @@
 }
 
 .navItem {
-
   @include links-on-dark;
   @include font-size($text-small);
+
   a {
+    font-weight: normal;
     text-decoration: none;
   }
   &:first-child {
     margin-left: 0;
   }
   @include mq('tablet') {
-    margin-left: 30px;
+    margin-left: 35px;
   }
 }
 
 
-
 .navItemAction {
   a {
-    color: $blue;
+    color: $white;
     font-weight: bold;
+    background: #1F3357;
+    border-radius: 4px;
   }
 }

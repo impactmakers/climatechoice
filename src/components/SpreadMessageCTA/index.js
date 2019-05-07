@@ -1,6 +1,6 @@
-import React from "react";
-import styles from "./styles.module.scss";
-import GlobalStyles from "../../styles/Global.module.scss";
+import React from 'react';
+import styles from './Styles.module.scss';
+import GlobalStyles from '../../styles/Global.module.scss';
 
 export default function SpreadMessageCTA() {
   return (

@@ -4,6 +4,7 @@ module.exports = {
     author: `ClimateChoice`,
     description: `Learn how you can help prevent earth’s climate breaking down.`,
     siteUrl: `https://climatechoice.netlify.com/`,
+    defaultImage: `https://climatechoice.netlify.com/default-image.png`,
     social: {
       twitter: `climatechoice`
     }
@@ -51,7 +52,7 @@ module.exports = {
     `gatsby-plugin-netlify-cms`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    'gatsby-transformer-yaml',
+    "gatsby-transformer-yaml",
     `gatsby-plugin-advanced-sitemap`,
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -76,6 +77,6 @@ module.exports = {
     `gatsby-plugin-react-helmet`
   ],
   mapping: {
-    'MarkdownRemark.frontmatter.author': `AuthorYaml`
+    "MarkdownRemark.frontmatter.author": `AuthorYaml`
   }
 };

@@ -4,13 +4,13 @@ import SEO from '../../components/seo';
 import GlobalStyles from '../../styles/Global.module.scss';
 import Styles from './Styles.module.scss';
 
-const AboutPage = () => (
+const ResourcesPage = () => (
   <Layout>
-    <SEO title="About" keywords={[`about`, `ClimateChoice`]} />
+    <SEO title="Resources" keywords={[`Resources`, `ClimateChoice`]} />
     <section className={Styles.container}>
       <div className={`${GlobalStyles.inner} ${Styles.inner}`}>
         <div className={Styles.introContent}>
-          <h1 className={`${Styles.title} ${Styles.introTitle}`}>About</h1>
+          <h1 className={`${Styles.title} ${Styles.introTitle}`}>Resources</h1>
           <p className={`${Styles.description} ${Styles.introDescription}`}>
             Content here
           </p>
@@ -20,4 +20,4 @@ const AboutPage = () => (
   </Layout>
 );
 
-export default AboutPage;
+export default ResourcesPage;

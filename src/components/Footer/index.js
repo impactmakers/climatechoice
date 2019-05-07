@@ -80,29 +80,29 @@ const Footer = () => (
               </li>
             </ul>
           </div>
-          <div className={Styles.navCol}>
+          <div className={Styles.choiceCol}>
             <div className={Styles.navTitle}>Your choices</div>
             <div className={Styles.choiceLists}>
               <ol className={`${Styles.navList} ${Styles.choiceList}`}>
                 <li className={`${Styles.navItem} ${Styles.choiceItem}`}>
                   <Link to="/change-what-you-eat" title="Change what you eat">
-                    Change what you eat
+                    Choice 1
                   </Link>
                 </li>
                 <li className={Styles.navItem}>
                   <Link to="/change-what-you-eat" title="Change what you eat">
-                    Change what you eat
+                    Choice 2
                   </Link>
                 </li>
 
                 <li className={`${Styles.navItem} ${Styles.choiceItem}`}>
                   <Link to="/change-what-you-eat" title="Change what you eat">
-                    Change what you eat
+                    Choice 3
                   </Link>
                 </li>
                 <li className={Styles.navItem}>
                   <Link to="/change-what-you-eat" title="Change what you eat">
-                    Change what you eat
+                    Choice 4
                   </Link>
                 </li>
               </ol>

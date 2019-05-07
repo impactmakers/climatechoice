@@ -36,17 +36,15 @@
 
 .company {
   width: 100%;
-  margin-top: 15px;
   @include mq('tablet') {
     max-width: 170px;
-    margin-top: 8px;
   }
 }
 
 .description {
   margin-top: 12px;
   @include font-size($text-xsmall);
-  color: $black;
+  color: $gray;
 }
  
 .social {
@@ -78,26 +76,29 @@
 
 
 .nav {
+  margin-top:10px;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   @include mq('tablet') {
     flex-direction: row;
-    max-width: 65%;
+    width: auto;
   }
 }
 
-.navCol {
-}
+
 
 .navTitle {
   color: $black;
   padding: 0;
   margin: 0 0 13px;
-  @include title-small;
-  line-height: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 16px;
 }
+
 .navList {
   list-style-type: none;
   padding: 0;
@@ -119,14 +120,27 @@
   } 
 }
 
+.navCol {
+  @include mq('tablet') {
+    margin-right: 100px;
+  }
+  @include mq('desktop') {
+    margin-right: 160px;
+  }
+}
+
 .choiceList {
   list-style-type: decimal;
   padding-left: 17px;
   @include mq('tablet') {
+
     display: grid;
-    grid-template-columns: 200px 200px;
-    grid-gap: 0 30px;
+    grid-template-columns: auto auto;
+    grid-gap: 0 100px;
   } 
+  @include mq('desktop') {
+    grid-gap: 0 160px;
+  }
 }
 
 .navItem {
@@ -146,18 +160,19 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  @include mar-top-standard;
+  border-top: 1px solid $grayBorder;
+  padding-top:20px;
   @include links-on-light;
-  p {
-    @include font-size($text-xsmall);
-    color:$black;
-    &:first-child {
-      margin-top: 0;
-    }
-  }
+  @include mq('tablet') {
+    @include mar-top-standard;
+  } 
 }
 
-.disclaimer {}
+.disclaimer {
+  @include font-size($text-xsmall);
+  color:$gray;
+  margin: 0;
+}
 
 
 
