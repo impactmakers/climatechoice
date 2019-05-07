@@ -1,14 +1,16 @@
 import React from "react";
+import { LinkedinShareButton } from "react-share";
+
 import styles from "./Styles.module.scss";
 import buttonStyles from "../../styles/Buttons.module.scss";
 import LinkedinIcon from "../Images/Icons/LinkedinIcon";
 
 export default function LinkedinButton() {
   return (
-    <a
-      style={{ textDecoration: "none" }}
-      href="https://linkedin.com/climatechoice"
-      target="_blank"
+    <LinkedinShareButton
+      url="https://climatechoice.co"
+      title="Climate Choice"
+      description="Discover how changes to your diet can affect Climate Change"
     >
       <div className={`${styles.button} ${buttonStyles.btnSimple}`}>
         <input type="hidden" id="hidden-input" value={document.location.href} />
@@ -17,6 +19,6 @@ export default function LinkedinButton() {
         </div>
         LinkedIn
       </div>
-    </a>
+    </LinkedinShareButton>
   );
 }
