@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import FooterCta from '../components/FooterCta';
 import '../styles/normalize.css';
+
 class Layout extends React.Component {
   render() {
     const { children } = this.props;
