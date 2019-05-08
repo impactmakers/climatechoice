@@ -15,21 +15,22 @@ const homePageConfig = {
       make a choice about what they eat.
     </>
   ),
-
-  socialTitle: "Want to let others know how they can change what they eat?",
-  socialCopy:
-    "Then share this web page with your friends, family and followers via our handy pre-written message!",
-  url: "https://climatechoice.co",
+  emailSubject: "Just saw this new site: Climate Choice",
+  emailBody: "I thought you might find this interesting",
   linkedinTitle: "Climate Choice",
   linkedinDescription:
     "Discover how changes to your diet can affect Climate Change",
+  facebookQuote:
+    "Check out how you can change your diet and positively affect climate change at:",
+  facebookHashtag: "#climatechange",
   twitterTitle:
     "Check out how you can change your diet and positively affect climate change at",
   twitterAccount: "climatechoice",
   twitterHashtags: ["climatechange"],
-  facebookQuote:
-    "Check out how you can change your diet and positively affect climate change at:",
-  facebookHashtag: "#climatechange"
+  socialTitle: "Want to let others know how they can change what they eat?",
+  socialCopy:
+    "Then share this web page with your friends, family and followers via our handy pre-written message!",
+  url: "https://climatechoice.co"
 };
 
 export default homePageConfig;

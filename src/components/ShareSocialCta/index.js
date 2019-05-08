@@ -13,16 +13,18 @@ export default function ShareSocialCta({
   children,
   ctaCopy,
   ctaTitle,
-  socialTitle,
-  socialCopy,
-  url,
+  emailBody,
+  emailSubject,
+  facebookQuote,
+  facebookHashtag,
   linkedinTitle,
   linkedinDescription,
+  socialTitle,
+  socialCopy,
   twitterTitle,
   twitterAccount,
   twitterHashtags,
-  facebookQuote,
-  facebookHashtag
+  url
 }) {
   return (
     <div className={styles.container}>
@@ -55,7 +57,7 @@ export default function ShareSocialCta({
             title={linkedinTitle}
             description={linkedinDescription}
           />
-          <EmailButton />
+          <EmailButton emailBody={emailBody} emailSubject={emailSubject} />
           <CopyLinkButton />
         </div>
       </div>
