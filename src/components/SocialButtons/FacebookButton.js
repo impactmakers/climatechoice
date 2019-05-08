@@ -1,15 +1,20 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { FacebookShareButton } from "react-share";
 import styles from "./Styles.module.scss";
 import buttonStyles from "../../styles/Buttons.module.scss";
 import FacebookIcon from "../Images/Icons/FacebookIcon";
 
-export default function FacebookButton() {
+export default function FacebookButton({
+  url,
+  facebookQuote,
+  facebookHashtag
+}) {
   return (
     <FacebookShareButton
-      url="https://climatechoice.co"
-      quote="Check out how you can change your diet and positively affect climate change at:"
-      hashtag="#climatechange"
+      url={url}
+      quote={facebookQuote}
+      hashtag={facebookHashtag}
     >
       <div className={`${styles.button} ${buttonStyles.btnSimple}`}>
         <input type="hidden" id="hidden-input" value={document.location.href} />
@@ -21,3 +26,16 @@ export default function FacebookButton() {
     </FacebookShareButton>
   );
 }
+
+FacebookButton.defaultProps = {
+  url: "https://climatechoice.co",
+  facebookQuote:
+    "Check out how you can change your diet and positively affect climate change at:",
+  facebookHashtag: "#climatechange"
+};
+
+FacebookButton.propTypes = {
+  url: PropTypes.string,
+  facbookQuote: PropTypes.string,
+  facebookHashtag: PropTypes.string
+};

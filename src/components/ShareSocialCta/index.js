@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import styles from './Styles.module.scss';
+import styles from "./Styles.module.scss";
 
-import CopyLinkButton from '../SocialButtons/CopyLinkButton';
-import EmailButton from '../SocialButtons/EmailButton';
-import TwitterButton from '../SocialButtons/TwitterButton';
-import FacebookButton from '../SocialButtons/FacebookButton';
-import WhatsappButton from '../SocialButtons/WhatsappButton';
-import LinkedinButton from '../SocialButtons/LinkedInButton';
+import CopyLinkButton from "../SocialButtons/CopyLinkButton";
+import EmailButton from "../SocialButtons/EmailButton";
+import TwitterButton from "../SocialButtons/TwitterButton";
+import FacebookButton from "../SocialButtons/FacebookButton";
+import WhatsappButton from "../SocialButtons/WhatsappButton";
+import LinkedinButton from "../SocialButtons/LinkedInButton";
 
 export default function ShareSocialCta({
   children,
@@ -20,7 +20,9 @@ export default function ShareSocialCta({
   linkedinDescription,
   twitterTitle,
   twitterAccount,
-  hashtags
+  twitterHashtags,
+  facebookQuote,
+  facebookHashtag
 }) {
   return (
     <div className={styles.container}>
@@ -39,9 +41,13 @@ export default function ShareSocialCta({
             url={url}
             twitterTitle={twitterTitle}
             twitterAccount={twitterAccount}
-            hashtags={hashtags}
+            hashtags={twitterHashtags}
           />
-          <FacebookButton />
+          <FacebookButton
+            url={url}
+            facebookQuote={facebookQuote}
+            facebookHashtag={facebookHashtag}
+          />
           <WhatsappButton />
           {/* do we want to show the whatsapp button on desktop? */}
           <LinkedinButton

@@ -26,7 +26,10 @@ const homePageConfig = {
   twitterTitle:
     "Check out how you can change your diet and positively affect climate change at",
   twitterAccount: "climatechoice",
-  hashtags: ["climatechange"]
+  twitterHashtags: ["climatechange"],
+  facebookQuote:
+    "Check out how you can change your diet and positively affect climate change at:",
+  facebookHashtag: "#climatechange"
 };
 
 export default homePageConfig;
