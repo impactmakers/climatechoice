@@ -1,17 +1,23 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { TwitterShareButton } from "react-share";
 import styles from "./styles.module.scss";
 import buttonStyles from "../../styles/Buttons.module.scss";
 import TwitterIcon from "../Images/Icons/TwitterIcon";
 
-export default function TwitterButton() {
+export default function TwitterButton({
+  url,
+  twitterTitle,
+  twitterAccount,
+  hashtags
+}) {
   return (
     <>
       <TwitterShareButton
-        url="https://climatechoice.co"
-        title="Check out how you can change your diet and positively affect climate change at"
-        via="climatechoice"
-        hashtags={["climatechange"]}
+        url={url}
+        title={twitterTitle}
+        via={twitterAccount}
+        hashtags={hashtags}
       >
         <div className={`${styles.button} ${buttonStyles.btnSimple}`}>
           <input
@@ -28,3 +34,18 @@ export default function TwitterButton() {
     </>
   );
 }
+
+TwitterButton.defaultProps = {
+  url: "https://climatechoice.co",
+  twitterTitle:
+    "Check out how you can change your diet and positively affect climate change at",
+  twitterAccount: "climatechoice",
+  hashtags: ["climatechange"]
+};
+
+TwitterButton.propTypes = {
+  url: PropTypes.string,
+  twitterTitle: PropTypes.string,
+  twitterAccount: PropTypes.string,
+  hashtags: PropTypes.array
+};

@@ -1,8 +1,5 @@
 import React from "react";
 
-import EmailIcon from "../../components/Images/Icons/EmailIcon";
-import LinkedinIcon from "../../components/Images/Icons/LinkedinIcon";
-
 const BoldText = ({ children }) => (
   <b style={{ fontWeight: "bold" }}>{children}</b>
 );
@@ -21,7 +18,15 @@ const homePageConfig = {
 
   socialTitle: "Want to let others know how they can change what they eat?",
   socialCopy:
-    "Then share this web page with your friends, family and followers via our handy pre-written message!"
+    "Then share this web page with your friends, family and followers via our handy pre-written message!",
+  url: "https://climatechoice.co",
+  linkedinTitle: "Climate Choice",
+  linkedinDescription:
+    "Discover how changes to your diet can affect Climate Change",
+  twitterTitle:
+    "Check out how you can change your diet and positively affect climate change at",
+  twitterAccount: "climatechoice",
+  hashtags: ["climatechange"]
 };
 
 export default homePageConfig;

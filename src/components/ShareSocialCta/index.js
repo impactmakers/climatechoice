@@ -14,7 +14,13 @@ export default function ShareSocialCta({
   ctaCopy,
   ctaTitle,
   socialTitle,
-  socialCopy
+  socialCopy,
+  url,
+  linkedinTitle,
+  linkedinDescription,
+  twitterTitle,
+  twitterAccount,
+  hashtags
 }) {
   return (
     <div className={styles.container}>
@@ -29,11 +35,20 @@ export default function ShareSocialCta({
         <h3 className={styles.subTitle}>{socialTitle}</h3>
         <p>{socialCopy}</p>
         <div className={styles.socialContainer}>
-          <TwitterButton />
+          <TwitterButton
+            url={url}
+            twitterTitle={twitterTitle}
+            twitterAccount={twitterAccount}
+            hashtags={hashtags}
+          />
           <FacebookButton />
           <WhatsappButton />
           {/* do we want to show the whatsapp button on desktop? */}
-          <LinkedinButton />
+          <LinkedinButton
+            url={url}
+            title={linkedinTitle}
+            description={linkedinDescription}
+          />
           <EmailButton />
           <CopyLinkButton />
         </div>
