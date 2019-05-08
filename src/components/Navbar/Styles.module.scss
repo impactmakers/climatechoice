@@ -1,7 +1,6 @@
-@import '../../styles/Variables.module.scss';
-@import '../../styles/Mixins.module.scss';
-@import '../../styles/Typography.module.scss';
-
+@import "../../styles/Variables.module.scss";
+@import "../../styles/Mixins.module.scss";
+@import "../../styles/Typography.module.scss";
 
 .container {
   box-sizing: border-box;
@@ -13,14 +12,18 @@
   color: $white;
 }
 
+.navToggle {
+  @include mq("tablet") {
+    display: none;
+  }
+}
+
 .inner {
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
   padding: 11px 0;
-  @include mq('tablet') {
-    flex-direction: row;
-  }
+  flex-direction: row;
 }
 .logo {
   margin: 0;
@@ -29,16 +32,30 @@
 }
 
 .navList {
+  display: none;
   padding: 0;
   margin: 0;
   height: 40px;
-  display: flex;
   align-items: center;
   flex-direction: column;
   list-style-type: none;
-  @include mq('tablet') {
+
+  @include mq("tablet") {
+    position: static;
+    display: flex;
     flex-direction: row;
   }
+}
+
+.navListOpen {
+  height: auto;
+  width: 100%;
+  background-color: #0d1626;
+  position: absolute;
+  display: flex;
+  top: 72px;
+  left: 0;
+  padding: 5px 0;
 }
 
 .navItem {
@@ -52,17 +69,16 @@
   &:first-child {
     margin-left: 0;
   }
-  @include mq('tablet') {
+  @include mq("tablet") {
     margin-left: 35px;
   }
 }
-
 
 .navItemAction {
   a {
     color: $white;
     font-weight: bold;
-    background: #1F3357;
+    background: #1f3357;
     border-radius: 4px;
   }
 }
