@@ -1,12 +1,12 @@
-import React from "react";
-import styles from "./Styles.module.scss";
-import buttonStyles from "../../styles/Buttons.module.scss";
-import WhatsappIcon from "../../components/Images/Icons/WhatsappIcon";
+import React from 'react';
+import styles from './Styles.module.scss';
+import buttonStyles from '../../styles/Buttons.module.scss';
+import WhatsappIcon from '../../components/Images/Icons/WhatsappIcon';
 
 export default function WhatsappButton() {
   return (
     <a
-      style={{ textDecoration: "none" }}
+      style={{ textDecoration: 'none' }}
       href="https://web.whatsapp.com/" // need instruction on what should happen here
       target="_blank"
     >

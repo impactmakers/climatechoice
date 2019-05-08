@@ -1,12 +1,12 @@
-import React from "react";
-import Helmet from "react-helmet";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import FooterCta from "../components/FooterCta";
-import ShareSocialCta from "../components/ShareSocialCta";
-import "../styles/normalize.css";
-
-import homePageConfig from "../configs/pages/homepageConfig";
+import React from 'react';
+import Helmet from 'react-helmet';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import '../styles/normalize.css';
+import FooterCta from '../components/FooterCta';
+import ShareSocialCta from '../components/ShareSocialCta';
+import SpreadMessageCTA from '../components/SpreadMessageCTA';
+import homePageConfig from '../configs/pages/homepageConfig';
 
 class Layout extends React.Component {
   render() {
@@ -22,6 +22,7 @@ class Layout extends React.Component {
         <ShareSocialCta {...homePageConfig} />
         <FooterCta />
         <Footer />
+        <SpreadMessageCTA />
       </div>
     );
   }

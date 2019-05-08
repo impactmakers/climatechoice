@@ -10,7 +10,7 @@ const homePageConfig = {
   ctaCopy: (
     <>
       <BoldText>Dont assume</BoldText> everyone knows they should change the way
-      that they eat to revent climate breakdown.{" "}
+      that they eat to prevent climate breakdown.{" "}
       <BoldText>We need everyone to become informed </BoldText>so they can also
       make a choice about what they eat.
     </>
