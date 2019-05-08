@@ -1,15 +1,14 @@
-import React from 'react';
-import styles from './Styles.module.scss';
-import buttonStyles from '../../styles/Buttons.module.scss';
-import WhatsappIcon from '../../components/Images/Icons/WhatsappIcon';
+import React from "react";
+import PropTypes from "prop-types";
 
-export default function WhatsappButton() {
+import { WhatsappShareButton } from "react-share";
+import styles from "./Styles.module.scss";
+import buttonStyles from "../../styles/Buttons.module.scss";
+import WhatsappIcon from "../../components/Images/Icons/WhatsappIcon";
+
+export default function WhatsappButton({ url, whatsappTitle }) {
   return (
-    <a
-      style={{ textDecoration: 'none' }}
-      href="https://web.whatsapp.com/" // need instruction on what should happen here
-      target="_blank"
-    >
+    <WhatsappShareButton url={url} title={whatsappTitle}>
       <div className={`${styles.button} ${buttonStyles.btnSimple}`}>
         <input type="hidden" id="hidden-input" value={document.location.href} />
         <div className={styles.logo}>
@@ -17,6 +16,16 @@ export default function WhatsappButton() {
         </div>
         WhatsApp
       </div>
-    </a>
+    </WhatsappShareButton>
   );
 }
+
+WhatsappButton.defaultProps = {
+  url: "https://climatechoice.co",
+  whatsappTitle: "check out this new site, Climate Choice"
+};
+
+WhatsappButton.propTypes = {
+  url: PropTypes.string,
+  whatsappTitle: PropTypes.string
+};

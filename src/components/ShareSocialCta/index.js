@@ -24,7 +24,8 @@ export default function ShareSocialCta({
   twitterTitle,
   twitterAccount,
   twitterHashtags,
-  url
+  url,
+  whatsappTitle
 }) {
   return (
     <div className={styles.container}>
@@ -50,8 +51,7 @@ export default function ShareSocialCta({
             facebookQuote={facebookQuote}
             facebookHashtag={facebookHashtag}
           />
-          <WhatsappButton />
-          {/* do we want to show the whatsapp button on desktop? */}
+          <WhatsappButton url={url} whatsappTitle={whatsappTitle} />
           <LinkedinButton
             url={url}
             title={linkedinTitle}

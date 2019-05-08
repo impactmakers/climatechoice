@@ -30,7 +30,8 @@ const homePageConfig = {
   socialTitle: "Want to let others know how they can change what they eat?",
   socialCopy:
     "Then share this web page with your friends, family and followers via our handy pre-written message!",
-  url: "https://climatechoice.co"
+  url: "https://climatechoice.co",
+  whatsappTitle: "check out this new site, Climate Choice"
 };
 
 export default homePageConfig;
