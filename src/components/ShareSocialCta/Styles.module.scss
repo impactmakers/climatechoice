@@ -2,28 +2,6 @@
 @import "../../styles/Typography.module.scss";
 @import "../../styles/Mixins.module.scss";
 
-.contain4er {
-  position: relative;
-  background-color: $green;
-  height: min-content;
-  color: $white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-
-  @include mq("tablet") {
-    padding: 2em;
-    justify-content: center;
-  }
-  @include mq("desktop") {
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    height: 400px;
-    padding: 2em;
-  }
-}
-
 .container {
   background: $green;
   @include pad-top-standard;
