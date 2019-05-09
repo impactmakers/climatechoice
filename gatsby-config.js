@@ -4,7 +4,7 @@ module.exports = {
     author: `ClimateChoice`,
     description: `Learn how you can help prevent earth’s climate breaking down.`,
     siteUrl: `https://climatechoice.netlify.com/`,
-    defaultImage: `https://climatechoice.netlify.com/default-image.png`,
+    defaultImage: `https://climatechoice.netlify.com/images/logo-icon.png`,
     social: {
       twitter: `climatechoice`
     }
@@ -70,7 +70,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`
+        icon: `content/assets/icon.png`
       }
     },
     `gatsby-plugin-offline`,
