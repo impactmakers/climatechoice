@@ -13,6 +13,16 @@
 }
 
 .navToggle {
+  display: flex;
+  background: none;
+  height: 30px;
+  fill: $white;
+  a {
+    fill: $white;
+  }
+  svg {
+    margin-left: 10px;
+  }
   @include mq("tablet") {
     display: none;
   }
@@ -39,7 +49,6 @@
   align-items: center;
   flex-direction: column;
   list-style-type: none;
-
   @include mq("tablet") {
     position: static;
     display: flex;
@@ -48,37 +57,72 @@
 }
 
 .navListOpen {
+  width: 90%;
+  padding: 0 5% 40px;
+  display: flex;
   height: auto;
-  width: 100%;
+  text-align: center;
   background-color: #0d1626;
   position: absolute;
   display: flex;
   top: 72px;
+  z-index: 999;
   left: 0;
-  padding: 5px 0;
+
 }
 
 .navItem {
-  @include links-on-dark;
-  @include font-size($text-small);
-
-  a {
-    font-weight: normal;
-    text-decoration: none;
-  }
+  width: 100%;
   &:first-child {
     margin-left: 0;
+    border-top: none;
   }
   @include mq("tablet") {
     margin-left: 35px;
+    width: auto;
   }
 }
 
+.navItemLink {
+  @include links-on-dark;
+  @include font-size($text-small);
+  text-align: center;
+  display: block;
+  margin-top: 5px;
+  border-top: 1px solid rgba($white, 0.2);
+  a {
+    line-height: 50px;
+    height: 50px;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    font-weight: normal;
+    text-decoration: none;
+  }
+  @include mq("tablet") {
+    border: none;
+    margin-top: 0;
+    display: flex;
+    width: auto;
+    a {
+      display: flex;
+      width: auto;
+    }
+  }
+}
+
+
 .navItemAction {
   a {
+    text-decoration: none;
     color: $white;
     font-weight: bold;
     background: #1f3357;
     border-radius: 4px;
+  }
+  border-top: none;
+  margin: 2px auto 0;
+  @include mq("tablet") {
+    margin-left: 35px;
   }
 }
