@@ -450,5 +450,11 @@
 }
 
 .btn-header {
+  width: 100%;
   background: #1F3357;
+  height: 52px;
+  @include mq("tablet") {
+    width: auto;
+    height: auto;
+  }
 }
