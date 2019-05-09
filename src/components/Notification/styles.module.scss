@@ -1,0 +1,31 @@
+@import "../../styles/Variables.module.scss";
+
+.notification {
+  width: max-content;
+  height: max-content;
+  background-color: $black;
+  padding: 0.3em;
+  color: $white !important;
+  border-radius: 10px;
+}
+
+#notificationslide {
+  position: absolute;
+  top: -10px;
+  right: 0px;
+
+  -webkit-animation: notificationslide 0.7s forwards;
+  animation: notificationslide 0.7s forwards;
+}
+
+@-webkit-keyframes notificationslide {
+  100% {
+    right: 40px;
+  }
+}
+
+@keyframes notificationslide {
+  100% {
+    right: 40px;
+  }
+}

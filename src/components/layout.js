@@ -2,7 +2,12 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+
+
 import FooterCta from '../components/FooterCta';
+import ShareSocialCta from '../components/ShareSocialCta';
+import homePageConfig from '../configs/pages/homepageConfig';
+
 import '../styles/normalize.css';
 
 class Layout extends React.Component {
@@ -16,7 +21,7 @@ class Layout extends React.Component {
 
         <Navbar />
         <main>{children}</main>
-
+        <ShareSocialCta {...homePageConfig} />
         <FooterCta />
         <Footer />
       </div>
