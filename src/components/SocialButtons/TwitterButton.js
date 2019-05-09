@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { TwitterShareButton } from 'react-share';
-import styles from './Styles.module.scss';
+import styles from './styles.module.scss';
 import buttonStyles from '../../styles/Buttons.module.scss';
 import TwitterIcon from '../Images/Icons/TwitterIcon';
 

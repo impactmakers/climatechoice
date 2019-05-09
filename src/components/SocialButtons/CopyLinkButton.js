@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from './Styles.module.scss';
+import styles from './styles.module.scss';
 import buttonStyles from '../../styles/Buttons.module.scss';
 import CopyLinkIcon from '../Images/Icons/CopyLinkIcon';
 import Notification from '../Notification';

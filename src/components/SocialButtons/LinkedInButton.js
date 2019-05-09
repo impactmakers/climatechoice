@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { LinkedinShareButton } from 'react-share';
 
-import styles from './Styles.module.scss';
+import styles from './styles.module.scss';
 import buttonStyles from '../../styles/Buttons.module.scss';
 import LinkedinIcon from '../Images/Icons/LinkedinIcon';
 
