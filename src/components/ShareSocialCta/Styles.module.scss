@@ -2,7 +2,7 @@
 @import "../../styles/Typography.module.scss";
 @import "../../styles/Mixins.module.scss";
 
-.container {
+.contain4er {
   position: relative;
   background-color: $green;
   height: min-content;
@@ -24,15 +24,38 @@
   }
 }
 
+.container {
+  background: $green;
+  @include pad-top-standard;
+  @include pad-bot-standard;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inner {
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  @include mq('tablet') {
+    flex-direction: row;
+  }
+}
+
 .ctaCopy {
   width: 100%;
-  margin: 2em;
+  @include mq('tablet') {
+    width: 40%;
+
+  }
 }
 
 .title {
   @include font-size($title-large);
+  color: $white;
   font-family: $serif;
-  line-height: 80px !important;
 }
 
 .copy {
@@ -48,13 +71,10 @@
   background-color: $white;
   color: $black;
   width: 90%;
-  padding: 1em 0;
-  margin-bottom: 2em;
-
-  @include mq("desktop") {
-    padding: 2em 0;
-    width: 100%;
-    text-align: "justify";
+  padding: 1em 5%;
+  @include mq("tablet") {
+    padding: 2em 3%;
+    width: 45%;
     margin-bottom: 0;
   }
 }
@@ -62,25 +82,26 @@
 .socialBlock .subTitle {
   font-weight: 600;
   font-size: 24px;
-  max-width: 80%;
+  width: 100%;
 }
 
 .socialBlock p {
-  max-width: 80%;
+  width: 100%;
   color: $grayDark;
   line-height: 1.5em;
   margin: 0.7em;
 }
+
 .socialBlock .socialContainer {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 1em;
-
-  @include mq("tablet") {
-    margin: 0 2em;
-  }
+  margin: 10px 0 0 0;
+  padding: 0;
+  list-style-type: none;
   @include mq("desktop") {
-    padding: 0 3em;
-    margin: 0;
   }
+}
+
+.socialButton {
+  margin: 10px 10px 0 0;
 }

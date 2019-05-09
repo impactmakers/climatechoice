@@ -3,15 +3,13 @@
 
 .button {
   background-color: $grayLight;
-  min-width: 110px;
   max-width: max-content;
   height: 30px;
-  padding: 0.5em;
-  border-radius: 10%;
+  padding: 0.5em 1em;
+  border-radius: $borderRadius;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin: 0.3em 0.5em;
   color: $black;
 }
 

@@ -1,10 +1,10 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { LinkedinShareButton } from "react-share";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { LinkedinShareButton } from 'react-share';
 
-import styles from "./Styles.module.scss";
-import buttonStyles from "../../styles/Buttons.module.scss";
-import LinkedinIcon from "../Images/Icons/LinkedinIcon";
+import styles from './Styles.module.scss';
+import buttonStyles from '../../styles/Buttons.module.scss';
+import LinkedinIcon from '../Images/Icons/LinkedinIcon';
 
 export default function LinkedinButton({
   url,
@@ -29,10 +29,10 @@ export default function LinkedinButton({
 }
 
 LinkedinButton.defaultProps = {
-  url: "https://climatechoice.co",
-  linkedinTitle: "Climate Choice",
+  url: 'https://climatechoice.co',
+  linkedinTitle: 'Climate Choice',
   linkedinDescription:
-    "Discover how changes to your diet can affect Climate Change"
+    'Discover how changes to your diet can affect Climate Change'
 };
 
 LinkedinButton.propTypes = {

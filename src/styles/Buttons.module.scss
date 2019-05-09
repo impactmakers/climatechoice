@@ -80,7 +80,7 @@
   position: relative;
   font-family: inherit;
   overflow: hidden;
-  border-radius: $border-radius;
+  border-radius: $borderRadius;
   background: rgba(255,255,255,0.4);
   color: $white;
   -webkit-transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
@@ -169,7 +169,7 @@
   font-family: inherit;
   overflow: hidden;
   border: 2px solid;
-  border-radius: $border-radius;
+  border-radius: $borderRadius;
   background: transparent;
   color: $blue;
   -webkit-transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
@@ -273,7 +273,7 @@
   padding: 5px 12px;
   overflow: hidden;
   border-width: 0;
-  border-radius: $border-radius;
+  border-radius: $borderRadius;
   background: transparent;
   color: #fff;
   -webkit-transition: all 0.5s cubic-bezier(0.02, 0.01, 0.47, 1);
