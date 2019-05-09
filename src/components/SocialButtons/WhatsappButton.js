@@ -6,11 +6,11 @@ import styles from "./Styles.module.scss";
 import buttonStyles from "../../styles/Buttons.module.scss";
 import WhatsappIcon from "../../components/Images/Icons/WhatsappIcon";
 
-export default function WhatsappButton({ url, whatsappTitle }) {
+export default function WhatsappButton({ url, whatsappTitle, currentUrl }) {
   return (
     <WhatsappShareButton url={url} title={whatsappTitle}>
       <div className={`${styles.button} ${buttonStyles.btnSimple}`}>
-        <input type="hidden" id="hidden-input" value={document.location.href} />
+        <input type="hidden" id="hidden-input" value={currentUrl} />
         <div className={styles.logo}>
           <WhatsappIcon fillColor="#40c351" />
         </div>
