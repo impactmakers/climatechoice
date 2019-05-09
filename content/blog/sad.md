@@ -1,7 +1,8 @@
 ---
 path: hello-world
 date: 2019-02-21T11:07:21.702Z
-image: 'https://yomo-website-assets.s3.amazonaws.com/blog/covers/why-yomo-exists.jpg'
+image: >-
+  https://d33wubrfki0l68.cloudfront.net/5ae6b5b56db96f1eb07fd4e2ce469ff0dfef0e7c/05478/images/blog/007-cover.jpg
 title: Hello World
 author: Steven Hylands
 ---

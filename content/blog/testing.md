@@ -1,7 +1,8 @@
 ---
 path: new-year-new-goals
 date: 2019-03-13T12:09:40.349Z
-image: 'http://piggypot-blog.s3.amazonaws.com/new-years-blog/cover.jpg'
+image: >-
+  https://d33wubrfki0l68.cloudfront.net/5583b09c6baea266b7cda6e7d78ad3e36d339a87/0dca1/images/blog/006-cover.jpg
 title: 'New year, New goals!'
 author: Steven Hylands
 ---
