@@ -1,7 +1,8 @@
 ---
 path: example
 date: 2019-03-14T11:10:21.824Z
-image: 'http://piggypot-blog.s3.amazonaws.com/1-10-release/013.jpg'
+image: >-
+  https://d33wubrfki0l68.cloudfront.net/5583b09c6baea266b7cda6e7d78ad3e36d339a87/0dca1/images/blog/006-cover.jpg
 title: Example blog post with a lot of content to style so it is
 author: Steven Hylands
 ---
