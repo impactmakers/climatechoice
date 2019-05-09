@@ -36,7 +36,7 @@ export default function TwitterButton({
 }
 
 TwitterButton.defaultProps = {
-  url: 'https://climatechoice.co',
+  url: 'https://climatechoice.co/',
   twitterTitle:
     'Check out how you can change your diet and positively affect climate change at',
   twitterAccount: 'climatechoice',

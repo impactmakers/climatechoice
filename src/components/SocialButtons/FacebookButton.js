@@ -28,7 +28,7 @@ export default function FacebookButton({
 }
 
 FacebookButton.defaultProps = {
-  url: 'https://climatechoice.co',
+  url: 'https://climatechoice.co/',
   facebookQuote:
     'Check out how you can change your diet and positively affect climate change at:',
   facebookHashtag: '#climatechange'

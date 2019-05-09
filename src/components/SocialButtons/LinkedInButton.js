@@ -29,7 +29,7 @@ export default function LinkedinButton({
 }
 
 LinkedinButton.defaultProps = {
-  url: 'https://climatechoice.co',
+  url: 'https://climatechoice.co/',
   linkedinTitle: 'Climate Choice',
   linkedinDescription:
     'Discover how changes to your diet can affect Climate Change'
