@@ -4,6 +4,7 @@
 
 
 .container {
+  background-image: linear-gradient(270deg, #2A4270 21%, #16243E 62%);
   box-sizing: border-box;
   width: 100%;
   display: flex;
@@ -14,21 +15,22 @@
 .inner {
   @include pad-top-standard;
   @include pad-bot-standard;
+  @include mar-bot-small;
   justify-content: space-between;
-  align-items: center;
   flex-direction: column;
   @include mq('tablet') {
-
+    flex-direction: row;
   }
 }
 
 .content {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  text-align: center;
-  margin: 0 auto;
+  width: 100%;
+  @include mq('tablet') {
+    max-width: 640px;
+  }
 }
 
 .title {
@@ -36,23 +38,53 @@
   margin: 0;
   font-weight: 700;
   font-family: $serif;
+  color: $white;
+  text-align: center;
+  @include mq('tablet') {
+    text-align: left;
+  }
 }
 
+.titleEmphasis {
+  font-style: italic;
+  color: $orange;
+}
 
-.ctaButton {
+.ctas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
   margin-top: 30px;
+  @include mq('tablet') {
+    margin-top: 40px;
+    flex-direction: row;
+  }
+}
+
+.ctaPrimary {
   @include no-underline;
 }
 
 .ctaSecondary {
   @include links-on-light;
-  color: $textBody;
   @include font-size($text-xsmall);
-  @include mar-top-small;
-  padding-top: 15px;
+  margin-top: 30px;
   a {
-    color: $textBody;
+    color: $white;
     font-weight: normal;
+    font-size: 21px;
+  }
+  @include mq('tablet') {
+    margin-top: 4px;
+    flex-direction: row;
   }
 }
 
+.img {
+  margin-top: 30px;
+  @include mq('tablet') {
+    margin-top: 0;
+  } 
+}
