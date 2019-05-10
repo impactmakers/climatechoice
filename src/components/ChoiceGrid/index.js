@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import GlobalStyles from '../../styles/Global.module.scss';
-import ButtonStyles from '../../styles/Buttons.module.scss';
 import Styles from './Styles.module.scss';
 
 const ChoiceGrid = () => (

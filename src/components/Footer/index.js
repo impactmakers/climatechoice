@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import LogoOnLight from '../Images/Logos/LogoOnLight';
 import FacebookIcon from '../Images/Icons/FacebookIcon';
 import TwitterIcon from '../Images/Icons/TwitterIcon';
 import LinkedinIcon from '../Images/Icons/LinkedinIcon';
@@ -15,7 +14,10 @@ const Footer = () => (
       <div className={Styles.top}>
         <div className={Styles.company}>
           <Link to="/" title="Go back home">
-            <LogoOnLight />
+            <img
+              src="../../../../images/Logos/LogoOnLight.svg"
+              alt="ClimateChoice"
+            />
           </Link>
           <p className={Styles.description}>
             Learn how you can help prevent earth’s climate breaking down.
@@ -85,24 +87,38 @@ const Footer = () => (
             <div className={Styles.choiceLists}>
               <ol className={`${Styles.navList} ${Styles.choiceList}`}>
                 <li className={`${Styles.navItem} ${Styles.choiceItem}`}>
-                  <Link to="/change-what-you-eat" title="Change what you eat">
-                    Choice 1
+                  <Link to="/change-how-you-eat" title="Change how you eat">
+                    Change how you eat
                   </Link>
                 </li>
                 <li className={Styles.navItem}>
-                  <Link to="/change-what-you-eat" title="Change what you eat">
-                    Choice 2
+                  <Link
+                    to="/change-how-you-travel"
+                    title="Change how you travel"
+                  >
+                    Change how you travel
                   </Link>
                 </li>
 
                 <li className={`${Styles.navItem} ${Styles.choiceItem}`}>
-                  <Link to="/change-what-you-eat" title="Change what you eat">
-                    Choice 3
+                  <Link
+                    to="/choose-renewable-energy"
+                    title="Choose renewable energy"
+                  >
+                    Choose renewable energy
                   </Link>
                 </li>
                 <li className={Styles.navItem}>
-                  <Link to="/change-what-you-eat" title="Change what you eat">
-                    Choice 4
+                  <Link to="/use-less-energy" title="Use less energy">
+                    Use less energy
+                  </Link>
+                </li>
+                <li className={Styles.navItem}>
+                  <Link
+                    to="/change your lifestyle"
+                    title="Change your lifestyle"
+                  >
+                    Change your lifestyle
                   </Link>
                 </li>
               </ol>

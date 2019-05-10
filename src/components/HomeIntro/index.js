@@ -9,8 +9,8 @@ const HomeIntro = () => (
     <div className={`${GlobalStyles.inner} ${Styles.inner}`}>
       <div className={Styles.content}>
         <h1 className={Styles.title}>
-          We must reduce global emissions by 45% by 2030 or face mass
-          extinctions.
+          We must cut global emissions in half by 2030 or face{' '}
+          <span className={Styles.titleEmphasis}>mass extinctions</span>
         </h1>
         <a className={Styles.ctaButton} href="/join" title="Get started now">
           <button

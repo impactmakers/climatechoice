@@ -33,10 +33,12 @@
 
 
 .choiceGrid {
+  @include mar-top-standard;
   justify-content: space-between;
   width: 100%;
   margin-bottom: 30px;
   display: grid;
+  padding: 0;
   grid-gap: 30px;
   grid-template-columns: 1fr;
   @include mq('tablet') {
@@ -75,12 +77,15 @@
   padding: 30px;
 }
 
-.choiceTitle {}
+.choiceTitle {
+  margin-top: 0;
+}
 
 .choiceMeta {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  color: $gray;
 }
 
 .choiceReadTime {}

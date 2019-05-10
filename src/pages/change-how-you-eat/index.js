@@ -1,8 +1,10 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import Layout from '../../components/layout';
 import SEO from '../../components/seo';
 import GlobalStyles from '../../styles/Global.module.scss';
 import ChoiceStyles from '../../styles/Choice.module.scss';
+import ButtonStyles from '../../styles/Buttons.module.scss';
 import Styles from './Styles.module.scss';
 
 const ChangeHowYouEatPage = () => (
@@ -10,12 +12,38 @@ const ChangeHowYouEatPage = () => (
     <SEO title="Change How You Eat" keywords={[`Food`, `ClimateChoice`]} />
     <section className={`${ChoiceStyles.banner} ${Styles.banner}`}>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.inner}`}>
-        <h1 className={`${Styles.title} ${Styles.introTitle}`}>Title</h1>
-        <p className={`${Styles.description} ${Styles.introDescription}`}>
-          Content here
-        </p>
+        <div
+          className={`${ChoiceStyles.bannerContent} ${Styles.bannerContent}`}
+        >
+          <h1 className={`${ChoiceStyles.bannerTitle} ${Styles.bannerTitle}`}>Change how you eat to help prevent climate change</h1>
+          <p className={`${ChoiceStyles.bannerDesc} ${Styles.bannerDesc}`}>
+          < b>26%</b> of global greenhouse-gas emissions come from the production and waste of food and drink products.
+          </p>
+          <div className={`${ChoiceStyles.bannerActions} ${Styles.bannerActions}`}>
+            <a className={ChoiceStyles.bannerCtaPrimary} href="/join" title="Get started now">
+              <button
+                className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnLg} ${
+                  ButtonStyles.btnGreen
+                }`}
+              >
+                Learn how you can help
+              </button>
+            </a>
+            <span className={ChoiceStyles.bannerCtaSecondary}>
+              <Link to="/" title="Learn more">
+                Need convinced? Read this
+              </Link>
+            </span>
+          </div>
+        </div>
+        <div
+          className={`${ChoiceStyles.bannerImg} ${Styles.bannerImg}`}
+        >
+          Image
+        </div>    
       </div>
     </section>
+
     <section className={`${ChoiceStyles.how} ${Styles.how}`}>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.inner}`}>
         <h1>Title</h1>

@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from "react";
-import { Link } from "gatsby";
-import Logo from "../Images/Logos/LogoOnDark";
-import MenuIcon from "../Images/Icons/MenuIcon";
-import GlobalStyles from "../../styles/Global.module.scss";
-import ButtonStyles from "../../styles/Buttons.module.scss";
-import Styles from "./Styles.module.scss";
+import React, { useState } from 'react';
+import { Link } from 'gatsby';
+import MenuIcon from '../Images/Icons/MenuIcon';
+import GlobalStyles from '../../styles/Global.module.scss';
+import ButtonStyles from '../../styles/Buttons.module.scss';
+import Styles from './Styles.module.scss';
 
 function Navbar() {
   const [navOpen, setNavOpen] = useState(false);
@@ -23,7 +22,10 @@ function Navbar() {
       <div className={`${GlobalStyles.inner} ${Styles.inner}`}>
         <div className={Styles.logo}>
           <Link to="/" title="Go back home">
-            <Logo />
+            <img
+              src="../../../../images/Logos/LogoOnDark.svg"
+              alt="ClimateChoice"
+            />
           </Link>
         </div>
 
@@ -36,7 +38,7 @@ function Navbar() {
         </button>
 
         <ul
-          className={`${Styles.navList} ${navOpen ? Styles.navListOpen : ""}`}
+          className={`${Styles.navList} ${navOpen ? Styles.navListOpen : ''}`}
         >
           <li className={`${Styles.navItem} ${Styles.navItemLink}`}>
             <Link to="/resources" title="Discover climate change resources">
