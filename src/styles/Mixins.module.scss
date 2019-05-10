@@ -181,5 +181,6 @@ a:active {
 
 @mixin white-box {
   background: $white;
-  box-shadow: 0 1px 40px 0 rgba(50,47,68,0.09);
+  border: 1px solid #DFE1E2;
+  box-shadow: 0 1px 13px 0 rgba(219,223,225,0.40);
 }

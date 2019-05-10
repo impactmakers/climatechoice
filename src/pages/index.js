@@ -3,6 +3,7 @@ import { graphql } from 'gatsby';
 import HomeIntro from '../components/HomeIntro';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import ChoiceGrid from '../components/ChoiceGrid';
 
 class HomePage extends React.Component {
   render() {
@@ -11,6 +12,7 @@ class HomePage extends React.Component {
         <SEO keywords={[`ClimateChoice`]} />
 
         <HomeIntro />
+        <ChoiceGrid />
       </Layout>
     );
   }

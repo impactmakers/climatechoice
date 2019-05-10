@@ -4,6 +4,7 @@
 
 
 .container {
+  background-image: linear-gradient(270deg, #2A4270 21%, #16243E 62%);
   box-sizing: border-box;
   width: 100%;
   display: flex;
@@ -36,6 +37,7 @@
   margin: 0;
   font-weight: 700;
   font-family: $serif;
+  color: $white;
 }
 
 
@@ -46,12 +48,12 @@
 
 .ctaSecondary {
   @include links-on-light;
-  color: $textBody;
+  color: $white;
   @include font-size($text-xsmall);
   @include mar-top-small;
   padding-top: 15px;
   a {
-    color: $textBody;
+    color: $white;
     font-weight: normal;
   }
 }
