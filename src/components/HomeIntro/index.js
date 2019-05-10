@@ -13,7 +13,11 @@ const HomeIntro = () => (
           <span className={Styles.titleEmphasis}>mass extinctions</span>
         </h1>
         <div className={Styles.ctas}>
-          <a className={Styles.ctaPrimary} href="/join" title="Get started now">
+          <a
+            className={Styles.ctaPrimary}
+            href="#your-choices"
+            title="How you can help prevent climate breakdown"
+          >
             <button
               className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
                 ButtonStyles.btnGreen
@@ -23,8 +27,8 @@ const HomeIntro = () => (
             </button>
           </a>
           <span className={Styles.ctaSecondary}>
-            <Link to="/" title="Learn more">
-              Need convinced? Read this
+            <Link to="#" title="Learn more">
+              Need convinced? Watch this
             </Link>
           </span>
         </div>

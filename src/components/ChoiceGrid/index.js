@@ -5,6 +5,7 @@ import Styles from './Styles.module.scss';
 
 const ChoiceGrid = () => (
   <section className={Styles.container}>
+    <a name="your-choices" />
     <div className={`${GlobalStyles.inner} ${Styles.inner}`}>
       <h1 className={Styles.title}>
         Choices you can make to help prevent climate breakdown
