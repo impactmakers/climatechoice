@@ -12,21 +12,24 @@ const HomeIntro = () => (
           We must cut global emissions in half by 2030 or face{' '}
           <span className={Styles.titleEmphasis}>mass extinctions</span>
         </h1>
-        <a className={Styles.ctaButton} href="/join" title="Get started now">
-          <button
-            className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnLg} ${
-              ButtonStyles.btnGreen
-            }`}
-          >
-            Learn how you can help
-          </button>
-        </a>
-        <span className={Styles.ctaSecondary}>
-          <Link to="/" title="Learn more">
-            Need convinced? Read this
-          </Link>
-        </span>
+        <div className={Styles.ctas}>
+          <a className={Styles.ctaPrimary} href="/join" title="Get started now">
+            <button
+              className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
+                ButtonStyles.btnGreen
+              }`}
+            >
+              Learn how you can help
+            </button>
+          </a>
+          <span className={Styles.ctaSecondary}>
+            <Link to="/" title="Learn more">
+              Need convinced? Read this
+            </Link>
+          </span>
+        </div>
       </div>
+      <div className={Styles.img}>Img here</div>
     </div>
   </section>
 );
