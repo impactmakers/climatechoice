@@ -1,11 +1,14 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Layout from '../../components/layout';
+import ChoiceSupport from '../../components/ChoiceSupport';
 import SEO from '../../components/seo';
 import GlobalStyles from '../../styles/Global.module.scss';
 import ChoiceStyles from '../../styles/Choice.module.scss';
 import ButtonStyles from '../../styles/Buttons.module.scss';
 import Styles from './Styles.module.scss';
+import ShareSocialCta from '../../components/ShareSocialCta';
+import shareConfig from '../../configs/pages/choiceEatConfig';
 
 const ChangeHowYouEatPage = () => (
   <Layout>
@@ -151,6 +154,10 @@ const ChangeHowYouEatPage = () => (
                 Styles.actionHowTitle
               }`}
             >
+              <img
+                src="../../../../images/Icons/HowIcon.svg"
+                alt="How it helps"
+              />
               How much would this help?
             </h3>
             <p className={`${ChoiceStyles.actionDesc} ${Styles.actionDesc}`}>
@@ -223,7 +230,7 @@ const ChangeHowYouEatPage = () => (
             >
               <img
                 src="../../../../images/Icons/HowIcon.svg"
-                alt="ClimateChoice"
+                alt="How it helps"
               />
               How much would this help?
             </h3>
@@ -236,6 +243,8 @@ const ChangeHowYouEatPage = () => (
         </div>
       </div>
     </section>
+    <ShareSocialCta {...shareConfig} />
+    <ChoiceSupport />
   </Layout>
 );
 

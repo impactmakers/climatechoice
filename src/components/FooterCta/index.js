@@ -7,20 +7,27 @@ const Footer = () => (
   <footer className={Styles.container}>
     <div className={`${GlobalStyles.inner} ${Styles.ctaInner}`}>
       <div className={Styles.ctaContent}>
-        <h1 className={Styles.ctaTitle}>Title</h1>
-        <p className={Styles.ctaText}>Description</p>
+        <h1 className={Styles.ctaTitle}>Want to do even more?</h1>
+        <p className={Styles.ctaText}>
+          Discover other choices you can make to help prevent earth's climate
+          breaking down.
+        </p>
       </div>
       <div className={Styles.ctaActions}>
-        <a className={Styles.ctaButton} href="/" title="Main">
+        <a
+          className={Styles.ctaButton}
+          href="/#your-choices"
+          title="View your choices"
+        >
           <button
             className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
               ButtonStyles.btnPrimary
-            }`}
+            } ${ButtonStyles.btnMobile}`}
           >
-            Main
+            View your choices
           </button>
         </a>
-        <a className={Styles.ctaButton} href="/" title="Secondary">
+        {/* <a className={Styles.ctaButton} href="/" title="Secondary">
           <button
             className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
               ButtonStyles.btnBordered
@@ -28,7 +35,7 @@ const Footer = () => (
           >
             Secondary
           </button>
-        </a>
+        </a> */}
       </div>
     </div>
   </footer>

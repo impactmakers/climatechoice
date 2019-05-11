@@ -3,7 +3,7 @@
 @import "../../styles/Mixins.module.scss";
 
 .button {
-  background-color: $grayLight;
+  background-color: $blueLight;
   max-width: max-content;
   height: 30px;
   padding: 0.5em 1em;
@@ -15,5 +15,8 @@
 }
 
 .logo {
-  margin-right: 0.5em;
+  margin-right: 0.6em;
+  height: 22px;
+  display: flex;
+  align-items: center;
 }

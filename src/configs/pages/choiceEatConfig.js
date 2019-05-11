@@ -4,7 +4,7 @@ const BoldText = ({ children }) => (
   <b style={{ fontWeight: 'bold' }}>{children}</b>
 );
 
-const homePageConfig = {
+const choiceEatConfig = {
   ctaTitle: 'Spread the message!',
 
   ctaCopy: (
@@ -34,4 +34,4 @@ const homePageConfig = {
   whatsappTitle: 'check out this new site, Climate Choice'
 };
 
-export default homePageConfig;
+export default choiceEatConfig;

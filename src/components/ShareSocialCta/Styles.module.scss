@@ -25,21 +25,20 @@
 .ctaCopy {
   width: 100%;
   @include mq('tablet') {
-    width: 40%;
-
+    width: 38%;
   }
 }
 
 .title {
-  @include font-size($title-large);
+  @include font-size($title-xlarge);
   color: $white;
   font-family: $serif;
 }
 
 .copy {
-  text-align: justify;
-  line-height: 1.5em;
+  @include font-size($text-small);
   color: $white;
+  margin-bottom: 0;
 }
 
 .socialBlock {
@@ -49,25 +48,28 @@
   background-color: $white;
   color: $black;
   width: 90%;
-  padding: 1em 5%;
+  padding: 1.25em 5%;
+  margin: 0;
   @include mq("tablet") {
-    padding: 2em 3%;
+    padding: 2.3em 3%;
     width: 45%;
     margin-bottom: 0;
   }
 }
 
 .socialBlock .subTitle {
-  font-weight: 600;
-  font-size: 24px;
-  width: 100%;
+  @include font-size($title-small);
 }
 
 .socialBlock p {
-  width: 100%;
+  @include font-size($text-small);
   color: $grayDark;
-  line-height: 1.5em;
-  margin: 0.7em;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  @include mq("tablet") {
+    margin-bottom: 10px;
+  }
 }
 
 .socialBlock .socialContainer {
