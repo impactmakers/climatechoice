@@ -120,6 +120,122 @@ const ChangeHowYouEatPage = () => (
         </div>
       </div>
     </section>
+    <section className={`${ChoiceStyles.actions} ${Styles.actions}`}>
+      <div className={`${GlobalStyles.inner} ${ChoiceStyles.actionsInner}`}>
+        <div
+          className={`${ChoiceStyles.actionsContent} ${Styles.actionsContent}`}
+        >
+          <h1 className={`${ChoiceStyles.actionsTitle} ${Styles.actionsTitle}`}>
+            What you can do now
+          </h1>
+        </div>
+        <div className={`${ChoiceStyles.action} ${Styles.action}`}>
+          <div
+            className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
+          >
+            <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
+              The easiest thing to do is to consume less food with a high carbon
+              footprint.
+            </h2>
+            <p className={`${ChoiceStyles.actionDesc} ${Styles.actionDesc}`}>
+              The biggest impact can be had if you{' '}
+              <b>eat less meat and dairy</b>, but other foods such as fish and
+              eggs have a carbon footprint too.
+              <b>If you’re really commited go vegan</b>. Try to only buy items
+              with
+              <b>sustainable, or no packaging</b>, and <b>buy local</b> so your
+              food isn’t travelling around the world.
+            </p>
+            <h3
+              className={`${ChoiceStyles.actionHowTitle} ${
+                Styles.actionHowTitle
+              }`}
+            >
+              How much would this help?
+            </h3>
+            <p className={`${ChoiceStyles.actionDesc} ${Styles.actionDesc}`}>
+              If we all did this, demand for harmful food and drink products
+              would go down causing the supply chain to shrink. Since we’d be
+              eating food with a lower carbon footprint, demand for those
+              products would rise, causing prices to drop due to increased
+              supply and competition.
+            </p>
+          </div>
+          <div className={`${ChoiceStyles.actionAside} ${Styles.actionAside}`}>
+            <div
+              className={`${ChoiceStyles.actionAsideContainer} ${
+                Styles.actionAsideContainer
+              }`}
+            >
+              <h3
+                className={`${ChoiceStyles.actionAsideTitle} ${
+                  Styles.actionAsideTitle
+                }`}
+              >
+                Need help changing?
+              </h3>
+              <ul
+                className={`${ChoiceStyles.actionAsideList} ${
+                  Styles.actionAsideList
+                }`}
+              >
+                <li>
+                  <a href="#" title="?">
+                    Learn how to spot food and drink with a high carbon
+                    footprint →
+                  </a>
+                </li>
+                <li>
+                  <a href="#" title="?">
+                    Another resource →
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div
+          className={`${ChoiceStyles.action} ${Styles.action} ${
+            ChoiceStyles.actionAnother
+          }`}
+        >
+          <div
+            className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
+          >
+            <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
+              STOP wasting food. If something does go to waste make sure it’s
+              recycled.
+            </h2>
+            <p className={`${ChoiceStyles.actionDesc} ${Styles.actionDesc}`}>
+              Be more conscious when you shop and try to{' '}
+              <b>only buy what you’re sure will be consumed</b>. When you have
+              food or packaging that must be dumped <b>recycle</b> it. Make sure
+              you’re aware of the{' '}
+              <a href="#" title="?">
+                correct recycling procedures where you live
+              </a>
+              .
+            </p>
+            <h3
+              className={`${ChoiceStyles.actionHowTitle} ${
+                Styles.actionHowTitle
+              }`}
+            >
+              <img
+                src="../../../../images/Icons/HowIcon.svg"
+                alt="ClimateChoice"
+              />
+              How much would this help?
+            </h3>
+            <p className={`${ChoiceStyles.actionDesc} ${Styles.actionDesc}`}>
+              Roughly 1/3 of food each year goes to waste. If we all became more
+              efficient with our food, less would need to be produced and less
+              would be left to rot - reducing greenhouse emissions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   </Layout>
 );
 

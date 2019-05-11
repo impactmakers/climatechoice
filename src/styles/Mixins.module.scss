@@ -25,25 +25,25 @@
 /* Spacing - Standard */
 
 @mixin pad-top-standard {
-  padding-top: 20px;
+  padding-top: 25px;
   @include mq('tablet') {padding-top: 40px;}
   @include mq('desktop') {padding-top: 60px;}
 }
 
 @mixin mar-top-standard {
-  margin-top: 20px;
+  margin-top: 25px;
   @include mq('tablet') {margin-top: 40px;}
   @include mq('desktop') {margin-top: 60px;}
 }
 
 @mixin pad-bot-standard {
-  padding-bottom: 20px;
+  padding-bottom: 25px;
   @include mq('tablet') {padding-bottom: 40px;}
   @include mq('desktop') {padding-bottom: 60px;}
 }
 
 @mixin mar-bot-standard {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   @include mq('tablet') {margin-bottom: 40px;}
   @include mq('desktop') {margin-bottom: 60px;}
 }

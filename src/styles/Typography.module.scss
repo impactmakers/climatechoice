@@ -156,16 +156,16 @@ $text-xsmall: (
 
 @mixin title-uppercase-small {
   @include font-size($text-small);
-  letter-spacing: 0.2px;
+  letter-spacing: 0;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 
 @mixin blue-title {
-  @include font-size($title-medium);
+  @include font-size($title-small);
   font-weight: bold;
-  color: $blue;
+  color: $green;
 }
 
 
