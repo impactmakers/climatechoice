@@ -4,14 +4,13 @@ import styles from "./styles.module.scss";
 import buttonStyles from "../../styles/Buttons.module.scss";
 import EmailIcon from "../Images/Icons/EmailIcon";
 
-export default function EmailButton({ emailSubject, emailBody, currentUrl }) {
+export default function EmailButton({ emailSubject, emailBody }) {
   return (
     <a
       style={{ textDecoration: "none" }}
       href={`mailto:?subject=${emailSubject}&body=${emailBody}`}
     >
       <div className={`${styles.button} ${buttonStyles.btnSimple}`}>
-        <input type="hidden" id="hidden-input" value={currentUrl} />
         <div className={styles.logo}>
           <EmailIcon fillColor="#898c92" />
         </div>
