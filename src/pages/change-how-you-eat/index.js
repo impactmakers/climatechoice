@@ -49,7 +49,6 @@ const ChangeHowYouEatPage = () => (
         </div>
       </div>
     </section>
-
     <section className={`${ChoiceStyles.how} ${Styles.how}`}>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.howInner}`}>
         <div className={`${ChoiceStyles.howContent} ${Styles.howContent}`}>
@@ -82,6 +81,43 @@ const ChangeHowYouEatPage = () => (
           </ol>
         </div>
         <div className={`${ChoiceStyles.howImg} ${Styles.howImg}`}>Image</div>
+      </div>
+    </section>
+    <section className={`${ChoiceStyles.stops} ${Styles.stops}`}>
+      <div className={`${GlobalStyles.inner} ${ChoiceStyles.stopsInner}`}>
+        <div className={`${ChoiceStyles.stopsImg} ${Styles.stopsImg}`}>
+          <h1 className={`${ChoiceStyles.stopsTitle} ${Styles.stopsTitle}`}>
+            What stops us from changing how we eat?
+          </h1>
+        </div>
+        <div className={`${ChoiceStyles.stopsContent} ${Styles.stopsContent}`}>
+          <div
+            className={`${ChoiceStyles.stopsListContainer} ${
+              Styles.stopsListContainer
+            }`}
+          >
+            <ol
+              className={`${ChoiceStyles.choiceList} ${
+                ChoiceStyles.stopsList
+              } ${Styles.stopsList}`}
+            >
+              <li>
+                Food choices with a lower carbon footprint are usually more
+                expensive.
+              </li>
+              <li>
+                We enjoy the taste and experience of consuming meat and dairy
+                products so much that we can’t bring ourselves to quit them.
+              </li>
+              <li>
+                Acting on climate change represents a trade-off between
+                short-term and long-term benefits, which is the hardest
+                trade-off for people to make. Ignoring it in the short-term is
+                easy as we don’t have to make any personal sacrifices.
+              </li>
+            </ol>
+          </div>
+        </div>
       </div>
     </section>
   </Layout>

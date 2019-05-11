@@ -48,6 +48,17 @@
   @include mq('desktop') {margin-bottom: 60px;}
 }
 
+@mixin pad-left-standard {
+  padding-left: 20px;
+  @include mq('tablet') {padding-left: 40px;}
+  @include mq('desktop') {padding-left: 60px;}
+}
+@mixin pad-right-standard {
+  padding-right: 20px;
+  @include mq('tablet') {padding-right: 40px;}
+  @include mq('desktop') {padding-right: 60px;}
+}
+
 /* Spacing - Large */
 
 @mixin pad-top-large {

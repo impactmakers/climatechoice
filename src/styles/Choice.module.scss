@@ -151,3 +151,63 @@
     padding-left: 43px;
   }
 }
+
+/* What stops us */
+
+.stops {
+  background: $orange
+}
+
+.stopsInner {
+
+  justify-content: space-between;
+  flex-direction: column;
+  @include mq('tablet') {
+    flex-direction: row;
+  }
+}
+
+
+.stopsContent {
+  width: 100%;
+  @include pad-top-standard;
+  @include pad-bot-standard;
+  @include mq('tablet') {
+    width: 50%;
+  }
+}
+
+.stopsListContainer {
+  @include pad-left-standard;
+}
+
+.stopsList {
+  color: $white;
+  :before {content: counter(li); 
+    color: $white;
+    background: rgba($white,0.16);
+  }
+}
+
+.stopsTitle {
+  color: $white;
+  margin: 0;
+  max-width: 300px;
+  @include pad-top-standard;
+  @include pad-left-standard;
+  @include pad-right-standard; 
+  @include font-size($title-large);
+  text-shadow: 0 2px 14px rgba(0,0,0,0.50);
+}
+
+.stopsImg {
+  width: 100%;
+  height: 240px;
+  background: url('../../static/images/Photos/stopsEat.jpg') no-repeat center;
+  background-size: cover;
+  display: block;
+  @include mq('tablet') {
+    width: 50%;
+    height: auto;
+  }
+}
