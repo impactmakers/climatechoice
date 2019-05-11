@@ -27,36 +27,36 @@
 @mixin pad-top-standard {
   padding-top: 25px;
   @include mq('tablet') {padding-top: 40px;}
-  @include mq('desktop') {padding-top: 60px;}
+  @include mq('desktop') {padding-top: 70px;}
 }
 
 @mixin mar-top-standard {
   margin-top: 25px;
   @include mq('tablet') {margin-top: 40px;}
-  @include mq('desktop') {margin-top: 60px;}
+  @include mq('desktop') {margin-top: 70px;}
 }
 
 @mixin pad-bot-standard {
   padding-bottom: 25px;
   @include mq('tablet') {padding-bottom: 40px;}
-  @include mq('desktop') {padding-bottom: 60px;}
+  @include mq('desktop') {padding-bottom: 70px;}
 }
 
 @mixin mar-bot-standard {
   margin-bottom: 25px;
   @include mq('tablet') {margin-bottom: 40px;}
-  @include mq('desktop') {margin-bottom: 60px;}
+  @include mq('desktop') {margin-bottom: 70px;}
 }
 
 @mixin pad-left-standard {
   padding-left: 20px;
   @include mq('tablet') {padding-left: 40px;}
-  @include mq('desktop') {padding-left: 60px;}
+  @include mq('desktop') {padding-left: 70px;}
 }
 @mixin pad-right-standard {
   padding-right: 20px;
   @include mq('tablet') {padding-right: 40px;}
-  @include mq('desktop') {padding-right: 60px;}
+  @include mq('desktop') {padding-right: 70px;}
 }
 
 /* Spacing - Large */

@@ -177,7 +177,7 @@ const Footer = () => (
           <button
             className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
               ButtonStyles.btnGreen
-            }`}
+            } ${ButtonStyles.btnMobile}`}
           >
             Find out more about us
           </button>

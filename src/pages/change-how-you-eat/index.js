@@ -138,7 +138,7 @@ const ChangeHowYouEatPage = () => (
           >
             <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
               The easiest thing to do is to consume less food with a high carbon
-              footprint.
+              footprint
             </h2>
             <p className={`${ChoiceStyles.actionDesc} ${Styles.actionDesc}`}>
               The biggest impact can be had if you{' '}
@@ -211,7 +211,7 @@ const ChangeHowYouEatPage = () => (
           >
             <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
               STOP wasting food. If something does go to waste make sure it’s
-              recycled.
+              recycled
             </h2>
             <p className={`${ChoiceStyles.actionDesc} ${Styles.actionDesc}`}>
               Be more conscious when you shop and try to{' '}

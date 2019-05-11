@@ -181,14 +181,18 @@
   width: 85%;
   @include mar-top-standard;
   @include pad-bot-standard;
-  padding: 20px 7.5% 30px;
+  @include pad-top-standard;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
   display: flex;
   text-align: center;
   flex-direction: column;
   justify-content: space-between;
   @include mq('tablet') {
     width: 100%;
-    padding: 40px 0;
+
+    padding-left: 0;
+    padding-right: 0;
     background-size: contain;
     background-position: top center;
   }
@@ -196,6 +200,7 @@
 
 .impactMakersTitle {
   @include font-size($title-small);
+  margin-top: 0;
   font-weight: bold;
   font-family: $sans;
 }
@@ -234,6 +239,10 @@
 .impactMakersCta {
   @include no-underline;
   margin: 30px auto 0;
+  width: 100%;
+  @include mq('tablet') { 
+    width: auto;
+  }
 }
 
 

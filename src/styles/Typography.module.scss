@@ -4,7 +4,7 @@
 
 // Fonts
 $serif: 'ITC Napoleone Slab W01', serif;
-$sans: 'Univers Next W01', sans-serif;
+$sans: 'Neue Frutiger W15', sans-serif;
 
 // Responsive Typography Resizer
 
@@ -64,11 +64,11 @@ $title-xlarge: (
 
 
 $title-large: (
-  null  : (28px, 34px),
-  mobile : (28px, 34px),
-  tablet: (36px, 42px),
-  desktop : (48px, 54px),
-  max : (48px, 54px),
+  null  : (32px, 35px),
+  mobile : (32px, 35px),
+  tablet: (40px, 46px),
+  desktop : (50px, 57px),
+  max : (50px, 57px),
 );
 
 @mixin title-large {
@@ -89,11 +89,11 @@ $title-medium: (
 );
 
 $title-small: (
-  null  : (20px, 23px),
-  mobile : (20px, 23px),
-  tablet: (25px, 28px),
-  desktop : (29px, 32px),
-  max : (29px, 32px),
+  null  : (22px, 30px),
+  mobile : (22px, 30px),
+  tablet: (25px, 34px),
+  desktop : (30px, 39px),
+  max : (30px, 39px),
 );
 
 $text-large: (
@@ -113,11 +113,11 @@ $text-body: (
 );
 
 $text-small: (
-  null  : (15px, 25px),
-  mobile : (15px, 25px),
-  tablet: (15px, 25px),
-  desktop : (17px, 28px),
-  max : (17px, 28px),
+  null  : (16px, 25px),
+  mobile : (16px, 25px),
+  tablet: (16px, 25px),
+  desktop : (18px, 28px),
+  max : (18px, 28px),
 );
 
 $text-xsmall: (
