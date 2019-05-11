@@ -13,6 +13,7 @@ export default function CopyLinkButton(props) {
 
     document.body.appendChild(input);
     input.value = text;
+
     input.select();
     document.execCommand("copy");
     document.body.removeChild(input);
@@ -30,7 +31,6 @@ export default function CopyLinkButton(props) {
         className={`${styles.button} ${buttonStyles.btnSimple}`}
         onClick={copyLink}
       >
-        <input type="hidden" id="hidden-input" value={props.currentUrl} />
         <div className={styles.logo}>
           <CopyLinkIcon fillColor="#16243E" />
         </div>

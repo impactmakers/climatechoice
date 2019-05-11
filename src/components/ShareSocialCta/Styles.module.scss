@@ -3,6 +3,7 @@
 @import "../../styles/Mixins.module.scss";
 
 .container {
+  position: relative;
   background: $green;
   @include pad-top-standard;
   @include pad-bot-standard;
@@ -17,7 +18,7 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  @include mq('tablet') {
+  @include mq("tablet") {
     flex-direction: row;
   }
 }
