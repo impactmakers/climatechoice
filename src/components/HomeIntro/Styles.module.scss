@@ -72,16 +72,14 @@
 }
 
 .ctaSecondary {
-  @include links-on-light;
-  @include font-size($text-xsmall);
+  @include links-on-dark;
   margin-top: 30px;
+  font-size: 21px;
   a {
-    color: $white;
     font-weight: normal;
-    font-size: 21px;
   }
   @include mq('tablet') {
-    margin-top: 4px;
+    margin-top: 0;
     flex-direction: row;
   }
 }

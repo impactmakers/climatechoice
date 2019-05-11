@@ -134,7 +134,7 @@
 @mixin links-on-light {
   a {
     font-weight: 400;
-    text-decoration: none;
+    text-decoration: underline;
     color: $link;
   }
   @include link-states;

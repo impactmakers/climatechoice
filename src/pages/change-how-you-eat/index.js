@@ -37,11 +37,11 @@ const ChangeHowYouEatPage = () => (
                 Learn what you can do
               </button>
             </a>
-            <span className={ChoiceStyles.bannerCtaSecondary}>
-              <Link to="#how-it-happens" title="How it happens">
+            <div className={ChoiceStyles.bannerCtaSecondary}>
+              <a href="#how" title="How it happens">
                 Discover how it happens
-              </Link>
-            </span>
+              </a>
+            </div>
           </div>
         </div>
         <div className={`${ChoiceStyles.bannerImg} ${Styles.bannerImg}`}>

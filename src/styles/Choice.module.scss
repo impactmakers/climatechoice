@@ -2,6 +2,8 @@
 @import './Mixins.module.scss';
 @import './Typography.module.scss';
 
+ /* Header Banner */
+
 .banner {
   background-image: linear-gradient(270deg, #2A4270 21%, #16243E 62%);
   box-sizing: border-box;
@@ -77,17 +79,17 @@
 }
 
 .bannerCtaSecondary {
-  @include links-on-light;
-  @include font-size($text-xsmall);
+  @include links-on-dark;
+  font-size: 21px;
   margin-top: 30px;
   a {
-    color: $white;
     font-weight: normal;
-    font-size: 21px;
   }
   @include mq('tablet') {
-    margin-top: 4px;
+    margin-top: 0;
     margin-left: 50px;
     flex-direction: row;
   }
 }
+
+/* How it happens */
