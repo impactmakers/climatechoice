@@ -39,6 +39,8 @@
     "react-dom": "^16.8.2",
     "react-helmet": "^5.2.0",
     "react-share": "^2.4.0",
+    "react-typist": "^2.0.5",
+    "react-typist-loop": "^0.0.5",
     "react-typography": "^0.16.18",
     "typeface-merriweather": "0.0.54",
     "typeface-montserrat": "0.0.54",
