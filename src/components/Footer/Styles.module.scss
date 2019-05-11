@@ -50,6 +50,7 @@
 .social {
   display: flex;
   list-style-type: none;
+  align-items: center;
   margin: 30px 0 35px 0;
   padding: 0;
   justify-content: space-between;
@@ -130,8 +131,8 @@
 }
 
 .choiceList {
-  list-style-type: decimal;
-  padding-left: 17px;
+  list-style-type: none;
+  padding-left: 0;
   @include mq('tablet') {
 
     display: grid;
@@ -139,7 +140,7 @@
     grid-gap: 0 100px;
   } 
   @include mq('desktop') {
-    grid-gap: 0 160px;
+    grid-gap: 0 150px;
   }
 }
 
@@ -234,6 +235,7 @@
 .impactMakersDescription {
   max-width: 500px;
   margin: 0 auto;
+  color: $grayDark;
 }
 
 .impactMakersCta {

@@ -22,10 +22,19 @@ const Footer = () => (
           <p className={Styles.description}>
             Learn how you can help prevent earth’s climate breaking down.
           </p>
+          {/* <span className={Styles.social}>
+            Follow us
+            <a
+              href="https://twitter.com/impactmakers_"
+              title="Follow us on Twitter"
+            >
+              <TwitterIcon /> @climatechoice
+            </a>
+          </span> */}
           <ul className={Styles.social}>
             <li className={Styles.socialLink}>
               <a
-                href="https://twitter.com/impactmakers_"
+                href="https://twitter.com/climatechoice"
                 title="Follow us on Twitter"
               >
                 <TwitterIcon />
@@ -85,7 +94,7 @@ const Footer = () => (
           <div className={Styles.choiceCol}>
             <div className={Styles.navTitle}>Your choices</div>
             <div className={Styles.choiceLists}>
-              <ol className={`${Styles.navList} ${Styles.choiceList}`}>
+              <ul className={`${Styles.navList} ${Styles.choiceList}`}>
                 <li className={`${Styles.navItem} ${Styles.choiceItem}`}>
                   <Link to="/change-how-you-eat" title="Change how you eat">
                     Change how you eat
@@ -121,7 +130,7 @@ const Footer = () => (
                     Change your lifestyle
                   </Link>
                 </li>
-              </ol>
+              </ul>
             </div>
           </div>
         </div>
