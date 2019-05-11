@@ -1,35 +1,95 @@
 @import './Variables.module.scss';
 @import './Mixins.module.scss';
+@import './Typography.module.scss';
+
+ /* Header Banner */
 
 .banner {
   background-image: linear-gradient(270deg, #2A4270 21%, #16243E 62%);
-  color: $white;
   box-sizing: border-box;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  @include page-top;
 }
 
 
 .inner {
+  @include pad-top-standard;
+  @include pad-bot-standard;
+  @include mar-bot-small;
   justify-content: space-between;
-  align-items: center;
   flex-direction: column;
   @include mq('tablet') {
+    flex-direction: row;
   }
 }
 
-.bannerContent {}
+
+.bannerContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  @include mq('tablet') {
+    max-width: 700px;
+  }
+}
 
 
 .bannerTitle {
+  width: 100%;
+  margin: 0;
+  font-weight: 700;
+  font-family: $serif;
   color: $orange;
+  text-align: center;
+  @include mq('tablet') {
+    text-align: left;
+  }
+}
+.bannerDesc {
+  color: $white;
+  @include font-size($text-large);
+  margin-bottom: 0;
+  text-align: center;
+  @include mq('tablet') {
+    text-align: left;
+  }
+}
+.bannerImg {}
+
+
+.bannerActions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  @include mq('tablet') {
+    margin-top: 40px;
+    flex-direction: row;
+  }
 }
 
-.bannerDesc {}
-.bannerActions {}
-.bannerCtaPrimary {}
-.bannerCtaSecondary {}
-.bannerImg {}
+.bannerCtaPrimary {
+  @include no-underline;
+  width: 100%;
+  @include mq('tablet') {
+    width: auto;
+  }
+}
+
+.bannerCtaSecondary {
+  @include links-on-dark;
+  font-size: 21px;
+  margin-top: 30px;
+  a {
+    font-weight: normal;
+  }
+  @include mq('tablet') {
+    margin-top: 0;
+    margin-left: 50px;
+    flex-direction: row;
+  }
+}
+
+/* How it happens */

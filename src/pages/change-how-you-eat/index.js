@@ -15,32 +15,38 @@ const ChangeHowYouEatPage = () => (
         <div
           className={`${ChoiceStyles.bannerContent} ${Styles.bannerContent}`}
         >
-          <h1 className={`${ChoiceStyles.bannerTitle} ${Styles.bannerTitle}`}>Change how you eat to help prevent climate change</h1>
+          <h1 className={`${ChoiceStyles.bannerTitle} ${Styles.bannerTitle}`}>
+            Change how you eat to help prevent climate change
+          </h1>
           <p className={`${ChoiceStyles.bannerDesc} ${Styles.bannerDesc}`}>
-          < b>26%</b> of global greenhouse-gas emissions come from the production and waste of food and drink products.
+            <b>26%</b> of global greenhouse-gas emissions come from the
+            production and waste of food and drink products.
           </p>
-          <div className={`${ChoiceStyles.bannerActions} ${Styles.bannerActions}`}>
-            <a className={ChoiceStyles.bannerCtaPrimary} href="/join" title="Get started now">
+
+          <div className={ChoiceStyles.bannerActions}>
+            <a
+              className={ChoiceStyles.bannerCtaPrimary}
+              href="#actions"
+              title="See how you can take action"
+            >
               <button
-                className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnLg} ${
+                className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
                   ButtonStyles.btnGreen
-                }`}
+                } ${ButtonStyles.btnMobile}`}
               >
-                Learn how you can help
+                Learn what you can do
               </button>
             </a>
-            <span className={ChoiceStyles.bannerCtaSecondary}>
-              <Link to="/" title="Learn more">
-                Need convinced? Read this
-              </Link>
-            </span>
+            <div className={ChoiceStyles.bannerCtaSecondary}>
+              <a href="#how" title="How it happens">
+                Discover how it happens
+              </a>
+            </div>
           </div>
         </div>
-        <div
-          className={`${ChoiceStyles.bannerImg} ${Styles.bannerImg}`}
-        >
+        <div className={`${ChoiceStyles.bannerImg} ${Styles.bannerImg}`}>
           Image
-        </div>    
+        </div>
       </div>
     </section>
 

@@ -21,16 +21,16 @@ const HomeIntro = () => (
             <button
               className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
                 ButtonStyles.btnGreen
-              }`}
+              } ${ButtonStyles.btnMobile}`}
             >
               Learn how you can help
             </button>
           </a>
-          <span className={Styles.ctaSecondary}>
-            <Link to="#" title="Learn more">
+          <div className={Styles.ctaSecondary}>
+            <a href="#" title="See how climate change happens">
               Need convinced? Watch this
-            </Link>
-          </span>
+            </a>
+          </div>
         </div>
       </div>
       <div className={Styles.img}>Img here</div>
