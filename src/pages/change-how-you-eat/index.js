@@ -51,8 +51,37 @@ const ChangeHowYouEatPage = () => (
     </section>
 
     <section className={`${ChoiceStyles.how} ${Styles.how}`}>
-      <div className={`${GlobalStyles.inner} ${ChoiceStyles.inner}`}>
-        <h1>Title</h1>
+      <div className={`${GlobalStyles.inner} ${ChoiceStyles.howInner}`}>
+        <div className={`${ChoiceStyles.howContent} ${Styles.howContent}`}>
+          <h1 className={`${ChoiceStyles.howTitle} ${Styles.howTitle}`}>
+            How food contributes to climate breakdown
+          </h1>
+          <ol
+            className={`${ChoiceStyles.choiceList} ${ChoiceStyles.howList} ${
+              Styles.howList
+            }`}
+          >
+            <li>
+              When livestock digests their food they burp up methane gas. Manure
+              and rice paddies are also big contributors to methane in the
+              atmosphere.
+            </li>
+            <li>
+              Farm vehicles and machinery run on fossil fuels which put carbon
+              into the atmosphere, most fertilizers used release nitrous oxide.{' '}
+            </li>
+            <li>
+              We waste ⅓ of all food. That means we’ve unnecessarily used vital
+              energy to produce it, releasing greenhouse gases in the process -
+              and when it’s dumped it rots becoming methane gas.
+            </li>
+            <li>
+              Forests are regularly cleared around the word for use by farms and
+              livestock resulting in lots of carbon being released.
+            </li>
+          </ol>
+        </div>
+        <div className={`${ChoiceStyles.howImg} ${Styles.howImg}`}>Image</div>
       </div>
     </section>
   </Layout>

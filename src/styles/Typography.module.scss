@@ -76,7 +76,6 @@ $title-large: (
   @include font-size($title-large);
   font-weight: bold;
   color: $black;
-  letter-spacing: -0.24px;
 
 }
 
@@ -130,7 +129,10 @@ $text-xsmall: (
 );
 
 
-
+@mixin text-small {
+  @include font-size($text-small);
+  color: $textBody;
+}
 
 @mixin text-body {
   @include font-size($text-body);
