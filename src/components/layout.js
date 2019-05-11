@@ -24,7 +24,7 @@ class Layout extends React.Component {
 
         <Navbar />
         <main>{children}</main>
-        <ShareSocialCta {...homePageConfig} />
+
         <FooterCta />
         <Footer />
       </div>

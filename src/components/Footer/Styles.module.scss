@@ -203,15 +203,26 @@
 .impactMakersCreators {
   list-style-type: none;
   padding: 0;
-  margin: 20px auto 30px;
+  margin: 13px auto 30px;
   display: flex;
+  flex-direction: column;
+  @include mq('tablet') {
+    margin: 15px auto 30px;
+    flex-direction: row;
+  }
 }
 
 .impactMakersCreator {
-  margin: 0 30px 0 0;
   @include links-on-light;
+  margin-bottom: 10px;
   &:last-child {
-    margin: 0;
+    margin-bottom: 0;
+  }
+  @include mq('tablet') {
+    margin: 0 30px 0 0;
+    &:last-child {
+      margin-right: 0;
+    }
   }
 }
 

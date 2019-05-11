@@ -41,7 +41,7 @@
   margin: 0;
   font-weight: 700;
   font-family: $serif;
-  color: $orange;
+  color: $orangeOnDark;
   text-align: center;
   @include mq('tablet') {
     text-align: left;
@@ -93,3 +93,239 @@
 }
 
 /* How it happens */
+
+.how {}
+
+.howInner {
+  @include pad-top-standard;
+  @include pad-bot-standard;
+  justify-content: space-between;
+  flex-direction: column;
+  @include mq('tablet') {
+    flex-direction: row;
+  }
+}
+
+
+.howContent {
+  width: 100%;
+  @include mq('tablet') {
+    width: 50%;
+  }
+}
+
+.howTitle {
+  margin-top: 0;
+  @include font-size($title-large);
+}
+
+.choiceList {}
+
+.howList {}
+
+.choiceList {
+  @include text-small;
+  list-style: none; 
+  counter-reset: li;
+  padding: 0 0 0 40px;
+  :before {content: counter(li); 
+    color: $blue;
+    background: $blueLight;
+    font-weight: bold;
+    display: inline-block; 
+    width: 30px;
+    margin-left: -2.8em;
+    margin-right: 1em; 
+    text-align: center; 
+    direction: rtl
+  }
+  li {
+    counter-increment: li;
+    padding: 0 5px 30px;
+    margin: 0;
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+  @include mq('tablet') {
+    padding-left: 43px;
+  }
+}
+
+/* What stops us */
+
+.stops {
+  background: $orange
+}
+
+.stopsInner {
+  justify-content: space-between;
+  flex-direction: column;
+  @include mq('tablet') {
+    flex-direction: row;
+  }
+}
+
+
+.stopsContent {
+  width: 100%;
+  @include pad-top-standard;
+  @include pad-bot-standard;
+  @include mq('tablet') {
+    width: 50%;
+  }
+}
+
+.stopsListContainer {
+  @include mq('tablet') {
+    @include pad-left-standard;
+  }
+}
+
+.stopsList {
+  color: $white;
+  :before {content: counter(li); 
+    color: $white;
+    background: rgba($white,0.16);
+  }
+}
+
+.stopsTitle {
+  color: $white;
+  margin: 0;
+  max-width: 300px;
+  @include pad-top-standard;
+  @include pad-left-standard;
+  @include pad-right-standard; 
+  @include font-size($title-large);
+  text-shadow: 0 2px 14px rgba(0,0,0,0.50);
+}
+
+.stopsImg {
+  width: 100%;
+  height: 240px;
+  background: url('../../static/images/Photos/stopsEat.jpg') no-repeat top center;
+  background-size: cover;
+  display: block;
+  @include mar-top-standard;
+  @include mq('tablet') {
+    margin: 0;
+    width: 50%;
+    height: auto;
+  }
+}
+
+/* What youc an do now */
+
+.actions {}
+
+.actionsInner {
+  @include pad-top-standard;
+
+  justify-content: space-between;
+  flex-direction: column;
+  @include mq('tablet') {
+    padding-bottom: 0;
+  }
+}
+
+
+.actionsContent {
+  width: 100%;
+  @include mq('tablet') {
+
+  }
+}
+
+.actionsTitle {
+  margin-top: 0;
+  text-align: center;
+  @include mq('tablet') {
+    padding-bottom:15px;
+  }
+}
+
+.action {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  @include pad-bot-standard;
+  @include mq('tablet') {
+    flex-direction: row;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+.actionAnother {
+  border-top: 1px solid $grayBorder;
+  @include pad-top-standard;
+}
+
+.actionContent {
+  width: 100%;
+  @include mq('tablet') {
+    width: 56%;
+  }
+}
+.actionTitle {
+  margin-top: 0;
+}
+
+.actionHowTitle {
+  @include font-size($text-large);
+  color: $orange;
+  margin: 20px 0 0;
+  display: flex;
+  align-items: center;
+  img {
+    padding-right: 7px;
+  }
+  @include mq('tablet') {
+    margin: 30px 0 0;
+  }
+}
+
+.actionDesc {
+  @include font-size($text-small);
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.actionAside {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: $blueLight;
+  margin-top: 20px;
+  @include mq('tablet') {
+    margin-top: 5px;
+    width: 35%;
+  }
+}
+.actionAsideTitle {
+  @include title-uppercase-small; 
+}
+
+.actionAsideContainer {
+  padding: 20px 20px;
+  @include mq('tablet') {
+    padding: 25px 30px;
+  }
+}
+
+.actionAsideList {
+  width: auto;
+  margin: 13px 0 0 0;
+  @include links-on-light;
+  list-style-type: none;
+  padding: 0;
+  li {
+    @include font-size($text-small);
+    padding-bottom: 17px;
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+}

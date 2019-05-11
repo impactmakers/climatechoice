@@ -2,13 +2,16 @@
 /* Colors */
 $black: #0D1626;
 $white: #FFFFFF;
-$orange: #DC8C01;
+$orangeOnDark: #DC8C01;
+$orange: #CF8300;
+
 $blue: #396ABF;
 $green: #00B364;
 $pink: #F281AC;
 $yellow: #EFAF4B;
 $yellowLight: #FFE1B2;
 $greenLight: #D7F3E7;
+$blueLight: #E9EFFA;
 
 $whiteFaded: rgba($white, 0.7);
 
@@ -25,7 +28,7 @@ $linkActive: darken($orange, 7.5%);
 
 // Specific Usage
 
-$textBody: $gray;
+$textBody: $black;
 
 
 

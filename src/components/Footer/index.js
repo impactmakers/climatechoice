@@ -149,13 +149,19 @@ const Footer = () => (
             </a>
           </li>
           <li className={Styles.impactMakersCreator}>
-            <a href="https://twitter.com/" title="Follow @????? on Twitter">
-              @?????
+            <a
+              href="https://twitter.com/thepaulmcbride"
+              title="Follow @thepaulmcbride on Twitter"
+            >
+              @thepaulmcbride
             </a>
           </li>
           <li className={Styles.impactMakersCreator}>
-            <a href="https://twitter.com/" title="Follow @????? on Twitter">
-              @?????
+            <a
+              href="https://twitter.com/tobequitefrank1"
+              title="Follow @tobequitefrank1 on Twitter"
+            >
+              @tobequitefrank1
             </a>
           </li>
         </ul>
