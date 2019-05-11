@@ -65,6 +65,10 @@
 
 .ctaPrimary {
   @include no-underline;
+  width: 100%;
+  @include mq('tablet') {
+    width: auto;
+  }
 }
 
 .ctaSecondary {
