@@ -61,11 +61,7 @@ const HomeIntro = () => {
                 Learn how you can help
               </button>
             </a>
-            <div className={Styles.ctaSecondary}>
-              <a href="#" title="See how climate change happens">
-                Need convinced? Watch this
-              </a>
-            </div>
+            <ConvincedButton />
           </div>
         </div>
         <div className={Styles.img}>
