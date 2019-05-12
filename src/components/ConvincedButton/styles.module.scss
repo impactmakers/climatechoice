@@ -1,0 +1,31 @@
+@import "../../styles/Variables.module.scss";
+@import "../../styles/Mixins.module.scss";
+@import "../../styles/Typography.module.scss";
+
+// move these styles to globals
+.ctas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+  @include mq("tablet") {
+    margin-top: 40px;
+    flex-direction: row;
+  }
+}
+
+// move these styles to globals
+.ctaSecondary {
+  @include links-on-dark;
+  margin-top: 30px;
+  font-size: 21px;
+  a {
+    font-weight: normal;
+  }
+  @include mq("tablet") {
+    margin-top: 0;
+    flex-direction: row;
+  }
+}
