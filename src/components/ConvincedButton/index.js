@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+
+import VideoModal from "../VideoModal";
+
 import styles from "./styles.module.scss";
 
 export default function ConvincedButton() {
@@ -16,7 +19,7 @@ export default function ConvincedButton() {
       >
         Need convinced? Watch this
       </a>
-      {showModal && <div>IM A MODAL</div>}
+      {showModal && <VideoModal />}
     </div>
   );
 }
