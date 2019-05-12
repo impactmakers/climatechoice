@@ -12,7 +12,12 @@ import shareConfig from '../../configs/pages/choiceEatConfig';
 
 const ChangeHowYouEatPage = () => (
   <Layout>
-    <SEO title="Change How You Eat" keywords={[`Food`, `ClimateChoice`]} />
+    <SEO
+      title="Change How You Eat"
+      description="Learn how you can change how you eat to help prevent earth's climate breaking down."
+      image="../../../images/Photos/stopsEat.jpg"
+      keywords={[`Food`, `ClimateChoice`]}
+    />
     <section className={`${ChoiceStyles.banner} ${Styles.banner}`}>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.inner}`}>
         <div
