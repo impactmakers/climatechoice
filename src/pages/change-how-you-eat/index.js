@@ -48,11 +48,18 @@ const ChangeHowYouEatPage = () => (
           </div>
         </div>
         <div className={`${ChoiceStyles.bannerImg} ${Styles.bannerImg}`}>
-          Image
+          <img
+            src="../../../images/Graphics/choiceBannerEat.svg"
+            alt="Yomo"
+            className={`${ChoiceStyles.bannerImgShadow} ${
+              Styles.bannerImgShadow
+            }`}
+          />
         </div>
       </div>
     </section>
     <section className={`${ChoiceStyles.how} ${Styles.how}`}>
+      <a name="how" />
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.howInner}`}>
         <div className={`${ChoiceStyles.howContent} ${Styles.howContent}`}>
           <h1 className={`${ChoiceStyles.howTitle} ${Styles.howTitle}`}>
@@ -70,8 +77,9 @@ const ChangeHowYouEatPage = () => (
             </li>
             <li>
               Farm vehicles and machinery run on fossil fuels which put carbon
-              into the atmosphere, most fertilizers used release nitrous oxide.{' '}
+              into the atmosphere.
             </li>
+            <li>Most fertilizers used in farming release nitrous oxide.</li>
             <li>
               We waste ⅓ of all food. That means we’ve unnecessarily used vital
               energy to produce it, releasing greenhouse gases in the process -
@@ -83,7 +91,7 @@ const ChangeHowYouEatPage = () => (
             </li>
           </ol>
         </div>
-        <div className={`${ChoiceStyles.howImg} ${Styles.howImg}`}>Image</div>
+        {/* <div className={`${ChoiceStyles.howImg} ${Styles.howImg}`}>Image</div> */}
       </div>
     </section>
     <section className={`${ChoiceStyles.stops} ${Styles.stops}`}>
@@ -113,6 +121,14 @@ const ChangeHowYouEatPage = () => (
                 products so much that we can’t bring ourselves to quit them.
               </li>
               <li>
+                The way we eat today is percieved as normal, with changing comes
+                social pressure to return to 'normal' eating practices.
+              </li>
+              <li>
+                Often it's hard to know exactly what you should and shouldn't
+                eat if you want to reduce your carbon footprint.
+              </li>
+              <li>
                 Acting on climate change represents a trade-off between
                 short-term and long-term benefits, which is the hardest
                 trade-off for people to make. Ignoring it in the short-term is
@@ -124,6 +140,7 @@ const ChangeHowYouEatPage = () => (
       </div>
     </section>
     <section className={`${ChoiceStyles.actions} ${Styles.actions}`}>
+      <a name="actions" />
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.actionsInner}`}>
         <div
           className={`${ChoiceStyles.actionsContent} ${Styles.actionsContent}`}
@@ -142,12 +159,11 @@ const ChangeHowYouEatPage = () => (
             </h2>
             <p className={`${ChoiceStyles.actionDesc} ${Styles.actionDesc}`}>
               The biggest impact can be had if you{' '}
-              <b>eat less meat and dairy</b>, but other foods such as fish and
-              eggs have a carbon footprint too.
+              <b>eat less animal products — inparticular meat and dairy</b>,
+              however all purchased food items have a carbon footprint.{' '}
               <b>If you’re really commited go vegan</b>. Try to only buy items
-              with
-              <b>sustainable, or no packaging</b>, and <b>buy local</b> so your
-              food isn’t travelling around the world.
+              with <b>sustainable, or no packaging</b>, and <b>buy local</b> so
+              your food isn’t travelling around the world.
             </p>
             <h3
               className={`${ChoiceStyles.actionHowTitle} ${
@@ -187,16 +203,19 @@ const ChangeHowYouEatPage = () => (
                 }`}
               >
                 <li>
+                  <a
+                    href="https://www.bbc.com/news/science-environment-46459714"
+                    title="Food Carbon Footprint Calculator"
+                  >
+                    Calculate your foods carbon footprint →
+                  </a>
+                </li>
+                {/* <li>
                   <a href="#" title="?">
                     Learn how to spot food and drink with a high carbon
                     footprint →
                   </a>
-                </li>
-                <li>
-                  <a href="#" title="?">
-                    Another resource →
-                  </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

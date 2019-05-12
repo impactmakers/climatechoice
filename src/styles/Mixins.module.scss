@@ -64,25 +64,25 @@
 @mixin pad-top-large {
   padding-top: 40px;
   @include mq('tablet') {padding-top: 80px;}
-  @include mq('desktop') {padding-top: 140px;}
+  @include mq('desktop') {padding-top: 120px;}
 }
 
 @mixin mar-top-large {
   margin-top: 40px;
   @include mq('tablet') {margin-top: 80px;}
-  @include mq('desktop') {margin-top: 140px;}
+  @include mq('desktop') {margin-top: 120px;}
 }
 
 @mixin pad-bot-large {
   padding-bottom: 40px;
   @include mq('tablet') {padding-bottom: 80px;}
-  @include mq('desktop') {padding-bottom: 140px;}
+  @include mq('desktop') {padding-bottom: 120px;}
 }
 
 @mixin mar-bot-large {
   margin-bottom: 40px;
   @include mq('tablet') {margin-bottom: 80px;}
-  @include mq('desktop') {margin-bottom: 140px;}
+  @include mq('desktop') {margin-bottom: 120px;}
 }
 
 
