@@ -15,9 +15,7 @@
 
 
 .inner {
-  @include pad-top-standard;
-  @include pad-bot-standard;
-  @include mar-bot-small;
+  align-items: center;
   justify-content: space-between;
   flex-direction: column;
   @include mq('tablet') {
@@ -30,6 +28,9 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  @include pad-top-standard;
+  @include pad-bot-standard;
+  @include mar-bot-small;
   @include mq('tablet') {
     max-width: 700px;
   }
@@ -56,8 +57,6 @@
     text-align: left;
   }
 }
-.bannerImg {}
-
 
 .bannerActions {
   display: flex;
@@ -92,17 +91,37 @@
   }
 }
 
+.bannerImg {
+  display: flex;
+  align-items: center;
+  margin: 10px auto 40px;
+  @include mq('tablet') {
+    margin: 0;
+  }
+}
+
+.bannerImgShadow {
+  -webkit-filter: drop-shadow( 0px 0px 62px rgba($black, .8));
+  filter: drop-shadow( 0px 0px 62px rgba($black, .8));
+}
+
+
 /* How it happens */
 
 .how {}
 
 .howInner {
-  @include pad-top-standard;
-  @include pad-bot-standard;
+  @include pad-top-large;
+  @include pad-bot-large;
+
+  align-items: flex-start;
   justify-content: space-between;
+  align-items: center;
   flex-direction: column;
+  max-width: $sub;
+  margin: 0 auto;
   @include mq('tablet') {
-    flex-direction: row;
+
   }
 }
 
@@ -110,23 +129,22 @@
 .howContent {
   width: 100%;
   @include mq('tablet') {
-    width: 50%;
+    //width: 50%;
   }
 }
 
 .howTitle {
   margin-top: 0;
-  @include font-size($title-large);
+  text-align: center;
+  @include font-size($title-xlarge);
 }
-
-.choiceList {}
-
 .howList {}
 
 .choiceList {
   @include text-small;
   list-style: none; 
   counter-reset: li;
+  margin: 0;
   padding: 0 0 0 40px;
   :before {content: counter(li); 
     color: $blue;
@@ -184,6 +202,7 @@
 
 .stopsList {
   color: $white;
+  margin: 0;
   :before {content: counter(li); 
     color: $white;
     background: rgba($white,0.16);
@@ -198,14 +217,15 @@
   @include pad-left-standard;
   @include pad-right-standard; 
   @include font-size($title-large);
-  text-shadow: 0 2px 14px rgba(0,0,0,0.50);
+  text-shadow: 0 2px 17px rgba(0,0,0,0.6);
 }
+
 
 .stopsImg {
   width: 100%;
   height: 240px;
-  background: url('../../static/images/Photos/stopsEat.jpg') no-repeat top center;
   background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.4);
   display: block;
   @include mar-top-standard;
   @include mq('tablet') {
@@ -220,13 +240,11 @@
 .actions {}
 
 .actionsInner {
-  @include pad-top-standard;
-
+  @include pad-top-large;
+  @include pad-bot-large;
   justify-content: space-between;
   flex-direction: column;
-  @include mq('tablet') {
-    padding-bottom: 0;
-  }
+
 }
 
 
@@ -249,12 +267,16 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  align-items: center;
   flex-direction: column;
+  max-width: $sub;
+  margin: 0 auto;
   @include pad-bot-standard;
+  &:last-child {
+    padding-bottom: 0;
+  }
   @include mq('tablet') {
-    flex-direction: row;
-    max-width: 1000px;
-    margin: 0 auto;
+
   }
 }
 .actionAnother {
@@ -264,8 +286,9 @@
 
 .actionContent {
   width: 100%;
+  margin: 0 auto;
   @include mq('tablet') {
-    width: 56%;
+
   }
 }
 .actionTitle {
@@ -300,8 +323,7 @@
   background: $blueLight;
   margin-top: 20px;
   @include mq('tablet') {
-    margin-top: 5px;
-    width: 35%;
+    margin-top: 40px;
   }
 }
 .actionAsideTitle {
@@ -323,7 +345,7 @@
   padding: 0;
   li {
     @include font-size($text-small);
-    padding-bottom: 17px;
+    padding-bottom: 14px;
     &:last-child {
       padding-bottom: 0;
     }
