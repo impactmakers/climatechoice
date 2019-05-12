@@ -1,7 +1,6 @@
-@import '../../styles/Variables.module.scss';
-@import '../../styles/Mixins.module.scss';
-@import '../../styles/Typography.module.scss';
-
+@import "../../styles/Variables.module.scss";
+@import "../../styles/Mixins.module.scss";
+@import "../../styles/Typography.module.scss";
 
 .container {
   @include pad-top-large;
@@ -24,27 +23,23 @@
   z-index: 999;
   position: relative;
   background: $white;
-  @include mq('tablet') {
+  @include mq("tablet") {
     margin-top: 0;
   }
 }
-
-
 
 .inner {
   @include pad-bot-large;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  @include mq('tablet') {
-
+  @include mq("tablet") {
   }
 }
 
 .choiceGridInner {
   padding-bottom: 0;
 }
-
 
 .title {
   width: 100%;
@@ -60,8 +55,6 @@
   color: $white;
 }
 
-
-
 .choiceGrid {
   @include mar-top-standard;
   justify-content: space-between;
@@ -74,35 +67,35 @@
   &:last-child {
     margin-bottom: 0;
   }
-  @include mq('tablet') {
+  @include mq("tablet") {
     grid-gap: 30px;
     margin-bottom: 30px;
     grid-template-columns: 1fr 1fr;
   }
-  @include mq('desktop') {
+  @include mq("desktop") {
     grid-gap: 30px;
     grid-template-columns: 1fr 1fr 1fr;
   }
-} 
+}
 
 .choiceGridItem {
   @include white-box;
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  transition: opacity .25s ease-in-out;
-  -moz-transition: opacity .25s ease-in-out;
-  -webkit-transition: opacity .25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
   top: 0;
   &:hover {
     border: 1px solid $orangeOnDark;
-    box-shadow: 0 1px 30px 0 rgba($orangeOnDark,0.2);
+    box-shadow: 0 1px 30px 0 rgba($orangeOnDark, 0.2);
     top: -2px;
     position: relative;
   }
   &:active {
     border: 1px solid $orange;
-    box-shadow: 0 1px 30px 0 rgba($orange,0.2);
+    box-shadow: 0 1px 30px 0 rgba($orange, 0.2);
     top: 1px;
     position: relative;
   }
@@ -113,9 +106,9 @@
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  transition: opacity .25s ease-in-out;
-  -moz-transition: opacity .25s ease-in-out;
-  -webkit-transition: opacity .25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
   top: 0;
   &:hover {
     @include white-box;
@@ -153,7 +146,6 @@
   background: $grayLight;
 }
 
-
 .choiceChevron {
   margin-top: 2px;
 }
@@ -165,13 +157,13 @@
   br {
     content: " ";
     display: none;
-}
-  @include mq('tablet') {
+  }
+  @include mq("tablet") {
     min-height: 80px;
     br {
       display: block;
     }
-  } 
+  }
 }
 
 .choiceSoonTitle {
@@ -186,7 +178,8 @@
   color: $gray;
 }
 
-.choiceReadTime {}
+.choiceReadTime {
+}
 
 .choiceReadStatus {
   display: flex;
@@ -203,7 +196,6 @@
 
 /* subscribe */
 
-
 .subscribe {
   display: flex;
   flex-direction: column;
@@ -212,20 +204,20 @@
   align-items: center;
   margin: 25px auto 0;
   width: auto;
-  @include mq('tablet') {
+  @include mq("tablet") {
     justify-content: center;
     margin-top: 70px;
   }
-  @include mq('desktop') {
+  @include mq("desktop") {
     margin-top: 110px;
   }
-}   
+}
 
 .subscribeForm {
   display: flex;
   flex-direction: column;
   align-items: center;
-  @include mq('tablet') {
+  @include mq("tablet") {
     flex-direction: row;
   }
 }
@@ -234,12 +226,12 @@
   margin: 0 0 20px 0;
   text-align: center;
   @include font-size($text-large);
-  @include mq('tablet') {
+  @include mq("tablet") {
     margin: 0 30px 0 0;
   }
 }
 
 .ctaButton {
   @include no-underline;
-    margin: 0;
+  margin: 0;
 }
