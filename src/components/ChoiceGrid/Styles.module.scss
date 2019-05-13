@@ -4,17 +4,12 @@
 
 
 .container {
-  z-index: 999;
-  position: relative;
+  @include pad-top-large;
   box-sizing: border-box;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: -200px;
-  @include mq('tablet') {
-    margin-top: 0;
-  }
 }
 
 .containerLight {
@@ -24,9 +19,18 @@
   background: $black;
 }
 
+.choiceGridContainer {
+  margin-top: -200px;
+  z-index: 999;
+  position: relative;
+  background: $white;
+  @include mq('tablet') {
+    margin-top: 0;
+  }
+}
+
 
 .inner {
-  @include pad-top-large;
   @include pad-bot-large;
   justify-content: space-between;
   align-items: center;
@@ -34,6 +38,10 @@
   @include mq('tablet') {
 
   }
+}
+
+.choiceGridInner {
+  padding-bottom: 0;
 }
 
 
@@ -99,6 +107,25 @@
   }
 }
 
+.choiceGridSoon {
+  @include white-box;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  top: 0;
+  &:hover {
+    @include white-box;
+    top: 0;
+  }
+  &:active {
+    @include white-box;
+    top: 0;
+  }
+}
+
 .choiceContainer {
   text-decoration: none;
   padding: 30px;
@@ -121,6 +148,11 @@
   margin-bottom: 20px;
 }
 
+.choiceSoonIcon {
+  background: $grayLight;
+}
+
+
 .choiceChevron {
   margin-top: 2px;
 }
@@ -139,6 +171,11 @@
       display: block;
     }
   } 
+}
+
+.choiceSoonTitle {
+  font-weight: normal;
+  color: $gray;
 }
 
 .choiceMeta {

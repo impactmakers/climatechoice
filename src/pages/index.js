@@ -5,7 +5,9 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import ChoiceGrid from '../components/ChoiceGrid/light';
 import ShareSocialCta from '../components/ShareSocialCta';
-import shareConfig from '../configs/pages/homePageConfig';
+import shareConfig from '../configs/pages/homepageConfig';
+import SubscribeBanner from '../components/SubscribeBanner';
+
 class HomePage extends React.Component {
   render() {
     return (
@@ -14,6 +16,7 @@ class HomePage extends React.Component {
 
         <HomeIntro />
         <ChoiceGrid />
+        <SubscribeBanner />
         <ShareSocialCta {...shareConfig} />
       </Layout>
     );

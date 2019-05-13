@@ -81,7 +81,7 @@ const ChoiceGridItems = () => (
         <div className={Styles.choiceHeader}>
           <div className={Styles.choiceIcon}>
             <img
-              src="../../../../images/Icons/ChoiceTravelIcon.svg"
+              src="../../../../images/Icons/ChoiceEnergyIcon.svg"
               alt="Use less energy"
             />
           </div>
@@ -125,6 +125,26 @@ const ChoiceGridItems = () => (
           <span className={Styles.choiceReadStatus}>Not read yet</span>
         </div>
       </Link>
+    </li>
+    <li className={`${Styles.choiceGridItem} ${Styles.choiceGridSoon}`}>
+      <div className={Styles.choiceContainer} >
+        <div className={Styles.choiceHeader}>
+          <div className={`${Styles.choiceIcon} ${Styles.choiceSoonIcon}`}>
+            <img
+              src="../../../../images/Icons/ChoiceSoonIcon.svg"
+              alt="More guides coming soon"
+            />
+          </div>
+
+        </div>
+        <h2 className={`${Styles.choiceTitle} ${Styles.choiceSoonTitle}`}>
+          Watch this <br />
+          space...
+        </h2>
+        <div className={Styles.choiceMeta}>
+          <span className={Styles.choiceReadStatus}>More guides coming soon</span>
+        </div>
+      </div>
     </li>
   </ul>
 );

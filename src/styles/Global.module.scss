@@ -45,3 +45,36 @@ body {
   }
 }
 
+
+
+/* Subpage centered styles */
+
+
+.subpageInner {
+  @include pad-top-large;
+  @include pad-bot-large;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  max-width: $sub;
+  margin: 0 auto;
+  @include mq('tablet') {
+
+  }
+}
+
+
+.subpageContent {
+  width: 100%;
+  @include mq('tablet') {
+    //width: 50%;
+  }
+}
+
+.subpageTitle {
+  margin-top: 0;
+  text-align: center;
+  @include font-size($title-xlarge);
+}
+
