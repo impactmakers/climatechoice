@@ -3,6 +3,7 @@ import Layout from '../../components/layout';
 import SEO from '../../components/seo';
 import GlobalStyles from '../../styles/Global.module.scss';
 import Styles from './Styles.module.scss';
+import FooterCta from '../../components/FooterCta';
 
 const AboutPage = () => (
   <Layout>
@@ -17,6 +18,7 @@ const AboutPage = () => (
         </div>
       </div>
     </section>
+    <FooterCta />
   </Layout>
 );
 

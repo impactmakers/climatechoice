@@ -43,7 +43,6 @@ class Layout extends React.Component {
         <Navbar />
         <main>{children}</main>
 
-        <FooterCta />
         <Footer />
       </div>
     );

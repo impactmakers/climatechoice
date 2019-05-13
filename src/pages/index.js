@@ -3,8 +3,9 @@ import { graphql } from 'gatsby';
 import HomeIntro from '../components/HomeIntro';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import ChoiceGrid from '../components/ChoiceGrid';
-
+import ChoiceGrid from '../components/ChoiceGrid/light';
+import ShareSocialCta from '../components/ShareSocialCta';
+import shareConfig from '../configs/pages/homePageConfig';
 class HomePage extends React.Component {
   render() {
     return (
@@ -13,6 +14,7 @@ class HomePage extends React.Component {
 
         <HomeIntro />
         <ChoiceGrid />
+        <ShareSocialCta {...shareConfig} />
       </Layout>
     );
   }

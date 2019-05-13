@@ -4,7 +4,6 @@
 
 
 .container {
-  background: $white;
   z-index: 999;
   position: relative;
   box-sizing: border-box;
@@ -17,6 +16,14 @@
     margin-top: 0;
   }
 }
+
+.containerLight {
+  background: $white;
+}
+.containerDark {
+  background: $black;
+}
+
 
 .inner {
   @include pad-top-large;
@@ -38,6 +45,10 @@
   font-weight: 700;
   font-family: $serif;
   @include font-size($title-large);
+}
+
+.titleWhite {
+  color: $white;
 }
 
 

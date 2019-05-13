@@ -9,10 +9,10 @@ const homePageConfig = {
 
   ctaCopy: (
     <>
-      <BoldText>Dont assume</BoldText> everyone knows they should change the way
-      that they eat to prevent climate breakdown.{' '}
-      <BoldText>We need everyone to become informed </BoldText>so they can also
-      make a choice about what they eat.
+      <BoldText>Dont assume</BoldText> everyone knows about the choices they
+      should make to help prevent climate breakdown.{' '}
+      <BoldText>We need everyone to become aware of what they can do</BoldText>.
+      That way they can make informed decisions.
     </>
   ),
   emailSubject: 'Just saw this new site: Climate Choice',
@@ -27,9 +27,9 @@ const homePageConfig = {
     'Check out how you can change your diet and positively affect climate change at',
   twitterAccount: 'climatechoice',
   twitterHashtags: ['climatechange'],
-  socialTitle: 'Want to let others know how they can change what they eat?',
+  socialTitle: 'Want to help others learn what to do about climate breakdown?',
   socialCopy:
-    'Then share this web page with your friends, family and followers via our handy pre-written message!',
+    'Then please share ClimateChoice with your friends, family and followers via our handy pre-written message!',
   url: 'https://climatechoice.co/',
   whatsappTitle: 'check out this new site, Climate Choice'
 };

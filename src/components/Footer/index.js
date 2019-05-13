@@ -70,7 +70,10 @@ const Footer = () => (
                 </Link>
               </li>
               <li className={Styles.navItem}>
-                <Link to="/contribute" title="Contribute to ClimateChoice">
+                <Link
+                  to="/contact#contribute"
+                  title="Contribute to ClimateChoice"
+                >
                   Contribute
                 </Link>
               </li>
