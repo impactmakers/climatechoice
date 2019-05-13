@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'gatsby';
 import GlobalStyles from '../../styles/Global.module.scss';
 import ButtonStyles from '../../styles/Buttons.module.scss';
 import Styles from './Styles.module.scss';
@@ -67,7 +66,13 @@ const HomeIntro = () => {
             </div>
           </div>
         </div>
-        <div className={Styles.img}>Img here</div>
+        <div className={Styles.img}>
+          <img
+            src="../../../images/Graphics/homeBanner3.svg"
+            alt="CO2 Emissions Target"
+            className={Styles.bannerImg}
+          />
+        </div>
       </div>
     </section>
   );

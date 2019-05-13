@@ -17,6 +17,7 @@
   background: none;
   height: 30px;
   fill: $white;
+  width: auto;
   a {
     fill: $white;
   }
@@ -65,7 +66,7 @@
   background-color: #0d1626;
   position: absolute;
   display: flex;
-  top: 72px;
+  top: 66px;
   z-index: 999;
   left: 0;
 

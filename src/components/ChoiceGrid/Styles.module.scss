@@ -4,16 +4,23 @@
 
 
 .container {
+  background: $white;
+  z-index: 999;
+  position: relative;
   box-sizing: border-box;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: -200px;
+  @include mq('tablet') {
+    margin-top: 0;
+  }
 }
 
 .inner {
-  @include pad-top-standard;
-  @include pad-bot-standard;
+  @include pad-top-large;
+  @include pad-bot-large;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
