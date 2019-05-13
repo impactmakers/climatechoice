@@ -37,7 +37,7 @@ const ChoiceGrid = () => (
           </Link>
         </li>
         <li className={`${Styles.choiceGridItem} ${Styles.choiceEat}`}>
-          <Link className={Styles.choiceContainer} to="/change-how-you-eat">
+          <Link className={Styles.choiceContainer} to="/change-how-you-travel">
             <div className={Styles.choiceHeader}>
               <div className={Styles.choiceIcon}>
                 <img
@@ -81,6 +81,56 @@ const ChoiceGrid = () => (
               />
             </div>
             <h2 className={Styles.choiceTitle}>Choose renewable energy</h2>
+            <div className={Styles.choiceMeta}>
+              <span className={Styles.choiceReadStatus}>Not read yet</span>
+            </div>
+          </Link>
+        </li>
+        <li className={`${Styles.choiceGridItem} ${Styles.choiceEat}`}>
+          <Link className={Styles.choiceContainer} to="/use-less-energy">
+            <div className={Styles.choiceHeader}>
+              <div className={Styles.choiceIcon}>
+                <img
+                  src="../../../../images/Icons/ChoiceTravelIcon.svg"
+                  alt="Use less energy"
+                />
+              </div>
+
+              <img
+                className={Styles.choiceChevron}
+                src="../../../../images/Icons/ChevronGrayRightIcon.svg"
+                alt="Chevron"
+              />
+            </div>
+            <h2 className={Styles.choiceTitle}>
+              Use less <br />
+              energy
+            </h2>
+            <div className={Styles.choiceMeta}>
+              <span className={Styles.choiceReadStatus}>Not read yet</span>
+            </div>
+          </Link>
+        </li>
+        <li className={`${Styles.choiceGridItem} ${Styles.choiceRenewable}`}>
+          <Link className={Styles.choiceContainer} to="/change-your-lifestyle">
+            <div className={Styles.choiceHeader}>
+              <div className={Styles.choiceIcon}>
+                <img
+                  src="../../../../images/Icons/ChoiceLifestyleIcon.svg"
+                  alt="Change your lifestyle"
+                />
+              </div>
+
+              <img
+                className={Styles.choiceChevron}
+                src="../../../../images/Icons/ChevronGrayRightIcon.svg"
+                alt="Chevron"
+              />
+            </div>
+            <h2 className={Styles.choiceTitle}>
+              Change your <br />
+              lifestyle
+            </h2>
             <div className={Styles.choiceMeta}>
               <span className={Styles.choiceReadStatus}>Not read yet</span>
             </div>

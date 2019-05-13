@@ -25,9 +25,12 @@
 
 .title {
   width: 100%;
+  max-width: 600px;
   margin: 0;
+  align-self: flex-start;
   font-weight: 700;
   font-family: $serif;
+  @include font-size($title-large);
 }
 
 
@@ -36,13 +39,17 @@
   @include mar-top-standard;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   display: grid;
   padding: 0;
-  grid-gap: 30px;
+  grid-gap: 20px;
   grid-template-columns: 1fr;
+  &:last-child {
+    margin-bottom: 0;
+  }
   @include mq('tablet') {
     grid-gap: 30px;
+    margin-bottom: 30px;
     grid-template-columns: 1fr 1fr;
   }
   @include mq('desktop') {
@@ -61,12 +68,14 @@
   -webkit-transition: opacity .25s ease-in-out;
   top: 0;
   &:hover {
-    box-shadow: 0 1px 40px 0 rgba(50,47,68,0.2);
+    border: 1px solid $orangeOnDark;
+    box-shadow: 0 1px 30px 0 rgba($orangeOnDark,0.2);
     top: -2px;
     position: relative;
   }
   &:active {
-    box-shadow: 0 1px 40px 0 rgba(50,47,68,0.2);
+    border: 1px solid $orange;
+    box-shadow: 0 1px 30px 0 rgba($orange,0.2);
     top: 1px;
     position: relative;
   }
@@ -86,7 +95,7 @@
 .choiceIcon {
   width: 66px;
   height: 66px;
-  background: $orange;
+  background: $orangeOnDark;
   border-radius: 60px;
   display: flex;
   justify-content: center;
@@ -102,9 +111,15 @@
   margin-top: 0;
   margin-bottom: 20px;
   color: $blue;
+  br {
+    content: " ";
+    display: none;
+}
   @include mq('tablet') {
-
     min-height: 80px;
+    br {
+      display: block;
+    }
   } 
 }
 
