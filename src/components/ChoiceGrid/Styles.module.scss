@@ -77,8 +77,35 @@
   padding: 30px;
 }
 
+.choiceHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.choiceIcon {
+  width: 66px;
+  height: 66px;
+  background: $orange;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.choiceChevron {
+  margin-top: 2px;
+}
+
 .choiceTitle {
   margin-top: 0;
+  margin-bottom: 20px;
+  color: $blue;
+  @include mq('tablet') {
+
+    min-height: 80px;
+  } 
 }
 
 .choiceMeta {
