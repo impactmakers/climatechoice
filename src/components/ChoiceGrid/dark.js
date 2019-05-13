@@ -2,6 +2,7 @@ import React from 'react';
 import GlobalStyles from '../../styles/Global.module.scss';
 import Styles from './Styles.module.scss';
 import ChoiceGridItems from './items';
+import SubscribeBanner from '../../components/SubscribeBanner';
 
 const ChoiceGridDark = () => (
   <section className={`${Styles.container} ${Styles.containerDark}`}>
@@ -12,7 +13,9 @@ const ChoiceGridDark = () => (
       </h1>
       <ChoiceGridItems />
     </div>
+
   </section>
+  
 );
 
 export default ChoiceGridDark;

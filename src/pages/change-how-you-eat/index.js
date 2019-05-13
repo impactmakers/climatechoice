@@ -10,6 +10,7 @@ import Styles from './Styles.module.scss';
 import ShareSocialCta from '../../components/ShareSocialCta';
 import shareConfig from '../../configs/pages/choiceEatConfig';
 import ChoiceGridDark from '../../components/ChoiceGrid/dark';
+import SubscribeBanner from '../../components/SubscribeBanner';
 
 const ChangeHowYouEatPage = () => (
   <Layout>
@@ -271,6 +272,7 @@ const ChangeHowYouEatPage = () => (
     <ShareSocialCta {...shareConfig} />
     <ChoiceSupport />
     <ChoiceGridDark />
+    <SubscribeBanner />
   </Layout>
 );
 

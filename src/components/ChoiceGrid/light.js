@@ -4,15 +4,26 @@ import Styles from './Styles.module.scss';
 import ChoiceGridItems from './items';
 
 const ChoiceGridLight = () => (
-  <section className={`${Styles.container} ${Styles.containerLight}`}>
-    <a name="your-choices" />
-    <div className={`${GlobalStyles.inner} ${Styles.inner}`}>
-      <h1 className={Styles.title}>
-        Choices you can make to help prevent climate breakdown
+
+  <section className={`${GlobalStyles.container} ${Styles.choiceGridContainer}`}>
+  <a name="your-choices" />
+  <div className={`${GlobalStyles.inner} ${GlobalStyles.subpageInner} ${Styles.choiceGridInner}`}>
+    <div className={GlobalStyles.subpageContent}>
+      <h1 className={`${GlobalStyles.title} ${GlobalStyles.subpageTitle}`}>
+      Your choices today can help prevent climate breakdown
       </h1>
-      <ChoiceGridItems />
+      <p>It’s not too late to curb the effects of global warming before they spiral out of control, causing irreversible devastation across our planet. But <b>we need to act now</b>. Discover the choices you can make today, to take action and help prevent earth’s climate breaking down:</p>
     </div>
-  </section>
+  </div>
+  <div className={`${GlobalStyles.inner} ${Styles.inner}`}>
+    <ChoiceGridItems />
+  </div>
+</section>
+
+
+
+
+
 );
 
 export default ChoiceGridLight;
