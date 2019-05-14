@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import ButtonStyles from '../../styles/Buttons.module.scss';
 import Styles from './Styles.module.scss';
+import addToMailchimp from 'gatsby-plugin-mailchimp';
 
 const ChoiceGridItems = () => (
   <div className={Styles.choiceGridWrapper}>
@@ -154,15 +155,20 @@ const ChoiceGridItems = () => (
       <h3 className={Styles.subscribeTitle}>
         Get notified when we add more choice guides
       </h3>
-      <a className={Styles.ctaButton} href="/" title="Subscribe">
-        <button
-          className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnSm} ${
-            ButtonStyles.btnGreen
-          } ${ButtonStyles.btnMobile}`}
-        >
-          Subscribe now
-        </button>
-      </a>
+      <input
+        type="email"
+        value=""
+        name="EMAIL"
+        class="required email"
+        id="mce-EMAIL"
+      />
+      <input
+        type="submit"
+        value="Subscribe"
+        name="subscribe"
+        id="mc-embedded-subscribe"
+        class="button"
+      />
     </div>
   </div>
 );

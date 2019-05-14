@@ -4101,6 +4101,11 @@ elliptic@^6.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.0"
 
+email-validator@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.npm.taobao.org/email-validator/download/email-validator-2.0.4.tgz#b8dfaa5d0dae28f1b03c95881d904d4e40bfe7ed"
+  integrity sha1-uN+qXQ2uKPGwPJWIHZBNTkC/5+0=
+
 "emoji-regex@>=6.0.0 <=6.1.1":
   version "6.1.1"
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-6.1.1.tgz#c6cd0ec1b0642e2a3c67a1137efc5e796da4f88e"
@@ -5290,6 +5295,14 @@ gatsby-plugin-google-analytics@^2.0.14:
   integrity sha512-Db1nOpzS1Nq52E0tFfgF2uCPCnWEtJbUMKLX1RU5Hfki8BoPHpZUHrcd5NtT3KQuVa7Ekps+3uJVziK+Yj5n+A==
   dependencies:
     "@babel/runtime" "^7.0.0"
+
+gatsby-plugin-mailchimp@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.npm.taobao.org/gatsby-plugin-mailchimp/download/gatsby-plugin-mailchimp-5.1.0.tgz#10e5235d0d807ec1bd681c8c0fa636f4a6064491"
+  integrity sha1-EOUjXQ2AfsG9aByMD6Y29KYGRJE=
+  dependencies:
+    email-validator "^2.0.4"
+    jsonp "^0.2.1"
 
 gatsby-plugin-manifest@^2.0.18:
   version "2.1.1"
