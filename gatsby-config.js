@@ -17,7 +17,13 @@ module.exports = {
         name: `blog`
       }
     },
-
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint:
+          'https://shylands.us12.list-manage.com/subscribe/post?u=8a0a61ac67959bc53bf568501&amp;id=eaa9d680b0'
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -52,7 +58,7 @@ module.exports = {
     `gatsby-plugin-netlify-cms`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    "gatsby-transformer-yaml",
+    'gatsby-transformer-yaml',
     `gatsby-plugin-advanced-sitemap`,
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -77,6 +83,6 @@ module.exports = {
     `gatsby-plugin-react-helmet`
   ],
   mapping: {
-    "MarkdownRemark.frontmatter.author": `AuthorYaml`
+    'MarkdownRemark.frontmatter.author': `AuthorYaml`
   }
 };
