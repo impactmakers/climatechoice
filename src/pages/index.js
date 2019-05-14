@@ -16,7 +16,6 @@ class HomePage extends React.Component {
 
         <HomeIntro />
         <ChoiceGrid />
-        <SubscribeBanner />
         <ShareSocialCta {...shareConfig} />
       </Layout>
     );

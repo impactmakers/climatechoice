@@ -362,7 +362,7 @@
   justify-content: space-between;
   flex-direction: column;
   @include mq('tablet') {
-    flex-direction: row;
+    flex-direction: row-reverse;
   }
 }
 
@@ -377,7 +377,7 @@
 }
 .tldrListContainer {
   @include mq('tablet') {
-    @include pad-left-standard;
+    @include pad-right-standard;
   }
 }
 
@@ -417,6 +417,7 @@
 .tldrSubtitle {
   color: $white;
   font-weight: bold;
+  max-width: 520px;
 }
 
 .tldrImg {
