@@ -4,7 +4,10 @@ import Styles from "./Styles.module.scss";
 import addToMailchimp from "gatsby-plugin-mailchimp";
 
 const ChoiceGridItems = () => {
+  const [email, setEmail] = useState("");
   const [visited, setVisited] = useState({});
+  const [message, setMessage] = useState();
+  const [result, setResult] = useState();
 
   useEffect(function checkVisitedPages() {
     const visited = {
@@ -22,14 +25,19 @@ const ChoiceGridItems = () => {
     setVisited(visited);
   }, []);
 
-  console.log(visited);
-
   function renderReadStatus(slug) {
     if (visited[slug]) {
       return <span className={Styles.choiceReadStatus}>Read</span>;
     }
 
     return <span className={Styles.choiceReadStatus}>Not read yet</span>;
+  }
+
+  async function handleSubmit(e) {
+    e.preventDefault();
+    const { result, msg } = await addToMailchimp(email);
+    setResult(result);
+    setMessage(msg);
   }
 
   return (
@@ -183,23 +191,33 @@ const ChoiceGridItems = () => {
         </li>
       </ul>
       <div className={Styles.subscribe}>
+        {message && (
+          <div>
+            <span>{result}</span>
+            <br />
+            <span>{message}</span>
+          </div>
+        )}
         <h3 className={Styles.subscribeTitle}>
           Get notified when we add more choice guides
         </h3>
-        <input
-          type="email"
-          value=""
-          name="EMAIL"
-          class="required email"
-          id="mce-EMAIL"
-        />
-        <input
-          type="submit"
-          value="Subscribe"
-          name="subscribe"
-          id="mc-embedded-subscribe"
-          class="button"
-        />
+        <form onSubmit={handleSubmit}>
+          <input
+            type="email"
+            value={email}
+            onChange={e => setEmail(e.target.value)}
+            name="EMAIL"
+            class="required email"
+            id="mce-EMAIL"
+          />
+          <input
+            type="submit"
+            value="Subscribe"
+            name="subscribe"
+            id="mc-embedded-subscribe"
+            class="button"
+          />
+        </form>
       </div>
     </div>
   );
