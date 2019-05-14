@@ -9,8 +9,7 @@ import ButtonStyles from '../../styles/Buttons.module.scss';
 import Styles from './Styles.module.scss';
 import ShareSocialCta from '../../components/ShareSocialCta';
 import shareConfig from '../../configs/pages/choiceEatConfig';
-import ChoiceGridLight from '../../components/ChoiceGrid/light';
-import SubscribeBanner from '../../components/SubscribeBanner';
+import ChoiceGridOnChoice from '../../components/ChoiceGrid/onChoice';
 
 const ChangeHowYouEatPage = () => (
   <Layout>
@@ -166,7 +165,7 @@ const ChangeHowYouEatPage = () => (
             </h2>
             <p className={`${ChoiceStyles.actionDesc} ${Styles.actionDesc}`}>
               The biggest impact can be had if you{' '}
-              <b>eat less animal products — inparticular meat and dairy</b>,
+              <b>eat less animal products — in particular meat and dairy</b>,
               however all purchased food items have a carbon footprint.{' '}
               <b>If you’re really commited go vegan</b>. Try to only buy items
               with <b>sustainable, or no packaging</b>, and <b>buy local</b> so
@@ -300,7 +299,7 @@ const ChangeHowYouEatPage = () => (
         </div>
       </div>
     </section>
-    <ChoiceGridLight />
+    <ChoiceGridOnChoice />
   </Layout>
 );
 

@@ -3,10 +3,9 @@ import { graphql } from 'gatsby';
 import HomeIntro from '../components/HomeIntro';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import ChoiceGrid from '../components/ChoiceGrid/light';
+import ChoiceGrid from '../components/ChoiceGrid';
 import ShareSocialCta from '../components/ShareSocialCta';
 import shareConfig from '../configs/pages/homepageConfig';
-import SubscribeBanner from '../components/SubscribeBanner';
 
 class HomePage extends React.Component {
   render() {

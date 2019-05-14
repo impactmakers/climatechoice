@@ -178,7 +178,7 @@
 
 
 .impactMakers {
-  background-color: $white;
+  @include white-box;
   width: 85%;
   @include mar-top-standard;
   @include pad-bot-standard;

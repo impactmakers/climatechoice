@@ -7,10 +7,12 @@ const Footer = () => (
   <footer className={Styles.container}>
     <div className={`${GlobalStyles.inner} ${Styles.ctaInner}`}>
       <div className={Styles.ctaContent}>
-        <h1 className={Styles.ctaTitle}>Want to do even more?</h1>
+        <h1 className={Styles.ctaTitle}>
+          Want to help prevent climate breakdown?
+        </h1>
         <p className={Styles.ctaText}>
-          Discover other choices you can make to help prevent earth's climate
-          breaking down.
+          Then read our straight-forward guides on choices you can make today to
+          help save the planet.
         </p>
       </div>
       <div className={Styles.ctaActions}>
