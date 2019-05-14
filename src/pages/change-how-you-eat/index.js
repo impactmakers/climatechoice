@@ -285,9 +285,9 @@ const ChangeHowYouEatPage = () => (
             <p
               className={`${ChoiceStyles.tldrSubtitle} ${Styles.tldrSubtitle}`}
             >
-              We’re killing the planet. Too many dangerous gases enter our
-              atmosphere because of the way we eat and drink. To reduce these we
-              must:
+              We’re killing the planet. 26% of dangerous greenhouse gas
+              emissions enter our atmosphere because of the way we eat and
+              drink. To reduce these we must:
             </p>
             <ul className={`${ChoiceStyles.tldrList} ${Styles.tldrList}`}>
               <li>Eat less food with a high carbon footprint</li>
