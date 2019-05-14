@@ -4,6 +4,7 @@ import ButtonStyles from "../../styles/Buttons.module.scss";
 import Styles from "./Styles.module.scss";
 import Typist from "react-typist";
 import TypistLoop from "react-typist-loop";
+import HomeBanner from "./homeBanner.svg";
 
 const HomeIntro = () => {
   const [mounted, setMounted] = useState(false);
@@ -69,7 +70,7 @@ const HomeIntro = () => {
         </div>
         <div className={Styles.img}>
           <img
-            src="../../../images/Graphics/homeBanner3.svg"
+            src={HomeBanner}
             alt="CO2 Emissions Target"
             className={Styles.bannerImg}
           />

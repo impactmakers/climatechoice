@@ -1,12 +1,13 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import FacebookIcon from '../Images/Icons/FacebookIcon';
-import TwitterIcon from '../Images/Icons/TwitterIcon';
-import LinkedinIcon from '../Images/Icons/LinkedinIcon';
-import InstagramIcon from '../Images/Icons/InstagramIcon';
-import GlobalStyles from '../../styles/Global.module.scss';
-import ButtonStyles from '../../styles/Buttons.module.scss';
-import Styles from './Styles.module.scss';
+import React from "react";
+import { Link } from "gatsby";
+import FacebookIcon from "../Images/Icons/FacebookIcon";
+import TwitterIcon from "../Images/Icons/TwitterIcon";
+import LinkedinIcon from "../Images/Icons/LinkedinIcon";
+import InstagramIcon from "../Images/Icons/InstagramIcon";
+import GlobalStyles from "../../styles/Global.module.scss";
+import ButtonStyles from "../../styles/Buttons.module.scss";
+import Styles from "./Styles.module.scss";
+import Logo from "./LogoOnLight.svg";
 
 const Footer = () => (
   <footer className={Styles.container}>
@@ -14,10 +15,7 @@ const Footer = () => (
       <div className={Styles.top}>
         <div className={Styles.company}>
           <Link to="/" title="Go back home">
-            <img
-              src="../../../../images/Logos/LogoOnLight.svg"
-              alt="ClimateChoice"
-            />
+            <img src={Logo} alt="ClimateChoice" />
           </Link>
           <p className={Styles.description}>
             Learn how you can help prevent earth’s climate breaking down.
