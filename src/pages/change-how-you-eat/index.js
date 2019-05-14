@@ -271,6 +271,35 @@ const ChangeHowYouEatPage = () => (
     </section>
     <ShareSocialCta {...shareConfig} />
     <ChoiceSupport />
+    <section className={`${ChoiceStyles.tldr} ${Styles.tldr}`}>
+      <div className={`${GlobalStyles.inner} ${ChoiceStyles.tldrInner}`}>
+        <div className={`${ChoiceStyles.tldrImg} ${Styles.tldrImg}`} />
+        <div className={`${ChoiceStyles.tldrContent} ${Styles.tldrContent}`}>
+          <div
+            className={`${ChoiceStyles.tldrListContainer} ${
+              Styles.tldrListContainer
+            }`}
+          >
+            <h1 className={`${ChoiceStyles.tldrTitle} ${Styles.tldrTitle}`}>
+              Too long; didn't read?
+            </h1>
+            <p
+              className={`${ChoiceStyles.tldrSubtitle} ${Styles.tldrSubtitle}`}
+            >
+              We’re killing the planet. Too many dangerous gases enter our
+              atmosphere because of the way we eat and drink. To reduce these we
+              must:
+            </p>
+            <ul className={`${ChoiceStyles.tldrList} ${Styles.tldrList}`}>
+              <li>Eat less food with a high carbon footprint</li>
+              <li>Stop wasting food and recycle</li>
+              <li>Vote for those who prioritize the planet</li>
+              <li>Spread the word so others make changes too</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
     <ChoiceGridDark />
     <SubscribeBanner />
   </Layout>
