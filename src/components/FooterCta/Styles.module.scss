@@ -30,7 +30,7 @@
 
 .ctaTitle {
   @include font-size($title-large);
-  color: $white;
+  color: $orangeOnDark;
   margin-top: 0;
   margin-bottom: 5px;
   @include mq('tablet') {
@@ -43,7 +43,7 @@
 }
 
 .ctaText {
-  color: $whiteFaded;
+  color: $white;
   margin: 0;
 }
 .ctaActions {

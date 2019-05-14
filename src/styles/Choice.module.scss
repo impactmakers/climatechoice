@@ -351,3 +351,84 @@
     }
   }
 }
+
+/* tl;dr */
+
+.tldr {
+  background: $black;
+}
+
+.tldrInner {
+  justify-content: space-between;
+  flex-direction: column;
+  @include mq('tablet') {
+    flex-direction: row-reverse;
+  }
+}
+
+
+.tldrContent {
+  width: 100%;
+  @include pad-top-standard;
+  @include pad-bot-standard;
+  @include mq('tablet') {
+    width: 50%;
+  }
+}
+.tldrListContainer {
+  @include mq('tablet') {
+    @include pad-right-standard;
+  }
+}
+
+.tldrList {
+  @include text-small;
+  list-style-type: none; 
+  color: $white;
+  margin: 0 ;
+  padding: 0;
+  li {
+    background: url('../../static/images/Icons/TickGreenIcon.svg') no-repeat left;
+    background-position-y: 6px;
+    padding: 0 21px 10px;
+    margin: 0;
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+  @include mq('tablet') {
+    padding-left: 0;
+    margin-top: 25px;
+    li {
+      background-position-y: 9px;
+    }
+  }
+}
+
+.tldrTitle {
+  color: $orangeOnDark;
+  text-align: left;
+  margin: 0;
+
+  @include font-size($title-large);
+  text-shadow: 0 2px 17px rgba(0,0,0,0.6);
+}
+
+.tldrSubtitle {
+  color: $white;
+  font-weight: bold;
+  max-width: 520px;
+}
+
+.tldrImg {
+  width: 100%;
+  height: 240px;
+  margin-top: 25px;
+  background-size: cover;
+  display: block;
+  @include mq('tablet') {
+    margin: 0;
+    width: 50%;
+    height: auto;
+  }
+}

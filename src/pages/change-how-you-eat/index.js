@@ -9,8 +9,7 @@ import ButtonStyles from '../../styles/Buttons.module.scss';
 import Styles from './Styles.module.scss';
 import ShareSocialCta from '../../components/ShareSocialCta';
 import shareConfig from '../../configs/pages/choiceEatConfig';
-import ChoiceGridDark from '../../components/ChoiceGrid/dark';
-import SubscribeBanner from '../../components/SubscribeBanner';
+import ChoiceGridOnChoice from '../../components/ChoiceGrid/onChoice';
 
 const ChangeHowYouEatPage = () => (
   <Layout>
@@ -166,7 +165,7 @@ const ChangeHowYouEatPage = () => (
             </h2>
             <p className={`${ChoiceStyles.actionDesc} ${Styles.actionDesc}`}>
               The biggest impact can be had if you{' '}
-              <b>eat less animal products — inparticular meat and dairy</b>,
+              <b>eat less animal products — in particular meat and dairy</b>,
               however all purchased food items have a carbon footprint.{' '}
               <b>If you’re really commited go vegan</b>. Try to only buy items
               with <b>sustainable, or no packaging</b>, and <b>buy local</b> so
@@ -271,8 +270,36 @@ const ChangeHowYouEatPage = () => (
     </section>
     <ShareSocialCta {...shareConfig} />
     <ChoiceSupport />
-    <ChoiceGridDark />
-    <SubscribeBanner />
+    <section className={`${ChoiceStyles.tldr} ${Styles.tldr}`}>
+      <div className={`${GlobalStyles.inner} ${ChoiceStyles.tldrInner}`}>
+        <div className={`${ChoiceStyles.tldrImg} ${Styles.tldrImg}`} />
+        <div className={`${ChoiceStyles.tldrContent} ${Styles.tldrContent}`}>
+          <div
+            className={`${ChoiceStyles.tldrListContainer} ${
+              Styles.tldrListContainer
+            }`}
+          >
+            <h1 className={`${ChoiceStyles.tldrTitle} ${Styles.tldrTitle}`}>
+              Too long; didn't read?
+            </h1>
+            <p
+              className={`${ChoiceStyles.tldrSubtitle} ${Styles.tldrSubtitle}`}
+            >
+              We’re killing the planet. 26% of dangerous greenhouse gas
+              emissions enter our atmosphere because of the way we eat and
+              drink. To reduce these we must:
+            </p>
+            <ul className={`${ChoiceStyles.tldrList} ${Styles.tldrList}`}>
+              <li>Eat less food with a high carbon footprint</li>
+              <li>Stop wasting food and recycle</li>
+              <li>Vote for those who prioritize the planet</li>
+              <li>Spread the word so others make changes too</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <ChoiceGridOnChoice />
   </Layout>
 );
 

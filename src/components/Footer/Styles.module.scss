@@ -4,7 +4,7 @@
 
 
 .container {
-  background: $white;
+  background: $grayLightest;
   color: $black;
   @include pad-top-standard;
   @include pad-bot-standard;
@@ -178,7 +178,7 @@
 
 
 .impactMakers {
-  background-color: $grayLightest;
+  @include white-box;
   width: 85%;
   @include mar-top-standard;
   @include pad-bot-standard;
