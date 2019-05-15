@@ -1,29 +1,15 @@
 import React from "react";
 import ButtonStyles from "../../styles/Buttons.module.scss";
+import Styles from "./styles.module.scss";
 
 export default function VideoModal() {
+  // ToDo: handle esc key to exit modal
+  // close button to exit modal
+  // refactor & pull components out to be reuseable
+  // fix jumping on homepage
   return (
-    <div
-      style={{
-        backgroundColor: "white",
-        position: "fixed",
-        top: "50%",
-        left: "50%",
-        transform: "translate(-50%, -50%)",
-        width: "300px",
-        maxWidth: "100%",
-        height: "300px",
-        maxWidth: "100%",
-        boxShadow: "0 1px 40px 0 rgba(50,47,68,0.2)",
-        padding: "1.5em",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        flexDirection: "column"
-      }}
-    >
+    <div className={Styles.modalStyles}>
       <iframe
-        style={{ display: "block" }}
         width="100%"
         height="100%"
         src="https://www.youtube.com/embed/YLIzhX6pB7g"
@@ -41,6 +27,15 @@ export default function VideoModal() {
       >
         Learn how you can help
       </button>
+      <p>
+        <a
+          className={Styles.link}
+          href="https://climate.nasa.gov/evidence/"
+          target="_blank"
+        >
+          Sorry. I still need more proof
+        </a>{" "}
+      </p>
     </div>
   );
 }

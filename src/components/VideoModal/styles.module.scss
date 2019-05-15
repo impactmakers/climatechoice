@@ -1,0 +1,23 @@
+@import "../../styles/Variables.module.scss";
+
+.modalStyles {
+  background-color: $white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: max-content;
+  height: 400px;
+  box-shadow: 0 1px 40px 0 rgba(50, 47, 68, 0.2);
+  padding: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 99;
+}
+
+.link {
+  color: #396abf !important;
+  cursor: pointer;
+}
