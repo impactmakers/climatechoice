@@ -187,9 +187,19 @@
 }
 
 .choiceReadTime {}
-.choiceReadStatus {}
 
+.choiceReadStatus {
+  display: flex;
+  align-items: center;
+}
 
+.choiceReadStatusRead {
+  color: $green;
+  font-weight: bold;
+  img {
+    margin-right: 4px;
+  }
+}
 
 /* subscribe */
 

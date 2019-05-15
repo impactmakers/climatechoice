@@ -1,25 +1,26 @@
-import React, { useState, useEffect } from "react";
-import { Link } from "gatsby";
-import Styles from "./Styles.module.scss";
-import addToMailchimp from "gatsby-plugin-mailchimp";
+import React, { useState, useEffect } from 'react';
+import { Link } from 'gatsby';
+import Styles from './Styles.module.scss';
+import addToMailchimp from 'gatsby-plugin-mailchimp';
+import Tick from './TickGreenIcon.svg';
 
 const ChoiceGridItems = () => {
-  const [email, setEmail] = useState("");
+  const [email, setEmail] = useState('');
   const [visited, setVisited] = useState({});
   const [message, setMessage] = useState();
   const [result, setResult] = useState();
 
   useEffect(function checkVisitedPages() {
     const visited = {
-      "change-how-you-eat":
-        localStorage.getItem("/change-how-you-eat") === "visited",
-      "change-how-you-travel":
-        localStorage.getItem("/change-how-you-travel") === "visited",
-      "choose-renewable-energy":
-        localStorage.getItem("/choose-renewable-energy") === "visited",
-      "use-less-energy": localStorage.getItem("/use-less-energy") === "visited",
-      "change-your-lifestyle":
-        localStorage.getItem("/change-your-lifestyle") === "visited"
+      'change-how-you-eat':
+        localStorage.getItem('/change-how-you-eat') === 'visited',
+      'change-how-you-travel':
+        localStorage.getItem('/change-how-you-travel') === 'visited',
+      'choose-renewable-energy':
+        localStorage.getItem('/choose-renewable-energy') === 'visited',
+      'use-less-energy': localStorage.getItem('/use-less-energy') === 'visited',
+      'change-your-lifestyle':
+        localStorage.getItem('/change-your-lifestyle') === 'visited'
     };
 
     setVisited(visited);
@@ -27,7 +28,16 @@ const ChoiceGridItems = () => {
 
   function renderReadStatus(slug) {
     if (visited[slug]) {
-      return <span className={Styles.choiceReadStatus}>Read</span>;
+      return (
+        <span
+          className={`${Styles.choiceReadStatus} ${
+            Styles.choiceReadStatusRead
+          }`}
+        >
+          <img src={Tick} alt="Read" />
+          Read
+        </span>
+      );
     }
 
     return <span className={Styles.choiceReadStatus}>Not read yet</span>;
@@ -64,7 +74,7 @@ const ChoiceGridItems = () => {
               you eat
             </h2>
             <div className={Styles.choiceMeta}>
-              {renderReadStatus("change-how-you-eat")}
+              {renderReadStatus('change-how-you-eat')}
             </div>
           </Link>
         </li>
@@ -89,7 +99,7 @@ const ChoiceGridItems = () => {
               you travel
             </h2>
             <div className={Styles.choiceMeta}>
-              {renderReadStatus("change-how-you-travel")}
+              {renderReadStatus('change-how-you-travel')}
             </div>
           </Link>
         </li>
@@ -114,7 +124,7 @@ const ChoiceGridItems = () => {
             </div>
             <h2 className={Styles.choiceTitle}>Choose renewable energy</h2>
             <div className={Styles.choiceMeta}>
-              {renderReadStatus("choose-renewable-energy")}
+              {renderReadStatus('choose-renewable-energy')}
             </div>
           </Link>
         </li>
@@ -139,7 +149,7 @@ const ChoiceGridItems = () => {
               energy
             </h2>
             <div className={Styles.choiceMeta}>
-              {renderReadStatus("use-less-energy")}
+              {renderReadStatus('use-less-energy')}
             </div>
           </Link>
         </li>
@@ -164,7 +174,7 @@ const ChoiceGridItems = () => {
               lifestyle
             </h2>
             <div className={Styles.choiceMeta}>
-              {renderReadStatus("change-your-lifestyle")}
+              {renderReadStatus('change-your-lifestyle')}
             </div>
           </Link>
         </li>
