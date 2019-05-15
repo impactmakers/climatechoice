@@ -16,8 +16,22 @@ const ChangeHowYouEatPage = () => (
     <SEO
       title="Change How You Eat"
       description="Learn how you can change how you eat to help prevent earth's climate breaking down."
-      image="../../../images/Photos/stopsEat.jpg"
-      keywords={[`Food`, `ClimateChoice`]}
+      image="https://climatechoice.netlify.com/images/Seo/eat.jpg"
+      keywords={[
+        `Food`,
+        `climate change food`,
+        `prevent climate change food`,
+        `climate change food waste`,
+        `climate change meat`,
+        `Change how you eat`,
+        `ClimateChoice`,
+        `climate change`,
+        `climate breakdown`,
+        `global warming`,
+        `global warming solutions`,
+        `Climate change the facts`,
+        `climate change solutions`
+      ]}
     />
     <section className={`${ChoiceStyles.banner} ${Styles.banner}`}>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.inner}`}>
