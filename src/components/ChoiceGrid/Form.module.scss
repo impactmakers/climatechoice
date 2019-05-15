@@ -1,0 +1,66 @@
+@import '../../styles/Variables.module.scss';
+@import '../../styles/Mixins.module.scss';
+@import '../../styles/Typography.module.scss';
+
+.fieldContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  @include mq('tablet') {
+    flex-direction: row;
+    width: auto;
+  }
+}
+
+.field {
+  border-radius: $borderRadius;
+  border: 2px solid $grayBorder;
+  padding: 0 15px;
+  min-width: 240px;
+  margin-bottom: 15px;
+  height: 40px;
+  color: $black;
+  @include mq('tablet') {
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+}
+
+.status {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  @include white-box;
+  background-color: $cream;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.statusResult {
+  margin: 0;
+}
+
+.statusMsg {
+  margin-bottom: 0;
+  @include font-size($text-xsmall);
+}
+
+::-webkit-input-placeholder {
+  font-weight: normal;
+  font-family: $sans;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+ font-weight: normal;
+ font-family: $sans;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+ font-weight: normal;
+ font-family: $sans;
+}
+
+:-ms-input-placeholder {
+ font-weight: normal;
+ font-family: $sans;
+}

@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'gatsby';
+import ButtonStyles from '../../styles/Buttons.module.scss';
 import Styles from './Styles.module.scss';
+import FormStyles from './Form.module.scss';
 import addToMailchimp from 'gatsby-plugin-mailchimp';
 import Tick from './TickGreenIcon.svg';
 
@@ -201,33 +203,39 @@ const ChoiceGridItems = () => {
         </li>
       </ul>
       <div className={Styles.subscribe}>
+        <div className={Styles.subscribeForm}>
+          <h3 className={Styles.subscribeTitle}>
+            Get notified when we add more choice guides
+          </h3>
+          <form className={FormStyles.fieldContainer} onSubmit={handleSubmit}>
+            <input
+              type="email"
+              value={email}
+              onChange={e => setEmail(e.target.value)}
+              name="EMAIL"
+              class="required email"
+              id="mce-EMAIL"
+              placeholder="Enter your email address..."
+              className={FormStyles.field}
+            />
+            <input
+              type="submit"
+              value="Subscribe"
+              name="subscribe"
+              id="mc-embedded-subscribe"
+              class="button"
+              className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnSm} ${
+                ButtonStyles.btnGreen
+              } ${ButtonStyles.btnMobile}`}
+            />
+          </form>
+        </div>
         {message && (
-          <div>
-            <span>{result}</span>
-            <br />
-            <span>{message}</span>
+          <div className={FormStyles.status}>
+            <h4 className={FormStyles.statusResult}>{result}</h4>
+            <p className={FormStyles.statusMsg}>{message}</p>
           </div>
         )}
-        <h3 className={Styles.subscribeTitle}>
-          Get notified when we add more choice guides
-        </h3>
-        <form onSubmit={handleSubmit}>
-          <input
-            type="email"
-            value={email}
-            onChange={e => setEmail(e.target.value)}
-            name="EMAIL"
-            class="required email"
-            id="mce-EMAIL"
-          />
-          <input
-            type="submit"
-            value="Subscribe"
-            name="subscribe"
-            id="mc-embedded-subscribe"
-            class="button"
-          />
-        </form>
       </div>
     </div>
   );

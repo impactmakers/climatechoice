@@ -213,7 +213,6 @@
   margin: 25px auto 0;
   width: auto;
   @include mq('tablet') {
-    flex-direction: row;
     justify-content: center;
     margin-top: 70px;
   }
@@ -221,6 +220,16 @@
     margin-top: 110px;
   }
 }   
+
+.subscribeForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include mq('tablet') {
+    flex-direction: row;
+  }
+}
+
 .subscribeTitle {
   margin: 0 0 20px 0;
   text-align: center;
