@@ -3,15 +3,18 @@ import ButtonStyles from "../../styles/Buttons.module.scss";
 import Close from "../Images/Icons/Close";
 import Styles from "./styles.module.scss";
 
-export default function VideoModal({ closeClick }) {
-  // ToDo: handle esc key to exit modal
-  // refactor & pull components out to be reuseable
-  // make button direct to anchor correctly
+export default function VideoModal({ closeClick, closeModal }) {
+  window.onkeydown = function onEscKey(e) {
+    console.log("im here");
+    if (e.key === "Escape") {
+      closeModal();
+    }
+  };
 
   return (
     <div className={Styles.modalStyles}>
       <div className={Styles.buttonContainer}>
-        <button className={Styles.closeButton} onClick={() => closeClick()}>
+        <button className={Styles.closeButton} onClick={() => closeModal()}>
           <Close />
         </button>
       </div>
@@ -24,16 +27,20 @@ export default function VideoModal({ closeClick }) {
         allowfullscreen="true"
       />
 
-      <p>What do you think now? </p>
-      {/* pull this out into separate component eg greenButton / can I pass props to change the size of the button too? makes it more resusable  */}
-      <button
-        className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
-          ButtonStyles.btnGreen
-        } ${ButtonStyles.btnMobile}`}
-        href="http://localhost:8000/#your-choices"
+      <p className={Styles.title}>What do you think now? </p>
+      <a
+        href="#your-choices"
+        onClick={() => closeClick()}
+        style={{ textDecoration: "none" }}
       >
-        Learn how you can help
-      </button>
+        <button
+          className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
+            ButtonStyles.btnGreen
+          } ${ButtonStyles.btnMobile}`}
+        >
+          Learn how you can help
+        </button>
+      </a>
       <p>
         <a
           className={Styles.link}
