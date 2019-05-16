@@ -17,15 +17,15 @@ const choiceEatConfig = {
   ),
   emailSubject: 'Check this out: Climate Choice',
   emailBody:
-    'Learn how you can change how you eat to help prevent climate change https://climatechoice.co/change-how-you-eat/',
+    'Learn how you can change how you eat to help prevent climate breakdown https://climatechoice.co/change-how-you-eat/',
   linkedinTitle: 'ClimateChoice',
   linkedinDescription:
     'Discover how changes to your diet can affect Climate Change',
   facebookQuote:
-    'Check out how you can change your diet and positively affect climate change at:',
+    'Learn how you can change how you eat to help prevent climate breakdown at:',
   facebookHashtag: '#climatechange',
   twitterTitle:
-    'Check out how you can change your diet and positively affect climate change at',
+    'Learn how you can change how you eat to help prevent climate breakdown at',
   twitterAccount: 'climatechoice',
   twitterHashtags: ['climatechange', 'climatebreakdown'],
   socialTitle: 'Want to let others know how they can change how they eat?',

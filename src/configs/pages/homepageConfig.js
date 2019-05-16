@@ -5,7 +5,7 @@ const BoldText = ({ children }) => (
 );
 
 const homePageConfig = {
-  ctaTitle: 'Spread the message!',
+  ctaTitle: 'Spread the word!',
 
   ctaCopy: (
     <>
@@ -15,11 +15,12 @@ const homePageConfig = {
       That way they can make informed decisions.
     </>
   ),
-  emailSubject: 'Just saw this new site: Climate Choice',
-  emailBody: 'I thought you might find this interesting',
-  linkedinTitle: 'Climate Choice',
+  emailSubject: 'Just saw this new site: ClimateChoice',
+  emailBody:
+    'I thought you might find this interesting. It makes it easy to learn how you can help prevent earth’s climate breaking down. https://climatechoice.co/',
+  linkedinTitle: 'ClimateChoice',
   linkedinDescription:
-    'Discover how changes to your diet can affect Climate Change',
+    'Learn how you can help prevent earth’s climate breaking down.',
   facebookQuote:
     'Check out how you can change your diet and positively affect climate change at:',
   facebookHashtag: '#climatechange',
