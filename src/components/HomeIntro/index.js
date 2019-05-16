@@ -6,6 +6,8 @@ import Typist from "react-typist";
 import TypistLoop from "react-typist-loop";
 import HomeBanner from "./homeBanner.svg";
 
+import ConvincedButton from "./ConvincedButton";
+
 const HomeIntro = () => {
   const [mounted, setMounted] = useState(false);
 
