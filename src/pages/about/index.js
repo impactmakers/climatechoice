@@ -12,7 +12,7 @@ const AboutPage = () => (
       className={`${GlobalStyles.container} ${GlobalStyles.subpageContainer}`}
     >
       <div className={`${GlobalStyles.inner} ${GlobalStyles.subpageInner}`}>
-        <div className={Styles.subpageContent}>
+        <div className={GlobalStyles.subpageContent}>
           <h1 className={`${GlobalStyles.title} ${GlobalStyles.subpageTitle}`}>
             About ClimateChoice
           </h1>

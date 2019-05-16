@@ -8,13 +8,15 @@ import FooterCta from '../../components/FooterCta';
 const ResourcesPage = () => (
   <Layout>
     <SEO title="Resources" keywords={[`Resources`, `ClimateChoice`]} />
-    <section className={Styles.container}>
-      <div className={`${GlobalStyles.inner} ${Styles.inner}`}>
-        <div className={Styles.introContent}>
-          <h1 className={`${Styles.title} ${Styles.introTitle}`}>Resources</h1>
-          <p className={`${Styles.description} ${Styles.introDescription}`}>
-            Content here
-          </p>
+    <section
+      className={`${GlobalStyles.container} ${GlobalStyles.subpageContainer}`}
+    >
+      <div className={`${GlobalStyles.inner} ${GlobalStyles.subpageInner}`}>
+        <div className={GlobalStyles.subpageContent}>
+          <h1 className={`${GlobalStyles.title} ${GlobalStyles.subpageTitle}`}>
+            Resources
+          </h1>
+          <p>Content here</p>
         </div>
       </div>
     </section>
