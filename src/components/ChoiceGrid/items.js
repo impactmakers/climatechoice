@@ -5,6 +5,13 @@ import Styles from './Styles.module.scss';
 import FormStyles from './Form.module.scss';
 import addToMailchimp from 'gatsby-plugin-mailchimp';
 import Tick from './TickGreenIcon.svg';
+import EatIcon from '../Images/Icons/ChoiceEatIcon.svg';
+import TravelIcon from '../Images/Icons/ChoiceTravelIcon.svg';
+import LifestyleIcon from '../Images/Icons/ChoiceLifestyleIcon.svg';
+import EnergyIcon from '../Images/Icons/ChoiceEnergyIcon.svg';
+import RenewableIcon from '../Images/Icons/ChoiceRenewableIcon.svg';
+import SoonIcon from '../Images/Icons/ChoiceSoonIcon.svg';
+import Chevron from '../Images/Icons/ChevronGrayRightIcon.svg';
 
 const ChoiceGridItems = () => {
   const [email, setEmail] = useState('');
@@ -59,15 +66,12 @@ const ChoiceGridItems = () => {
           <Link className={Styles.choiceContainer} to="/change-how-you-eat">
             <div className={Styles.choiceHeader}>
               <div className={Styles.choiceIcon}>
-                <img
-                  src="../../../../images/Icons/ChoiceEatIcon.svg"
-                  alt="Change how you eat"
-                />
+                <img src={EatIcon} alt="Change how you eat" />
               </div>
 
               <img
                 className={Styles.choiceChevron}
-                src="../../../../images/Icons/ChevronGrayRightIcon.svg"
+                src={Chevron}
                 alt="Chevron"
               />
             </div>
@@ -84,15 +88,12 @@ const ChoiceGridItems = () => {
           <Link className={Styles.choiceContainer} to="/change-how-you-travel">
             <div className={Styles.choiceHeader}>
               <div className={Styles.choiceIcon}>
-                <img
-                  src="../../../../images/Icons/ChoiceTravelIcon.svg"
-                  alt="Change how you travel"
-                />
+                <img src={TravelIcon} alt="Change how you travel" />
               </div>
 
               <img
                 className={Styles.choiceChevron}
-                src="../../../../images/Icons/ChevronGrayRightIcon.svg"
+                src={Chevron}
                 alt="Chevron"
               />
             </div>
@@ -112,15 +113,12 @@ const ChoiceGridItems = () => {
           >
             <div className={Styles.choiceHeader}>
               <div className={Styles.choiceIcon}>
-                <img
-                  src="../../../../images/Icons/ChoiceRenewableIcon.svg"
-                  alt="Choose renewable energy"
-                />
+                <img src={RenewableIcon} alt="Choose renewable energy" />
               </div>
 
               <img
                 className={Styles.choiceChevron}
-                src="../../../../images/Icons/ChevronGrayRightIcon.svg"
+                src={Chevron}
                 alt="Chevron"
               />
             </div>
@@ -134,15 +132,12 @@ const ChoiceGridItems = () => {
           <Link className={Styles.choiceContainer} to="/use-less-energy">
             <div className={Styles.choiceHeader}>
               <div className={Styles.choiceIcon}>
-                <img
-                  src="../../../../images/Icons/ChoiceEnergyIcon.svg"
-                  alt="Use less energy"
-                />
+                <img src={EnergyIcon} alt="Use less energy" />
               </div>
 
               <img
                 className={Styles.choiceChevron}
-                src="../../../../images/Icons/ChevronGrayRightIcon.svg"
+                src={Chevron}
                 alt="Chevron"
               />
             </div>
@@ -159,15 +154,12 @@ const ChoiceGridItems = () => {
           <Link className={Styles.choiceContainer} to="/change-your-lifestyle">
             <div className={Styles.choiceHeader}>
               <div className={Styles.choiceIcon}>
-                <img
-                  src="../../../../images/Icons/ChoiceLifestyleIcon.svg"
-                  alt="Change your lifestyle"
-                />
+                <img src={LifestyleIcon} alt="Change your lifestyle" />
               </div>
 
               <img
                 className={Styles.choiceChevron}
-                src="../../../../images/Icons/ChevronGrayRightIcon.svg"
+                src={Chevron}
                 alt="Chevron"
               />
             </div>
@@ -184,10 +176,7 @@ const ChoiceGridItems = () => {
           <div className={Styles.choiceContainer}>
             <div className={Styles.choiceHeader}>
               <div className={`${Styles.choiceIcon} ${Styles.choiceSoonIcon}`}>
-                <img
-                  src="../../../../images/Icons/ChoiceSoonIcon.svg"
-                  alt="More guides coming soon"
-                />
+                <img src={SoonIcon} alt="More guides coming soon" />
               </div>
             </div>
             <h2 className={`${Styles.choiceTitle} ${Styles.choiceSoonTitle}`}>

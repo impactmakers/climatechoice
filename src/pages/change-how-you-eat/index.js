@@ -10,12 +10,14 @@ import Styles from './Styles.module.scss';
 import ShareSocialCta from '../../components/ShareSocialCta';
 import shareConfig from '../../configs/pages/choiceEatConfig';
 import ChoiceGridOnChoice from '../../components/ChoiceGrid/onChoice';
+import BannerImg from '../../components/Images/Graphics/choiceBannerEat.svg';
+import HowIcon from '../../components/Images/Icons/HowIcon.svg';
 
 const ChangeHowYouEatPage = () => (
   <Layout>
     <SEO
-      title="Change How You Eat"
-      description="Learn how you can change how you eat to help prevent earth's climate breaking down."
+      title="Change how you eat to help prevent climate change"
+      description=" 26% of harmful greenhouse-gas emissions come from the production and waste of food and drink Learn how you can help prevent earth's climate breaking down by making simple changes."
       image="https://climatechoice.netlify.com/images/Seo/eat.jpg"
       keywords={[
         `Food`,
@@ -39,7 +41,7 @@ const ChangeHowYouEatPage = () => (
           className={`${ChoiceStyles.bannerContent} ${Styles.bannerContent}`}
         >
           <h1 className={`${ChoiceStyles.bannerTitle} ${Styles.bannerTitle}`}>
-            Change how you eat to help prevent climate change
+            Change how you eat to help prevent climate breakdown
           </h1>
           <p className={`${ChoiceStyles.bannerDesc} ${Styles.bannerDesc}`}>
             <b>26%</b> of global greenhouse-gas emissions come from the
@@ -69,13 +71,25 @@ const ChangeHowYouEatPage = () => (
         </div>
         <div className={`${ChoiceStyles.bannerImg} ${Styles.bannerImg}`}>
           <img
-            src="../../../images/Graphics/choiceBannerEat.svg"
+            src={BannerImg}
             alt="Yomo"
             className={`${ChoiceStyles.bannerImgShadow} ${
               Styles.bannerImgShadow
             }`}
           />
         </div>
+      </div>
+    </section>
+    <section className={`${ChoiceStyles.cba} ${Styles.cba}`}>
+      <div className={`${GlobalStyles.inner} ${ChoiceStyles.cbaInner}`}>
+        Short on time?{' '}
+        <a
+          className={ChoiceStyles.cbaAction}
+          href="#tldr"
+          title="Read a summary"
+        >
+          Get a quick summary
+        </a>
       </div>
     </section>
     <section className={`${ChoiceStyles.how} ${Styles.how}`}>
@@ -190,10 +204,7 @@ const ChangeHowYouEatPage = () => (
                 Styles.actionHowTitle
               }`}
             >
-              <img
-                src="../../../../images/Icons/HowIcon.svg"
-                alt="How it helps"
-              />
+              <img src={HowIcon} alt="How it helps" />
               How much would this help?
             </h3>
             <p className={`${ChoiceStyles.actionDesc} ${Styles.actionDesc}`}>
@@ -267,10 +278,7 @@ const ChangeHowYouEatPage = () => (
                 Styles.actionHowTitle
               }`}
             >
-              <img
-                src="../../../../images/Icons/HowIcon.svg"
-                alt="How it helps"
-              />
+              <img src={HowIcon} alt="How it helps" />
               How much would this help?
             </h3>
             <p className={`${ChoiceStyles.actionDesc} ${Styles.actionDesc}`}>
@@ -285,6 +293,7 @@ const ChangeHowYouEatPage = () => (
     <ShareSocialCta {...shareConfig} />
     <ChoiceSupport />
     <section className={`${ChoiceStyles.tldr} ${Styles.tldr}`}>
+      <a name="tldr" />
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.tldrInner}`}>
         <div className={`${ChoiceStyles.tldrImg} ${Styles.tldrImg}`} />
         <div className={`${ChoiceStyles.tldrContent} ${Styles.tldrContent}`}>
@@ -307,7 +316,12 @@ const ChangeHowYouEatPage = () => (
               <li>Eat less food with a high carbon footprint</li>
               <li>Stop wasting food and recycle</li>
               <li>Vote for those who prioritize the planet</li>
-              <li>Spread the word so others make changes too</li>
+              <li>
+                <a href="#share" alt="Spread the word">
+                  Spread the word
+                </a>{' '}
+                so others make changes too
+              </li>
             </ul>
           </div>
         </div>
