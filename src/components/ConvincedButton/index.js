@@ -19,7 +19,7 @@ export default function ConvincedButton() {
       >
         Need convinced? Watch this
       </a>
-      {showModal && <VideoModal />}
+      {showModal && <VideoModal closeClick={() => toggleModal()} />}
     </div>
   );
 }
