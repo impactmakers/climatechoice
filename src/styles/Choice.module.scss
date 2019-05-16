@@ -106,6 +106,35 @@
 }
 
 
+/* Link to tldr */
+
+.cba {
+  background: $blueLight;
+  @include text-body;
+  @include pad-top-small;
+  @include pad-bot-small;
+
+}
+
+
+.cbaInner {
+  display: block;
+  @include links-on-light;
+  text-align: center;
+  @include mq('tablet') {
+    text-align: left;
+  }
+}
+
+.cbaText {
+  width: 100%;
+  text-align: center;
+}
+
+.cbaAction {
+  margin-left: 5px;
+}
+
 /* How it happens */
 
 .how {}
@@ -388,10 +417,11 @@
   margin: 0 ;
   padding: 0;
   li {
-    background: url('../../static/images/Icons/TickGreenIcon.svg') no-repeat left;
+    background: url('../components/Images/Icons/TickGreenIcon.svg') no-repeat left;
     background-position-y: 6px;
     padding: 0 21px 10px;
     margin: 0;
+    @include links-on-dark;
     &:last-child {
       padding-bottom: 0;
     }

@@ -21,9 +21,6 @@ const choiceEatConfig = {
   linkedinTitle: 'ClimateChoice',
   linkedinDescription:
     'Discover how changes to your diet can affect Climate Change',
-  facebookQuote:
-    'Learn how you can change how you eat to help prevent climate breakdown at:',
-  facebookHashtag: '#climatechange',
   twitterTitle:
     'Learn how you can change how you eat to help prevent climate breakdown at',
   twitterAccount: 'climatechoice',
@@ -31,7 +28,7 @@ const choiceEatConfig = {
   socialTitle: 'Want to let others know how they can change how they eat?',
   socialCopy:
     'Then share this web page with your friends, family and followers via our handy pre-written message!',
-  url: 'https://climatechoice.co/change-how-you-eat/',
+  url: 'https://climatechoice.netlify.com/change-how-you-eat/',
   whatsappTitle: 'check out this new site, ClimateChoice'
 };
 
