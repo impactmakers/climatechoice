@@ -17,7 +17,7 @@ const ChangeHowYouEatPage = () => (
   <Layout>
     <SEO
       title="Change how you eat to help prevent climate change"
-      description="Learn how you can change how you eat to help prevent earth's climate breaking down."
+      description=" 26% of harmful greenhouse-gas emissions come from the production and waste of food and drink Learn how you can help prevent earth's climate breaking down by making simple changes."
       image="https://climatechoice.netlify.com/images/Seo/eat.jpg"
       keywords={[
         `Food`,
@@ -82,7 +82,7 @@ const ChangeHowYouEatPage = () => (
     </section>
     <section className={`${ChoiceStyles.cba} ${Styles.cba}`}>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.cbaInner}`}>
-        Don't have time?{' '}
+        Short on time?{' '}
         <a
           className={ChoiceStyles.cbaAction}
           href="#tldr"

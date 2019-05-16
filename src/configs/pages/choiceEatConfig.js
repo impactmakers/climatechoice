@@ -15,21 +15,22 @@ const choiceEatConfig = {
       make a choice about how they eat.
     </>
   ),
-  emailSubject: 'Check this out: Climate Choice',
+  emailSubject: 'Join me in helping prevent climate change!',
   emailBody:
-    'Learn how you can change how you eat to help prevent climate breakdown https://climatechoice.co/change-how-you-eat/',
+    'Hey! The choices we make today can help prevent earth’s climate breaking down 🌎🔥 Check out this site to learn how you can change how you eat to reduce your carbon footprint 👣 https://climatechoice.co/change-how-you-eat/',
   linkedinTitle: 'ClimateChoice',
   linkedinDescription:
-    'Discover how changes to your diet can affect Climate Change',
+    'Learn how you can help prevent earth’s climate breaking down by changing how you eat',
   twitterTitle:
-    'Learn how you can change how you eat to help prevent climate breakdown at',
+    'Learn how you can help prevent earth’s climate breaking down by changing how you eat',
   twitterAccount: 'climatechoice',
   twitterHashtags: ['climatechange', 'climatebreakdown'],
   socialTitle: 'Want to let others know how they can change how they eat?',
   socialCopy:
     'Then share this web page with your friends, family and followers via our handy pre-written message!',
   url: 'https://climatechoice.netlify.com/change-how-you-eat/',
-  whatsappTitle: 'check out this new site, ClimateChoice'
+  whatsappTitle:
+    'Hey! The choices we make today can help prevent earth’s climate breaking down 🌎🔥 Check out this site to learn how you can change how you eat to reduce your carbon footprint 👣'
 };
 
 export default choiceEatConfig;

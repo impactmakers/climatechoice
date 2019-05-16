@@ -109,19 +109,18 @@
 /* Link to tldr */
 
 .cba {
-  background: $blueLight;
-  @include text-body;
-  @include pad-top-small;
-  @include pad-bot-small;
 
 }
 
 
 .cbaInner {
   display: block;
+  @include text-body;
+  @include pad-top-small;
   @include links-on-light;
   text-align: center;
   @include mq('tablet') {
+    @include pad-top-small;
     text-align: left;
   }
 }
