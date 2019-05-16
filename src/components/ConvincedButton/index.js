@@ -10,6 +10,11 @@ export default function ConvincedButton() {
   const toggleModal = () => {
     setShowModal(state => !state);
   };
+
+  const closeModal = () => {
+    setShowModal(false);
+  };
+
   return (
     <div className={styles.ctaSecondary}>
       <a
@@ -19,7 +24,9 @@ export default function ConvincedButton() {
       >
         Need convinced? Watch this
       </a>
-      {showModal && <VideoModal closeClick={() => toggleModal()} />}
+      {showModal && (
+        <VideoModal closeModal={closeModal} closeClick={toggleModal} />
+      )}
     </div>
   );
 }

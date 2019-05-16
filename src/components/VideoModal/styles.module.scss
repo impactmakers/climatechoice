@@ -1,5 +1,13 @@
 @import "../../styles/Variables.module.scss";
 @import "../../styles/Mixins.module.scss";
+@import "../../styles/Typography.module.scss";
+
+.title {
+  font-weight: 500;
+  font-family: $sans;
+
+  @include font-size($text-large);
+}
 
 .modalStyles {
   background-color: $white;
@@ -8,7 +16,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 275px;
-  height: 275px;
+  height: 325px;
   box-shadow: 0 1px 40px 0 rgba(50, 47, 68, 0.2);
   padding: 1.5em;
   display: flex;
