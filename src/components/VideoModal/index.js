@@ -5,7 +5,6 @@ import Styles from "./styles.module.scss";
 
 export default function VideoModal({ closeClick, closeModal }) {
   window.onkeydown = function onEscKey(e) {
-    console.log("im here");
     if (e.key === "Escape") {
       closeModal();
     }
