@@ -20,7 +20,7 @@
 
 .choiceGridContainer {
   margin-top: -200px;
-  z-index: 99;
+  z-index: 3;
   position: relative;
   background: $white;
   @include mq("tablet") {
