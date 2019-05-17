@@ -55,7 +55,7 @@ const AboutPage = () => (
             </a>
             .
           </p>
-
+          <br />
           <h2>Why we decided to make ClimateChoice</h2>
           <p>
             <b>
@@ -75,6 +75,7 @@ const AboutPage = () => (
             ClimateChoice is designed to be easily shared so you can let your
             friends and family know how they take action too.
           </p>
+          <br />
           <h2>Future Developments</h2>
           <p>
             ClimateChoice is a work in progress. We plan on adding more choice
