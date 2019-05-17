@@ -7,8 +7,8 @@ import styles from "./styles.module.scss";
 export default function ConvincedButton() {
   const [showModal, setShowModal] = useState(false);
 
-  const toggleModal = () => {
-    setShowModal(state => !state);
+  const openModal = () => {
+    setShowModal(true);
   };
 
   const closeModal = () => {
@@ -17,11 +17,11 @@ export default function ConvincedButton() {
 
   return (
     <div className={styles.ctaSecondary}>
-      <button className={styles.removeDefault} onClick={() => toggleModal()}>
+      <button className={styles.removeDefault} onClick={() => openModal()}>
         Need convinced? Watch this
       </button>
       {showModal && (
-        <VideoModal closeModal={closeModal} closeClick={toggleModal} />
+        <VideoModal closeModal={closeModal} closeClick={closeModal} />
       )}
     </div>
   );
