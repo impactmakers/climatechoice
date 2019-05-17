@@ -17,7 +17,7 @@ const DonatePage = () => (
           <h1 className={`${GlobalStyles.title} ${GlobalStyles.subpageTitle}`}>
             Donations
           </h1>{' '}
-          <h2>Donate to the development of this site</h2>
+          <h2>Donate to the development of this site and others</h2>
           <p>
             {' '}
             <a href="https://climatechoice.co/" title="Go home">
@@ -29,18 +29,22 @@ const DonatePage = () => (
             </a>{' '}
             community of tech volunteers, working to prevent earth's climate
             breaking down. Any donations made will be put towards the
-            development of ClimateChoice and other Impact Makers projects which
-            will help bring awareness of the climate issue, and people to take
-            action.
+            development of ClimateChoice and other non-profit Impact Makers
+            projects which help raise awareness of the climate issue, and people
+            to take action.
           </p>
           <div className={Styles.ctaActions}>
-            <a className={Styles.ctaButton} href="/" title="Donate to us">
+            <a
+              className={Styles.ctaButton}
+              href="https://liberapay.com/impactmakers/"
+              title="Donate to Impact Makers"
+            >
               <button
                 className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
                   ButtonStyles.btnPrimary
-                } `}
+                } ${ButtonStyles.btnMobile} `}
               >
-                Donate
+                Donate to Impact Makers
               </button>
             </a>
           </div>

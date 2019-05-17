@@ -7,7 +7,7 @@
   flex-direction: column;
   padding-top: 5px;
   @include mar-bot-small;
-  @include pad-bot-small;
+  padding-bottom: 30px;
   @include mq('tablet') {
     flex-direction: row;
 
