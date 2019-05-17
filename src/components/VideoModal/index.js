@@ -14,11 +14,10 @@ export default function VideoModal({ closeClick, closeModal }) {
 
   return (
     <div className={Styles.modalStyles}>
-      <div className={Styles.buttonContainer}>
-        <button className={Styles.closeButton} onClick={() => closeModal()}>
-          <Close />
-        </button>
-      </div>
+      <button className={Styles.closeButton} onClick={() => closeModal()}>
+        <Close />
+      </button>
+
       <iframe
         width="100%"
         height="100%"
