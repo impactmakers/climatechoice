@@ -33,6 +33,7 @@ export default function VideoModal({ closeClick, closeModal }) {
         style={{ textDecoration: "none" }}
       >
         <button
+          style={{ textDecoration: "none" }}
           className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
             ButtonStyles.btnGreen
           } ${ButtonStyles.btnMobile}`}

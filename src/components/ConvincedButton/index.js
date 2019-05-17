@@ -17,9 +17,9 @@ export default function ConvincedButton() {
 
   return (
     <div className={styles.ctaSecondary}>
-      <a title="See how climate change happens" onClick={() => toggleModal()}>
+      <button className={styles.removeDefault} onClick={() => toggleModal()}>
         Need convinced? Watch this
-      </a>
+      </button>
       {showModal && (
         <VideoModal closeModal={closeModal} closeClick={toggleModal} />
       )}

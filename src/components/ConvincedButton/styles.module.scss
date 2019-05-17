@@ -8,11 +8,20 @@
   @include links-on-dark;
   margin-top: 30px;
   font-size: 21px;
-  a {
-    font-weight: normal;
-  }
   @include mq("tablet") {
     margin-top: 0;
     flex-direction: row;
   }
+}
+
+.removeDefault {
+  background-color: transparent;
+  border: 0;
+  font-weight: normal;
+}
+
+.removeDefault,
+button:hover {
+  color: $linkHover;
+  -webkit-transition: top 0.04s ease-out;
 }
