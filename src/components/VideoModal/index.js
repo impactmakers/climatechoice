@@ -1,14 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ButtonStyles from "../../styles/Buttons.module.scss";
 import Close from "../Images/Icons/Close";
 import Styles from "./styles.module.scss";
 
 export default function VideoModal({ closeClick, closeModal }) {
-  window.onkeydown = function onEscKey(e) {
-    if (e.key === "Escape") {
-      closeModal();
-    }
-  };
+  useEffect(() => {
+    window.onkeydown = function onEscKey(e) {
+      if (e.key === "Escape") {
+        closeModal();
+      }
+    };
+  });
 
   return (
     <div className={Styles.modalStyles}>
