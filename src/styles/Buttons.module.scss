@@ -188,8 +188,9 @@
   font-family: inherit;
 }
 .btn-bordered.btn-sm {
-  padding: 3px 10px;
+  padding: 10px 20px;
   font-size: 18px;
+  font-weight: bold;
   font-family: inherit;
 }
 .btn-bordered.btn-md {
@@ -399,6 +400,11 @@
 .btn-bordered.btn-bordered-white {
   color: $white;
   border: 2px solid $white;
+}
+
+.btn-bordered.btn-bordered-blue {
+  color: $blue;
+  border: 2px solid $blue;
 }
 
 

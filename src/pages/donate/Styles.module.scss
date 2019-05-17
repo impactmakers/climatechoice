@@ -2,36 +2,32 @@
 @import '../../styles/Mixins.module.scss';
 @import '../../styles/Typography.module.scss';
 
-
-.container {
-  box-sizing: border-box;
-  width: 100%;
+.ctaActions {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  @include page-top;
-}
-
-.inner {
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
+  padding-top: 5px;
+  @include mar-bot-small;
+  padding-bottom: 30px;
   @include mq('tablet') {
+    flex-direction: row;
 
   }
+}   
+
+.ctaButton {
+  @include no-underline;
+  margin-top: 5px;
+    @include mq('tablet') {
+      margin-right: 20px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+.airtable {
+  @include mar-top-small;
+  background: transparent; 
+  border: 1px solid #ccc;
 }
 
-
-.introContent {
-  text-align: center;
-  max-width: 840px;
-  @include mar-bot-standard;
-
-}
-.title {
-  margin: 0;
-}
-
-.introTitle {} 
-.description {}
-.introDescription {}
