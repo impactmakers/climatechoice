@@ -327,6 +327,20 @@
   margin-top: 0;
 }
 
+.actionPointTitle {
+  @include font-size($text-large);
+  color: $black;
+  margin: 20px 0 0;
+  display: flex;
+  align-items: center;
+  img {
+    padding-right: 7px;
+  }
+  @include mq('tablet') {
+    margin: 30px 0 0;
+  }
+}
+
 .actionHowTitle {
   @include font-size($text-large);
   color: $orange;
