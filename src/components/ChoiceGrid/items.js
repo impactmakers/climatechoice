@@ -202,7 +202,7 @@ const ChoiceGridItems = () => {
               value={email}
               onChange={e => setEmail(e.target.value)}
               name="EMAIL"
-              class="required email"
+              className="required email"
               id="mce-EMAIL"
               placeholder="Enter your email address..."
               aria-label="Enter your email address..."
@@ -213,7 +213,7 @@ const ChoiceGridItems = () => {
               value="Subscribe"
               name="subscribe"
               id="mc-embedded-subscribe"
-              class="button"
+              className="button"
               className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnSm} ${
                 ButtonStyles.btnGreen
               } ${ButtonStyles.btnMobile}`}

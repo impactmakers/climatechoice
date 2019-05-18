@@ -64,7 +64,7 @@ const DonatePage = () => (
           </p>
           <iframe
             className={Styles.airtable}
-            class="airtable-embed"
+            className="airtable-embed"
             src="https://airtable.com/embed/shrnl2Jqc6Wc3UXeg?backgroundColor=blue&viewControls=on"
             frameborder="0"
             onmousewheel=""
