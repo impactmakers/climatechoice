@@ -17,23 +17,25 @@ const UseLessEnergyPage = () => (
   <Layout>
     <SEO
       title="Use less energy to help prevent climate change"
-      description="75% of the energy used globally comes from coal, gas, oil and nuclear — non-renewable sources that produce greenhouse gas emissions. Learn how you can help prevent earth's climate breaking down by making simple changes."
-      image="https://climatechoice.netlify.com/images/Seo/travel.jpg"
+      description="Every year the world wastes more energy than it uses. 75% of this energy comes from greenhouse gas emitting sources like coal, oil and gas. Learn how you can help prevent earth's climate breaking down by making simple changes."
+      image="https://climatechoice.netlify.com/images/Seo/energy.jpg"
       keywords={[
-        `Renewable energy`,
-        `climate change renewable energy`,
-        `prevent climate renewable energy`,
-        `climate change fossil fuels`,
-        `climate change green energy`,
-        `climate change clean energy`,
-        `prevent climate change non-renewable energy`,
-        `climate change coal`,
-        `climate change natural gas`,
-        `climate change nuclear`,
-        `climate change oil`,
-        `climate change solar`,
-        `climate change wind`,  
-        `Choose renewable energy`,
+        `Energy efficiency`,
+        `climate change energy waste`,
+        `prevent climate change use less energy`,
+        `climate change energy wastage`,
+        `climate change home insulation`,
+        `climate change house insulation`,
+        `prevent climate change light bulbs`,
+        `climate change light bulbs`,
+        `climate change desktop computer`,
+        `climate change hot water`,
+        `climate change taking a bath`,
+        `climate change turn lights off`,
+        `climate change home heating`,  
+        `climate change become energy efficient`,
+        `climate change thermostat`,  
+        `Use less energy`,
         `ClimateChoice`,
         `climate change`,
         `climate breakdown`,

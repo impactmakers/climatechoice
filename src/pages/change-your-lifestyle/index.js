@@ -16,20 +16,24 @@ import ShareSocialCta from '../../components/ShareSocialCta';
 const ChangeYourLifestylePage = () => (
   <Layout>
     <SEO
-      title="Change how you travel to help prevent climate change"
-      description=" 26% of harmful greenhouse-gas emissions come from the production and use of vehicles like cars, lorries and planes. Learn how you can help prevent earth's climate breaking down by making simple changes."
-      image="https://climatechoice.netlify.com/images/Seo/travel.jpg"
+      title="Change your lifestyle to help prevent climate change"
+      description="We rely on third parties for most aspects of our modern lifestyles. We need to make changes to become more self-sufficient and live sustainably. Learn how you can help prevent earth's climate breaking down by making simple changes."
+      image="https://climatechoice.netlify.com/images/Seo/lifestyle.jpg"
       keywords={[
-        `Travel`,
-        `climate change travel`,
-        `prevent climate change cars`,
-        `climate change fossil fuels`,
-        `climate change flying`,
-        `climate change airplanes`,
-        `prevent climate change flying`,
-        `climate change lorries`,
-        `climate change electric cars`,
-        `Change how you travel`,
+        `Modern lifestyle`,
+        `climate change modern lifestyle`,
+        `prevent climate change plastic`,
+        `climate change packaging`,
+        `climate change convenience`,
+        `climate change food waste`,
+        `prevent climate change recycle`,
+        `climate change buy less`,
+        `climate change consumerism`,
+        `climate change single-use plastics`,
+        `prevent climate breakdown reusable items`,
+        `climate change independent life`,
+        `climate change shopping`,
+        `Change your lifestyle`,
         `ClimateChoice`,
         `climate change`,
         `climate breakdown`,
@@ -45,11 +49,10 @@ const ChangeYourLifestylePage = () => (
           className={`${ChoiceStyles.bannerContent} ${Styles.bannerContent}`}
         >
           <h1 className={`${ChoiceStyles.bannerTitle} ${Styles.bannerTitle}`}>
-            Change how you travel to help prevent climate breakdown
+          Change your lifestyle to help prevent climate breakdown
           </h1>
           <p className={`${ChoiceStyles.bannerDesc} ${Styles.bannerDesc}`}>
-            <b>26%</b> of the greenhouse gases emitted into our atmosphere are
-            from the production and use of vehicles and airplanes.
+            We rely on third parties for most aspects of our modern lifestyles. We need to make changes to become more self-sufficient and live sustainably.
           </p>
 
           <div className={ChoiceStyles.bannerActions}>
@@ -101,7 +104,7 @@ const ChangeYourLifestylePage = () => (
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.howInner}`}>
         <div className={`${ChoiceStyles.howContent} ${Styles.howContent}`}>
           <h1 className={`${ChoiceStyles.howTitle} ${Styles.howTitle}`}>
-            How travel contributes to climate breakdown
+            How our lifestyles contribute to climate breakdown
           </h1>
           <ol
             className={`${ChoiceStyles.choiceList} ${ChoiceStyles.howList} ${
@@ -109,30 +112,19 @@ const ChangeYourLifestylePage = () => (
             }`}
           >
             <li>
-              <b>
-                88% of travel emissions are from vehicles like cars, lorries and
-                motorbikes
-              </b>
-              . Their assembly process requires energy generating a carbon
-              footprint (yes electric too). However most of the damage occurs
-              when a fossil fuel burning vehicle hits the road releasing tonnes
-              of carbon in the process. There are over 1 billion of these
-              vehicles on the road today.
+              Many of us buy items we don’t need. The more things you own the greater the size of your carbon footprint.
             </li>
             <li>
-              <b>11% comes from air travel</b>. The problems are much the same,
-              planes also use fossil fuel emitting greenhouse gasses into the
-              atmosphere.
+              We rely on single-use items such as bottles, bags and packaging. Usually they are made from plastic which can take 1,000 years to decompose.
             </li>
             <li>
-              Fossil fuels first need to be extracted, refined and transported
-              for use which means more harmful emissions.
+              When we throw away items not nearly enough are recycled. That means many items are left to rot.
             </li>
             <li>
-              Electric cars don’t emit any carbon once on the road, however they
-              do require energy which has to come from somewhere. Until we hit
-              100% renewable energy electric car usage will harm the environment
-              too but nowhere near as much.
+              Our disposable lifestyles lead to items being overproduced and often going to waste. Both production and waste contribute harmful emissions to our atmosphere.
+            </li>
+            <li>
+              Most of us buy food rather than growing our own which fuels the wasteful food production industry.
             </li>
           </ol>
         </div>
@@ -143,7 +135,7 @@ const ChangeYourLifestylePage = () => (
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.stopsInner}`}>
         <div className={`${ChoiceStyles.stopsImg} ${Styles.stopsImg}`}>
           <h1 className={`${ChoiceStyles.stopsTitle} ${Styles.stopsTitle}`}>
-            What stops us from changing how we travel?
+            What stops us from changing our lifestyles?
           </h1>
         </div>
         <div className={`${ChoiceStyles.stopsContent} ${Styles.stopsContent}`}>
@@ -158,34 +150,15 @@ const ChangeYourLifestylePage = () => (
               } ${Styles.stopsList}`}
             >
               <li>
-                We don’t want to sacrifice the freedom cars and planes give us
-                to get to places and live our chosen lifestyle.
+                Convenience - Grabbing the nearest item without thinking about the consequences is often just the easiest thing to do. Carrying reusable items around can feel tedious. We prioritise the choices that require less time and effort so we don’t have to sacrifice  aspects of our lifestyles. 
               </li>
               <li>
-                Using public transport can take more time and is often not as
-                convenient.
+                Availability - A lot of the time we just don’t have a choice available to us. When you walk into the average supermarket the vast majority of items are sold in unsustainable packaging.
               </li>
               <li>
-                There is currently no real alternative to flying if you need to
-                get somewhere quickly.
+                Consumerism - In our society, it has become the norm to buy more than you need, in fact it’s often seen as a symbol of success. In addition, companies use advertising to convince us we need their product, continuing the consumer cycle.
               </li>
-              <li>
-                We’re worried about the cost of buying an electric car and how
-                having one will affect our lifestyle. Will I run out of battery?
-                Will it take ages to charge?
-              </li>
-              <li>
-                Businesses most often prioritise based on cost and efficiency,
-                so until the cost of transporting goods and services is cheaper
-                and more efficient with clean energy vehicles, they won’t be
-                used.
-              </li>
-              <li>
-                Acting on climate change represents a trade-off between
-                short-term and long-term benefits, which is the hardest
-                trade-off for people to make. Ignoring it in the short-term is
-                easy as we don’t have to make any personal sacrifices.
-              </li>
+
             </ol>
           </div>
         </div>
@@ -206,23 +179,16 @@ const ChangeYourLifestylePage = () => (
             className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
           >
             <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
-              The best thing to do is get rid of your fossil fuel powered
-              vehicles
+              Buy less, recycle more
             </h2>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              To have the most impact{' '}
-              <b>switch to cycling, public transport and walking</b>. For those
-              who must have a vehicle it’s time to get an electric car. Review
-              your choices, it’s not as expensive as you might think and there
-              are cost savings to be made over the long-term — especially if you
-              install solar panels at your home to generate your own energy.
-              <b>
-                {' '}
-                Many governments have already committed to ban fossil fuel
-                vehicle sales
-              </b>{' '}
-              in the near future and more will follow. Think of it as an
-              investment.
+              Break the consumer cycle and become comfortable with only buying what you need. Not only will you be helping the environment, but you’ll be saving money. Win-win!  
+            </p>
+            <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
+              When you do shop, try to only buy local and seasonal food. For household and personal hygiene products pick chemical-free or organic. 
+            </p>
+            <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
+              When it comes time to throw something away, always make sure you’re recycling it correctly. Procedures differ from country to country but most will at least ask you to separate out plastics, paper items and food waste. Search online for ‘recycling + your area’ to learn more about what you need to do.
             </p>
             <h3
               className={`${ChoiceStyles.actionHowTitle} ${
@@ -233,15 +199,7 @@ const ChangeYourLifestylePage = () => (
               How much would this help?
             </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              A lot! Everytime we take a carbon-emitting vehicle off the road we{' '}
-              <b>
-                send a message to car companies that we don’t want fossil fuel
-                powered cars anymore
-              </b>
-              . As their demand drops more electric cars will be bought. With
-              higher demand supply and competition will increase causing prices
-              to drop. Plus we’d innovate faster on the technology — better
-              range, faster charging and more charging locations.
+              If we stop buying so much, less items will be produced leader to reduced energy production and energy wastage. By recycling we’re decreasing the amount that goes to waste and ensuring less new materials are needed for future production.
             </p>
           </div>
           <div className={`${ChoiceStyles.actionAside} ${Styles.actionAside}`}>
@@ -264,20 +222,20 @@ const ChangeYourLifestylePage = () => (
               >
                 <li>
                   <a
-                    href="https://www.bbc.com/news/science-environment-46459714"
-                    title="Food Carbon Footprint Calculator"
+                    href="/"
+                    title="/"
                   >
-                    Article about best electric cars near you →
+                    Read up on living a minimal lifestyle →
                   </a>
                 </li>
                 <li>
                   <a href="#" title="?">
-                    Public transport guide →
+                    Find out the correct recycling procedure near you →
                   </a>
                 </li>
                 <li>
                   <a href="#" title="?">
-                    Health benefits of walking/ cycling →
+                    List of sustainable shops/products →
                   </a>
                 </li>
               </ul>
@@ -293,32 +251,22 @@ const ChangeYourLifestylePage = () => (
             className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
           >
             <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
-              Only fly when you absolutely must
+              Ditch single-use plastics and replace with reusable items
             </h2>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              Currently there is no viable alternative to air travel beyond
-              trains, buses and boats. Until someone figures out how to
-              decarbonise airplanes we are going to have to make some sacrifices
-              to our lifestyles. Try and{' '}
-              <b>
-                save flying for long-haul journeys which can’t be achieved any
-                other way
-              </b>
-              . If you need to travel a shorter distance there’s usually another
-              way. Look into it, cleaner travels methods like rail can be
-              cheaper, and while it may take longer, you will get to experience
-              more along the way.
+              Plastic is a major problem. First of all its production emits dangerous greenhouse gases into the atmosphere. When it goes to waste it can take up to 1,000 years to decompose - and It’s estimated we only recycle 20% of global plastic so a lot does. 
             </p>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              When you must fly, consider{' '}
-              <Link
-                to="/pay-to-offset-your-carbon-footprint"
-                title="Pay to offset your carbon footprint"
-              >
-                paying a little to offset your carbon footprint
-              </Link>
-              . There are carbon footprint tools that will calculate the carbon
-              cost of your flight and make it easy to pay.
+              8 million tonnes of it ends up in our oceans each year causing great harm to animals. We must use less and recycle all plastic used to end this life threatening cycle. Here are some of the main choices you can make to help:
+            </p>
+            <p>
+              <ul>
+                <li>Don’t take plastic bags from shops to carry your items — bring your own</li>
+                <li>If you need to buy water choose glass bottles — or even better carry your own reusable water bottle</li>
+                <li>Whilst shopping try to find items with no packaging, reusable packaging or recyclable packaging</li>
+                <li>Buy second hand instead of new when possible</li>
+                <li>Buy more high quality items, they will last longer</li>                
+              </ul>
             </p>
             <h3
               className={`${ChoiceStyles.actionHowTitle} ${
@@ -329,12 +277,89 @@ const ChangeYourLifestylePage = () => (
               How much would this help?
             </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              Air travel accounts for around 2% of global greenhouse gas
-              emissions. There are bigger issues that need addressed, but
-              remember every choice you make does have an impact.
+              Plastic might not be the first thing people think of as a contributor to climate breakdown, but its existence causes many problems. By transitioning away from plastic we will be moving towards more self-sufficient lifestyles. If we all do this the effects will likely trickle out into other aspects of our lives, helping the world to become more sustainable.
             </p>
           </div>
+          <div className={`${ChoiceStyles.actionAside} ${Styles.actionAside}`}>
+            <div
+              className={`${ChoiceStyles.actionAsideContainer} ${
+                Styles.actionAsideContainer
+              }`}
+            >
+              <h3
+                className={`${ChoiceStyles.actionAsideTitle} ${
+                  Styles.actionAsideTitle
+                }`}
+              >
+                Need help changing?
+              </h3>
+              <ul
+                className={`${ChoiceStyles.actionAsideList} ${
+                  Styles.actionAsideList
+                }`}
+              >
+                <li>
+                  <a
+                    href="/"
+                    title="/"
+                  >
+                    Find great reusable items →
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          </div>
+          <div
+          className={`${ChoiceStyles.action} ${Styles.action} ${
+            ChoiceStyles.actionAnother
+          }`}
+        >
+          <div
+            className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
+          >
+            <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
+              Live a more independent life
+            </h2>
+            <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
+            We don’t have to rely on corporations and other third parties to live, this is just how our society has developed. Consider becoming more independent. For example grow some of your own fruit and vegetables to become less dependent on the food industry. 
+            </p>
+            <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
+            One of the best choices you can make it to <Link title="Create your own energy supply" to="/choose-renewable-energy#actions">create your own energy supply with wind or solar.</Link>
+
+            </p>
+          </div>
+          <div className={`${ChoiceStyles.actionAside} ${Styles.actionAside}`}>
+            <div
+              className={`${ChoiceStyles.actionAsideContainer} ${
+                Styles.actionAsideContainer
+              }`}
+            >
+              <h3
+                className={`${ChoiceStyles.actionAsideTitle} ${
+                  Styles.actionAsideTitle
+                }`}
+              >
+                Learn more
+              </h3>
+              <ul
+                className={`${ChoiceStyles.actionAsideList} ${
+                  Styles.actionAsideList
+                }`}
+              >
+                <li>
+                  <a
+                    href="/"
+                    title="/"
+                  >
+                    Learn how to grow your own food →
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+
       </div>
     </section>
     <ShareSocialCta {...shareConfig} />
@@ -355,22 +380,11 @@ const ChangeYourLifestylePage = () => (
             <p
               className={`${ChoiceStyles.tldrSubtitle} ${Styles.tldrSubtitle}`}
             >
-              We’re killing the planet. 26% of dangerous greenhouse gas
-              emissions enter our atmosphere because of the way we travel. To
-              reduce these we must:
+              The way we live today is destroying the planet. We need to change or it will get worse, fast. Consider changes such as:
             </p>
             <ul className={`${ChoiceStyles.tldrList} ${Styles.tldrList}`}>
-              <li>Transition to electric cars or better no cars</li>
-              <li>Only fly when it’s absolutely necessary</li>
-              <li>
-                <Link
-                  to="/pay-to-offset-your-carbon-footprint"
-                  title="Pay to offset your carbon footprint"
-                >
-                  Pay to offset your carbon footprint
-                </Link>{' '}
-                if you must fly
-              </li>
+              <li>Only buy items you need and always recycle what you don’t</li>
+              <li>Ditch single-use plastics in favour of reusable items</li>
               <li>Vote for those who prioritize the planet</li>
               <li>
                 <a href="#share" alt="Spread the word">

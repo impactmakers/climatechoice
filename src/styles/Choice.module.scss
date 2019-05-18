@@ -319,6 +319,10 @@
 .actionContent {
   width: 100%;
   margin: 0 auto;
+  li {
+    @include font-size($text-small);
+    margin-bottom: 15px;
+  }
   @include mq('tablet') {
 
   }
@@ -360,6 +364,7 @@
   &:last-child {
     margin-bottom: 0;
   }
+
 }
 
 .actionAside {
