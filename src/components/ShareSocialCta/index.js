@@ -40,7 +40,7 @@ function ShareSocialCta({
         </div>
         {children}
         {/* social block  / right col */}
-        <ul className={styles.socialBlock}>
+        <div className={styles.socialBlock}>
           <h3 className={styles.subTitle}>{socialTitle}</h3>
           <p>{socialCopy}</p>
           <ul className={styles.socialContainer}>
@@ -83,7 +83,7 @@ function ShareSocialCta({
               <CopyLinkButton currentUrl={currentUrl} />
             </li>
           </ul>
-        </ul>
+        </div>
       </div>
     </section>
   );
