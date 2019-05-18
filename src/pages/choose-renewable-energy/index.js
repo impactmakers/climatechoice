@@ -8,24 +8,32 @@ import ChoiceStyles from '../../styles/Choice.module.scss';
 import ButtonStyles from '../../styles/Buttons.module.scss';
 import Styles from './Styles.module.scss';
 import ShareSocialCta from '../../components/ShareSocialCta';
-import shareConfig from '../../configs/pages/choiceEatConfig';
 import ChoiceGridOnChoice from '../../components/ChoiceGrid/onChoice';
-import BannerImg from '../../components/Images/Graphics/choiceBannerEat.svg';
 import HowIcon from '../../components/Images/Icons/HowIcon.svg';
+import BannerImg from '../../components/Images/Graphics/choiceBannerRenewable.svg';
+import shareConfig from '../../configs/pages/choiceRenewableConfig';
 
-const ChangeHowYouEatPage = () => (
+const ChooseRenewablePage = () => (
   <Layout>
     <SEO
-      title="Change how you eat to help prevent climate change"
-      description=" 26% of harmful greenhouse-gas emissions come from the production and waste of food and drink. Learn how you can help prevent earth's climate breaking down by making simple changes."
-      image="https://climatechoice.netlify.com/images/Seo/eat.jpg"
+      title="Choose renewable energy to help prevent climate change"
+      description="75% of the energy used globally comes from coal, gas, oil and nuclear — non-renewable sources that produce greenhouse gas emissions. Learn how you can help prevent earth's climate breaking down by making simple changes."
+      image="https://climatechoice.netlify.com/images/Seo/travel.jpg"
       keywords={[
-        `Food`,
-        `climate change food`,
-        `prevent climate change food`,
-        `climate change food waste`,
-        `climate change meat`,
-        `Change how you eat`,
+        `Renewable energy`,
+        `climate change renewable energy`,
+        `prevent climate renewable energy`,
+        `climate change fossil fuels`,
+        `climate change green energy`,
+        `climate change clean energy`,
+        `prevent climate change non-renewable energy`,
+        `climate change coal`,
+        `climate change natural gas`,
+        `climate change nuclear`,
+        `climate change oil`,
+        `climate change solar`,
+        `climate change wind`,  
+        `Choose renewable energy`,
         `ClimateChoice`,
         `climate change`,
         `climate breakdown`,
@@ -41,11 +49,12 @@ const ChangeHowYouEatPage = () => (
           className={`${ChoiceStyles.bannerContent} ${Styles.bannerContent}`}
         >
           <h1 className={`${ChoiceStyles.bannerTitle} ${Styles.bannerTitle}`}>
-            Change how you eat to help prevent climate breakdown
+            Choose renewable energy to help prevent climate breakdown
           </h1>
           <p className={`${ChoiceStyles.bannerDesc} ${Styles.bannerDesc}`}>
-            <b>26%</b> of global greenhouse-gas emissions come from the
-            production and waste of food and drink products.
+            <b>75%</b> of the energy used globally comes from coal, gas, oil and
+            nuclear — non-renewable sources that produce greenhouse-gas
+            emissions.
           </p>
 
           <div className={ChoiceStyles.bannerActions}>
@@ -97,33 +106,30 @@ const ChangeHowYouEatPage = () => (
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.howInner}`}>
         <div className={`${ChoiceStyles.howContent} ${Styles.howContent}`}>
           <h1 className={`${ChoiceStyles.howTitle} ${Styles.howTitle}`}>
-            How food contributes to climate breakdown
+            How energy usage contributes to climate breakdown
           </h1>
-          <ol
-            className={`${ChoiceStyles.choiceList} ${ChoiceStyles.howList} ${
-              Styles.howList
-            }`}
-          >
-            <li>
-              When livestock digests their food they burp up methane gas. Manure
-              and rice paddies are also big contributors to methane in the
-              atmosphere.
-            </li>
-            <li>
-              Farm vehicles and machinery run on fossil fuels which put carbon
-              into the atmosphere.
-            </li>
-            <li>Most fertilizers used in farming release nitrous oxide.</li>
-            <li>
-              We waste ⅓ of all food. That means we’ve unnecessarily used vital
-              energy to produce it, releasing greenhouse gases in the process -
-              and when it’s dumped it rots becoming methane gas.
-            </li>
-            <li>
-              Forests are regularly cleared around the word for use by farms and
-              livestock resulting in lots of carbon being released.
-            </li>
-          </ol>
+          <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
+            In the modern world we have become dependent on electrical energy to
+            power our lives. Unfortunately{' '}
+            <b>
+              75% of our energy is provided by polluting non-renewable sources
+            </b>
+            .
+          </p>
+          <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
+            Coal is the most widely used energy source. It also emits more
+            carbon than any other fossil fuel. Next up is natural gas. It might
+            sound ‘green’ but much like coal it produces carbon when burned.
+            Then there’s oil, it’s only a small part of our total energy
+            consumption, but it’s the second biggest emitter behind coal.
+            Finally, nuclear which is the cleanest of the non-renewables, but
+            it’s still responsible for emissions.
+          </p>
+          <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
+            It’s worth noting renewable sources such as wind, solar and hydro
+            electricity also have a carbon footprint from their production, but
+            all have a lower environmental impact and won’t run out.
+          </p>
         </div>
         {/* <div className={`${ChoiceStyles.howImg} ${Styles.howImg}`}>Image</div> */}
       </div>
@@ -132,7 +138,7 @@ const ChangeHowYouEatPage = () => (
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.stopsInner}`}>
         <div className={`${ChoiceStyles.stopsImg} ${Styles.stopsImg}`}>
           <h1 className={`${ChoiceStyles.stopsTitle} ${Styles.stopsTitle}`}>
-            What stops us from changing how we eat?
+            What stops us from choosing renewable energy?
           </h1>
         </div>
         <div className={`${ChoiceStyles.stopsContent} ${Styles.stopsContent}`}>
@@ -147,20 +153,16 @@ const ChangeHowYouEatPage = () => (
               } ${Styles.stopsList}`}
             >
               <li>
-                Food choices with a lower carbon footprint are usually more
-                expensive.
+                Cost - Buying renewable energy can be more expensive than non-renewable sources (though this is changing fast). Creating your own solar or wind energy also has an upfront construction cost.
               </li>
               <li>
-                We enjoy the taste and experience of consuming meat and dairy
-                products so much that we can’t bring ourselves to quit them.
+              Availability - There isn’t enough renewable energy being produced (yet) to cover our daily usage. Some of our homes may also be in areas where no renewable energy supplier is available.
               </li>
               <li>
-                The way we eat today is percieved as normal, with changing comes
-                social pressure to return to 'normal' eating practices.
+                Awareness - A lot of people don’t think much about their energy provider, nor have they looked to see if there is a renewable alternative.
               </li>
               <li>
-                Often it's hard to know exactly what you should and shouldn't
-                eat if you want to reduce your carbon footprint.
+                Effort - Changing your energy supplier might create hassle for you in order to make the switch - so you don’t.
               </li>
               <li>
                 Acting on climate change represents a trade-off between
@@ -188,16 +190,14 @@ const ChangeHowYouEatPage = () => (
             className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
           >
             <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
-              The easiest thing to do is to consume less food with a high carbon
-              footprint
+              The easiest thing to do is find a local renewable energy supplier and make the switch.
             </h2>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              The biggest impact can be had if you{' '}
-              <b>eat less animal products — in particular meat and dairy</b>,
-              however all purchased food items have a carbon footprint.{' '}
-              <b>If you’re really commited go vegan</b>. Try to only buy items
-              with <b>sustainable, or no packaging</b>, and <b>buy local</b> so
-              your food isn’t travelling around the world.
+              <b>Start by checking with your existing energy supplier</b>, many already give you the option to choose a green energy source over non-renewables. It may cost you a bit more, but it’s the easiest way to change. It’s also worthwhile researching other suppliers near you. You might find a bretter price.
+            </p>
+            <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
+              If you don’t have a renewable option with your existing supplier it’s time to shop around. A quick search online for <a href="https://www.google.com/search?ei=xajfXIqsIcuWkwXZ4puYAw&q=renewable+energy+supplier&oq=renewable+energy+supplier&gs_l=psy-ab.3..0l8.10087.10595..10882...0.0..0.82.200.3......0....1..gws-wiz.......0i71j33i22i29i30j0i22i30.742iU1EWxJs" title="Search for a renewable energy supplier">
+              ‘Renewable energy supplier + your location’</a> should point you in the right direction.
             </p>
             <h3
               className={`${ChoiceStyles.actionHowTitle} ${
@@ -208,11 +208,7 @@ const ChangeHowYouEatPage = () => (
               How much would this help?
             </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              If we all did this, demand for harmful food and drink products
-              would go down causing the supply chain to shrink. Since we’d be
-              eating food with a lower carbon footprint, demand for those
-              products would rise, causing prices to drop due to increased
-              supply and competition.
+              100% renewable energy is likely inevitable. But <b>to prevent climate breakdown we must achieve 100% renewable energy as quickly as possible</b>. By choosing a renewable provider today you are voting for your preference, and the more votes each provider gets the more likely they are to speed up the development of their renewable sources. With more demand supply and competition will increase, driving costs down for all of us.
             </p>
           </div>
           <div className={`${ChoiceStyles.actionAside} ${Styles.actionAside}`}>
@@ -235,18 +231,12 @@ const ChangeHowYouEatPage = () => (
               >
                 <li>
                   <a
-                    href="https://www.bbc.com/news/science-environment-46459714"
-                    title="Food Carbon Footprint Calculator"
+                    href="#"
+                    title="?"
                   >
-                    Calculate your foods carbon footprint →
+                    Find a renewable energy supplier near you →
                   </a>
                 </li>
-                {/* <li>
-                  <a href="#" title="?">
-                    Learn how to spot food and drink with a high carbon
-                    footprint →
-                  </a>
-                </li> */}
               </ul>
             </div>
           </div>
@@ -260,18 +250,19 @@ const ChangeHowYouEatPage = () => (
             className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
           >
             <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
-              STOP wasting food. If something does go to waste make sure it’s
-              recycled
+              Create your own energy supply by installing solar panels or wind turbines
             </h2>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              Be more conscious when you shop and try to{' '}
-              <b>only buy what you’re sure will be consumed</b>. When you have
-              food or packaging that must be dumped <b>recycle</b> it. Make sure
-              you’re aware of the{' '}
-              <a href="#" title="?">
-                correct recycling procedures where you live
-              </a>
-              .
+              While creating your own renewable energy source has an upfront cost, <b>it will likely benefit you financially over the long term</b>. 
+            </p>
+            <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
+              With solar how much you can save depends on factors such as direct hours of daily sunlight and your local electricity rate. In some places you can even get paid for any excess power you can provide to the electricity grid. That’s right — get paid for your energy! 
+            </p>
+            <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
+              Wind is another option. It can generate you energy 24 hours a day but there are some downsides. Wind requires more specialised maintenance, it can be noisy, unsightly and dangerous to birds.
+            </p>
+            <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
+              <b>Most people choose solar</b> as it’s easier to install, less maintenance and doesn’t get in peoples way. Consider which option best suits your location.
             </p>
             <h3
               className={`${ChoiceStyles.actionHowTitle} ${
@@ -282,11 +273,64 @@ const ChangeHowYouEatPage = () => (
               How much would this help?
             </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              Roughly 1/3 of food each year goes to waste. If we all became more
-              efficient with our food, less would need to be produced and less
-              would be left to rot - reducing greenhouse emissions.
+              Having your own supply means other people can use the currently limited renewable sources from existing energy suppliers. If everyone has renewable energy available to them we’d be a lot closer to eliminating our dependency on coal, gas, oil and nuclear energy. 
             </p>
           </div>
+
+          <div className={`${ChoiceStyles.actionAside} ${Styles.actionAside}`}>
+            <div
+              className={`${ChoiceStyles.actionAsideContainer} ${
+                Styles.actionAsideContainer
+              }`}
+            >
+              <h3
+                className={`${ChoiceStyles.actionAsideTitle} ${
+                  Styles.actionAsideTitle
+                }`}
+              >
+                Learn more
+              </h3>
+              <ul
+                className={`${ChoiceStyles.actionAsideList} ${
+                  Styles.actionAsideList
+                }`}
+              >
+                <li>
+                  <a
+                    href="#"
+                    title="?"
+                  >
+                    Learn how to install your own solar panels →
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    title="?"
+                  >
+                    Find out how much solar can save you →
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    title="?"
+                  >
+                    Learn if you can get paid for your energy →
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    title="?"
+                  >
+                    Learn how to install your own wind turbines →
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
@@ -308,13 +352,12 @@ const ChangeHowYouEatPage = () => (
             <p
               className={`${ChoiceStyles.tldrSubtitle} ${Styles.tldrSubtitle}`}
             >
-              We’re killing the planet. 26% of dangerous greenhouse gas
-              emissions enter our atmosphere because of the way we eat and
-              drink. To reduce these we must:
+              We’re killing the planet. 75% of our energy is supplied from the greenhouse gas emitting sources coal, gas, oil and nuclear. To reduce these we must:
+
             </p>
             <ul className={`${ChoiceStyles.tldrList} ${Styles.tldrList}`}>
-              <li>Eat less food with a high carbon footprint</li>
-              <li>Stop wasting food and recycle</li>
+              <li>Transition to renewable energy providers</li>
+              <li>Consider generating your own energy with solar or wind</li>
               <li>Vote for those who prioritize the planet</li>
               <li>
                 <a href="#share" alt="Spread the word">
@@ -331,4 +374,4 @@ const ChangeHowYouEatPage = () => (
   </Layout>
 );
 
-export default ChangeHowYouEatPage;
+export default ChooseRenewablePage;

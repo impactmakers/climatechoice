@@ -209,7 +209,7 @@ const ChangeHowYouTravelPage = () => (
               The best thing to do is get rid of your fossil fuel powered
               vehicles
             </h2>
-            <p className={`${ChoiceStyles.actionDesc} ${Styles.actionDesc}`}>
+            <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               To have the most impact{' '}
               <b>switch to cycling, public transport and walking</b>. For those
               who must have a vehicle it’s time to get an electric car. Review
@@ -232,7 +232,7 @@ const ChangeHowYouTravelPage = () => (
               <img src={HowIcon} alt="How it helps" />
               How much would this help?
             </h3>
-            <p className={`${ChoiceStyles.actionDesc} ${Styles.actionDesc}`}>
+            <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               A lot! Everytime we take a carbon-emitting vehicle off the road we{' '}
               <b>
                 send a message to car companies that we don’t want fossil fuel
@@ -295,7 +295,7 @@ const ChangeHowYouTravelPage = () => (
             <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
               Only fly when you absolutely must
             </h2>
-            <p className={`${ChoiceStyles.actionDesc} ${Styles.actionDesc}`}>
+            <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               Currently there is no viable alternative to air travel beyond
               trains, buses and boats. Until someone figures out how to
               decarbonise airplanes we are going to have to make some sacrifices
@@ -309,7 +309,7 @@ const ChangeHowYouTravelPage = () => (
               cheaper, and while it may take longer, you will get to experience
               more along the way.
             </p>
-            <p className={`${ChoiceStyles.actionDesc} ${Styles.actionDesc}`}>
+            <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               When you must fly, consider{' '}
               <Link
                 to="/pay-to-offset-your-carbon-footprint"
@@ -328,7 +328,7 @@ const ChangeHowYouTravelPage = () => (
               <img src={HowIcon} alt="How it helps" />
               How much would this help?
             </h3>
-            <p className={`${ChoiceStyles.actionDesc} ${Styles.actionDesc}`}>
+            <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               Air travel accounts for around 2% of global greenhouse gas
               emissions. There are bigger issues that need addressed, but
               remember every choice you make does have an impact.

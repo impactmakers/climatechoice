@@ -198,6 +198,10 @@
   }
 }
 
+.bold {
+  font-weight: bold;
+}
+
 /* What stops us */
 
 .stops {
@@ -337,7 +341,7 @@
   }
 }
 
-.actionDesc {
+.paragraph {
   @include font-size($text-small);
   &:last-child {
     margin-bottom: 0;
