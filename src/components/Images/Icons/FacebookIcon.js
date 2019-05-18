@@ -8,7 +8,7 @@ export default function FacebookIcon({ fillColor }) {
       width="23"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <mask id="a" fill="#fff">
+      <mask fill="#fff">
         <path
           d="m.00129666.00086444h22.12836934v21.99438116h-22.12836934z"
           fill="#fff"
