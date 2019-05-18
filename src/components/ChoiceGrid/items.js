@@ -205,6 +205,7 @@ const ChoiceGridItems = () => {
               class="required email"
               id="mce-EMAIL"
               placeholder="Enter your email address..."
+              aria-label="Enter your email address..."
               className={FormStyles.field}
             />
             <input
