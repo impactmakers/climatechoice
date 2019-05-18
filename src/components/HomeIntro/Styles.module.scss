@@ -42,14 +42,12 @@
   text-align: center;
   min-height: 175px;
   @include mq("mobile") {
-    min-height:auto;
+    min-height: auto;
   }
   @include mq("tablet") {
     text-align: left;
   }
 }
-
-
 
 .typist {
   display: inline-block;
@@ -97,11 +95,6 @@
   }
 }
 
-
-
-
-
-
 .img {
   margin-top: 10px;
   align-self: flex-end;
@@ -116,15 +109,12 @@
     @include pad-top-standard;
     @include pad-bot-standard;
   }
-
 }
 .bannerImg {
-  -webkit-filter: drop-shadow( 0px 0px 41px rgba(244,156,0, .60));
-  filter: drop-shadow( 0px 0px 41px rgba(244,156,0, .68));
+  -webkit-filter: drop-shadow(0px 0px 41px rgba(244, 156, 0, 0.6));
+  filter: drop-shadow(0px 0px 41px rgba(244, 156, 0, 0.68));
   @include mq("tablet") {
     margin-top: 0;
     margin-bottom: 0;
   }
 }
-
-

@@ -1,10 +1,9 @@
-@import './Variables.module.scss';
-@import './Mixins.module.scss';
-
+@import "./Variables.module.scss";
+@import "./Mixins.module.scss";
 
 // Fonts
-$serif: 'ITC Napoleone Slab W01', serif;
-$sans: 'Neue Frutiger W15', sans-serif;
+$serif: "ITC Napoleone Slab W01", serif;
+$sans: "Neue Frutiger W15", sans-serif;
 
 // Responsive Typography Resizer
 
@@ -12,8 +11,7 @@ $sans: 'Neue Frutiger W15', sans-serif;
   @each $fs-breakpoint, $fs-font-size in $fs-map {
     @if $fs-breakpoint == null {
       @include make-font-size($fs-font-size);
-    }
-    @else {
+    } @else {
       // If $fs-font-size is a key that exists in
       // $fs-breakpoints, use the value
       @if map-has-key($fs-breakpoints, $fs-breakpoint) {
@@ -35,8 +33,7 @@ $sans: 'Neue Frutiger W15', sans-serif;
     @if (length($fs-font-size) > 1) {
       line-height: nth($fs-font-size, 2);
     }
-  }
-  @else {
+  } @else {
     font-size: $fs-font-size;
   }
 }
@@ -44,13 +41,27 @@ $sans: 'Neue Frutiger W15', sans-serif;
 // Text Styles
 
 $title-xlarge: (
-  null  : (38px, 43px),
-  mobile : (38px, 43px),
-  tablet: (50px, 56px),
-  desktop : (62px, 66px),
-  max : (62px, 66px),
+  null: (
+    38px,
+    43px
+  ),
+  mobile: (
+    38px,
+    43px
+  ),
+  tablet: (
+    50px,
+    56px
+  ),
+  desktop: (
+    62px,
+    66px
+  ),
+  max: (
+    62px,
+    66px
+  )
 );
-
 
 @mixin title-xlarge {
   @include font-size($title-xlarge);
@@ -58,17 +69,29 @@ $title-xlarge: (
   font-weight: bold;
   color: $black;
   letter-spacing: -0.24px;
-
-
 }
 
-
 $title-large: (
-  null  : (32px, 35px),
-  mobile : (32px, 35px),
-  tablet: (40px, 46px),
-  desktop : (50px, 57px),
-  max : (50px, 57px),
+  null: (
+    32px,
+    35px
+  ),
+  mobile: (
+    32px,
+    35px
+  ),
+  tablet: (
+    40px,
+    46px
+  ),
+  desktop: (
+    50px,
+    57px
+  ),
+  max: (
+    50px,
+    57px
+  )
 );
 
 @mixin title-large {
@@ -76,58 +99,145 @@ $title-large: (
   @include font-size($title-large);
   font-weight: bold;
   color: $black;
-
 }
 
-
 $title-medium: (
-  null  : (24px, 30px),
-  mobile : (24px, 30px),
-  tablet: (30px, 37px),
-  desktop : (40px, 48px),
-  max : (40px, 48px),
+  null: (
+    24px,
+    30px
+  ),
+  mobile: (
+    24px,
+    30px
+  ),
+  tablet: (
+    30px,
+    37px
+  ),
+  desktop: (
+    40px,
+    48px
+  ),
+  max: (
+    40px,
+    48px
+  )
 );
 
 $title-small: (
-  null  : (22px, 30px),
-  mobile : (22px, 30px),
-  tablet: (25px, 34px),
-  desktop : (30px, 39px),
-  max : (30px, 39px),
+  null: (
+    22px,
+    30px
+  ),
+  mobile: (
+    22px,
+    30px
+  ),
+  tablet: (
+    25px,
+    34px
+  ),
+  desktop: (
+    30px,
+    39px
+  ),
+  max: (
+    30px,
+    39px
+  )
 );
 
 $text-large: (
-  null  : (18px, 27px),
-  mobile : (18, 27px),
-  tablet: (20px, 30px),
-  desktop : (21px, 32px),
-  max : (21px, 32px),
+  null: (
+    18px,
+    27px
+  ),
+  mobile: (
+    18,
+    27px
+  ),
+  tablet: (
+    20px,
+    30px
+  ),
+  desktop: (
+    21px,
+    32px
+  ),
+  max: (
+    21px,
+    32px
+  )
 );
 
 $text-body: (
-  null  : (16px, 24px),
-  mobile : (16px, 24px),
-  tablet: (18px, 28px),
-  desktop : (19px, 30px),
-  max : (19px, 30px),
+  null: (
+    16px,
+    24px
+  ),
+  mobile: (
+    16px,
+    24px
+  ),
+  tablet: (
+    18px,
+    28px
+  ),
+  desktop: (
+    19px,
+    30px
+  ),
+  max: (
+    19px,
+    30px
+  )
 );
 
 $text-small: (
-  null  : (16px, 25px),
-  mobile : (16px, 25px),
-  tablet: (16px, 25px),
-  desktop : (18px, 28px),
-  max : (18px, 28px),
+  null: (
+    16px,
+    25px
+  ),
+  mobile: (
+    16px,
+    25px
+  ),
+  tablet: (
+    16px,
+    25px
+  ),
+  desktop: (
+    18px,
+    28px
+  ),
+  max: (
+    18px,
+    28px
+  )
 );
 
 $text-xsmall: (
-  null  : (14px, 22px),
-  mobile : (14px, 22px),
-  tablet: (14px, 22px),
-  desktop : (15px, 22px),
-  max : (15px, 22px),
+  null: (
+    14px,
+    22px
+  ),
+  mobile: (
+    14px,
+    22px
+  ),
+  tablet: (
+    14px,
+    22px
+  ),
+  desktop: (
+    15px,
+    22px
+  ),
+  max: (
+    15px,
+    22px
+  )
 );
-
 
 @mixin text-small {
   @include font-size($text-small);
@@ -144,15 +254,12 @@ $text-xsmall: (
   font-weight: bold;
 }
 
-
 @mixin title-small {
   @include font-size($text-body);
   font-weight: 700;
   letter-spacing: 0;
   text-transform: none;
 }
-
-
 
 @mixin title-uppercase-small {
   @include font-size($text-small);
@@ -161,21 +268,16 @@ $text-xsmall: (
   text-transform: uppercase;
 }
 
-
 @mixin blue-title {
   @include font-size($title-small);
   font-weight: bold;
   color: $green;
 }
 
-
-
-
 // Text Style Application
 
 h1 {
   @include title-xlarge;
-
 }
 
 h2 {
@@ -195,12 +297,12 @@ h4 {
   color: $black;
 }
 
-h5, h6 {
+h5,
+h6 {
   margin: 0.5em 0 0.5em 0;
   @include title-uppercase-small;
   color: $green;
 }
-
 
 p {
   @include text-body;

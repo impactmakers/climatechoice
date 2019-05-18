@@ -1,6 +1,6 @@
-@import '../../styles/Variables.module.scss';
-@import '../../styles/Mixins.module.scss';
-@import '../../styles/Typography.module.scss';
+@import "../../styles/Variables.module.scss";
+@import "../../styles/Mixins.module.scss";
+@import "../../styles/Typography.module.scss";
 
 .ctaActions {
   display: flex;
@@ -8,26 +8,24 @@
   padding-top: 5px;
   @include mar-bot-small;
   padding-bottom: 30px;
-  @include mq('tablet') {
+  @include mq("tablet") {
     flex-direction: row;
-
   }
-}   
+}
 
 .ctaButton {
   @include no-underline;
   margin-top: 5px;
-    @include mq('tablet') {
-      margin-right: 20px;
-      &:last-child {
-        margin-right: 0;
-      }
+  @include mq("tablet") {
+    margin-right: 20px;
+    &:last-child {
+      margin-right: 0;
     }
   }
+}
 
 .airtable {
   @include mar-top-small;
-  background: transparent; 
+  background: transparent;
   border: 1px solid #ccc;
 }
-

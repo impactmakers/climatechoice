@@ -1,7 +1,6 @@
-@import '../../styles/Variables.module.scss';
-@import '../../styles/Mixins.module.scss';
-@import '../../styles/Typography.module.scss';
-
+@import "../../styles/Variables.module.scss";
+@import "../../styles/Mixins.module.scss";
+@import "../../styles/Typography.module.scss";
 
 .container {
   background: $grayLightest;
@@ -19,24 +18,23 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  @include mq('tablet') {
-
+  @include mq("tablet") {
   }
 }
 
-.top { 
+.top {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  @include mq('tablet') {
+  @include mq("tablet") {
     flex-direction: row;
   }
 }
 
 .company {
   width: 100%;
-  @include mq('tablet') {
+  @include mq("tablet") {
     max-width: 170px;
   }
 }
@@ -46,7 +44,7 @@
   @include font-size($text-xsmall);
   color: $gray;
 }
- 
+
 .social {
   display: flex;
   list-style-type: none;
@@ -55,11 +53,10 @@
   padding: 0;
   justify-content: space-between;
   width: 95px;
-  @include mq('tablet') {
+  @include mq("tablet") {
     margin-bottom: 0;
   }
 }
-
 
 .socialLink {
   padding: 0;
@@ -75,20 +72,17 @@
   }
 }
 
-
 .nav {
-  margin-top:10px;
+  margin-top: 10px;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  @include mq('tablet') {
+  @include mq("tablet") {
     flex-direction: row;
     width: auto;
   }
 }
-
-
 
 .navTitle {
   color: $black;
@@ -108,7 +102,7 @@
   a {
     text-decoration: none;
   }
-  @include mq('tablet') {
+  @include mq("tablet") {
     margin-bottom: 0;
   }
 }
@@ -116,16 +110,16 @@
 .choiceLists {
   display: flex;
   flex-direction: column;
-  @include mq('tablet') {
+  @include mq("tablet") {
     flex-direction: row;
-  } 
+  }
 }
 
 .navCol {
-  @include mq('tablet') {
+  @include mq("tablet") {
     margin-right: 100px;
   }
-  @include mq('desktop') {
+  @include mq("desktop") {
     margin-right: 160px;
   }
 }
@@ -133,13 +127,12 @@
 .choiceList {
   list-style-type: none;
   padding-left: 0;
-  @include mq('tablet') {
-
+  @include mq("tablet") {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 0 100px;
-  } 
-  @include mq('desktop') {
+  }
+  @include mq("desktop") {
     grid-gap: 0 150px;
   }
 }
@@ -149,11 +142,7 @@
   margin: 5px 0 0 0;
   @include font-size($text-small);
   @include links-on-light;
-
 }
-
-
-
 
 .bottom {
   width: 100%;
@@ -162,20 +151,18 @@
   flex-direction: column;
   justify-content: space-between;
   border-top: 1px solid $grayBorder;
-  padding-top:20px;
+  padding-top: 20px;
   @include links-on-light;
-  @include mq('tablet') {
+  @include mq("tablet") {
     @include mar-top-standard;
-  } 
+  }
 }
 
 .disclaimer {
   @include font-size($text-xsmall);
-  color:$gray;
+  color: $gray;
   margin: 0;
 }
-
-
 
 .impactMakers {
   @include white-box;
@@ -189,7 +176,7 @@
   text-align: center;
   flex-direction: column;
   justify-content: space-between;
-  @include mq('tablet') {
+  @include mq("tablet") {
     width: 100%;
 
     padding-left: 0;
@@ -212,7 +199,7 @@
   margin: 13px auto 30px;
   display: flex;
   flex-direction: column;
-  @include mq('tablet') {
+  @include mq("tablet") {
     margin: 15px auto 30px;
     flex-direction: row;
   }
@@ -224,7 +211,7 @@
   &:last-child {
     margin-bottom: 0;
   }
-  @include mq('tablet') {
+  @include mq("tablet") {
     margin: 0 30px 0 0;
     &:last-child {
       margin-right: 0;
@@ -242,9 +229,7 @@
   @include no-underline;
   margin: 30px auto 0;
   width: 100%;
-  @include mq('tablet') { 
+  @include mq("tablet") {
     width: auto;
   }
 }
-
-
