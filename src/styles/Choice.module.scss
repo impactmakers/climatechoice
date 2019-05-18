@@ -32,7 +32,7 @@
   @include pad-bot-standard;
   @include mar-bot-small;
   @include mq('tablet') {
-    max-width: 700px;
+    max-width: 740px;
   }
 }
 
@@ -453,6 +453,7 @@
   width: 100%;
   height: 240px;
   margin-top: 25px;
+  background: url('../components/Images/Photos/globe.jpg') no-repeat top center;
   background-size: cover;
   display: block;
   @include mq('tablet') {

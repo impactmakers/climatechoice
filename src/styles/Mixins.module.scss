@@ -195,3 +195,16 @@ a:active {
   border: 1px solid #DFE1E2;
   box-shadow: 0 1px 13px 0 rgba(219,223,225,0.40);
 }
+
+@mixin text-break {
+  br {
+    content: " ";
+    display: none;
+}
+  @include mq('tablet') {
+    min-height: 80px;
+    br {
+      display: block;
+    }
+  }
+}

@@ -7,25 +7,29 @@ import GlobalStyles from '../../styles/Global.module.scss';
 import ChoiceStyles from '../../styles/Choice.module.scss';
 import ButtonStyles from '../../styles/Buttons.module.scss';
 import Styles from './Styles.module.scss';
-import ShareSocialCta from '../../components/ShareSocialCta';
-import shareConfig from '../../configs/pages/choiceEatConfig';
+import shareConfig from '../../configs/pages/choiceTravelConfig';
 import ChoiceGridOnChoice from '../../components/ChoiceGrid/onChoice';
-import BannerImg from '../../components/Images/Graphics/choiceBannerEat.svg';
 import HowIcon from '../../components/Images/Icons/HowIcon.svg';
+import BannerImg from '../../components/Images/Graphics/choiceBannerTravel.svg';
+import ShareSocialCta from '../../components/ShareSocialCta';
 
-const ChangeHowYouEatPage = () => (
+const ChangeHowYouTravelPage = () => (
   <Layout>
     <SEO
-      title="Change how you eat to help prevent climate change"
-      description=" 26% of harmful greenhouse-gas emissions come from the production and waste of food and drink. Learn how you can help prevent earth's climate breaking down by making simple changes."
-      image="https://climatechoice.netlify.com/images/Seo/eat.jpg"
+      title="Change how you travel to help prevent climate change"
+      description=" 26% of harmful greenhouse-gas emissions come from the production and use of vehicles like cars, lorries and planes. Learn how you can help prevent earth's climate breaking down by making simple changes."
+      image="https://climatechoice.netlify.com/images/Seo/travel.jpg"
       keywords={[
-        `Food`,
-        `climate change food`,
-        `prevent climate change food`,
-        `climate change food waste`,
-        `climate change meat`,
-        `Change how you eat`,
+        `Travel`,
+        `climate change travel`,
+        `prevent climate change cars`,
+        `climate change fossil fuels`,
+        `climate change flying`,
+        `climate change airplanes`,
+        `prevent climate change flying`,
+        `climate change lorries`,
+        `climate change electric cars`,
+        `Change how you travel`,
         `ClimateChoice`,
         `climate change`,
         `climate breakdown`,
@@ -41,11 +45,11 @@ const ChangeHowYouEatPage = () => (
           className={`${ChoiceStyles.bannerContent} ${Styles.bannerContent}`}
         >
           <h1 className={`${ChoiceStyles.bannerTitle} ${Styles.bannerTitle}`}>
-            Change how you eat to help prevent climate breakdown
+            Change how you travel to help prevent climate breakdown
           </h1>
           <p className={`${ChoiceStyles.bannerDesc} ${Styles.bannerDesc}`}>
-            <b>26%</b> of global greenhouse-gas emissions come from the
-            production and waste of food and drink products.
+            <b>26%</b> of the greenhouse gases emitted into our atmosphere are
+            from the production and use of vehicles and airplanes.
           </p>
 
           <div className={ChoiceStyles.bannerActions}>
@@ -97,7 +101,7 @@ const ChangeHowYouEatPage = () => (
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.howInner}`}>
         <div className={`${ChoiceStyles.howContent} ${Styles.howContent}`}>
           <h1 className={`${ChoiceStyles.howTitle} ${Styles.howTitle}`}>
-            How food contributes to climate breakdown
+            How travel contributes to climate breakdown
           </h1>
           <ol
             className={`${ChoiceStyles.choiceList} ${ChoiceStyles.howList} ${
@@ -105,23 +109,30 @@ const ChangeHowYouEatPage = () => (
             }`}
           >
             <li>
-              When livestock digests their food they burp up methane gas. Manure
-              and rice paddies are also big contributors to methane in the
+              <b>
+                88% of travel emissions are from vehicles like cars, lorries and
+                motorbikes
+              </b>
+              . Their assembly process requires energy generating a carbon
+              footprint (yes electric too). However most of the damage occurs
+              when a fossil fuel burning vehicle hits the road releasing tonnes
+              of carbon in the process. There are over 1 billion of these
+              vehicles on the road today.
+            </li>
+            <li>
+              <b>11% comes from air travel</b>. The problems are much the same,
+              planes also use fossil fuel emitting greenhouse gasses into the
               atmosphere.
             </li>
             <li>
-              Farm vehicles and machinery run on fossil fuels which put carbon
-              into the atmosphere.
-            </li>
-            <li>Most fertilizers used in farming release nitrous oxide.</li>
-            <li>
-              We waste ⅓ of all food. That means we’ve unnecessarily used vital
-              energy to produce it, releasing greenhouse gases in the process -
-              and when it’s dumped it rots becoming methane gas.
+              Fossil fuels first need to be extracted, refined and transported
+              for use which means more harmful emissions.
             </li>
             <li>
-              Forests are regularly cleared around the word for use by farms and
-              livestock resulting in lots of carbon being released.
+              Electric cars don’t emit any carbon once on the road, however they
+              do require energy which has to come from somewhere. Until we hit
+              100% renewable energy electric car usage will harm the environment
+              too but nowhere near as much.
             </li>
           </ol>
         </div>
@@ -132,7 +143,7 @@ const ChangeHowYouEatPage = () => (
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.stopsInner}`}>
         <div className={`${ChoiceStyles.stopsImg} ${Styles.stopsImg}`}>
           <h1 className={`${ChoiceStyles.stopsTitle} ${Styles.stopsTitle}`}>
-            What stops us from changing how we eat?
+            What stops us from changing how we travel?
           </h1>
         </div>
         <div className={`${ChoiceStyles.stopsContent} ${Styles.stopsContent}`}>
@@ -147,20 +158,27 @@ const ChangeHowYouEatPage = () => (
               } ${Styles.stopsList}`}
             >
               <li>
-                Food choices with a lower carbon footprint are usually more
-                expensive.
+                We don’t want to sacrifice the freedom cars and planes give us
+                to get to places and live our chosen lifestyle.
               </li>
               <li>
-                We enjoy the taste and experience of consuming meat and dairy
-                products so much that we can’t bring ourselves to quit them.
+                Using public transport can take more time and is often not as
+                convenient.
               </li>
               <li>
-                The way we eat today is percieved as normal, with changing comes
-                social pressure to return to 'normal' eating practices.
+                There is currently no real alternative to flying if you need to
+                get somewhere quickly.
               </li>
               <li>
-                Often it's hard to know exactly what you should and shouldn't
-                eat if you want to reduce your carbon footprint.
+                We’re worried about the cost of buying an electric car and how
+                having one will affect our lifestyle. Will I run out of battery?
+                Will it take ages to charge?
+              </li>
+              <li>
+                Businesses most often prioritise based on cost and efficiency,
+                so until the cost of transporting goods and services is cheaper
+                and more efficient with clean energy vehicles, they won’t be
+                used.
               </li>
               <li>
                 Acting on climate change represents a trade-off between
@@ -188,16 +206,23 @@ const ChangeHowYouEatPage = () => (
             className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
           >
             <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
-              The easiest thing to do is to consume less food with a high carbon
-              footprint
+              The best thing to do is get rid of your fossil fuel powered
+              vehicles
             </h2>
             <p className={`${ChoiceStyles.actionDesc} ${Styles.actionDesc}`}>
-              The biggest impact can be had if you{' '}
-              <b>eat less animal products — in particular meat and dairy</b>,
-              however all purchased food items have a carbon footprint.{' '}
-              <b>If you’re really commited go vegan</b>. Try to only buy items
-              with <b>sustainable, or no packaging</b>, and <b>buy local</b> so
-              your food isn’t travelling around the world.
+              To have the most impact{' '}
+              <b>switch to cycling, public transport and walking</b>. For those
+              who must have a vehicle it’s time to get an electric car. Review
+              your choices, it’s not as expensive as you might think and there
+              are cost savings to be made over the long-term — especially if you
+              install solar panels at your home to generate your own energy.
+              <b>
+                {' '}
+                Many governments have already committed to ban fossil fuel
+                vehicle sales
+              </b>{' '}
+              in the near future and more will follow. Think of it as an
+              investment.
             </p>
             <h3
               className={`${ChoiceStyles.actionHowTitle} ${
@@ -208,11 +233,15 @@ const ChangeHowYouEatPage = () => (
               How much would this help?
             </h3>
             <p className={`${ChoiceStyles.actionDesc} ${Styles.actionDesc}`}>
-              If we all did this, demand for harmful food and drink products
-              would go down causing the supply chain to shrink. Since we’d be
-              eating food with a lower carbon footprint, demand for those
-              products would rise, causing prices to drop due to increased
-              supply and competition.
+              A lot! Everytime we take a carbon-emitting vehicle off the road we{' '}
+              <b>
+                send a message to car companies that we don’t want fossil fuel
+                powered cars anymore
+              </b>
+              . As their demand drops more electric cars will be bought. With
+              higher demand supply and competition will increase causing prices
+              to drop. Plus we’d innovate faster on the technology — better
+              range, faster charging and more charging locations.
             </p>
           </div>
           <div className={`${ChoiceStyles.actionAside} ${Styles.actionAside}`}>
@@ -238,15 +267,19 @@ const ChangeHowYouEatPage = () => (
                     href="https://www.bbc.com/news/science-environment-46459714"
                     title="Food Carbon Footprint Calculator"
                   >
-                    Calculate your foods carbon footprint →
+                    Article about best electric cars near you →
                   </a>
                 </li>
-                {/* <li>
+                <li>
                   <a href="#" title="?">
-                    Learn how to spot food and drink with a high carbon
-                    footprint →
+                    Public transport guide →
                   </a>
-                </li> */}
+                </li>
+                <li>
+                  <a href="#" title="?">
+                    Health benefits of walking/ cycling →
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
@@ -260,18 +293,32 @@ const ChangeHowYouEatPage = () => (
             className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
           >
             <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
-              STOP wasting food. If something does go to waste make sure it’s
-              recycled
+              Only fly when you absolutely must
             </h2>
             <p className={`${ChoiceStyles.actionDesc} ${Styles.actionDesc}`}>
-              Be more conscious when you shop and try to{' '}
-              <b>only buy what you’re sure will be consumed</b>. When you have
-              food or packaging that must be dumped <b>recycle</b> it. Make sure
-              you’re aware of the{' '}
-              <a href="#" title="?">
-                correct recycling procedures where you live
-              </a>
-              .
+              Currently there is no viable alternative to air travel beyond
+              trains, buses and boats. Until someone figures out how to
+              decarbonise airplanes we are going to have to make some sacrifices
+              to our lifestyles. Try and{' '}
+              <b>
+                save flying for long-haul journeys which can’t be achieved any
+                other way
+              </b>
+              . If you need to travel a shorter distance there’s usually another
+              way. Look into it, cleaner travels methods like rail can be
+              cheaper, and while it may take longer, you will get to experience
+              more along the way.
+            </p>
+            <p className={`${ChoiceStyles.actionDesc} ${Styles.actionDesc}`}>
+              When you must fly, consider{' '}
+              <Link
+                to="/pay-to-offset-your-carbon-footprint"
+                title="Pay to offset your carbon footprint"
+              >
+                paying a little to offset your carbon footprint
+              </Link>
+              . There are carbon footprint tools that will calculate the carbon
+              cost of your flight and make it easy to pay.
             </p>
             <h3
               className={`${ChoiceStyles.actionHowTitle} ${
@@ -282,9 +329,9 @@ const ChangeHowYouEatPage = () => (
               How much would this help?
             </h3>
             <p className={`${ChoiceStyles.actionDesc} ${Styles.actionDesc}`}>
-              Roughly 1/3 of food each year goes to waste. If we all became more
-              efficient with our food, less would need to be produced and less
-              would be left to rot - reducing greenhouse emissions.
+              Air travel accounts for around 2% of global greenhouse gas
+              emissions. There are bigger issues that need addressed, but
+              remember every choice you make does have an impact.
             </p>
           </div>
         </div>
@@ -309,12 +356,21 @@ const ChangeHowYouEatPage = () => (
               className={`${ChoiceStyles.tldrSubtitle} ${Styles.tldrSubtitle}`}
             >
               We’re killing the planet. 26% of dangerous greenhouse gas
-              emissions enter our atmosphere because of the way we eat and
-              drink. To reduce these we must:
+              emissions enter our atmosphere because of the way we travel. To
+              reduce these we must:
             </p>
             <ul className={`${ChoiceStyles.tldrList} ${Styles.tldrList}`}>
-              <li>Eat less food with a high carbon footprint</li>
-              <li>Stop wasting food and recycle</li>
+              <li>Transition to electric cars or better no cars</li>
+              <li>Only fly when it’s absolutely necessary</li>
+              <li>
+                <Link
+                  to="/pay-to-offset-your-carbon-footprint"
+                  title="Pay to offset your carbon footprint"
+                >
+                  Pay to offset your carbon footprint
+                </Link>{' '}
+                if you must fly
+              </li>
               <li>Vote for those who prioritize the planet</li>
               <li>
                 <a href="#share" alt="Spread the word">
@@ -331,4 +387,4 @@ const ChangeHowYouEatPage = () => (
   </Layout>
 );
 
-export default ChangeHowYouEatPage;
+export default ChangeHowYouTravelPage;
