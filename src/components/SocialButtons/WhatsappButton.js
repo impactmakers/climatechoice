@@ -10,7 +10,7 @@ export default function WhatsappButton({ url, whatsappTitle, currentUrl }) {
   return (
     <WhatsappShareButton url={url} title={whatsappTitle}>
       <div className={`${styles.button} ${buttonStyles.btnSimple}`}>
-        <input type="hidden" id="hidden-input" value={currentUrl} />
+        <input type="hidden" id="wa-hidden-input" value={currentUrl} />
         <div className={styles.logo}>
           <WhatsappIcon fillColor="#40c351" />
         </div>

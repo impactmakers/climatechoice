@@ -21,7 +21,7 @@ export default function TwitterButton({
         hashtags={hashtags}
       >
         <div className={`${styles.button} ${buttonStyles.btnSimple}`}>
-          <input type="hidden" id="hidden-input" value={currentUrl} />
+          <input type="hidden" id="tw-hidden-input" value={currentUrl} />
           <div className={styles.logo}>
             <TwitterIcon fillColor="#76a9ea" />
           </div>
