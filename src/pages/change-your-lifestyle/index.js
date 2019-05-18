@@ -182,13 +182,13 @@ const ChangeYourLifestylePage = () => (
               Buy less, recycle more
             </h2>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              Break the consumer cycle and become comfortable with only buying what you need. Not only will you be helping the environment, but you’ll be saving money. Win-win!  
+              <b>Break the consumer cycle and become comfortable with only buying what you need</b>. Not only will you be helping the environment, but you’ll be saving money. Win-win!  
             </p>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              When you do shop, try to only buy local and seasonal food. For household and personal hygiene products pick chemical-free or organic. 
+              When you do shop, <b>try to only buy local and seasonal food</b>. For household and personal hygiene products <b>pick chemical-free or organic</b>. 
             </p>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              When it comes time to throw something away, always make sure you’re recycling it correctly. Procedures differ from country to country but most will at least ask you to separate out plastics, paper items and food waste. Search online for ‘recycling + your area’ to learn more about what you need to do.
+              When it comes time to throw something away, always <b>make sure you’re recycling correctly</b>. Procedures differ from country to country but most will at least ask you to separate out plastics, paper items and food waste. Search online for <a href="https://www.google.com/search?q=recycling&oq=recycling&aqs=chrome..69i57j69i65j69i61j69i59j0l2.2280j0j7&sourceid=chrome&ie=UTF-8" title="Search for recycling procedures">‘recycling + your area’</a> to learn more about what you need to do.
             </p>
             <h3
               className={`${ChoiceStyles.actionHowTitle} ${
@@ -261,11 +261,11 @@ const ChangeYourLifestylePage = () => (
             </p>
             <p>
               <ul>
-                <li>Don’t take plastic bags from shops to carry your items — bring your own</li>
-                <li>If you need to buy water choose glass bottles — or even better carry your own reusable water bottle</li>
-                <li>Whilst shopping try to find items with no packaging, reusable packaging or recyclable packaging</li>
-                <li>Buy second hand instead of new when possible</li>
-                <li>Buy more high quality items, they will last longer</li>                
+                <li><b>Don’t take plastic bags from shops</b> to carry your items — bring your own</li>
+                <li>If you need to buy water <b>choose glass bottles</b> — or even better carry your own reusable water bottle</li>
+                <li>Whilst shopping try to <b>find items with no packaging, reusable packaging or recyclable packaging</b></li>
+                <li><b>Buy second hand</b> instead of new when possible</li>
+                <li>Buy high quality items, they will last longer</li>                
               </ul>
             </p>
             <h3
@@ -322,7 +322,7 @@ const ChangeYourLifestylePage = () => (
               Live a more independent life
             </h2>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-            We don’t have to rely on corporations and other third parties to live, this is just how our society has developed. Consider becoming more independent. For example grow some of your own fruit and vegetables to become less dependent on the food industry. 
+            We don’t have to rely on corporations and other third parties to live, this is just how our society has developed. Consider becoming more independent. For example <b>grow some of your own fruit and vegetables</b> to become less dependent on the food industry. 
             </p>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
             One of the best choices you can make it to <Link title="Create your own energy supply" to="/choose-renewable-energy#actions">create your own energy supply with wind or solar.</Link>
