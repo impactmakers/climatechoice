@@ -4,13 +4,17 @@ import Close from "../Images/Icons/Close";
 import Styles from "./styles.module.scss";
 
 export default function VideoModal({ closeClick, closeModal }) {
+  const closeModalOnEscape = e => {
+    if (e.key === "Escape") {
+      closeModal();
+    }
+  };
   useEffect(() => {
-    window.onkeydown = function onEscKey(e) {
-      if (e.key === "Escape") {
-        closeModal();
-      }
+    window.addEventListener("keydown", closeModalOnEscape);
+    return () => {
+      window.removeEventListener("keydown", closeModalOnEscape);
     };
-  });
+  }, []);
 
   return (
     <div className={Styles.modalStyles}>
