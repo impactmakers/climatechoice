@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
-import { Link } from 'gatsby';
-import MenuIcon from '../Images/Icons/MenuIcon';
-import GlobalStyles from '../../styles/Global.module.scss';
-import ButtonStyles from '../../styles/Buttons.module.scss';
-import Styles from './Styles.module.scss';
-import Logo from './LogoOnDark.svg';
+import React, { useState } from "react";
+import { Link } from "gatsby";
+import MenuIcon from "../Images/Icons/MenuIcon";
+import GlobalStyles from "../../styles/Global.module.scss";
+import ButtonStyles from "../../styles/Buttons.module.scss";
+import Styles from "./Styles.module.scss";
+import Logo from "./LogoOnDark.svg";
 
 function Navbar() {
   const [navOpen, setNavOpen] = useState(false);
@@ -36,7 +36,7 @@ function Navbar() {
         </button>
 
         <ul
-          className={`${Styles.navList} ${navOpen ? Styles.navListOpen : ''}`}
+          className={`${Styles.navList} ${navOpen ? Styles.navListOpen : ""}`}
         >
           <li className={`${Styles.navItem} ${Styles.navItemLink}`}>
             <Link to="/contact#contribute" title="Contribute to ClimateChoice">

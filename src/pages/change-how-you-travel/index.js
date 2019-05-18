@@ -1,17 +1,17 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import Layout from '../../components/layout';
-import ChoiceSupport from '../../components/ChoiceSupport';
-import SEO from '../../components/seo';
-import GlobalStyles from '../../styles/Global.module.scss';
-import ChoiceStyles from '../../styles/Choice.module.scss';
-import ButtonStyles from '../../styles/Buttons.module.scss';
-import Styles from './Styles.module.scss';
-import shareConfig from '../../configs/pages/choiceTravelConfig';
-import ChoiceGridOnChoice from '../../components/ChoiceGrid/onChoice';
-import HowIcon from '../../components/Images/Icons/HowIcon.svg';
-import BannerImg from '../../components/Images/Graphics/choiceBannerTravel.svg';
-import ShareSocialCta from '../../components/ShareSocialCta';
+import React from "react";
+import { Link } from "gatsby";
+import Layout from "../../components/layout";
+import ChoiceSupport from "../../components/ChoiceSupport";
+import SEO from "../../components/seo";
+import GlobalStyles from "../../styles/Global.module.scss";
+import ChoiceStyles from "../../styles/Choice.module.scss";
+import ButtonStyles from "../../styles/Buttons.module.scss";
+import Styles from "./Styles.module.scss";
+import shareConfig from "../../configs/pages/choiceTravelConfig";
+import ChoiceGridOnChoice from "../../components/ChoiceGrid/onChoice";
+import HowIcon from "../../components/Images/Icons/HowIcon.svg";
+import BannerImg from "../../components/Images/Graphics/choiceBannerTravel.svg";
+import ShareSocialCta from "../../components/ShareSocialCta";
 
 const ChangeHowYouTravelPage = () => (
   <Layout>
@@ -86,7 +86,7 @@ const ChangeHowYouTravelPage = () => (
     </section>
     <section className={`${ChoiceStyles.cba} ${Styles.cba}`}>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.cbaInner}`}>
-        Short on time?{' '}
+        Short on time?{" "}
         <a
           className={ChoiceStyles.cbaAction}
           href="#tldr"
@@ -210,17 +210,17 @@ const ChangeHowYouTravelPage = () => (
               vehicles
             </h2>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              To have the most impact{' '}
+              To have the most impact{" "}
               <b>switch to cycling, public transport and walking</b>. For those
               who must have a vehicle it’s time to get an electric car. Review
               your choices, it’s not as expensive as you might think and there
               are cost savings to be made over the long-term — especially if you
               install solar panels at your home to generate your own energy.
               <b>
-                {' '}
+                {" "}
                 Many governments have already committed to ban fossil fuel
                 vehicle sales
-              </b>{' '}
+              </b>{" "}
               in the near future and more will follow. Think of it as an
               investment.
             </p>
@@ -233,7 +233,7 @@ const ChangeHowYouTravelPage = () => (
               How much would this help?
             </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              A lot! Everytime we take a carbon-emitting vehicle off the road we{' '}
+              A lot! Everytime we take a carbon-emitting vehicle off the road we{" "}
               <b>
                 send a message to car companies that we don’t want fossil fuel
                 powered cars anymore
@@ -299,7 +299,7 @@ const ChangeHowYouTravelPage = () => (
               Currently there is no viable alternative to air travel beyond
               trains, buses and boats. Until someone figures out how to
               decarbonise airplanes we are going to have to make some sacrifices
-              to our lifestyles. Try and{' '}
+              to our lifestyles. Try and{" "}
               <b>
                 save flying for long-haul journeys which can’t be achieved any
                 other way
@@ -310,7 +310,7 @@ const ChangeHowYouTravelPage = () => (
               more along the way.
             </p>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              When you must fly, consider{' '}
+              When you must fly, consider{" "}
               <Link
                 to="/pay-to-offset-your-carbon-footprint"
                 title="Pay to offset your carbon footprint"
@@ -368,14 +368,14 @@ const ChangeHowYouTravelPage = () => (
                   title="Pay to offset your carbon footprint"
                 >
                   Pay to offset your carbon footprint
-                </Link>{' '}
+                </Link>{" "}
                 if you must fly
               </li>
               <li>Vote for those who prioritize the planet</li>
               <li>
                 <a href="#share" alt="Spread the word">
                   Spread the word
-                </a>{' '}
+                </a>{" "}
                 so others make changes too
               </li>
             </ul>

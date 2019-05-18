@@ -1,10 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
-import { WhatsappShareButton } from 'react-share';
-import styles from './styles.module.scss';
-import buttonStyles from '../../styles/Buttons.module.scss';
-import WhatsappIcon from '../../components/Images/Icons/WhatsappIcon';
+import { WhatsappShareButton } from "react-share";
+import styles from "./styles.module.scss";
+import buttonStyles from "../../styles/Buttons.module.scss";
+import WhatsappIcon from "../../components/Images/Icons/WhatsappIcon";
 
 export default function WhatsappButton({ url, whatsappTitle, currentUrl }) {
   return (
@@ -21,8 +21,8 @@ export default function WhatsappButton({ url, whatsappTitle, currentUrl }) {
 }
 
 WhatsappButton.defaultProps = {
-  url: 'https://climatechoice.co/',
-  whatsappTitle: 'check out this new site, Climate Choice'
+  url: "https://climatechoice.co/",
+  whatsappTitle: "check out this new site, Climate Choice"
 };
 
 WhatsappButton.propTypes = {

@@ -1,14 +1,14 @@
-import React from 'react';
-import GlobalStyles from '../../styles/Global.module.scss';
-import styles from './Styles.module.scss';
-import { Location } from '@reach/router';
+import React from "react";
+import GlobalStyles from "../../styles/Global.module.scss";
+import styles from "./Styles.module.scss";
+import { Location } from "@reach/router";
 
-import CopyLinkButton from '../SocialButtons/CopyLinkButton';
-import EmailButton from '../SocialButtons/EmailButton';
-import TwitterButton from '../SocialButtons/TwitterButton';
-import FacebookButton from '../SocialButtons/FacebookButton';
-import WhatsappButton from '../SocialButtons/WhatsappButton';
-import LinkedinButton from '../SocialButtons/LinkedInButton';
+import CopyLinkButton from "../SocialButtons/CopyLinkButton";
+import EmailButton from "../SocialButtons/EmailButton";
+import TwitterButton from "../SocialButtons/TwitterButton";
+import FacebookButton from "../SocialButtons/FacebookButton";
+import WhatsappButton from "../SocialButtons/WhatsappButton";
+import LinkedinButton from "../SocialButtons/LinkedInButton";
 
 function ShareSocialCta({
   children,

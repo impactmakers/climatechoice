@@ -1,9 +1,9 @@
-import React from 'react';
-import Layout from '../../components/layout';
-import SEO from '../../components/seo';
-import GlobalStyles from '../../styles/Global.module.scss';
-import Styles from './Styles.module.scss';
-import FooterCta from '../../components/FooterCta';
+import React from "react";
+import Layout from "../../components/layout";
+import SEO from "../../components/seo";
+import GlobalStyles from "../../styles/Global.module.scss";
+import Styles from "./Styles.module.scss";
+import FooterCta from "../../components/FooterCta";
 
 const AboutPage = () => (
   <Layout>
@@ -18,35 +18,35 @@ const AboutPage = () => (
           </h1>
 
           <p>
-            ClimateChoice is a non-profit volunteer project from{' '}
+            ClimateChoice is a non-profit volunteer project from{" "}
             <a
               href="https://twitter.com/shylands"
               title="Follow @shylands on Twitter"
             >
               Steven Hylands
             </a>
-            ,{' '}
+            ,{" "}
             <a
               href="https://twitter.com/tobequitefrank1"
               title="Follow @tobequitefrank1 on Twitter"
             >
               Rachel Franklin
             </a>
-            ,{' '}
+            ,{" "}
             <a
               href="https://twitter.com/thepaulmcbride"
               title="Follow @thepaulmcbride on Twitter"
             >
               Paul McBride
-            </a>{' '}
+            </a>{" "}
             that launched in May 2019. The project was developed with the help
-            of the{' '}
+            of the{" "}
             <a href="https://techimpactmakers.com" title="Impact Makers">
               Impact Makers
-            </a>{' '}
+            </a>{" "}
             group — a community of tech people who want to have a positive
             impact by helping prevent earth’s climate breaking down. Read this
-            to{' '}
+            to{" "}
             <a
               href="https://shylands.com/blog/helping-prevent-climate-breakdown/"
               title="Origins of ClimateChoice and Impact Makers"
@@ -84,11 +84,11 @@ const AboutPage = () => (
             breakdown.
           </p>
           <p>
-            If you have any feedback or would like to contribute feel free to{' '}
+            If you have any feedback or would like to contribute feel free to{" "}
             <a href="mailto:yourclimatechoice@gmail.com" title="Email us">
               email
-            </a>{' '}
-            or{' '}
+            </a>{" "}
+            or{" "}
             <a
               href="https://twitter.com/climatechoice"
               title="Tweet @climatechoice"
@@ -97,11 +97,11 @@ const AboutPage = () => (
             </a>
             . If you’re interested in working on your own project to raise
             awareness of the climate breakdown issue and help people to take
-            action. Then please{' '}
+            action. Then please{" "}
             <a href="https://techimpactmakers.com" title="Impact Makers">
-              {' '}
+              {" "}
               join us in the Impact Makers
-            </a>{' '}
+            </a>{" "}
             community!
           </p>
         </div>

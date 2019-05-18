@@ -1,17 +1,17 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import Layout from '../../components/layout';
-import ChoiceSupport from '../../components/ChoiceSupport';
-import SEO from '../../components/seo';
-import GlobalStyles from '../../styles/Global.module.scss';
-import ChoiceStyles from '../../styles/Choice.module.scss';
-import ButtonStyles from '../../styles/Buttons.module.scss';
-import Styles from './Styles.module.scss';
-import ShareSocialCta from '../../components/ShareSocialCta';
-import shareConfig from '../../configs/pages/choiceEatConfig';
-import ChoiceGridOnChoice from '../../components/ChoiceGrid/onChoice';
-import BannerImg from '../../components/Images/Graphics/choiceBannerEat.svg';
-import HowIcon from '../../components/Images/Icons/HowIcon.svg';
+import React from "react";
+import { Link } from "gatsby";
+import Layout from "../../components/layout";
+import ChoiceSupport from "../../components/ChoiceSupport";
+import SEO from "../../components/seo";
+import GlobalStyles from "../../styles/Global.module.scss";
+import ChoiceStyles from "../../styles/Choice.module.scss";
+import ButtonStyles from "../../styles/Buttons.module.scss";
+import Styles from "./Styles.module.scss";
+import ShareSocialCta from "../../components/ShareSocialCta";
+import shareConfig from "../../configs/pages/choiceEatConfig";
+import ChoiceGridOnChoice from "../../components/ChoiceGrid/onChoice";
+import BannerImg from "../../components/Images/Graphics/choiceBannerEat.svg";
+import HowIcon from "../../components/Images/Icons/HowIcon.svg";
 
 const ChangeHowYouEatPage = () => (
   <Layout>
@@ -82,7 +82,7 @@ const ChangeHowYouEatPage = () => (
     </section>
     <section className={`${ChoiceStyles.cba} ${Styles.cba}`}>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.cbaInner}`}>
-        Short on time?{' '}
+        Short on time?{" "}
         <a
           className={ChoiceStyles.cbaAction}
           href="#tldr"
@@ -192,9 +192,9 @@ const ChangeHowYouEatPage = () => (
               footprint
             </h2>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              The biggest impact can be had if you{' '}
+              The biggest impact can be had if you{" "}
               <b>eat less animal products — in particular meat and dairy</b>,
-              however all purchased food items have a carbon footprint.{' '}
+              however all purchased food items have a carbon footprint.{" "}
               <b>If you’re really commited go vegan</b>. Try to only buy items
               with <b>sustainable, or no packaging</b>, and <b>buy local</b> so
               your food isn’t travelling around the world.
@@ -264,10 +264,10 @@ const ChangeHowYouEatPage = () => (
               recycled
             </h2>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              Be more conscious when you shop and try to{' '}
+              Be more conscious when you shop and try to{" "}
               <b>only buy what you’re sure will be consumed</b>. When you have
               food or packaging that must be dumped <b>recycle</b> it. Make sure
-              you’re aware of the{' '}
+              you’re aware of the{" "}
               <a href="#" title="?">
                 correct recycling procedures where you live
               </a>
@@ -319,7 +319,7 @@ const ChangeHowYouEatPage = () => (
               <li>
                 <a href="#share" alt="Spread the word">
                   Spread the word
-                </a>{' '}
+                </a>{" "}
                 so others make changes too
               </li>
             </ul>

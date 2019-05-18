@@ -1,8 +1,8 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import GlobalStyles from '../../styles/Global.module.scss';
-import ChoiceStyles from '../../styles/Choice.module.scss';
-import Styles from './Styles.module.scss';
+import React from "react";
+import { Link } from "gatsby";
+import GlobalStyles from "../../styles/Global.module.scss";
+import ChoiceStyles from "../../styles/Choice.module.scss";
+import Styles from "./Styles.module.scss";
 
 const ChoiceSupport = () => (
   <section className={`${ChoiceStyles.actions} ${Styles.actions}`}>
@@ -55,11 +55,11 @@ const ChoiceSupport = () => (
             !
           </p>
           <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-            Or simply{' '}
+            Or simply{" "}
             <a href="#share" title="?">
               spread the word
-            </a>{' '}
-            to your friends and family, educate them on the issues and{' '}
+            </a>{" "}
+            to your friends and family, educate them on the issues and{" "}
             <a href="/#your-choices" title="?">
               the choices they can make to help
             </a>
