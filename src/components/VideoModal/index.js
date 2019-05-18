@@ -26,9 +26,9 @@ export default function VideoModal({ closeClick, closeModal }) {
         width="100%"
         height="100%"
         src="https://www.youtube.com/embed/YLIzhX6pB7g"
-        frameborder="0"
+        frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen="true"
+        allowFullScreen={true}
       />
 
       <p className={Styles.title}>What do you think now? </p>
