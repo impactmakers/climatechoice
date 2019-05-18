@@ -9,8 +9,8 @@ const choiceLifestyleConfig = {
 
   ctaCopy: (
     <>
-      <BoldText>Dont assume</BoldText> everyone knows they should change their
-      lifestyle to help prevent climate breakdown.{" "}
+      <BoldText>Don't assume</BoldText> everyone knows they should change their
+      lifestyle to help prevent climate breakdown.{' '}
       <BoldText>We need everyone to become informed </BoldText>so they can also
       make changes to the way they live.
     </>
