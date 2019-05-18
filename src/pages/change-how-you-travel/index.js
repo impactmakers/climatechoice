@@ -114,7 +114,7 @@ const ChangeHowYouTravelPage = () => (
                 motorbikes
               </b>
               . Their assembly process requires energy generating a carbon
-              footprint (yes electric too). However most of the damage occurs
+              footprint (yes, electric too). However most of the damage occurs
               when a fossil fuel burning vehicle hits the road releasing tonnes
               of carbon in the process. There are over 1 billion of these
               vehicles on the road today.
@@ -212,7 +212,7 @@ const ChangeHowYouTravelPage = () => (
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               To have the most impact{" "}
               <b>switch to cycling, public transport and walking</b>. For those
-              who must have a vehicle it’s time to get an electric car. Review
+              who must have a vehicle, it’s time to get an electric car. Review
               your choices, it’s not as expensive as you might think and there
               are cost savings to be made over the long-term — especially if you
               install solar panels at your home to generate your own energy.
@@ -238,8 +238,8 @@ const ChangeHowYouTravelPage = () => (
                 send a message to car companies that we don’t want fossil fuel
                 powered cars anymore
               </b>
-              . As their demand drops more electric cars will be bought. With
-              higher demand supply and competition will increase causing prices
+              . As their demand drops, more electric cars will be bought. With
+              higher demand, supply and competition will increase causing prices
               to drop. Plus we’d innovate faster on the technology — better
               range, faster charging and more charging locations.
             </p>
