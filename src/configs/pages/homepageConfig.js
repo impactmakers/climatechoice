@@ -9,8 +9,8 @@ const homePageConfig = {
 
   ctaCopy: (
     <>
-      <BoldText>Dont assume</BoldText> everyone knows about the choices they can
-      make today to help prevent climate breakdown.{" "}
+      <BoldText>Don't assume</BoldText> everyone knows about the choices they
+      can make today to help prevent climate breakdown.{" "}
       <BoldText>We need everyone to become aware of what they can do</BoldText>.
       That way they can make informed decisions.
     </>

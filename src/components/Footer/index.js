@@ -152,7 +152,7 @@ const Footer = () => (
           Disclaimer: The content of this site is based on researched material
           from around the web. We’re doing our best to provide you as much
           accurate info as possible, but some of the data and suggestions may be
-          incorrect. If you’re unsure we recommend doing further research on
+          incorrect. If you’re unsure, we recommend doing further research on
           your own.
         </p>
       </div>
