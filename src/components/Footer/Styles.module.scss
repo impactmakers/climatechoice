@@ -152,7 +152,7 @@
   justify-content: space-between;
   border-top: 1px solid $grayBorder;
   padding-top: 20px;
-  @include links-on-light;
+
   @include mq("tablet") {
     @include mar-top-standard;
   }
@@ -185,8 +185,6 @@
     background-position: top center;
   }
 }
-
-
 
 .impactMakersTitle {
   @include font-size($title-small);
@@ -232,8 +230,6 @@
   border-radius: 40px;
   margin-right: 8px;
 }
-
-
 
 .impactMakersDescription {
   max-width: 500px;

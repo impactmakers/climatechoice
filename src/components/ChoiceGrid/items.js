@@ -221,7 +221,6 @@ const ChoiceGridItems = () => {
         </div>
         {message && (
           <div className={FormStyles.status}>
-            <h4 className={FormStyles.statusResult}>{result}</h4>
             <p className={FormStyles.statusMsg}>{message}</p>
           </div>
         )}
