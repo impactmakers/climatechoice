@@ -8,6 +8,9 @@ import GlobalStyles from "../../styles/Global.module.scss";
 import ButtonStyles from "../../styles/Buttons.module.scss";
 import Styles from "./Styles.module.scss";
 import Logo from "./LogoOnLight.svg";
+import AvatarSteven from "./steven.jpg";
+import AvatarPaul from "./paul.jpg";
+import AvatarRachel from "./rachel.jpg";
 
 const Footer = () => (
   <footer className={Styles.container}>
@@ -73,6 +76,14 @@ const Footer = () => (
                   title="Contribute to ClimateChoice"
                 >
                   Contribute
+                </Link>
+              </li>
+              <li className={Styles.navItem}>
+                <Link
+                  to="donate"
+                  title="Donate to ClimateChoice"
+                >
+                  Donate
                 </Link>
               </li>
               <li className={Styles.navItem}>
@@ -150,6 +161,7 @@ const Footer = () => (
               href="https://twitter.com/shylands"
               title="Follow @shylands on Twitter"
             >
+              <img className={Styles.impactMakerAvatar} src={AvatarSteven} alt="Steven" />
               @shylands
             </a>
           </li>
@@ -158,6 +170,7 @@ const Footer = () => (
               href="https://twitter.com/thepaulmcbride"
               title="Follow @thepaulmcbride on Twitter"
             >
+              <img className={Styles.impactMakerAvatar} src={AvatarPaul} alt="Paul" />
               @thepaulmcbride
             </a>
           </li>
@@ -166,6 +179,7 @@ const Footer = () => (
               href="https://twitter.com/tobequitefrank1"
               title="Follow @tobequitefrank1 on Twitter"
             >
+              <img className={Styles.impactMakerAvatar} src={AvatarRachel} alt="Rachel" />
               @tobequitefrank1
             </a>
           </li>

@@ -17,7 +17,7 @@ const ChooseRenewablePage = () => (
     <SEO
       title="Choose renewable energy to help prevent climate change"
       description="75% of the energy used globally comes from coal, gas, oil and nuclear — non-renewable sources that produce greenhouse gas emissions. Learn how you can help prevent earth's climate breaking down by making simple changes."
-      image="https://climatechoice.netlify.com/images/Seo/travel.jpg"
+      image="https://climatechoice.netlify.com/images/Seo/renewable.jpg"
       keywords={[
         `Renewable energy`,
         `climate change renewable energy`,

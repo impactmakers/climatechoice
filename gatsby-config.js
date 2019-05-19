@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `ClimateChoice`,
     author: `ClimateChoice`,
-    description: `Learn how you can help prevent earth’s climate breaking down.`,
+    description: `Learn how you can help prevent earth’s climate breaking down before it's too late.`,
     siteUrl: `https://climatechoice.netlify.com/`,
     defaultImage: `https://climatechoice.netlify.com/images/Seo/default.jpg`,
     social: {

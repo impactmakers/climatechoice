@@ -2,12 +2,15 @@ import React from "react";
 import Layout from "../../components/layout";
 import SEO from "../../components/seo";
 import GlobalStyles from "../../styles/Global.module.scss";
-import Styles from "./Styles.module.scss";
 import FooterCta from "../../components/FooterCta";
 
 const AboutPage = () => (
   <Layout>
-    <SEO title="About" keywords={[`about`, `ClimateChoice`]} />
+    <SEO
+      title="About ClimateChoice"
+      description="ClimateChoice is a non-profit volunteer project from Steven Hylands, Rachel Franklin, Paul McBride that launched in May 2019. The project was developed with the help of the Impact Makers group — a community of tech people who want to have a positive impact by helping prevent earth’s climate breaking down."
+      keywords={[`About Climate Choice`, `ClimateChoice`]}
+    />
     <section
       className={`${GlobalStyles.container} ${GlobalStyles.subpageContainer}`}
     >

@@ -7,7 +7,7 @@ import FooterCta from "../../components/FooterCta";
 
 const ContactPage = () => (
   <Layout>
-    <SEO title="Contact" keywords={[`Contact`, `ClimateChoice`]} />
+    <SEO title="Contact ClimateChoice and learn how to contribute" keywords={[`Contact`, `ClimateChoice`]} />
     <section
       className={`${GlobalStyles.container} ${GlobalStyles.subpageContainer}`}
     >
@@ -93,6 +93,15 @@ const ContactPage = () => (
                   title="Follow @thepaulmcbride on Twitter"
                 >
                   Paul McBride
+                </a>{" "}
+                - Development
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/barrymcgee"
+                  title="Follow @barrymcgee on Twitter"
+                >
+                  Barry McGee
                 </a>{" "}
                 - Development
               </li>

@@ -186,6 +186,8 @@
   }
 }
 
+
+
 .impactMakersTitle {
   @include font-size($title-small);
   margin-top: 0;
@@ -199,6 +201,7 @@
   margin: 13px auto 30px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   @include mq("tablet") {
     margin: 15px auto 30px;
     flex-direction: row;
@@ -206,6 +209,10 @@
 }
 
 .impactMakersCreator {
+  a {
+    display: flex;
+    align-items: center;
+  }
   @include links-on-light;
   margin-bottom: 10px;
   &:last-child {
@@ -218,6 +225,15 @@
     }
   }
 }
+
+.impactMakerAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  margin-right: 8px;
+}
+
+
 
 .impactMakersDescription {
   max-width: 500px;

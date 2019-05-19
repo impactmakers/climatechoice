@@ -11,7 +11,29 @@ class HomePage extends React.Component {
   render() {
     return (
       <Layout location={this.props.location}>
-        <SEO keywords={[`ClimateChoice`]} />
+        <SEO keywords={[
+        `help prevent climate change`,
+        `climate change what can i do`,
+        `climate change what can you do`,
+        `global warming what can we do`,
+        `global warming what can i do`,
+        `climate change how to stop it`,
+        `climate change how to make a difference`,
+        `climate change buy less`,
+        `climate change consumerism`,
+        `climate change how can i help`,
+        `prevent climate breakdown`,
+        `climate change independent life`,
+        `climate change how to solve it`,
+        `Change your lifestyle`,
+        `ClimateChoice`,
+        `climate change`,
+        `climate breakdown`,
+        `global warming`,
+        `global warming solutions`,
+        `Climate change the facts`,
+        `climate change solutions`
+      ]} />
 
         <HomeIntro />
         <ChoiceGrid />

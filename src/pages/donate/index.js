@@ -8,7 +8,11 @@ import FooterCta from "../../components/FooterCta";
 
 const DonatePage = () => (
   <Layout>
-    <SEO title="Donate" keywords={[`Donate`, `ClimateChoice`]} />
+    <SEO 
+      title="Donate to ClimateChoice and other climate causes" 
+      description="Donate to the development of ClimateChoice and other Impact Makers projects, or find a cause to donate to that's working to prevent climate breakdown." 
+      keywords={[`Donate`, `ClimateChoice`]} 
+      />
     <section
       className={`${GlobalStyles.container} ${GlobalStyles.subpageContainer}`}
     >

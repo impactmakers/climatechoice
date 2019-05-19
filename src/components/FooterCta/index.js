@@ -23,10 +23,10 @@ const Footer = () => (
         >
           <button
             className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
-              ButtonStyles.btnPrimary
+              ButtonStyles.btnOrange
             } ${ButtonStyles.btnMobile}`}
           >
-            View your choices
+            Learn about your choices
           </button>
         </a>
         {/* <a className={Styles.ctaButton} href="/" title="Secondary">
