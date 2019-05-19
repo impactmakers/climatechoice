@@ -4,6 +4,7 @@ import { Link } from "gatsby";
 import GlobalStyles from "../../styles/Global.module.scss";
 import ChoiceStyles from "../../styles/Choice.module.scss";
 import Styles from "./Styles.module.scss";
+import HowIcon from "../Images/Icons/HowIcon.svg";
 
 const ChoiceSupport = () => (
   <section className={`${ChoiceStyles.actions} ${Styles.actions}`}>
@@ -36,10 +37,7 @@ const ChoiceSupport = () => (
               Styles.actionHowTitle
             }`}
           >
-            <img
-              src="../../../../images/Icons/HowIcon.svg"
-              alt="How to do more"
-            />
+            <img src={HowIcon} alt="How to do more" />
             How can I do even more?
           </h3>
           <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
