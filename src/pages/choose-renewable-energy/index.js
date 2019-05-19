@@ -65,7 +65,7 @@ const ChooseRenewablePage = () => (
             >
               <button
                 className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
-                  ButtonStyles.btnGreen
+                  ButtonStyles.btnBanner
                 } ${ButtonStyles.btnMobile}`}
               >
                 Learn what you can do

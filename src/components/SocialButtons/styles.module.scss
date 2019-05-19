@@ -3,7 +3,8 @@
 @import "../../styles/Mixins.module.scss";
 
 .button {
-  background-color: $blueLight;
+  background-color: $white;
+  border: 2px solid $grayBorder;
   max-width: max-content;
   height: 30px;
   padding: 0.5em 1em;
@@ -15,7 +16,9 @@
 }
 
 .button:hover {
-  color: $black;
+  opacity: 1;
+  color: $orange;
+  border: 2px solid $orange;
 }
 
 .logo {

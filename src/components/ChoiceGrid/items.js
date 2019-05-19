@@ -215,7 +215,7 @@ const ChoiceGridItems = () => {
               id="mc-embedded-subscribe"
               className="button"
               className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnSm} ${
-                ButtonStyles.btnGreen
+                ButtonStyles.btnPrimary
               } ${ButtonStyles.btnMobile}`}
             />
           </form>

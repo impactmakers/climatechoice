@@ -4,7 +4,8 @@
 
 .container {
   position: relative;
-  background: $green;
+  background: $greenDark;
+  background-image: linear-gradient(270deg, #00b364 0%, #008f50 100%);
   @include pad-top-standard;
   @include pad-bot-standard;
   box-sizing: border-box;
@@ -46,7 +47,7 @@
 
 .socialBlock {
   display: block;
-  border: 1px solid #009453;
+  border: 1px solid #008f50;
   background-color: $white;
   box-shadow: 0 1px 13px 0 rgba($black, 0.11);
   color: $black;

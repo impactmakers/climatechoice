@@ -3,7 +3,8 @@
 @import "../../styles/Typography.module.scss";
 
 .container {
-  background: $grayLightest;
+  background: $white;
+  background-image: linear-gradient(180deg, #ffffff 0%, #fafafa 100%);
   color: $black;
   @include pad-top-standard;
   @include pad-bot-standard;

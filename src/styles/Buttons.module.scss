@@ -389,8 +389,9 @@
 }
 
 .btn-simple.btn-green {
-  color: $white;
-  background: $green;
+  color: $black;
+  background: #00ca71;
+  border: 2px solid #00ca71;
 }
 .btn-bordered.btn-bordered-white {
   color: $white;
@@ -412,11 +413,6 @@
   width: 100%;
 }
 
-.btn-green {
-  background: $green;
-  border: 2px solid $green;
-}
-
 .btn-orange {
   background: $orange;
   border: 2px solid $orange;
@@ -433,6 +429,12 @@
   background: $white;
   border: 2px solid $white;
   color: $green;
+}
+
+.btnBanner {
+  background: $blue;
+  border: 2px solid $blue;
+  color: $white;
 }
 
 .btn-mobile {
