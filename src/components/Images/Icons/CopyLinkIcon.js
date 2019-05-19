@@ -12,15 +12,15 @@ export default function CopyLinkIcon({ fillColor }) {
       <g
         id="Page-1"
         stroke="none"
-        stroke-width="1"
+        strokeWidth="1"
         fill="none"
-        fill-rule="evenodd"
+        fillRule="evenodd"
       >
         <g
           id="Artboard"
           transform="translate(-932.000000, -2947.000000)"
           fill={fillColor}
-          fill-rule="nonzero"
+          fillRule="nonzero"
         >
           <g
             id="link-symbol"

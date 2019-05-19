@@ -19,7 +19,7 @@ export default function LinkedinButton({
       description={linkedinDescription}
     >
       <div className={`${styles.button} ${buttonStyles.btnSimple}`}>
-        <input type="hidden" id="hidden-input" value={currentUrl} />
+        <input type="hidden" id="li-hidden-input" value={currentUrl} />
         <div className={styles.logo}>
           <LinkedinIcon fillColor="rgb(0, 127, 177)" />
         </div>

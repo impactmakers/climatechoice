@@ -49,10 +49,9 @@ function Navbar() {
             </Link>
           </li>
           <li className={`${Styles.navItem} ${Styles.navItemAction}`}>
-            <Link
-              to="#your-choices"
+            <a
+              href="#your-choices"
               className={Styles.ctaButton}
-              title="Secondary"
             >
               <button
                 className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnSm} ${
@@ -61,7 +60,7 @@ function Navbar() {
               >
                 View your choices
               </button>
-            </Link>
+            </a>
           </li>
         </ul>
       </div>

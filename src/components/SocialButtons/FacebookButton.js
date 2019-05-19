@@ -18,7 +18,7 @@ export default function FacebookButton({
       hashtag={facebookHashtag}
     >
       <div className={`${styles.button} ${buttonStyles.btnSimple}`}>
-        <input type="hidden" id="hidden-input" value={currentUrl} />
+        <input type="hidden" id="fb-hidden-input" value={currentUrl} />
         <div className={styles.logo}>
           <FacebookIcon fillColor="#1877f2" />
         </div>
