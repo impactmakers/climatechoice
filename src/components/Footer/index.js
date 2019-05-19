@@ -136,7 +136,7 @@ const Footer = () => (
                 </li>
                 <li className={Styles.navItem}>
                   <Link
-                    to="/change your lifestyle"
+                    to="/change-your-lifestyle"
                     title="Change your lifestyle"
                   >
                     Change your lifestyle

@@ -48,10 +48,9 @@ const ChoiceSupport = () => (
           <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
             Why not start your own business or charity trying to fix a problem
             associated with climate change.
-            <OutboundLink href="#" title="?">
+            {/* <OutboundLink href="#" title="?">
               There are plenty of opportunities
-            </OutboundLink>
-            !
+            </OutboundLink> */}
           </p>
           <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
             Or simply{" "}
@@ -59,7 +58,7 @@ const ChoiceSupport = () => (
               spread the word
             </a>{" "}
             to your friends and family, educate them on the issues and{" "}
-            <a href="/#your-choices" title="?">
+            <a href="/#your-choices" title="View your choices">
               the choices they can make to help
             </a>
             .
@@ -84,19 +83,25 @@ const ChoiceSupport = () => (
               }`}
             >
               <li>
-                <a href="#" title="?">
-                  Learn which parties & politicians prioritise the planet →
-                </a>
+                <OutboundLink
+                  href="https://www.google.com/search?ei=n2vhXLqtNcrIwALL66rABw&q=climate+change+policy&oq=climate+change+policy&gs_l=psy-ab.3..0i71l8.0.0..136431...0.0..0.0.0.......0......gws-wiz.0ZFDhV_5Iuw"
+                  title="Find political party climate policies"
+                >
+                  Search for 'climate change policy + party name' →
+                </OutboundLink>
               </li>
               <li>
-                <a href="#" title="?">
-                  Find activist groups near you →
-                </a>
+                <OutboundLink
+                  href="https://rebellion.earth/act-now/local-groups/"
+                  title="Extinction Rebellion local groups"
+                >
+                  Find climate activism groups near you →
+                </OutboundLink>
               </li>
               <li>
-                <a href="#" title="?">
-                  Find charities to support →
-                </a>
+                <Link to="/donate#causes" title="?">
+                  Find charities and causes to support →
+                </Link>
               </li>
             </ul>
           </div>
