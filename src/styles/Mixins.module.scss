@@ -176,7 +176,6 @@
     text-decoration: underline;
     font-weight: 700;
   }
-  a:hover,
   a.hover {
     color: $linkHover;
     -webkit-transition: top 0.04s ease-out;
@@ -200,6 +199,10 @@
 @mixin links-on-dark {
   @include link-states;
   a {
+    text-decoration: underline;
+    color: $white;
+  }
+  button {
     text-decoration: underline;
     color: $white;
   }
