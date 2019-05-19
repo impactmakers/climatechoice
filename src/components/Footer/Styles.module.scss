@@ -201,6 +201,9 @@
   flex-direction: column;
   align-items: center;
   @include mq("tablet") {
+    flex-wrap: wrap;
+  }
+  @include mq("desktop") {
     margin: 15px auto 30px;
     flex-direction: row;
   }

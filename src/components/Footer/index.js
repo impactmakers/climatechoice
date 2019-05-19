@@ -12,6 +12,7 @@ import Logo from "./LogoOnLight.svg";
 import AvatarSteven from "./steven.jpg";
 import AvatarPaul from "./paul.jpg";
 import AvatarRachel from "./rachel.jpg";
+import AvatarBarry from "./barry.jpg";
 
 const Footer = () => (
   <footer className={Styles.container}>
@@ -197,6 +198,20 @@ const Footer = () => (
                 alt="Rachel"
               />
               @tobequitefrank1
+            </OutboundLink>
+          </li>
+
+          <li className={Styles.impactMakersCreator}>
+            <OutboundLink
+              href="https://twitter.com/barrymcgee"
+              title="Follow @barrymcgee on Twitter"
+            >
+              <img
+                className={Styles.impactMakerAvatar}
+                src={AvatarBarry}
+                alt="Barry"
+              />
+              @barrymcgee
             </OutboundLink>
           </li>
         </ul>
