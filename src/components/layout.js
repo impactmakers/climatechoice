@@ -14,6 +14,7 @@ function Layout(props) {
   return (
     <div>
       <Helmet>
+        <link href="https://fast.fonts.net" rel="preconnect" crossorigin />
         <title>Climate Choice</title>
         <script
           type="text/javascript"
