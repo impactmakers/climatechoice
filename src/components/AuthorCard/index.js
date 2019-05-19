@@ -1,4 +1,5 @@
 import React from "react";
+import { OutboundLink } from "gatsby-plugin-google-analytics";
 import Styles from "./Styles.module.scss";
 import TwitterIcon from "../Images/Icons/TwitterIcon";
 
@@ -12,13 +13,13 @@ const AuthorCard = ({ author }) => {
         <p className={Styles.authorBio}>{author.bio}</p>
         <ul className={Styles.links}>
           <li className={Styles.linkItem}>
-            <a
+            <OutboundLink
               className={Styles.link}
               href={`https://twitter.com/${author.twitter}`}
             >
               <TwitterIcon />
               Twitter
-            </a>
+            </OutboundLink>
           </li>
         </ul>
       </div>

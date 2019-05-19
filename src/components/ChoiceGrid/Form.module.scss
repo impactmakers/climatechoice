@@ -33,7 +33,7 @@
   @include white-box;
   background-color: $cream;
   padding: 30px;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .statusResult {
@@ -41,7 +41,7 @@
 }
 
 .statusMsg {
-  margin-bottom: 0;
+  margin: 0;
   @include font-size($text-xsmall);
 }
 

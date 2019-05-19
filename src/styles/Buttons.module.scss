@@ -93,6 +93,7 @@
 .btn-simple:focus,
 .btn-gradient:focus {
   opacity: 0.65;
+  color: $white;
   text-decoration: none !important;
 }
 .btn-simple.btn-xs,

@@ -5,6 +5,7 @@
 
 .container {
   background: $black;
+  background-image: linear-gradient(270deg, #2a4270 21%, #16243e 62%);
   color: $white;
   @include pad-top-standard;
 }
@@ -30,7 +31,7 @@
 
 .ctaTitle {
   @include font-size($title-large);
-  color: $orangeOnDark;
+  color: $white;
   margin-top: 0;
   margin-bottom: 5px;
   @include mq("tablet") {

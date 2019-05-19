@@ -1,4 +1,3 @@
-
 @import "../../styles/Variables.module.scss";
 @import "../../styles/Mixins.module.scss";
 @import "../../styles/Typography.module.scss";
@@ -6,12 +5,16 @@
 // TODO: move these styles to globals
 .ctaSecondary {
   @include links-on-dark;
+  padding-top: 10px;
   margin-top: 30px;
   font-size: 21px;
+  text-align: center;
   @include mq("tablet") {
+    padding-top: 18px;
     margin-left: 50px;
     margin-top: 0;
     flex-direction: row;
+    text-align: left;
   }
 }
 

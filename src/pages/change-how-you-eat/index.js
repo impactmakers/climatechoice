@@ -1,4 +1,5 @@
 import React from "react";
+import { OutboundLink } from "gatsby-plugin-google-analytics";
 import { Link } from "gatsby";
 import Layout from "../../components/layout";
 import ChoiceSupport from "../../components/ChoiceSupport";
@@ -234,12 +235,12 @@ const ChangeHowYouEatPage = () => (
                 }`}
               >
                 <li>
-                  <a
+                  <OutboundLink
                     href="https://www.bbc.com/news/science-environment-46459714"
                     title="Food Carbon Footprint Calculator"
                   >
                     Calculate your foods carbon footprint →
-                  </a>
+                  </OutboundLink>
                 </li>
                 {/* <li>
                   <a href="#" title="?">
@@ -268,9 +269,9 @@ const ChangeHowYouEatPage = () => (
               <b>only buy what you’re sure will be consumed</b>. When you have
               food or packaging that must be dumped <b>recycle</b> it. Make sure
               you’re aware of the{" "}
-              <a href="#" title="?">
+              <OutboundLink href="#" title="?">
                 correct recycling procedures where you live
-              </a>
+              </OutboundLink>
               .
             </p>
             <h3
