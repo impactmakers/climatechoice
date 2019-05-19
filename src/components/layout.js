@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import Helmet from "react-helmet";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import FooterCta from "../components/FooterCta";
 import "../styles/normalize.css";
 
 function Layout(props) {

@@ -54,7 +54,7 @@ const ChoiceSupport = () => (
           </p>
           <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
             Or simply{" "}
-            <a href="#share" title="?">
+            <a href="#share" title="Spread the word">
               spread the word
             </a>{" "}
             to your friends and family, educate them on the issues and{" "}
@@ -99,7 +99,10 @@ const ChoiceSupport = () => (
                 </OutboundLink>
               </li>
               <li>
-                <Link to="/donate#causes" title="?">
+                <Link
+                  to="/donate#causes"
+                  title="Find charities and causes to support"
+                >
                   Find charities and causes to support →
                 </Link>
               </li>

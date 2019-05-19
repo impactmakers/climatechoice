@@ -313,7 +313,7 @@ const ChooseRenewablePage = () => (
                 <li>
                   <OutboundLink
                     href="https://news.energysage.com/diy-solar-panels-pros-and-cons/"
-                    title="?"
+                    title="Learn about DIY solar"
                   >
                     Learn about DIY solar →
                   </OutboundLink>

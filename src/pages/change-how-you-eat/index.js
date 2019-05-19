@@ -1,6 +1,5 @@
 import React from "react";
 import { OutboundLink } from "gatsby-plugin-google-analytics";
-import { Link } from "gatsby";
 import Layout from "../../components/layout";
 import ChoiceSupport from "../../components/ChoiceSupport";
 import SEO from "../../components/seo";
