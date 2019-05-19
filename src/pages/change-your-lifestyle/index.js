@@ -259,18 +259,27 @@ const ChangeYourLifestylePage = () => (
                 }`}
               >
                 <li>
-                  <OutboundLink href="/" title="/">
+                  <OutboundLink
+                    href="https://makespace.com/blog/posts/minimalist-living-tips/"
+                    title="Minimalism"
+                  >
                     Read up on living a minimal lifestyle →
                   </OutboundLink>
                 </li>
                 <li>
-                  <OutboundLink href="#" title="?">
-                    Find out the correct recycling procedure near you →
+                  <OutboundLink
+                    href="https://mygreencloset.com/directory/"
+                    title="Find brands with ethical/sustainable values"
+                  >
+                    Find brands with ethical/sustainable values →
                   </OutboundLink>
                 </li>
                 <li>
-                  <OutboundLink href="#" title="?">
-                    List of sustainable shops/products →
+                  <OutboundLink
+                    href="https://ethical.net/resources/"
+                    title="Ethical alternatives to digital and physical stuff"
+                  >
+                    Ethical alternatives to digital and physical stuff →
                   </OutboundLink>
                 </li>
               </ul>
@@ -359,8 +368,19 @@ const ChangeYourLifestylePage = () => (
                 }`}
               >
                 <li>
-                  <OutboundLink href="/" title="/">
-                    Find great reusable items →
+                  <OutboundLink
+                    href="https://www.onyalife.com/eco-friendly-products/"
+                    title="Ethical alternatives to digital and physical stuff"
+                  >
+                    48 eco-friendly alternative products →
+                  </OutboundLink>
+                </li>
+                <li>
+                  <OutboundLink
+                    href="https://www.businessinsider.com/household-plastic-alternatives-eco-friendly-2018-8"
+                    title="25 cheap and easy replacements for plastic"
+                  >
+                    25 cheap and easy replacements for plastic →
                   </OutboundLink>
                 </li>
               </ul>
@@ -414,7 +434,10 @@ const ChangeYourLifestylePage = () => (
                 }`}
               >
                 <li>
-                  <OutboundLink href="/" title="/">
+                  <OutboundLink
+                    href="https://www.attainable-sustainable.net/grow-your-own-food/"
+                    title="Learn how to grow your own food "
+                  >
                     Learn how to grow your own food →
                   </OutboundLink>
                 </li>

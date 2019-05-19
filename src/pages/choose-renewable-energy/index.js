@@ -241,32 +241,6 @@ const ChooseRenewablePage = () => (
               costs down for all of us.
             </p>
           </div>
-          <div className={`${ChoiceStyles.actionAside} ${Styles.actionAside}`}>
-            <div
-              className={`${ChoiceStyles.actionAsideContainer} ${
-                Styles.actionAsideContainer
-              }`}
-            >
-              <h3
-                className={`${ChoiceStyles.actionAsideTitle} ${
-                  Styles.actionAsideTitle
-                }`}
-              >
-                Need help changing?
-              </h3>
-              <ul
-                className={`${ChoiceStyles.actionAsideList} ${
-                  Styles.actionAsideList
-                }`}
-              >
-                <li>
-                  <OutboundLink href="#" title="?">
-                    Find a renewable energy supplier near you →
-                  </OutboundLink>
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
         <div
           className={`${ChoiceStyles.action} ${Styles.action} ${
@@ -337,23 +311,27 @@ const ChooseRenewablePage = () => (
                 }`}
               >
                 <li>
-                  <OutboundLink href="#" title="?">
-                    Learn how to install your own solar panels →
+                  <OutboundLink
+                    href="https://news.energysage.com/diy-solar-panels-pros-and-cons/"
+                    title="?"
+                  >
+                    Learn about DIY solar →
                   </OutboundLink>
                 </li>
                 <li>
-                  <OutboundLink href="#" title="?">
+                  <OutboundLink
+                    href="https://www.nerdwallet.com/blog/finance/save-money-putting-solar-panels-roof/"
+                    title="Find out how much solar can save you "
+                  >
                     Find out how much solar can save you →
                   </OutboundLink>
                 </li>
                 <li>
-                  <OutboundLink href="#" title="?">
-                    Learn if you can get paid for your energy →
-                  </OutboundLink>
-                </li>
-                <li>
-                  <OutboundLink href="#" title="?">
-                    Learn how to install your own wind turbines →
+                  <OutboundLink
+                    href="https://www.energy.gov/energysaver/planning-small-wind-electric-system"
+                    title="Work out if a wind system is an option for you"
+                  >
+                    Work out if a wind system is an option for you →
                   </OutboundLink>
                 </li>
               </ul>

@@ -240,8 +240,11 @@ const UseLessEnergyPage = () => (
                 }`}
               >
                 <li>
-                  <OutboundLink href="#" title="?">
-                    ??? →
+                  <OutboundLink
+                    href="https://www.wikihow.com/Insulate-Your-Home"
+                    title="Learn how to insulate your home"
+                  >
+                    Learn how to insulate your home →
                   </OutboundLink>
                 </li>
               </ul>
@@ -299,7 +302,10 @@ const UseLessEnergyPage = () => (
               do the same job.
             </p>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              <OutboundLink href="#" title="Energy efficiency tips">
+              <OutboundLink
+                href="https://blog.constellation.com/2016/01/01/31-ways-to-save-energy-in-your-home/"
+                title="Energy efficiency tips"
+              >
                 Read this to learn more ways to become energy efficient
               </OutboundLink>
               .
@@ -339,30 +345,28 @@ const UseLessEnergyPage = () => (
                 }`}
               >
                 <li>
-                  <OutboundLink href="#" title="?">
-                    Find the best light bulbs →
+                  <OutboundLink
+                    href="https://learn.eartheasy.com/guides/energy-efficient-lighting/"
+                    title="Energy efficient lighting guide"
+                  >
+                    Energy efficient lighting guide →
                   </OutboundLink>
                 </li>
                 <li>
-                  <OutboundLink href="#" title="?">
-                    Find energy efficient appliances near you →
+                  <OutboundLink
+                    href="https://learn.eartheasy.com/guides/energy-efficient-appliances/"
+                    title="Learn how to choose energy efficient appliances"
+                  >
+                    Learn how to choose energy efficient appliances →
                   </OutboundLink>
                 </li>
                 <li>
-                  <OutboundLink href="#" title="?">
-                    Learn if you can get paid for your energy →
-                  </OutboundLink>
-                </li>
-                <li>
-                  <OutboundLink href="#" title="?">
-                    Learn how to insulate your home →
-                  </OutboundLink>
-                </li>
-                <li>
-                  <OutboundLink href="#" title="?">
-                    Can’t help energy wastage? Consider offsetting your
-                    household emittings. →
-                  </OutboundLink>
+                  <Link
+                    to="/offset-your-carbon-footprint"
+                    title="Offset your carbon footprint"
+                  >
+                    Can’t help energy wastage? Offset your household emissions →
+                  </Link>
                 </li>
               </ul>
             </div>

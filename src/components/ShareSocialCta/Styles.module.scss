@@ -46,7 +46,7 @@
 }
 
 .socialBlock {
-  display: block;
+  display: block !important;
   border: 1px solid #008f50;
   background-color: $white;
   box-shadow: 0 1px 13px 0 rgba($black, 0.11);
@@ -76,7 +76,7 @@
   }
 }
 
-.socialBlock .socialContainer {
+.socialContainer {
   display: flex;
   flex-wrap: wrap;
   margin: 10px 0 0 0;

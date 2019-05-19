@@ -242,12 +242,6 @@ const ChangeHowYouEatPage = () => (
                     Calculate your foods carbon footprint →
                   </OutboundLink>
                 </li>
-                {/* <li>
-                  <a href="#" title="?">
-                    Learn how to spot food and drink with a high carbon
-                    footprint →
-                  </a>
-                </li> */}
               </ul>
             </div>
           </div>
@@ -268,9 +262,13 @@ const ChangeHowYouEatPage = () => (
               Be more conscious when you shop and try to{" "}
               <b>only buy what you’re sure will be consumed</b>. When you have
               food or packaging that must be dumped, <b>recycle</b> it. Make
-              sure you’re aware of the{" "}
-              <OutboundLink href="#" title="?">
-                correct recycling procedures where you live
+              sure you’re aware of the correct recycling procedures where you
+              live. Try googling{" "}
+              <OutboundLink
+                href="https://www.google.com/search?ei=z2rhXKSAHpLCwQLJ_bv4Ag&q=recycling+guide&oq=recycling+guide&gs_l=psy-ab.3..0l10.1823.3741..3984...0.0..0.131.1103.13j2......0....1..gws-wiz.......0i71j0i67j0i10.pZD6cI8qvgs"
+                title="Search for a recycling guide"
+              >
+                'recycling guide + your location'
               </OutboundLink>
               .
             </p>
