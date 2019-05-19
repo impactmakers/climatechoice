@@ -1,8 +1,6 @@
-@import './Variables.module.scss';
-@import './Mixins.module.scss';
-@import './Typography.module.scss';
-
-
+@import "./Variables.module.scss";
+@import "./Mixins.module.scss";
+@import "./Typography.module.scss";
 
 body {
   font-family: $sans;
@@ -26,29 +24,26 @@ body {
 
 .tabletHide {
   display: flex;
-  @include mq('tablet') {
+  @include mq("tablet") {
     display: none;
   }
 }
 
 .desktopHide {
   display: none;
-  @include mq('desktop') {
+  @include mq("desktop") {
     display: flex;
   }
 }
 
 .mobileHide {
   display: none;
-  @include mq('tablet') {
+  @include mq("tablet") {
     display: flex;
   }
 }
 
-
-
 /* Subpage centered styles */
-
 
 .subpageInner {
   @include pad-top-large;
@@ -59,11 +54,9 @@ body {
   flex-direction: column;
   max-width: $sub;
   margin: 0 auto;
-  @include mq('tablet') {
-
+  @include mq("tablet") {
   }
 }
-
 
 .subpageContainer {
   margin: 0;
@@ -71,7 +64,7 @@ body {
 
 .subpageContent {
   width: 100%;
-  @include mq('tablet') {
+  @include mq("tablet") {
     //width: 50%;
   }
 }
@@ -81,4 +74,3 @@ body {
   text-align: center;
   @include font-size($title-xlarge);
 }
-

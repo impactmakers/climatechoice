@@ -1,12 +1,12 @@
-@import '../../styles/Variables.module.scss';
-@import '../../styles/Mixins.module.scss';
-@import '../../styles/Typography.module.scss';
+@import "../../styles/Variables.module.scss";
+@import "../../styles/Mixins.module.scss";
+@import "../../styles/Typography.module.scss";
 
 .fieldContainer {
   display: flex;
   flex-direction: column;
   width: 100%;
-  @include mq('tablet') {
+  @include mq("tablet") {
     flex-direction: row;
     width: auto;
   }
@@ -20,7 +20,7 @@
   margin-bottom: 15px;
   height: 40px;
   color: $black;
-  @include mq('tablet') {
+  @include mq("tablet") {
     margin-right: 10px;
     margin-bottom: 0;
   }
@@ -50,17 +50,19 @@
   font-family: $sans;
 }
 
-:-moz-placeholder { /* Firefox 18- */
- font-weight: normal;
- font-family: $sans;
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-weight: normal;
+  font-family: $sans;
 }
 
-::-moz-placeholder {  /* Firefox 19+ */
- font-weight: normal;
- font-family: $sans;
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-weight: normal;
+  font-family: $sans;
 }
 
 :-ms-input-placeholder {
- font-weight: normal;
- font-family: $sans;
+  font-weight: normal;
+  font-family: $sans;
 }

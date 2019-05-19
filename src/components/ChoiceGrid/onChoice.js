@@ -1,7 +1,7 @@
-import React from 'react';
-import GlobalStyles from '../../styles/Global.module.scss';
-import Styles from './Styles.module.scss';
-import ChoiceGridItems from './items';
+import React from "react";
+import GlobalStyles from "../../styles/Global.module.scss";
+import Styles from "./Styles.module.scss";
+import ChoiceGridItems from "./items";
 
 const ChoiceGridOnChoice = () => (
   <section

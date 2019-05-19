@@ -1,7 +1,6 @@
-@import '../../styles/Variables.module.scss';
-@import '../../styles/Mixins.module.scss';
-@import '../../styles/Typography.module.scss';
-
+@import "../../styles/Variables.module.scss";
+@import "../../styles/Mixins.module.scss";
+@import "../../styles/Typography.module.scss";
 
 .container {
   box-sizing: border-box;
@@ -16,22 +15,22 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  @include mq('tablet') {
-
+  @include mq("tablet") {
   }
 }
-
 
 .introContent {
   text-align: center;
   max-width: 840px;
   @include mar-bot-standard;
-
 }
 .title {
   margin: 0;
 }
 
-.introTitle {} 
-.description {}
-.introDescription {}
+.introTitle {
+}
+.description {
+}
+.introDescription {
+}

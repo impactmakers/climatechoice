@@ -1,26 +1,25 @@
-
 /* Colors */
-$black: #0D1626;
-$white: #FFFFFF;
-$orangeOnDark: #DC8C01;
-$orange: #CF8300;
+$black: #0d1626;
+$white: #ffffff;
+$orangeOnDark: #dc8c01;
+$orange: #cf8300;
 
-$blue: #396ABF;
-$green: #00B364;
-$pink: #F281AC;
-$yellow: #EFAF4B;
-$yellowLight: #FFE1B2;
-$cream: #FFF4DD;
-$greenLight: #D7F3E7;
-$blueLight: #E9EFFA;
+$blue: #396abf;
+$green: #00b364;
+$pink: #f281ac;
+$yellow: #efaf4b;
+$yellowLight: #ffe1b2;
+$cream: #fff4dd;
+$greenLight: #d7f3e7;
+$blueLight: #e9effa;
 
 $whiteFaded: rgba($white, 0.7);
 
 $gray: #616771;
-$grayDark: #62646F;
-$grayLight: #E2E6E7;
-$grayLightest: #F2F4F5;
-$grayBorder: #DDE0E5;
+$grayDark: #62646f;
+$grayLight: #e2e6e7;
+$grayLightest: #f2f4f5;
+$grayBorder: #dde0e5;
 
 // Links
 $link: $blue;
@@ -31,25 +30,19 @@ $linkActive: darken($orange, 7.5%);
 
 $textBody: $black;
 
-
-
-
 /* Breakpoints */
 
- $mobile:  480px;
- $tablet:  768px;
- $desktop: 1040px;
- $max:     1340px;
- $sub:     760px;
- 
- 
- $breakpoints: (
-   "mobile":  $mobile,
-   "tablet":  $tablet,
-   "desktop": $desktop,
-   "max": $max,
- );
- 
- 
- $borderRadius: 4px;
- 
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1040px;
+$max: 1340px;
+$sub: 760px;
+
+$breakpoints: (
+  "mobile": $mobile,
+  "tablet": $tablet,
+  "desktop": $desktop,
+  "max": $max
+);
+
+$borderRadius: 4px;

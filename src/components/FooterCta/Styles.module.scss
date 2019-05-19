@@ -1,7 +1,7 @@
-@import '../../styles/Variables.module.scss';
-@import '../../styles/Mixins.module.scss';
-@import '../../styles/Typography.module.scss';
-@import '../../styles/Buttons.module.scss';
+@import "../../styles/Variables.module.scss";
+@import "../../styles/Mixins.module.scss";
+@import "../../styles/Typography.module.scss";
+@import "../../styles/Buttons.module.scss";
 
 .container {
   background: $black;
@@ -14,7 +14,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  @include mq('tablet') {
+  @include mq("tablet") {
     flex-direction: row;
   }
 }
@@ -22,7 +22,7 @@
 .ctaContent {
   width: 100%;
   margin-bottom: 10px;
-  @include mq('tablet') {
+  @include mq("tablet") {
     width: 450px;
     margin-bottom: 0;
   }
@@ -33,7 +33,7 @@
   color: $orangeOnDark;
   margin-top: 0;
   margin-bottom: 5px;
-  @include mq('tablet') {
+  @include mq("tablet") {
     margin-bottom: 10px;
   }
 }
@@ -50,19 +50,18 @@
   display: flex;
   flex-direction: column;
   padding-top: 5px;
-  @include mq('tablet') {
+  @include mq("tablet") {
     flex-direction: row;
-
   }
-}   
+}
 
 .ctaButton {
   @include no-underline;
   margin-top: 5px;
-    @include mq('tablet') {
-      margin-right: 20px;
-      &:last-child {
-        margin-right: 0;
-      }
+  @include mq("tablet") {
+    margin-right: 20px;
+    &:last-child {
+      margin-right: 0;
     }
   }
+}

@@ -26,7 +26,7 @@
 .ctaCopy {
   width: 100%;
   margin-bottom: 20px;
-  @include mq('tablet') {
+  @include mq("tablet") {
     width: 38%;
     margin-bottom: 0;
   }
@@ -49,7 +49,7 @@
   flex-direction: column;
   align-items: center;
   background-color: $white;
-  box-shadow: 0 1px 13px 0 rgba($white,0.50);
+  box-shadow: 0 1px 13px 0 rgba($white, 0.5);
   color: $black;
   width: 90%;
   padding: 1.25em 5%;

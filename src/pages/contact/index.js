@@ -1,9 +1,9 @@
-import React from 'react';
-import Layout from '../../components/layout';
-import SEO from '../../components/seo';
-import GlobalStyles from '../../styles/Global.module.scss';
-import Styles from './Styles.module.scss';
-import FooterCta from '../../components/FooterCta';
+import React from "react";
+import Layout from "../../components/layout";
+import SEO from "../../components/seo";
+import GlobalStyles from "../../styles/Global.module.scss";
+import Styles from "./Styles.module.scss";
+import FooterCta from "../../components/FooterCta";
 
 const ContactPage = () => (
   <Layout>
@@ -20,7 +20,7 @@ const ContactPage = () => (
           <p>
             <ul>
               <li>
-                {' '}
+                {" "}
                 <a href="mailto:yourclimatechoice@gmail.com" title="Email us">
                   Email us
                 </a>
@@ -39,11 +39,11 @@ const ContactPage = () => (
           <br />
           <h2>Want to help with the site?</h2>
           <p>
-            {' '}
+            {" "}
             <a href="https://climatechoice.co/" title="Go home">
               ClimateChoice
-            </a>{' '}
-            is a non-profit project created by a{' '}
+            </a>{" "}
+            is a non-profit project created by a{" "}
             <a href="https://techimpactmakers.com" title="Impact Makers">
               community of tech volunteers
             </a>
@@ -51,17 +51,17 @@ const ContactPage = () => (
           </p>
           <p>
             If you're interested in volunteering some of your time to contribute
-            to ClimateChoice please{' '}
+            to ClimateChoice please{" "}
             <a href="mailto:yourclimatechoice@gmail.com" title="Email us">
               send us an email
-            </a>{' '}
-            or{' '}
+            </a>{" "}
+            or{" "}
             <a
               href="https://join.slack.com/t/impact-makers-group/shared_invite/enQtNjE1NjU0OTU0MTY1LTg2MmVjNjBkY2FiNDVlYmM3ZjQxYmYyNTlhMzc0Y2MxYzYwYjE5ZWFmMWE1MmM4OTg4NzA5NTE3M2M5OTRiNDk"
               title="The Impact Makers Slack"
             >
               join the Impact Makers slack community
-            </a>{' '}
+            </a>{" "}
             to discuss how you can help. It doesn't matter what your skillset
             is, all motiviated people are welcome!
           </p>
@@ -75,7 +75,7 @@ const ContactPage = () => (
                   title="Follow @shylands on Twitter"
                 >
                   Steven Hylands
-                </a>{' '}
+                </a>{" "}
                 - Design, content, development
               </li>
               <li>
@@ -84,7 +84,7 @@ const ContactPage = () => (
                   title="Follow @tobequitefrank1 on Twitter"
                 >
                   Rachel Franklin
-                </a>{' '}
+                </a>{" "}
                 - Development
               </li>
               <li>
@@ -93,7 +93,7 @@ const ContactPage = () => (
                   title="Follow @thepaulmcbride on Twitter"
                 >
                   Paul McBride
-                </a>{' '}
+                </a>{" "}
                 - Development
               </li>
               <li>
@@ -102,7 +102,7 @@ const ContactPage = () => (
                   title="Follow @remotealex on Twitter"
                 >
                   Alex Price
-                </a>{' '}
+                </a>{" "}
                 - Feedback
               </li>
               <li>
@@ -111,7 +111,7 @@ const ContactPage = () => (
                   title="Follow @yesthatyon on Twitter"
                 >
                   Jon Williams
-                </a>{' '}
+                </a>{" "}
                 - Feedback
               </li>
             </ul>

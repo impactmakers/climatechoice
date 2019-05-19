@@ -1,6 +1,6 @@
-import React from 'react';
-import Styles from './Styles.module.scss';
-import TwitterIcon from '../Images/Icons/TwitterIcon';
+import React from "react";
+import Styles from "./Styles.module.scss";
+import TwitterIcon from "../Images/Icons/TwitterIcon";
 
 const AuthorCard = ({ author }) => {
   return (

@@ -1,7 +1,7 @@
-import React from 'react';
-import GlobalStyles from '../../styles/Global.module.scss';
-import ButtonStyles from '../../styles/Buttons.module.scss';
-import Styles from './Styles.module.scss';
+import React from "react";
+import GlobalStyles from "../../styles/Global.module.scss";
+import ButtonStyles from "../../styles/Buttons.module.scss";
+import Styles from "./Styles.module.scss";
 
 const Footer = () => (
   <footer className={Styles.container}>

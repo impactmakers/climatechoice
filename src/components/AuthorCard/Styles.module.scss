@@ -1,16 +1,14 @@
-@import '../../styles/Variables.module.scss';
-@import '../../styles/Mixins.module.scss';
-@import '../../styles/Typography.module.scss';
-@import '../../styles/Buttons.module.scss';
-
-
+@import "../../styles/Variables.module.scss";
+@import "../../styles/Mixins.module.scss";
+@import "../../styles/Typography.module.scss";
+@import "../../styles/Buttons.module.scss";
 
 .authorCard {
   background: $grayLightest;
   border-radius: $borderRadius;
   display: flex;
   padding: 5%;
-  width:90%;
+  width: 90%;
 }
 
 .authorAvatar {
@@ -18,7 +16,7 @@
   height: 80px;
   margin-right: 5%;
   border-radius: 3px;
-  @include mq('tablet') {
+  @include mq("tablet") {
     width: 100px;
     height: 100px;
   }
@@ -33,7 +31,6 @@
 
 .authorBio {
   margin: 0;
-
 }
 
 .links {
@@ -41,11 +38,12 @@
   list-style-type: none;
   margin: 8px 0 0 0;
   padding: 0;
-  a, a:hover  {
+  a,
+  a:hover {
     border: none;
   }
-  @include mq('tablet') {
-    margin-top: 15px;;
+  @include mq("tablet") {
+    margin-top: 15px;
   }
 }
 

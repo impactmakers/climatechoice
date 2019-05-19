@@ -1,7 +1,6 @@
-@import '../../styles/Variables.module.scss';
-@import '../../styles/Mixins.module.scss';
-@import '../../styles/Typography.module.scss';
-
+@import "../../styles/Variables.module.scss";
+@import "../../styles/Mixins.module.scss";
+@import "../../styles/Typography.module.scss";
 
 .container {
   box-sizing: border-box;
@@ -22,8 +21,8 @@
 .title {
   margin-top: 0;
   margin-bottom: 10px;
-  
-  @include mq('tablet') {
+
+  @include mq("tablet") {
     @include mar-bot-large;
   }
 }
@@ -33,7 +32,6 @@
   @include pad-bot-large;
 }
 
-
 .contentItems {
   justify-content: space-between;
 
@@ -42,33 +40,33 @@
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 1fr;
-  @include mq('tablet') {
+  @include mq("tablet") {
     grid-gap: 40px;
     grid-template-columns: 1fr 1fr;
     position: relative;
     z-index: 2;
   }
-  @include mq('desktop') {
+  @include mq("desktop") {
     margin-top: -180px;
   }
-} 
+}
 
 .contentItem {
   @include white-box;
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  transition: opacity .25s ease-in-out;
-  -moz-transition: opacity .25s ease-in-out;
-  -webkit-transition: opacity .25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
   top: 0;
   &:hover {
-    box-shadow: 0 1px 40px 0 rgba(50,47,68,0.2);
+    box-shadow: 0 1px 40px 0 rgba(50, 47, 68, 0.2);
     top: -2px;
     position: relative;
   }
   &:active {
-    box-shadow: 0 1px 40px 0 rgba(50,47,68,0.2);
+    box-shadow: 0 1px 40px 0 rgba(50, 47, 68, 0.2);
     top: 1px;
     position: relative;
   }
@@ -77,7 +75,6 @@
 .contentItemLink {
   text-decoration: none;
 }
-
 
 .contentImage {
   img {
@@ -89,7 +86,7 @@
 .contentText {
   padding: 30px;
   @include link-states;
-  @include mq('tablet') {
+  @include mq("tablet") {
     padding: 40px;
     margin: 0;
   }
@@ -101,10 +98,8 @@
   display: flex;
   border: none !important;
   color: $black;
-  @include font-size($title-small); 
+  @include font-size($title-small);
 }
-
-
 
 .contentExcerpt {
   margin: 0;
@@ -141,7 +136,4 @@
   border-radius: 50%;
 }
 .contentAuthorName {
-
 }
-
-

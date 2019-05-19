@@ -1,10 +1,10 @@
-import React from 'react';
-import { Link, graphql } from 'gatsby';
-import AuthorCard from '../components/AuthorCard';
-import Layout from '../components/layout';
-import SEO from '../components/seo';
-import GlobalStyles from '../styles/Global.module.scss';
-import Styles from './BlogPost.module.scss';
+import React from "react";
+import { Link, graphql } from "gatsby";
+import AuthorCard from "../components/AuthorCard";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import GlobalStyles from "../styles/Global.module.scss";
+import Styles from "./BlogPost.module.scss";
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -18,7 +18,7 @@ class BlogPostTemplate extends React.Component {
           <div className={`${GlobalStyles.inner} ${Styles.inner}`}>
             <h1 className={Styles.title}>{post.frontmatter.title}</h1>
             <p className={Styles.meta}>
-              By <a href="#author">{post.frontmatter.author.id}</a> on{' '}
+              By <a href="#author">{post.frontmatter.author.id}</a> on{" "}
               {post.frontmatter.date}
             </p>
             <img

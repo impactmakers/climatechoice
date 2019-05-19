@@ -1,11 +1,11 @@
-@import './Variables.module.scss';
-@import './Mixins.module.scss';
-@import './Typography.module.scss';
+@import "./Variables.module.scss";
+@import "./Mixins.module.scss";
+@import "./Typography.module.scss";
 
- /* Header Banner */
+/* Header Banner */
 
 .banner {
-  background-image: linear-gradient(270deg, #2A4270 21%, #16243E 62%);
+  background-image: linear-gradient(270deg, #2a4270 21%, #16243e 62%);
   box-sizing: border-box;
   width: 100%;
   display: flex;
@@ -13,16 +13,14 @@
   align-items: center;
 }
 
-
 .inner {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  @include mq('tablet') {
+  @include mq("tablet") {
     flex-direction: row;
   }
 }
-
 
 .bannerContent {
   display: flex;
@@ -31,11 +29,10 @@
   @include pad-top-standard;
   @include pad-bot-standard;
   @include mar-bot-small;
-  @include mq('tablet') {
+  @include mq("tablet") {
     max-width: 740px;
   }
 }
-
 
 .bannerTitle {
   width: 100%;
@@ -44,7 +41,7 @@
   font-family: $serif;
   color: $orangeOnDark;
   text-align: center;
-  @include mq('tablet') {
+  @include mq("tablet") {
     text-align: left;
   }
 }
@@ -53,7 +50,7 @@
   @include font-size($text-large);
   margin-bottom: 0;
   text-align: center;
-  @include mq('tablet') {
+  @include mq("tablet") {
     text-align: left;
   }
 }
@@ -63,7 +60,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 30px;
-  @include mq('tablet') {
+  @include mq("tablet") {
     margin-top: 40px;
     flex-direction: row;
   }
@@ -72,7 +69,7 @@
 .bannerCtaPrimary {
   @include no-underline;
   width: 100%;
-  @include mq('tablet') {
+  @include mq("tablet") {
     width: auto;
   }
 }
@@ -84,7 +81,7 @@
   a {
     font-weight: normal;
   }
-  @include mq('tablet') {
+  @include mq("tablet") {
     margin-top: 0;
     margin-left: 50px;
     flex-direction: row;
@@ -95,23 +92,20 @@
   display: flex;
   align-items: center;
   margin: 10px auto 40px;
-  @include mq('tablet') {
+  @include mq("tablet") {
     margin: 0;
   }
 }
 
 .bannerImgShadow {
-  -webkit-filter: drop-shadow( 0px 0px 62px rgba($black, .8));
-  filter: drop-shadow( 0px 0px 62px rgba($black, .8));
+  -webkit-filter: drop-shadow(0px 0px 62px rgba($black, 0.8));
+  filter: drop-shadow(0px 0px 62px rgba($black, 0.8));
 }
-
 
 /* Link to tldr */
 
 .cba {
-
 }
-
 
 .cbaInner {
   display: block;
@@ -119,7 +113,7 @@
   @include pad-top-small;
   @include links-on-light;
   text-align: center;
-  @include mq('tablet') {
+  @include mq("tablet") {
     @include pad-top-small;
     text-align: left;
   }
@@ -136,7 +130,8 @@
 
 /* How it happens */
 
-.how {}
+.how {
+}
 
 .howInner {
   @include pad-top-large;
@@ -148,15 +143,13 @@
   flex-direction: column;
   max-width: $sub;
   margin: 0 auto;
-  @include mq('tablet') {
-
+  @include mq("tablet") {
   }
 }
 
-
 .howContent {
   width: 100%;
-  @include mq('tablet') {
+  @include mq("tablet") {
     //width: 50%;
   }
 }
@@ -166,24 +159,26 @@
   text-align: center;
   @include font-size($title-xlarge);
 }
-.howList {}
+.howList {
+}
 
 .choiceList {
   @include text-small;
-  list-style: none; 
+  list-style: none;
   counter-reset: li;
   margin: 0;
   padding: 0 0 0 40px;
-  :before {content: counter(li); 
+  :before {
+    content: counter(li);
     color: $blue;
     background: $blueLight;
     font-weight: bold;
-    display: inline-block; 
+    display: inline-block;
     width: 30px;
     margin-left: -2.8em;
-    margin-right: 1em; 
-    text-align: center; 
-    direction: rtl
+    margin-right: 1em;
+    text-align: center;
+    direction: rtl;
   }
   li {
     counter-increment: li;
@@ -193,7 +188,7 @@
       padding-bottom: 0;
     }
   }
-  @include mq('tablet') {
+  @include mq("tablet") {
     padding-left: 43px;
   }
 }
@@ -205,29 +200,28 @@
 /* What stops us */
 
 .stops {
-  background: $orange
+  background: $orange;
 }
 
 .stopsInner {
   justify-content: space-between;
   flex-direction: column;
-  @include mq('tablet') {
+  @include mq("tablet") {
     flex-direction: row;
   }
 }
-
 
 .stopsContent {
   width: 100%;
   @include pad-top-standard;
   @include pad-bot-standard;
-  @include mq('tablet') {
+  @include mq("tablet") {
     width: 50%;
   }
 }
 
 .stopsListContainer {
-  @include mq('tablet') {
+  @include mq("tablet") {
     @include pad-left-standard;
   }
 }
@@ -235,9 +229,10 @@
 .stopsList {
   color: $white;
   margin: 0;
-  :before {content: counter(li); 
+  :before {
+    content: counter(li);
     color: $white;
-    background: rgba($white,0.16);
+    background: rgba($white, 0.16);
   }
 }
 
@@ -247,20 +242,19 @@
   max-width: 300px;
   @include pad-top-standard;
   @include pad-left-standard;
-  @include pad-right-standard; 
+  @include pad-right-standard;
   @include font-size($title-large);
-  text-shadow: 0 2px 17px rgba(0,0,0,0.6);
+  text-shadow: 0 2px 17px rgba(0, 0, 0, 0.6);
 }
-
 
 .stopsImg {
   width: 100%;
   height: 240px;
   background-size: cover;
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.4);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
   display: block;
   @include mar-top-standard;
-  @include mq('tablet') {
+  @include mq("tablet") {
     margin: 0;
     width: 50%;
     height: auto;
@@ -269,29 +263,27 @@
 
 /* What youc an do now */
 
-.actions {}
+.actions {
+}
 
 .actionsInner {
   @include pad-top-large;
   @include pad-bot-large;
   justify-content: space-between;
   flex-direction: column;
-
 }
-
 
 .actionsContent {
   width: 100%;
-  @include mq('tablet') {
-
+  @include mq("tablet") {
   }
 }
 
 .actionsTitle {
   margin-top: 0;
   text-align: center;
-  @include mq('tablet') {
-    padding-bottom:15px;
+  @include mq("tablet") {
+    padding-bottom: 15px;
   }
 }
 
@@ -307,8 +299,7 @@
   &:last-child {
     padding-bottom: 0;
   }
-  @include mq('tablet') {
-
+  @include mq("tablet") {
   }
 }
 .actionAnother {
@@ -323,8 +314,7 @@
     @include font-size($text-small);
     margin-bottom: 15px;
   }
-  @include mq('tablet') {
-
+  @include mq("tablet") {
   }
 }
 .actionTitle {
@@ -340,7 +330,7 @@
   img {
     padding-right: 7px;
   }
-  @include mq('tablet') {
+  @include mq("tablet") {
     margin: 30px 0 0;
   }
 }
@@ -354,7 +344,7 @@
   img {
     padding-right: 7px;
   }
-  @include mq('tablet') {
+  @include mq("tablet") {
     margin: 30px 0 0;
   }
 }
@@ -364,7 +354,6 @@
   &:last-child {
     margin-bottom: 0;
   }
-
 }
 
 .actionAside {
@@ -373,17 +362,17 @@
   width: 100%;
   background: $blueLight;
   margin-top: 20px;
-  @include mq('tablet') {
+  @include mq("tablet") {
     margin-top: 40px;
   }
 }
 .actionAsideTitle {
-  @include title-uppercase-small; 
+  @include title-uppercase-small;
 }
 
 .actionAsideContainer {
   padding: 20px 20px;
-  @include mq('tablet') {
+  @include mq("tablet") {
     padding: 25px 30px;
   }
 }
@@ -412,34 +401,34 @@
 .tldrInner {
   justify-content: space-between;
   flex-direction: column;
-  @include mq('tablet') {
+  @include mq("tablet") {
     flex-direction: row-reverse;
   }
 }
-
 
 .tldrContent {
   width: 100%;
   @include pad-top-standard;
   @include pad-bot-standard;
-  @include mq('tablet') {
+  @include mq("tablet") {
     width: 50%;
   }
 }
 .tldrListContainer {
-  @include mq('tablet') {
+  @include mq("tablet") {
     @include pad-right-standard;
   }
 }
 
 .tldrList {
   @include text-small;
-  list-style-type: none; 
+  list-style-type: none;
   color: $white;
-  margin: 0 ;
+  margin: 0;
   padding: 0;
   li {
-    background: url('../components/Images/Icons/TickGreenIcon.svg') no-repeat left;
+    background: url("../components/Images/Icons/TickGreenIcon.svg") no-repeat
+      left;
     background-position-y: 6px;
     padding: 0 21px 10px;
     margin: 0;
@@ -448,7 +437,7 @@
       padding-bottom: 0;
     }
   }
-  @include mq('tablet') {
+  @include mq("tablet") {
     padding-left: 0;
     margin-top: 25px;
     li {
@@ -463,7 +452,7 @@
   margin: 0;
 
   @include font-size($title-large);
-  text-shadow: 0 2px 17px rgba(0,0,0,0.6);
+  text-shadow: 0 2px 17px rgba(0, 0, 0, 0.6);
 }
 
 .tldrSubtitle {
@@ -476,10 +465,10 @@
   width: 100%;
   height: 240px;
   margin-top: 25px;
-  background: url('../components/Images/Photos/globe.jpg') no-repeat top center;
+  background: url("../components/Images/Photos/globe.jpg") no-repeat top center;
   background-size: cover;
   display: block;
-  @include mq('tablet') {
+  @include mq("tablet") {
     margin: 0;
     width: 50%;
     height: auto;

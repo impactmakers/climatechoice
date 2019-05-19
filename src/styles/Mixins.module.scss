@@ -176,8 +176,10 @@
     text-decoration: underline;
     font-weight: 700;
   }
-  a:hover,
-  a.hover,
+  a.hover {
+    color: $linkHover;
+    -webkit-transition: top 0.04s ease-out;
+  }
   a:active {
     color: $linkActive;
     position: relative;

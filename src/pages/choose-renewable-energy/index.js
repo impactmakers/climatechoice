@@ -1,16 +1,16 @@
-import React from 'react';
-import Layout from '../../components/layout';
-import ChoiceSupport from '../../components/ChoiceSupport';
-import SEO from '../../components/seo';
-import GlobalStyles from '../../styles/Global.module.scss';
-import ChoiceStyles from '../../styles/Choice.module.scss';
-import ButtonStyles from '../../styles/Buttons.module.scss';
-import Styles from './Styles.module.scss';
-import ShareSocialCta from '../../components/ShareSocialCta';
-import ChoiceGridOnChoice from '../../components/ChoiceGrid/onChoice';
-import HowIcon from '../../components/Images/Icons/HowIcon.svg';
-import BannerImg from '../../components/Images/Graphics/choiceBannerRenewable.svg';
-import shareConfig from '../../configs/pages/choiceRenewableConfig';
+import React from "react";
+import Layout from "../../components/layout";
+import ChoiceSupport from "../../components/ChoiceSupport";
+import SEO from "../../components/seo";
+import GlobalStyles from "../../styles/Global.module.scss";
+import ChoiceStyles from "../../styles/Choice.module.scss";
+import ButtonStyles from "../../styles/Buttons.module.scss";
+import Styles from "./Styles.module.scss";
+import ShareSocialCta from "../../components/ShareSocialCta";
+import ChoiceGridOnChoice from "../../components/ChoiceGrid/onChoice";
+import HowIcon from "../../components/Images/Icons/HowIcon.svg";
+import BannerImg from "../../components/Images/Graphics/choiceBannerRenewable.svg";
+import shareConfig from "../../configs/pages/choiceRenewableConfig";
 
 const ChooseRenewablePage = () => (
   <Layout>
@@ -31,7 +31,7 @@ const ChooseRenewablePage = () => (
         `climate change nuclear`,
         `climate change oil`,
         `climate change solar`,
-        `climate change wind`,  
+        `climate change wind`,
         `Choose renewable energy`,
         `ClimateChoice`,
         `climate change`,
@@ -90,7 +90,7 @@ const ChooseRenewablePage = () => (
     </section>
     <section className={`${ChoiceStyles.cba} ${Styles.cba}`}>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.cbaInner}`}>
-        Short on time?{' '}
+        Short on time?{" "}
         <a
           className={ChoiceStyles.cbaAction}
           href="#tldr"
@@ -109,7 +109,7 @@ const ChooseRenewablePage = () => (
           </h1>
           <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
             In the modern world we have become dependent on electrical energy to
-            power our lives. Unfortunately{' '}
+            power our lives. Unfortunately{" "}
             <b>
               75% of our energy is provided by polluting non-renewable sources
             </b>
@@ -152,16 +152,25 @@ const ChooseRenewablePage = () => (
               } ${Styles.stopsList}`}
             >
               <li>
-                Cost - Buying renewable energy can be more expensive than non-renewable sources (though this is changing fast). Creating your own solar or wind energy also has an upfront construction cost.
+                Cost - Buying renewable energy can be more expensive than
+                non-renewable sources (though this is changing fast). Creating
+                your own solar or wind energy also has an upfront construction
+                cost.
               </li>
               <li>
-              Availability - There isn’t enough renewable energy being produced (yet) to cover our daily usage. Some of our homes may also be in areas where no renewable energy supplier is available.
+                Availability - There isn’t enough renewable energy being
+                produced (yet) to cover our daily usage. Some of our homes may
+                also be in areas where no renewable energy supplier is
+                available.
               </li>
               <li>
-                Awareness - A lot of people don’t think much about their energy provider, nor have they looked to see if there is a renewable alternative.
+                Awareness - A lot of people don’t think much about their energy
+                provider, nor have they looked to see if there is a renewable
+                alternative.
               </li>
               <li>
-                Effort - Changing your energy supplier might create hassle for you in order to make the switch - so you don’t.
+                Effort - Changing your energy supplier might create hassle for
+                you in order to make the switch - so you don’t.
               </li>
               <li>
                 Acting on climate change represents a trade-off between
@@ -189,14 +198,26 @@ const ChooseRenewablePage = () => (
             className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
           >
             <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
-              The easiest thing to do is find a local renewable energy supplier and make the switch.
+              The easiest thing to do is find a local renewable energy supplier
+              and make the switch.
             </h2>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              <b>Start by checking with your existing energy supplier</b>, many already give you the option to choose a green energy source over non-renewables. It may cost you a bit more, but it’s the easiest way to change. It’s also worthwhile researching other suppliers near you. You might find a bretter price.
+              <b>Start by checking with your existing energy supplier</b>, many
+              already give you the option to choose a green energy source over
+              non-renewables. It may cost you a bit more, but it’s the easiest
+              way to change. It’s also worthwhile researching other suppliers
+              near you. You might find a bretter price.
             </p>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              If you don’t have a renewable option with your existing supplier it’s time to shop around. A quick search online for <a href="https://www.google.com/search?ei=xajfXIqsIcuWkwXZ4puYAw&q=renewable+energy+supplier&oq=renewable+energy+supplier&gs_l=psy-ab.3..0l8.10087.10595..10882...0.0..0.82.200.3......0....1..gws-wiz.......0i71j33i22i29i30j0i22i30.742iU1EWxJs" title="Search for a renewable energy supplier">
-              ‘Renewable energy supplier + your location’</a> should point you in the right direction.
+              If you don’t have a renewable option with your existing supplier
+              it’s time to shop around. A quick search online for{" "}
+              <a
+                href="https://www.google.com/search?ei=xajfXIqsIcuWkwXZ4puYAw&q=renewable+energy+supplier&oq=renewable+energy+supplier&gs_l=psy-ab.3..0l8.10087.10595..10882...0.0..0.82.200.3......0....1..gws-wiz.......0i71j33i22i29i30j0i22i30.742iU1EWxJs"
+                title="Search for a renewable energy supplier"
+              >
+                ‘Renewable energy supplier + your location’
+              </a>{" "}
+              should point you in the right direction.
             </p>
             <h3
               className={`${ChoiceStyles.actionHowTitle} ${
@@ -207,7 +228,16 @@ const ChooseRenewablePage = () => (
               How much would this help?
             </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              100% renewable energy is likely inevitable. But <b>to prevent climate breakdown we must achieve 100% renewable energy as quickly as possible</b>. By choosing a renewable provider today you are voting for your preference, and the more votes each provider gets the more likely they are to speed up the development of their renewable sources. With more demand supply and competition will increase, driving costs down for all of us.
+              100% renewable energy is likely inevitable. But{" "}
+              <b>
+                to prevent climate breakdown we must achieve 100% renewable
+                energy as quickly as possible
+              </b>
+              . By choosing a renewable provider today you are voting for your
+              preference, and the more votes each provider gets the more likely
+              they are to speed up the development of their renewable sources.
+              With more demand supply and competition will increase, driving
+              costs down for all of us.
             </p>
           </div>
           <div className={`${ChoiceStyles.actionAside} ${Styles.actionAside}`}>
@@ -229,10 +259,7 @@ const ChooseRenewablePage = () => (
                 }`}
               >
                 <li>
-                  <a
-                    href="#"
-                    title="?"
-                  >
+                  <a href="#" title="?">
                     Find a renewable energy supplier near you →
                   </a>
                 </li>
@@ -249,19 +276,29 @@ const ChooseRenewablePage = () => (
             className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
           >
             <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
-              Create your own energy supply by installing solar panels or wind turbines
+              Create your own energy supply by installing solar panels or wind
+              turbines
             </h2>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              While creating your own renewable energy source has an upfront cost, <b>it will likely benefit you financially over the long term</b>. 
+              While creating your own renewable energy source has an upfront
+              cost,{" "}
+              <b>it will likely benefit you financially over the long term</b>.
             </p>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              With solar how much you can save depends on factors such as direct hours of daily sunlight and your local electricity rate. In some places you can even get paid for any excess power you can provide to the electricity grid. That’s right — get paid for your energy! 
+              With solar how much you can save depends on factors such as direct
+              hours of daily sunlight and your local electricity rate. In some
+              places you can even get paid for any excess power you can provide
+              to the electricity grid. That’s right — get paid for your energy!
             </p>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              Wind is another option. It can generate you energy 24 hours a day but there are some downsides. Wind requires more specialised maintenance, it can be noisy, unsightly and dangerous to birds.
+              Wind is another option. It can generate you energy 24 hours a day
+              but there are some downsides. Wind requires more specialised
+              maintenance, it can be noisy, unsightly and dangerous to birds.
             </p>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              <b>Most people choose solar</b> as it’s easier to install, less maintenance and doesn’t get in peoples way. Consider which option best suits your location.
+              <b>Most people choose solar</b> as it’s easier to install, less
+              maintenance and doesn’t get in peoples way. Consider which option
+              best suits your location.
             </p>
             <h3
               className={`${ChoiceStyles.actionHowTitle} ${
@@ -272,7 +309,11 @@ const ChooseRenewablePage = () => (
               How much would this help?
             </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              Having your own supply means other people can use the currently limited renewable sources from existing energy suppliers. If everyone has renewable energy available to them we’d be a lot closer to eliminating our dependency on coal, gas, oil and nuclear energy. 
+              Having your own supply means other people can use the currently
+              limited renewable sources from existing energy suppliers. If
+              everyone has renewable energy available to them we’d be a lot
+              closer to eliminating our dependency on coal, gas, oil and nuclear
+              energy.
             </p>
           </div>
 
@@ -295,41 +336,28 @@ const ChooseRenewablePage = () => (
                 }`}
               >
                 <li>
-                  <a
-                    href="#"
-                    title="?"
-                  >
+                  <a href="#" title="?">
                     Learn how to install your own solar panels →
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    title="?"
-                  >
+                  <a href="#" title="?">
                     Find out how much solar can save you →
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    title="?"
-                  >
+                  <a href="#" title="?">
                     Learn if you can get paid for your energy →
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    title="?"
-                  >
+                  <a href="#" title="?">
                     Learn how to install your own wind turbines →
                   </a>
                 </li>
               </ul>
             </div>
           </div>
-
         </div>
       </div>
     </section>
@@ -351,8 +379,9 @@ const ChooseRenewablePage = () => (
             <p
               className={`${ChoiceStyles.tldrSubtitle} ${Styles.tldrSubtitle}`}
             >
-              We’re killing the planet. 75% of our energy is supplied from the greenhouse gas emitting sources coal, gas, oil and nuclear. To reduce these we must:
-
+              We’re killing the planet. 75% of our energy is supplied from the
+              greenhouse gas emitting sources coal, gas, oil and nuclear. To
+              reduce these we must:
             </p>
             <ul className={`${ChoiceStyles.tldrList} ${Styles.tldrList}`}>
               <li>Transition to renewable energy providers</li>
@@ -361,7 +390,7 @@ const ChooseRenewablePage = () => (
               <li>
                 <a href="#share" alt="Spread the word">
                   Spread the word
-                </a>{' '}
+                </a>{" "}
                 so others make changes too
               </li>
             </ul>

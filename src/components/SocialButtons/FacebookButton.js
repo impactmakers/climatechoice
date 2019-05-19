@@ -1,9 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { FacebookShareButton } from 'react-share';
-import styles from './styles.module.scss';
-import buttonStyles from '../../styles/Buttons.module.scss';
-import FacebookIcon from '../Images/Icons/FacebookIcon';
+import React from "react";
+import PropTypes from "prop-types";
+import { FacebookShareButton } from "react-share";
+import styles from "./styles.module.scss";
+import buttonStyles from "../../styles/Buttons.module.scss";
+import FacebookIcon from "../Images/Icons/FacebookIcon";
 
 export default function FacebookButton({
   url,
@@ -29,9 +29,9 @@ export default function FacebookButton({
 }
 
 FacebookButton.defaultProps = {
-  url: 'https://climatechoice.co/',
-  facebookQuote: '',
-  facebookHashtag: '#climatechange'
+  url: "https://climatechoice.co/",
+  facebookQuote: "",
+  facebookHashtag: "#climatechange"
 };
 
 FacebookButton.propTypes = {

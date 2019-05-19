@@ -1,17 +1,17 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import Layout from '../../components/layout';
-import ChoiceSupport from '../../components/ChoiceSupport';
-import SEO from '../../components/seo';
-import GlobalStyles from '../../styles/Global.module.scss';
-import ChoiceStyles from '../../styles/Choice.module.scss';
-import ButtonStyles from '../../styles/Buttons.module.scss';
-import Styles from './Styles.module.scss';
-import ShareSocialCta from '../../components/ShareSocialCta';
-import ChoiceGridOnChoice from '../../components/ChoiceGrid/onChoice';
-import HowIcon from '../../components/Images/Icons/HowIcon.svg';
-import BannerImg from '../../components/Images/Graphics/choiceBannerLessEnergy.svg';
-import shareConfig from '../../configs/pages/choiceLessEnergyConfig';
+import React from "react";
+import { Link } from "gatsby";
+import Layout from "../../components/layout";
+import ChoiceSupport from "../../components/ChoiceSupport";
+import SEO from "../../components/seo";
+import GlobalStyles from "../../styles/Global.module.scss";
+import ChoiceStyles from "../../styles/Choice.module.scss";
+import ButtonStyles from "../../styles/Buttons.module.scss";
+import Styles from "./Styles.module.scss";
+import ShareSocialCta from "../../components/ShareSocialCta";
+import ChoiceGridOnChoice from "../../components/ChoiceGrid/onChoice";
+import HowIcon from "../../components/Images/Icons/HowIcon.svg";
+import BannerImg from "../../components/Images/Graphics/choiceBannerLessEnergy.svg";
+import shareConfig from "../../configs/pages/choiceLessEnergyConfig";
 
 const UseLessEnergyPage = () => (
   <Layout>
@@ -32,9 +32,9 @@ const UseLessEnergyPage = () => (
         `climate change hot water`,
         `climate change taking a bath`,
         `climate change turn lights off`,
-        `climate change home heating`,  
+        `climate change home heating`,
         `climate change become energy efficient`,
-        `climate change thermostat`,  
+        `climate change thermostat`,
         `Use less energy`,
         `ClimateChoice`,
         `climate change`,
@@ -54,7 +54,9 @@ const UseLessEnergyPage = () => (
             Use less energy to help prevent climate breakdown
           </h1>
           <p className={`${ChoiceStyles.bannerDesc} ${Styles.bannerDesc}`}>
-          Every year the world wastes more energy than it uses. <b>75%</b> of this energy comes from greenhouse gas emitting sources like coal, oil and gas.
+            Every year the world wastes more energy than it uses. <b>75%</b> of
+            this energy comes from greenhouse gas emitting sources like coal,
+            oil and gas.
           </p>
 
           <div className={ChoiceStyles.bannerActions}>
@@ -91,7 +93,7 @@ const UseLessEnergyPage = () => (
     </section>
     <section className={`${ChoiceStyles.cba} ${Styles.cba}`}>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.cbaInner}`}>
-        Short on time?{' '}
+        Short on time?{" "}
         <a
           className={ChoiceStyles.cbaAction}
           href="#tldr"
@@ -109,12 +111,18 @@ const UseLessEnergyPage = () => (
             How wasting energy contributes to climate breakdown
           </h1>
           <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-            Every year we waste more energy than we use. Our inefficient use of this energy results in the production of a greater amount than is necessary. 
+            Every year we waste more energy than we use. Our inefficient use of
+            this energy results in the production of a greater amount than is
+            necessary.
           </p>
           <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-            75% of our energy comes from greenhouse gas emitting sources. <b>By wasting so much energy we’re causing a great deal more harm to the environment</b>. 
+            75% of our energy comes from greenhouse gas emitting sources.{" "}
+            <b>
+              By wasting so much energy we’re causing a great deal more harm to
+              the environment
+            </b>
+            .
           </p>
-
         </div>
         {/* <div className={`${ChoiceStyles.howImg} ${Styles.howImg}`}>Image</div> */}
       </div>
@@ -138,16 +146,24 @@ const UseLessEnergyPage = () => (
               } ${Styles.stopsList}`}
             >
               <li>
-                Many of us aren’t aware of the effects of wasting so much energy.
+                Many of us aren’t aware of the effects of wasting so much
+                energy.
               </li>
               <li>
-                Some of the choices we could make to waste less energy require an upfront cost, and even though they will save us money in the long term, we still struggle to part with large lump sums.
+                Some of the choices we could make to waste less energy require
+                an upfront cost, and even though they will save us money in the
+                long term, we still struggle to part with large lump sums.
               </li>
               <li>
-                Alternative choices can require more time and effort. More often than not we aren’t willing to impact convenient aspects of our lifestyle for the sake of saving a little energy.
+                Alternative choices can require more time and effort. More often
+                than not we aren’t willing to impact convenient aspects of our
+                lifestyle for the sake of saving a little energy.
               </li>
               <li>
-                Acting on climate change represents a trade-off between short-term and long-term benefits, which is the hardest trade-off for people to make. Ignoring it in the short-term is easy as we don’t have to make any personal sacrifices.
+                Acting on climate change represents a trade-off between
+                short-term and long-term benefits, which is the hardest
+                trade-off for people to make. Ignoring it in the short-term is
+                easy as we don’t have to make any personal sacrifices.
               </li>
             </ol>
           </div>
@@ -172,16 +188,36 @@ const UseLessEnergyPage = () => (
               Setup your home so less energy is required
             </h2>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              To start, one of the easiest things to do is <b>improve your insulation</b>. Doing so can reduce your energy needs by up to 30%! A worthy investment.
+              To start, one of the easiest things to do is{" "}
+              <b>improve your insulation</b>. Doing so can reduce your energy
+              needs by up to 30%! A worthy investment.
             </p>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              Next <b>replace older energy-zapping light bulbs with energy-saving LED bulbs</b>. They use 5x less energy, last 25x longer and can cost 6x less over 20 years.
+              Next{" "}
+              <b>
+                replace older energy-zapping light bulbs with energy-saving LED
+                bulbs
+              </b>
+              . They use 5x less energy, last 25x longer and can cost 6x less
+              over 20 years.
             </p>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              When you need to replace an appliance purchase an energy efficient alternative. <b>Check potential purchases for energy efficiency ratings</b> and consider higher quality items – they last longer. Consider getting rid of desktop computers, laptops are 5 times more energy efficient.
+              When you need to replace an appliance purchase an energy efficient
+              alternative.{" "}
+              <b>Check potential purchases for energy efficiency ratings</b> and
+              consider higher quality items – they last longer. Consider getting
+              rid of desktop computers, laptops are 5 times more energy
+              efficient.
             </p>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              Lastly don’t forget to <Link to="/choose-renewable-energy#actions" title="Use renewable energy">power your home with renewable energy</Link>.
+              Lastly don’t forget to{" "}
+              <Link
+                to="/choose-renewable-energy#actions"
+                title="Use renewable energy"
+              >
+                power your home with renewable energy
+              </Link>
+              .
             </p>
           </div>
           <div className={`${ChoiceStyles.actionAside} ${Styles.actionAside}`}>
@@ -203,10 +239,7 @@ const UseLessEnergyPage = () => (
                 }`}
               >
                 <li>
-                  <a
-                    href="#"
-                    title="?"
-                  >
+                  <a href="#" title="?">
                     ??? →
                   </a>
                 </li>
@@ -223,34 +256,52 @@ const UseLessEnergyPage = () => (
             className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
           >
             <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
-              When you do use energy, choose to be more efficient to reduce waste
+              When you do use energy, choose to be more efficient to reduce
+              waste
             </h2>
 
-            <h3 className={`${ChoiceStyles.actionPointTitle} ${
+            <h3
+              className={`${ChoiceStyles.actionPointTitle} ${
                 Styles.actionPointTitle
-              }`}>Use less hot water
+              }`}
+            >
+              Use less hot water
             </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              Heating water uses energy. Try taking short showers instead of filling the bathtub. Lower your washing machine temperature. When your clothes are washed hang dry them instead of using a dryer.
+              Heating water uses energy. Try taking short showers instead of
+              filling the bathtub. Lower your washing machine temperature. When
+              your clothes are washed hang dry them instead of using a dryer.
             </p>
 
-            <h3 className={`${ChoiceStyles.actionPointTitle} ${
+            <h3
+              className={`${ChoiceStyles.actionPointTitle} ${
                 Styles.actionPointTitle
-              }`}>Turn everything off
+              }`}
+            >
+              Turn everything off
             </h3>
 
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              Don’t leave your appliances on standby, switch them off. When you leave a room always make sure you turn any lights off too.
+              Don’t leave your appliances on standby, switch them off. When you
+              leave a room always make sure you turn any lights off too.
             </p>
-            <h3 className={`${ChoiceStyles.actionPointTitle} ${
+            <h3
+              className={`${ChoiceStyles.actionPointTitle} ${
                 Styles.actionPointTitle
-              }`}>Switch off your heating
+              }`}
+            >
+              Switch off your heating
             </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              Adjust your thermostat and radiators. Only chose to heat your home when absolutely necessary. Warmer clothes or a blanket can often do the same job.
+              Adjust your thermostat and radiators. Only chose to heat your home
+              when absolutely necessary. Warmer clothes or a blanket can often
+              do the same job.
             </p>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              <a href="#" title="Energy efficiency tips">Read this to learn more ways to become energy efficient</a>.
+              <a href="#" title="Energy efficiency tips">
+                Read this to learn more ways to become energy efficient
+              </a>
+              .
             </p>
             <h3
               className={`${ChoiceStyles.actionHowTitle} ${
@@ -261,7 +312,10 @@ const UseLessEnergyPage = () => (
               How much would this help?
             </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              75% of energy production is harmful to the environment, we could reduce this harm greatly by simply becoming more efficient with our energy usage. We’d then be able to provide almost half of our energy with renewable sources like solar and wind.
+              75% of energy production is harmful to the environment, we could
+              reduce this harm greatly by simply becoming more efficient with
+              our energy usage. We’d then be able to provide almost half of our
+              energy with renewable sources like solar and wind.
             </p>
           </div>
 
@@ -284,49 +338,34 @@ const UseLessEnergyPage = () => (
                 }`}
               >
                 <li>
-                  <a
-                    href="#"
-                    title="?"
-                  >
+                  <a href="#" title="?">
                     Find the best light bulbs →
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    title="?"
-                  >
+                  <a href="#" title="?">
                     Find energy efficient appliances near you →
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    title="?"
-                  >
+                  <a href="#" title="?">
                     Learn if you can get paid for your energy →
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    title="?"
-                  >
+                  <a href="#" title="?">
                     Learn how to insulate your home →
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    title="?"
-                  >
-                    Can’t help energy wastage? Consider offsetting your household emittings. →
+                  <a href="#" title="?">
+                    Can’t help energy wastage? Consider offsetting your
+                    household emittings. →
                   </a>
                 </li>
               </ul>
             </div>
           </div>
-
         </div>
       </div>
     </section>
@@ -348,16 +387,20 @@ const UseLessEnergyPage = () => (
             <p
               className={`${ChoiceStyles.tldrSubtitle} ${Styles.tldrSubtitle}`}
             >
-              We’re killing the planet by wasting so much of the energy we product. We must become more efficient with out energy usage by:
+              We’re killing the planet by wasting so much of the energy we
+              product. We must become more efficient with out energy usage by:
             </p>
             <ul className={`${ChoiceStyles.tldrList} ${Styles.tldrList}`}>
-              <li>Make your home more energy efficient with better insulation and light bulbs</li>
+              <li>
+                Make your home more energy efficient with better insulation and
+                light bulbs
+              </li>
               <li>Use less hot water and turn stuff off</li>
               <li>Vote for those who prioritize the planet</li>
               <li>
                 <a href="#share" alt="Spread the word">
                   Spread the word
-                </a>{' '}
+                </a>{" "}
                 so others make changes too
               </li>
             </ul>
