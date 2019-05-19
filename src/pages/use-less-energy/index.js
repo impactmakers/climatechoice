@@ -8,24 +8,34 @@ import ChoiceStyles from '../../styles/Choice.module.scss';
 import ButtonStyles from '../../styles/Buttons.module.scss';
 import Styles from './Styles.module.scss';
 import ShareSocialCta from '../../components/ShareSocialCta';
-import shareConfig from '../../configs/pages/choiceEatConfig';
 import ChoiceGridOnChoice from '../../components/ChoiceGrid/onChoice';
-import BannerImg from '../../components/Images/Graphics/choiceBannerEat.svg';
 import HowIcon from '../../components/Images/Icons/HowIcon.svg';
+import BannerImg from '../../components/Images/Graphics/choiceBannerLessEnergy.svg';
+import shareConfig from '../../configs/pages/choiceLessEnergyConfig';
 
-const ChangeHowYouEatPage = () => (
+const UseLessEnergyPage = () => (
   <Layout>
     <SEO
-      title="Change how you eat to help prevent climate change"
-      description=" 26% of harmful greenhouse-gas emissions come from the production and waste of food and drink. Learn how you can help prevent earth's climate breaking down by making simple changes."
-      image="https://climatechoice.netlify.com/images/Seo/eat.jpg"
+      title="Use less energy to help prevent climate change"
+      description="Every year the world wastes more energy than it uses. 75% of this energy comes from greenhouse gas emitting sources like coal, oil and gas. Learn how you can help prevent earth's climate breaking down by making simple changes."
+      image="https://climatechoice.netlify.com/images/Seo/energy.jpg"
       keywords={[
-        `Food`,
-        `climate change food`,
-        `prevent climate change food`,
-        `climate change food waste`,
-        `climate change meat`,
-        `Change how you eat`,
+        `Energy efficiency`,
+        `climate change energy waste`,
+        `prevent climate change use less energy`,
+        `climate change energy wastage`,
+        `climate change home insulation`,
+        `climate change house insulation`,
+        `prevent climate change light bulbs`,
+        `climate change light bulbs`,
+        `climate change desktop computer`,
+        `climate change hot water`,
+        `climate change taking a bath`,
+        `climate change turn lights off`,
+        `climate change home heating`,  
+        `climate change become energy efficient`,
+        `climate change thermostat`,  
+        `Use less energy`,
         `ClimateChoice`,
         `climate change`,
         `climate breakdown`,
@@ -41,11 +51,10 @@ const ChangeHowYouEatPage = () => (
           className={`${ChoiceStyles.bannerContent} ${Styles.bannerContent}`}
         >
           <h1 className={`${ChoiceStyles.bannerTitle} ${Styles.bannerTitle}`}>
-            Change how you eat to help prevent climate breakdown
+            Use less energy to help prevent climate breakdown
           </h1>
           <p className={`${ChoiceStyles.bannerDesc} ${Styles.bannerDesc}`}>
-            <b>26%</b> of global greenhouse-gas emissions come from the
-            production and waste of food and drink products.
+          Every year the world wastes more energy than it uses. <b>75%</b> of this energy comes from greenhouse gas emitting sources like coal, oil and gas.
           </p>
 
           <div className={ChoiceStyles.bannerActions}>
@@ -97,33 +106,15 @@ const ChangeHowYouEatPage = () => (
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.howInner}`}>
         <div className={`${ChoiceStyles.howContent} ${Styles.howContent}`}>
           <h1 className={`${ChoiceStyles.howTitle} ${Styles.howTitle}`}>
-            How food contributes to climate breakdown
+            How wasting energy contributes to climate breakdown
           </h1>
-          <ol
-            className={`${ChoiceStyles.choiceList} ${ChoiceStyles.howList} ${
-              Styles.howList
-            }`}
-          >
-            <li>
-              When livestock digests their food they burp up methane gas. Manure
-              and rice paddies are also big contributors to methane in the
-              atmosphere.
-            </li>
-            <li>
-              Farm vehicles and machinery run on fossil fuels which put carbon
-              into the atmosphere.
-            </li>
-            <li>Most fertilizers used in farming release nitrous oxide.</li>
-            <li>
-              We waste ⅓ of all food. That means we’ve unnecessarily used vital
-              energy to produce it, releasing greenhouse gases in the process -
-              and when it’s dumped it rots becoming methane gas.
-            </li>
-            <li>
-              Forests are regularly cleared around the word for use by farms and
-              livestock resulting in lots of carbon being released.
-            </li>
-          </ol>
+          <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
+            Every year we waste more energy than we use. Our inefficient use of this energy results in the production of a greater amount than is necessary. 
+          </p>
+          <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
+            75% of our energy comes from greenhouse gas emitting sources. <b>By wasting so much energy we’re causing a great deal more harm to the environment</b>. 
+          </p>
+
         </div>
         {/* <div className={`${ChoiceStyles.howImg} ${Styles.howImg}`}>Image</div> */}
       </div>
@@ -132,7 +123,7 @@ const ChangeHowYouEatPage = () => (
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.stopsInner}`}>
         <div className={`${ChoiceStyles.stopsImg} ${Styles.stopsImg}`}>
           <h1 className={`${ChoiceStyles.stopsTitle} ${Styles.stopsTitle}`}>
-            What stops us from changing how we eat?
+            What don't we stop wasting energy?
           </h1>
         </div>
         <div className={`${ChoiceStyles.stopsContent} ${Styles.stopsContent}`}>
@@ -147,26 +138,16 @@ const ChangeHowYouEatPage = () => (
               } ${Styles.stopsList}`}
             >
               <li>
-                Food choices with a lower carbon footprint are usually more
-                expensive.
+                Many of us aren’t aware of the effects of wasting so much energy.
               </li>
               <li>
-                We enjoy the taste and experience of consuming meat and dairy
-                products so much that we can’t bring ourselves to quit them.
+                Some of the choices we could make to waste less energy require an upfront cost, and even though they will save us money in the long term, we still struggle to part with large lump sums.
               </li>
               <li>
-                The way we eat today is percieved as normal, with changing comes
-                social pressure to return to 'normal' eating practices.
+                Alternative choices can require more time and effort. More often than not we aren’t willing to impact convenient aspects of our lifestyle for the sake of saving a little energy.
               </li>
               <li>
-                Often it's hard to know exactly what you should and shouldn't
-                eat if you want to reduce your carbon footprint.
-              </li>
-              <li>
-                Acting on climate change represents a trade-off between
-                short-term and long-term benefits, which is the hardest
-                trade-off for people to make. Ignoring it in the short-term is
-                easy as we don’t have to make any personal sacrifices.
+                Acting on climate change represents a trade-off between short-term and long-term benefits, which is the hardest trade-off for people to make. Ignoring it in the short-term is easy as we don’t have to make any personal sacrifices.
               </li>
             </ol>
           </div>
@@ -188,31 +169,19 @@ const ChangeHowYouEatPage = () => (
             className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
           >
             <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
-              The easiest thing to do is to consume less food with a high carbon
-              footprint
+              Setup your home so less energy is required
             </h2>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              The biggest impact can be had if you{' '}
-              <b>eat less animal products — in particular meat and dairy</b>,
-              however all purchased food items have a carbon footprint.{' '}
-              <b>If you’re really commited go vegan</b>. Try to only buy items
-              with <b>sustainable, or no packaging</b>, and <b>buy local</b> so
-              your food isn’t travelling around the world.
+              To start, one of the easiest things to do is <b>improve your insulation</b>. Doing so can reduce your energy needs by up to 30%! A worthy investment.
             </p>
-            <h3
-              className={`${ChoiceStyles.actionHowTitle} ${
-                Styles.actionHowTitle
-              }`}
-            >
-              <img src={HowIcon} alt="How it helps" />
-              How much would this help?
-            </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              If we all did this, demand for harmful food and drink products
-              would go down causing the supply chain to shrink. Since we’d be
-              eating food with a lower carbon footprint, demand for those
-              products would rise, causing prices to drop due to increased
-              supply and competition.
+              Next <b>replace older energy-zapping light bulbs with energy-saving LED bulbs</b>. They use 5x less energy, last 25x longer and can cost 6x less over 20 years.
+            </p>
+            <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
+              When you need to replace an appliance purchase an energy efficient alternative. <b>Check potential purchases for energy efficiency ratings</b> and consider higher quality items – they last longer. Consider getting rid of desktop computers, laptops are 5 times more energy efficient.
+            </p>
+            <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
+              Lastly don’t forget to <Link to="/choose-renewable-energy#actions" title="Use renewable energy">power your home with renewable energy</Link>.
             </p>
           </div>
           <div className={`${ChoiceStyles.actionAside} ${Styles.actionAside}`}>
@@ -235,18 +204,12 @@ const ChangeHowYouEatPage = () => (
               >
                 <li>
                   <a
-                    href="https://www.bbc.com/news/science-environment-46459714"
-                    title="Food Carbon Footprint Calculator"
+                    href="#"
+                    title="?"
                   >
-                    Calculate your foods carbon footprint →
+                    ??? →
                   </a>
                 </li>
-                {/* <li>
-                  <a href="#" title="?">
-                    Learn how to spot food and drink with a high carbon
-                    footprint →
-                  </a>
-                </li> */}
               </ul>
             </div>
           </div>
@@ -260,18 +223,34 @@ const ChangeHowYouEatPage = () => (
             className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
           >
             <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
-              STOP wasting food. If something does go to waste make sure it’s
-              recycled
+              When you do use energy, choose to be more efficient to reduce waste
             </h2>
+
+            <h3 className={`${ChoiceStyles.actionPointTitle} ${
+                Styles.actionPointTitle
+              }`}>Use less hot water
+            </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              Be more conscious when you shop and try to{' '}
-              <b>only buy what you’re sure will be consumed</b>. When you have
-              food or packaging that must be dumped <b>recycle</b> it. Make sure
-              you’re aware of the{' '}
-              <a href="#" title="?">
-                correct recycling procedures where you live
-              </a>
-              .
+              Heating water uses energy. Try taking short showers instead of filling the bathtub. Lower your washing machine temperature. When your clothes are washed hang dry them instead of using a dryer.
+            </p>
+
+            <h3 className={`${ChoiceStyles.actionPointTitle} ${
+                Styles.actionPointTitle
+              }`}>Turn everything off
+            </h3>
+
+            <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
+              Don’t leave your appliances on standby, switch them off. When you leave a room always make sure you turn any lights off too.
+            </p>
+            <h3 className={`${ChoiceStyles.actionPointTitle} ${
+                Styles.actionPointTitle
+              }`}>Switch off your heating
+            </h3>
+            <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
+              Adjust your thermostat and radiators. Only chose to heat your home when absolutely necessary. Warmer clothes or a blanket can often do the same job.
+            </p>
+            <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
+              <a href="#" title="Energy efficiency tips">Read this to learn more ways to become energy efficient</a>.
             </p>
             <h3
               className={`${ChoiceStyles.actionHowTitle} ${
@@ -282,11 +261,72 @@ const ChangeHowYouEatPage = () => (
               How much would this help?
             </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              Roughly 1/3 of food each year goes to waste. If we all became more
-              efficient with our food, less would need to be produced and less
-              would be left to rot - reducing greenhouse emissions.
+              75% of energy production is harmful to the environment, we could reduce this harm greatly by simply becoming more efficient with our energy usage. We’d then be able to provide almost half of our energy with renewable sources like solar and wind.
             </p>
           </div>
+
+          <div className={`${ChoiceStyles.actionAside} ${Styles.actionAside}`}>
+            <div
+              className={`${ChoiceStyles.actionAsideContainer} ${
+                Styles.actionAsideContainer
+              }`}
+            >
+              <h3
+                className={`${ChoiceStyles.actionAsideTitle} ${
+                  Styles.actionAsideTitle
+                }`}
+              >
+                Need help changing?
+              </h3>
+              <ul
+                className={`${ChoiceStyles.actionAsideList} ${
+                  Styles.actionAsideList
+                }`}
+              >
+                <li>
+                  <a
+                    href="#"
+                    title="?"
+                  >
+                    Find the best light bulbs →
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    title="?"
+                  >
+                    Find energy efficient appliances near you →
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    title="?"
+                  >
+                    Learn if you can get paid for your energy →
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    title="?"
+                  >
+                    Learn how to insulate your home →
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    title="?"
+                  >
+                    Can’t help energy wastage? Consider offsetting your household emittings. →
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
@@ -308,13 +348,11 @@ const ChangeHowYouEatPage = () => (
             <p
               className={`${ChoiceStyles.tldrSubtitle} ${Styles.tldrSubtitle}`}
             >
-              We’re killing the planet. 26% of dangerous greenhouse gas
-              emissions enter our atmosphere because of the way we eat and
-              drink. To reduce these we must:
+              We’re killing the planet by wasting so much of the energy we product. We must become more efficient with out energy usage by:
             </p>
             <ul className={`${ChoiceStyles.tldrList} ${Styles.tldrList}`}>
-              <li>Eat less food with a high carbon footprint</li>
-              <li>Stop wasting food and recycle</li>
+              <li>Make your home more energy efficient with better insulation and light bulbs</li>
+              <li>Use less hot water and turn stuff off</li>
               <li>Vote for those who prioritize the planet</li>
               <li>
                 <a href="#share" alt="Spread the word">
@@ -331,4 +369,4 @@ const ChangeHowYouEatPage = () => (
   </Layout>
 );
 
-export default ChangeHowYouEatPage;
+export default UseLessEnergyPage;

@@ -11,6 +11,21 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-scroll-indicator`,
+      options: {
+        // Configure color of the scroll indicator
+        color: '#DC8C01',
+        // Configure paths where the scroll indicator will appear
+        paths: [
+          '/change-how-you-eat',
+          '/change-how-you-travel',
+          '/change-your-lifestyle',
+          '/choose-renewable-energy',
+          '/use-less-energy'
+        ]
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,

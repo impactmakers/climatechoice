@@ -23,6 +23,7 @@
     "gatsby-plugin-offline": "^2.0.24",
     "gatsby-plugin-react-helmet": "^3.0.6",
     "gatsby-plugin-sass": "^2.0.10",
+    "gatsby-plugin-scroll-indicator": "^0.1.0",
     "gatsby-plugin-sharp": "^2.0.35",
     "gatsby-remark-copy-linked-files": "^2.0.9",
     "gatsby-remark-images": "^2.0.6",

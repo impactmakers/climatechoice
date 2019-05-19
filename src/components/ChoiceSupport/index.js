@@ -21,12 +21,12 @@ const ChoiceSupport = () => (
           <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
             Support the people, groups and parties who prioritise the planet
           </h2>
-          <p className={`${ChoiceStyles.actionDesc} ${Styles.actionDesc}`}>
+          <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
             All global warming could be helped by changes to laws across the
             world which prioritise the planet. Find your local candidates who
             promise to prioritise the planet and support them.
           </p>
-          <p className={`${ChoiceStyles.actionDesc} ${Styles.actionDesc}`}>
+          <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
             Get involved on a grassroots level with activist groups and
             charities trying to raise awareness.
           </p>
@@ -41,12 +41,12 @@ const ChoiceSupport = () => (
             />
             How can I do even more?
           </h3>
-          <p className={`${ChoiceStyles.actionDesc} ${Styles.actionDesc}`}>
+          <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
             Become a vocal advocate of helping prevent climate breakdown. You
             could stand as a political candidate prioritising the planet, join
             an activist group or charity.
           </p>
-          <p className={`${ChoiceStyles.actionDesc} ${Styles.actionDesc}`}>
+          <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
             Why not start your own business or charity trying to fix a problem
             associated with climate change.
             <a href="#" title="?">
@@ -54,7 +54,7 @@ const ChoiceSupport = () => (
             </a>
             !
           </p>
-          <p className={`${ChoiceStyles.actionDesc} ${Styles.actionDesc}`}>
+          <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
             Or simply{' '}
             <a href="#share" title="?">
               spread the word

@@ -5,33 +5,32 @@ const BoldText = ({ children }) => (
 );
 
 const homePageConfig = {
-  ctaTitle: 'Spread the message!',
+  ctaTitle: 'Spread the word!',
 
   ctaCopy: (
     <>
-      <BoldText>Dont assume</BoldText> everyone knows about the choices they
-      should make to help prevent climate breakdown.{' '}
+      <BoldText>Dont assume</BoldText> everyone knows about the choices they can
+      make today to help prevent climate breakdown.{' '}
       <BoldText>We need everyone to become aware of what they can do</BoldText>.
       That way they can make informed decisions.
     </>
   ),
-  emailSubject: 'Just saw this new site: Climate Choice',
-  emailBody: 'I thought you might find this interesting',
-  linkedinTitle: 'Climate Choice',
+  emailSubject: 'Join me in helping prevent climate change!',
+  emailBody:
+    'Hey! The choices we make today can help prevent earth’s climate breaking down 🌎🔥 Check out this site to learn how you can make simple changes to reduce your carbon footprint 👣 https://climatechoice.co/',
+  linkedinTitle: 'ClimateChoice',
   linkedinDescription:
-    'Discover how changes to your diet can affect Climate Change',
-  facebookQuote:
-    'Check out how you can change your diet and positively affect climate change at:',
+    'Learn how you can help prevent earth’s climate breaking down.',
   facebookHashtag: '#climatechange',
-  twitterTitle:
-    'Check out how you can change your diet and positively affect climate change at',
+  twitterTitle: 'Learn how you can help prevent earth’s climate breaking down',
   twitterAccount: 'climatechoice',
-  twitterHashtags: ['climatechange'],
+  twitterHashtags: ['climatechange', 'climatebreakdown'],
   socialTitle: 'Want to help others learn what to do about climate breakdown?',
   socialCopy:
     'Then please share ClimateChoice with your friends, family and followers via our handy pre-written message!',
   url: 'https://climatechoice.co/',
-  whatsappTitle: 'check out this new site, Climate Choice'
+  whatsappTitle:
+    'Hey! The choices we make today can help prevent earth’s climate breaking down 🌎🔥 Check out this site to learn how you can make simple changes to reduce your carbon footprint 👣 https://climatechoice.co/'
 };
 
 export default homePageConfig;

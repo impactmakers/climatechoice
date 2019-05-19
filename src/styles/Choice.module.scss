@@ -32,7 +32,7 @@
   @include pad-bot-standard;
   @include mar-bot-small;
   @include mq('tablet') {
-    max-width: 700px;
+    max-width: 740px;
   }
 }
 
@@ -106,6 +106,34 @@
 }
 
 
+/* Link to tldr */
+
+.cba {
+
+}
+
+
+.cbaInner {
+  display: block;
+  @include text-body;
+  @include pad-top-small;
+  @include links-on-light;
+  text-align: center;
+  @include mq('tablet') {
+    @include pad-top-small;
+    text-align: left;
+  }
+}
+
+.cbaText {
+  width: 100%;
+  text-align: center;
+}
+
+.cbaAction {
+  margin-left: 5px;
+}
+
 /* How it happens */
 
 .how {}
@@ -168,6 +196,10 @@
   @include mq('tablet') {
     padding-left: 43px;
   }
+}
+
+.bold {
+  font-weight: bold;
 }
 
 /* What stops us */
@@ -287,12 +319,30 @@
 .actionContent {
   width: 100%;
   margin: 0 auto;
+  li {
+    @include font-size($text-small);
+    margin-bottom: 15px;
+  }
   @include mq('tablet') {
 
   }
 }
 .actionTitle {
   margin-top: 0;
+}
+
+.actionPointTitle {
+  @include font-size($text-large);
+  color: $black;
+  margin: 20px 0 0;
+  display: flex;
+  align-items: center;
+  img {
+    padding-right: 7px;
+  }
+  @include mq('tablet') {
+    margin: 30px 0 0;
+  }
 }
 
 .actionHowTitle {
@@ -309,11 +359,12 @@
   }
 }
 
-.actionDesc {
+.paragraph {
   @include font-size($text-small);
   &:last-child {
     margin-bottom: 0;
   }
+
 }
 
 .actionAside {
@@ -388,10 +439,11 @@
   margin: 0 ;
   padding: 0;
   li {
-    background: url('../../static/images/Icons/TickGreenIcon.svg') no-repeat left;
+    background: url('../components/Images/Icons/TickGreenIcon.svg') no-repeat left;
     background-position-y: 6px;
     padding: 0 21px 10px;
     margin: 0;
+    @include links-on-dark;
     &:last-child {
       padding-bottom: 0;
     }
@@ -424,6 +476,7 @@
   width: 100%;
   height: 240px;
   margin-top: 25px;
+  background: url('../components/Images/Photos/globe.jpg') no-repeat top center;
   background-size: cover;
   display: block;
   @include mq('tablet') {
