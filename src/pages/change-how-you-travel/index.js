@@ -265,20 +265,23 @@ const ChangeHowYouTravelPage = () => (
               >
                 <li>
                   <OutboundLink
-                    href="https://www.bbc.com/news/science-environment-46459714"
-                    title="Food Carbon Footprint Calculator"
+                    href="https://electriccarbuyer.com/Compare.aspx"
+                    title="Compare electric cars"
                   >
-                    Article about best electric cars near you →
+                    Compare electric cars →
                   </OutboundLink>
                 </li>
-                <li>
+                {/* <li>
                   <OutboundLink href="#" title="?">
                     Public transport guide →
                   </OutboundLink>
-                </li>
+                </li> */}
                 <li>
-                  <OutboundLink href="#" title="?">
-                    Health benefits of walking/ cycling →
+                  <OutboundLink
+                    href="https://www.moneycrashers.com/living-without-car/"
+                    title="Benefits of having no car"
+                  >
+                    The benefits of getting rid of your car →
                   </OutboundLink>
                 </li>
               </ul>
