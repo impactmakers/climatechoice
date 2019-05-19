@@ -40,7 +40,7 @@ export default function VideoModal({ closeClick, closeModal }) {
         <button
           style={{ textDecoration: "none" }}
           className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
-            ButtonStyles.btnGreen
+            ButtonStyles.btnOrange
           } ${ButtonStyles.btnMobile}`}
         >
           I'm convinced. Show me how I can help
