@@ -4,9 +4,9 @@
   width: max-content !important;
   height: max-content;
   background-color: $black;
-  padding: 0.3em;
+  padding: 0.2em 0.6em;
   color: $white !important;
-  border-radius: 10px;
+  border-radius: $borderRadius;
 }
 
 #notificationslide {

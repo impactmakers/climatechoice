@@ -1,4 +1,5 @@
 import React from "react";
+import { OutboundLink } from "gatsby-plugin-google-analytics";
 import { Link } from "gatsby";
 import Layout from "../../components/layout";
 import ChoiceSupport from "../../components/ChoiceSupport";
@@ -239,9 +240,9 @@ const UseLessEnergyPage = () => (
                 }`}
               >
                 <li>
-                  <a href="#" title="?">
+                  <OutboundLink href="#" title="?">
                     ??? →
-                  </a>
+                  </OutboundLink>
                 </li>
               </ul>
             </div>
@@ -298,9 +299,9 @@ const UseLessEnergyPage = () => (
               do the same job.
             </p>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              <a href="#" title="Energy efficiency tips">
+              <OutboundLink href="#" title="Energy efficiency tips">
                 Read this to learn more ways to become energy efficient
-              </a>
+              </OutboundLink>
               .
             </p>
             <h3
@@ -338,30 +339,30 @@ const UseLessEnergyPage = () => (
                 }`}
               >
                 <li>
-                  <a href="#" title="?">
+                  <OutboundLink href="#" title="?">
                     Find the best light bulbs →
-                  </a>
+                  </OutboundLink>
                 </li>
                 <li>
-                  <a href="#" title="?">
+                  <OutboundLink href="#" title="?">
                     Find energy efficient appliances near you →
-                  </a>
+                  </OutboundLink>
                 </li>
                 <li>
-                  <a href="#" title="?">
+                  <OutboundLink href="#" title="?">
                     Learn if you can get paid for your energy →
-                  </a>
+                  </OutboundLink>
                 </li>
                 <li>
-                  <a href="#" title="?">
+                  <OutboundLink href="#" title="?">
                     Learn how to insulate your home →
-                  </a>
+                  </OutboundLink>
                 </li>
                 <li>
-                  <a href="#" title="?">
+                  <OutboundLink href="#" title="?">
                     Can’t help energy wastage? Consider offsetting your
                     household emittings. →
-                  </a>
+                  </OutboundLink>
                 </li>
               </ul>
             </div>

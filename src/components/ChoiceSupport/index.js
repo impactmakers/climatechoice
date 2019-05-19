@@ -1,4 +1,5 @@
 import React from "react";
+import { OutboundLink } from "gatsby-plugin-google-analytics";
 import { Link } from "gatsby";
 import GlobalStyles from "../../styles/Global.module.scss";
 import ChoiceStyles from "../../styles/Choice.module.scss";
@@ -49,9 +50,9 @@ const ChoiceSupport = () => (
           <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
             Why not start your own business or charity trying to fix a problem
             associated with climate change.
-            <a href="#" title="?">
+            <OutboundLink href="#" title="?">
               There are plenty of opportunities
-            </a>
+            </OutboundLink>
             !
           </p>
           <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>

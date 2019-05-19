@@ -1,4 +1,5 @@
 import React from "react";
+import { OutboundLink } from "gatsby-plugin-google-analytics";
 import { Link } from "gatsby";
 import Layout from "../../components/layout";
 import ChoiceSupport from "../../components/ChoiceSupport";
@@ -216,12 +217,12 @@ const ChangeYourLifestylePage = () => (
               <b>make sure you’re recycling correctly</b>. Procedures differ
               from country to country but most will at least ask you to separate
               out plastics, paper items and food waste. Search online for{" "}
-              <a
+              <OutboundLink
                 href="https://www.google.com/search?q=recycling&oq=recycling&aqs=chrome..69i57j69i65j69i61j69i59j0l2.2280j0j7&sourceid=chrome&ie=UTF-8"
                 title="Search for recycling procedures"
               >
                 ‘recycling + your area’
-              </a>{" "}
+              </OutboundLink>{" "}
               to learn more about what you need to do.
             </p>
             <h3
@@ -258,19 +259,19 @@ const ChangeYourLifestylePage = () => (
                 }`}
               >
                 <li>
-                  <a href="/" title="/">
+                  <OutboundLink href="/" title="/">
                     Read up on living a minimal lifestyle →
-                  </a>
+                  </OutboundLink>
                 </li>
                 <li>
-                  <a href="#" title="?">
+                  <OutboundLink href="#" title="?">
                     Find out the correct recycling procedure near you →
-                  </a>
+                  </OutboundLink>
                 </li>
                 <li>
-                  <a href="#" title="?">
+                  <OutboundLink href="#" title="?">
                     List of sustainable shops/products →
-                  </a>
+                  </OutboundLink>
                 </li>
               </ul>
             </div>
@@ -358,9 +359,9 @@ const ChangeYourLifestylePage = () => (
                 }`}
               >
                 <li>
-                  <a href="/" title="/">
+                  <OutboundLink href="/" title="/">
                     Find great reusable items →
-                  </a>
+                  </OutboundLink>
                 </li>
               </ul>
             </div>
@@ -413,9 +414,9 @@ const ChangeYourLifestylePage = () => (
                 }`}
               >
                 <li>
-                  <a href="/" title="/">
+                  <OutboundLink href="/" title="/">
                     Learn how to grow your own food →
-                  </a>
+                  </OutboundLink>
                 </li>
               </ul>
             </div>

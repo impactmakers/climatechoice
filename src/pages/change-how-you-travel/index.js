@@ -1,4 +1,5 @@
 import React from "react";
+import { OutboundLink } from "gatsby-plugin-google-analytics";
 import { Link } from "gatsby";
 import Layout from "../../components/layout";
 import ChoiceSupport from "../../components/ChoiceSupport";
@@ -263,22 +264,22 @@ const ChangeHowYouTravelPage = () => (
                 }`}
               >
                 <li>
-                  <a
+                  <OutboundLink
                     href="https://www.bbc.com/news/science-environment-46459714"
                     title="Food Carbon Footprint Calculator"
                   >
                     Article about best electric cars near you →
-                  </a>
+                  </OutboundLink>
                 </li>
                 <li>
-                  <a href="#" title="?">
+                  <OutboundLink href="#" title="?">
                     Public transport guide →
-                  </a>
+                  </OutboundLink>
                 </li>
                 <li>
-                  <a href="#" title="?">
+                  <OutboundLink href="#" title="?">
                     Health benefits of walking/ cycling →
-                  </a>
+                  </OutboundLink>
                 </li>
               </ul>
             </div>
