@@ -46,23 +46,27 @@
 }
 
 ::-webkit-input-placeholder {
+  color: $gray;
   font-weight: normal;
   font-family: $sans;
 }
 
 :-moz-placeholder {
   /* Firefox 18- */
+  color: $gray;
   font-weight: normal;
   font-family: $sans;
 }
 
 ::-moz-placeholder {
   /* Firefox 19+ */
+  color: $gray;
   font-weight: normal;
   font-family: $sans;
 }
 
 :-ms-input-placeholder {
+  color: $gray;
   font-weight: normal;
   font-family: $sans;
 }

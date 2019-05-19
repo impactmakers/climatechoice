@@ -207,6 +207,7 @@
 
 .stops {
   background: $orange;
+  background-image: linear-gradient(90deg, #dc8c01 0%, #b67300 100%);
 }
 
 .stopsInner {
@@ -294,6 +295,7 @@
 }
 
 .action {
+  width: 100%;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;

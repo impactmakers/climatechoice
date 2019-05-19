@@ -271,7 +271,7 @@ $text-xsmall: (
 @mixin blue-title {
   @include font-size($title-small);
   font-weight: bold;
-  color: $green;
+  color: $greenDark;
 }
 
 // Text Style Application

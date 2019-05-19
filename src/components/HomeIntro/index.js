@@ -57,7 +57,7 @@ const HomeIntro = () => {
             >
               <button
                 className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
-                  ButtonStyles.btnGreen
+                  ButtonStyles.btnBanner
                 } ${ButtonStyles.btnMobile}`}
               >
                 Learn how you can help

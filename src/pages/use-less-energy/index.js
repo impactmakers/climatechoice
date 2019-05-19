@@ -19,7 +19,7 @@ const UseLessEnergyPage = () => (
     <SEO
       title="Use less energy to help prevent climate change"
       description="Every year the world wastes more energy than it uses. 75% of this energy comes from greenhouse gas emitting sources like coal, oil and gas. Learn how you can help prevent earth's climate breaking down by making simple changes."
-      image="https://climatechoice.netlify.com/images/Seo/energy.jpg"
+      image="https://climatechoice.co/images/Seo/energy.jpg"
       keywords={[
         `Energy efficiency`,
         `climate change energy waste`,
@@ -68,7 +68,7 @@ const UseLessEnergyPage = () => (
             >
               <button
                 className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
-                  ButtonStyles.btnGreen
+                  ButtonStyles.btnBanner
                 } ${ButtonStyles.btnMobile}`}
               >
                 Learn what you can do
