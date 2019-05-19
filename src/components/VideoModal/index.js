@@ -47,13 +47,13 @@ export default function VideoModal({ closeClick, closeModal }) {
         </button>
       </a>
 
-        <a
-          className={Styles.link}
-          href="https://climate.nasa.gov/evidence/"
-          target="_blank"
-        >
-          Sorry. I still need more proof
-        </a>
+      <a
+        className={Styles.link}
+        href="https://climate.nasa.gov/evidence/"
+        target="_blank"
+      >
+        Sorry. I still need more proof
+      </a>
     </div>
   );
 }

@@ -194,7 +194,7 @@ const ChangeHowYouEatPage = () => (
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               The biggest impact can be had if you{" "}
               <b>eat less animal products — in particular meat and dairy</b>,
-              however all purchased food items have a carbon footprint.{' '}
+              however all purchased food items have a carbon footprint.{" "}
               <b>If you’re really commited, go vegan</b>. Try to only buy items
               with <b>sustainable, or no packaging</b>, and <b>buy local</b> so
               your food isn’t travelling around the world.
@@ -266,8 +266,8 @@ const ChangeHowYouEatPage = () => (
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               Be more conscious when you shop and try to{" "}
               <b>only buy what you’re sure will be consumed</b>. When you have
-              food or packaging that must be dumped, <b>recycle</b> it. Make sure
-              you’re aware of the{' '}
+              food or packaging that must be dumped, <b>recycle</b> it. Make
+              sure you’re aware of the{" "}
               <a href="#" title="?">
                 correct recycling procedures where you live
               </a>

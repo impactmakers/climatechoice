@@ -10,7 +10,7 @@ const choiceLessEnergyConfig = {
   ctaCopy: (
     <>
       <BoldText>Don't assume</BoldText> everyone knows they should use less
-      energy to help prevent climate breakdown.{' '}
+      energy to help prevent climate breakdown.{" "}
       <BoldText>We need everyone to become informed </BoldText>so they can also
       make a choice about how use energy.
     </>
