@@ -58,7 +58,7 @@ const ChoiceSupport = () => (
               spread the word
             </a>{" "}
             to your friends and family, educate them on the issues and{" "}
-            <a href="/#your-choices" title="?">
+            <a href="/#your-choices" title="View your choices">
               the choices they can make to help
             </a>
             .

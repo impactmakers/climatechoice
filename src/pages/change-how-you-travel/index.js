@@ -271,11 +271,6 @@ const ChangeHowYouTravelPage = () => (
                     Compare electric cars →
                   </OutboundLink>
                 </li>
-                {/* <li>
-                  <OutboundLink href="#" title="?">
-                    Public transport guide →
-                  </OutboundLink>
-                </li> */}
                 <li>
                   <OutboundLink
                     href="https://www.moneycrashers.com/living-without-car/"

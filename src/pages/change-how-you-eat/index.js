@@ -242,12 +242,6 @@ const ChangeHowYouEatPage = () => (
                     Calculate your foods carbon footprint →
                   </OutboundLink>
                 </li>
-                {/* <li>
-                  <a href="#" title="?">
-                    Learn how to spot food and drink with a high carbon
-                    footprint →
-                  </a>
-                </li> */}
               </ul>
             </div>
           </div>

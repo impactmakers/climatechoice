@@ -29,15 +29,6 @@ const Footer = () => (
             Learn about your choices
           </button>
         </a>
-        {/* <a className={Styles.ctaButton} href="/" title="Secondary">
-          <button
-            className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
-              ButtonStyles.btnBordered
-            } ${ButtonStyles.btnBorderedWhite} `}
-          >
-            Secondary
-          </button>
-        </a> */}
       </div>
     </div>
   </footer>
