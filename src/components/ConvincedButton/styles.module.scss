@@ -1,0 +1,29 @@
+
+@import "../../styles/Variables.module.scss";
+@import "../../styles/Mixins.module.scss";
+@import "../../styles/Typography.module.scss";
+
+// TODO: move these styles to globals
+.ctaSecondary {
+  @include links-on-dark;
+  margin-top: 30px;
+  font-size: 21px;
+  @include mq("tablet") {
+    margin-left: 50px;
+    margin-top: 0;
+    flex-direction: row;
+  }
+}
+
+.removeDefault {
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  font-weight: normal;
+}
+
+.removeDefault,
+button:hover {
+  color: $linkHover;
+  -webkit-transition: top 0.04s ease-out;
+}

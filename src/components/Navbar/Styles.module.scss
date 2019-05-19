@@ -66,9 +66,8 @@
   position: absolute;
   display: flex;
   top: 66px;
-  z-index: 999;
+  z-index: 3;
   left: 0;
-
 }
 
 .navItem {
@@ -110,7 +109,6 @@
     }
   }
 }
-
 
 .navItemAction {
   a {
