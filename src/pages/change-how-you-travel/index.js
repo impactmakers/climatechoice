@@ -19,7 +19,7 @@ const ChangeHowYouTravelPage = () => (
     <SEO
       title="Change how you travel to help prevent climate change"
       description=" 26% of harmful greenhouse-gas emissions come from the production and use of vehicles like cars, lorries and planes. Learn how you can help prevent earth's climate breaking down by making simple changes."
-      image="https://climatechoice.netlify.com/images/Seo/travel.jpg"
+      image="https://climatechoice.co/images/Seo/travel.jpg"
       keywords={[
         `Travel`,
         `climate change travel`,

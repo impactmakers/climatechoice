@@ -19,7 +19,7 @@ const ChangeYourLifestylePage = () => (
     <SEO
       title="Change your lifestyle to help prevent climate change"
       description="We rely on third parties for most aspects of our modern lifestyles. We need to make changes to become more self-sufficient and live sustainably. Learn how you can help prevent earth's climate breaking down by making simple changes."
-      image="https://climatechoice.netlify.com/images/Seo/lifestyle.jpg"
+      image="https://climatechoice.co/images/Seo/lifestyle.jpg"
       keywords={[
         `Modern lifestyle`,
         `climate change modern lifestyle`,

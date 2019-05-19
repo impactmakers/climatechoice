@@ -19,7 +19,7 @@ const ChangeHowYouEatPage = () => (
     <SEO
       title="Change how you eat to help prevent climate change"
       description=" 26% of harmful greenhouse-gas emissions come from the production and waste of food and drink. Learn how you can help prevent earth's climate breaking down by making simple changes."
-      image="https://climatechoice.netlify.com/images/Seo/eat.jpg"
+      image="https://climatechoice.co/images/Seo/eat.jpg"
       keywords={[
         `Food`,
         `climate change food`,
