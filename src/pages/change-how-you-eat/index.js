@@ -269,7 +269,7 @@ const ChangeHowYouEatPage = () => (
               <b>only buy what you’re sure will be consumed</b>. When you have
               food or packaging that must be dumped, <b>recycle</b> it. Make
               sure you’re aware of the{" "}
-              <a href="#" title="?">
+              <OutboundLink href="#" title="?">
                 correct recycling procedures where you live
               </OutboundLink>
               .
