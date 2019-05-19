@@ -1,4 +1,6 @@
 import React from "react";
+import { OutboundLink } from "gatsby-plugin-google-analytics";
+import { Link } from "gatsby";
 import Layout from "../../components/layout";
 import SEO from "../../components/seo";
 import GlobalStyles from "../../styles/Global.module.scss";
@@ -8,11 +10,11 @@ import FooterCta from "../../components/FooterCta";
 
 const DonatePage = () => (
   <Layout>
-    <SEO 
-      title="Donate to ClimateChoice and other climate causes" 
-      description="Donate to the development of ClimateChoice and other Impact Makers projects, or find a cause to donate to that's working to prevent climate breakdown." 
-      keywords={[`Donate`, `ClimateChoice`]} 
-      />
+    <SEO
+      title="Donate to ClimateChoice and other climate causes"
+      description="Donate to the development of ClimateChoice and other Impact Makers projects, or find a cause to donate to that's working to prevent climate breakdown."
+      keywords={[`Donate`, `ClimateChoice`]}
+    />
     <section
       className={`${GlobalStyles.container} ${GlobalStyles.subpageContainer}`}
     >
@@ -24,13 +26,16 @@ const DonatePage = () => (
           <h2>Donate to the development of this site and others</h2>
           <p>
             {" "}
-            <a href="https://climatechoice.co/" title="Go home">
+            <Link to="https://climatechoice.co/" title="Go home">
               ClimateChoice
-            </a>{" "}
+            </Link>{" "}
             is a non-profit project created by the{" "}
-            <a href="https://techimpactmakers.com" title="Impact Makers">
+            <OutboundLink
+              href="https://techimpactmakers.com"
+              title="Impact Makers"
+            >
               Impact Makers
-            </a>{" "}
+            </OutboundLink>{" "}
             community of tech volunteers, working to prevent earth's climate
             breaking down. Any donations made will be put towards the
             development of ClimateChoice and other non-profit Impact Makers
@@ -38,7 +43,7 @@ const DonatePage = () => (
             to take action.
           </p>
           <div className={Styles.ctaActions}>
-            <a
+            <OutboundLink
               className={Styles.ctaButton}
               href="https://liberapay.com/impactmakers/"
               title="Donate to Impact Makers"
@@ -50,7 +55,7 @@ const DonatePage = () => (
               >
                 Donate to Impact Makers
               </button>
-            </a>
+            </OutboundLink>
           </div>
           <h2>Donate to causes working to prevent climate breakdown</h2>
           <p>
@@ -58,12 +63,12 @@ const DonatePage = () => (
             organisations around the world that you can contribute to. Have a
             look below and see if you can find a cause that you can relate to.
             You can also{" "}
-            <a
+            <OutboundLink
               href="https://airtable.com/shrpNApDRD7EVtHGv"
               title="Add somewhere you can donate"
             >
               contribute your own via this form
-            </a>
+            </OutboundLink>
             .
           </p>
           <iframe

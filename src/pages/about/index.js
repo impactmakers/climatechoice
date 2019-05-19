@@ -1,4 +1,5 @@
 import React from "react";
+import { OutboundLink } from "gatsby-plugin-google-analytics";
 import Layout from "../../components/layout";
 import SEO from "../../components/seo";
 import GlobalStyles from "../../styles/Global.module.scss";
@@ -22,40 +23,43 @@ const AboutPage = () => (
 
           <p>
             ClimateChoice is a non-profit volunteer project from{" "}
-            <a
+            <OutboundLink
               href="https://twitter.com/shylands"
               title="Follow @shylands on Twitter"
             >
               Steven Hylands
-            </a>
+            </OutboundLink>
             ,{" "}
-            <a
+            <OutboundLink
               href="https://twitter.com/tobequitefrank1"
               title="Follow @tobequitefrank1 on Twitter"
             >
               Rachel Franklin
-            </a>
+            </OutboundLink>
             ,{" "}
-            <a
+            <OutboundLink
               href="https://twitter.com/thepaulmcbride"
               title="Follow @thepaulmcbride on Twitter"
             >
               Paul McBride
-            </a>{" "}
+            </OutboundLink>{" "}
             that launched in May 2019. The project was developed with the help
             of the{" "}
-            <a href="https://techimpactmakers.com" title="Impact Makers">
+            <OutboundLink
+              href="https://techimpactmakers.com"
+              title="Impact Makers"
+            >
               Impact Makers
-            </a>{" "}
+            </OutboundLink>{" "}
             group — a community of tech people who want to have a positive
             impact by helping prevent earth’s climate breaking down. Read this
             to{" "}
-            <a
+            <OutboundLink
               href="https://shylands.com/blog/helping-prevent-climate-breakdown/"
               title="Origins of ClimateChoice and Impact Makers"
             >
               learn more about the origins of ClimateChoice and Impact Makers
-            </a>
+            </OutboundLink>
             .
           </p>
           <br />
@@ -92,19 +96,22 @@ const AboutPage = () => (
               email
             </a>{" "}
             or{" "}
-            <a
+            <OutboundLink
               href="https://twitter.com/climatechoice"
               title="Tweet @climatechoice"
             >
               tweet us
-            </a>
+            </OutboundLink>
             . If you’re interested in working on your own project to raise
             awareness of the climate breakdown issue and help people to take
             action. Then please{" "}
-            <a href="https://techimpactmakers.com" title="Impact Makers">
+            <OutboundLink
+              href="https://techimpactmakers.com"
+              title="Impact Makers"
+            >
               {" "}
               join us in the Impact Makers
-            </a>{" "}
+            </OutboundLink>{" "}
             community!
           </p>
         </div>

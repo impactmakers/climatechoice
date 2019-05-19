@@ -1,4 +1,5 @@
 import React from "react";
+import { OutboundLink } from "gatsby-plugin-google-analytics";
 import Layout from "../../components/layout";
 import SEO from "../../components/seo";
 import GlobalStyles from "../../styles/Global.module.scss";
@@ -7,7 +8,10 @@ import FooterCta from "../../components/FooterCta";
 
 const ContactPage = () => (
   <Layout>
-    <SEO title="Contact ClimateChoice and learn how to contribute" keywords={[`Contact`, `ClimateChoice`]} />
+    <SEO
+      title="Contact ClimateChoice and learn how to contribute"
+      keywords={[`Contact`, `ClimateChoice`]}
+    />
     <section
       className={`${GlobalStyles.container} ${GlobalStyles.subpageContainer}`}
     >
@@ -26,12 +30,12 @@ const ContactPage = () => (
                 </a>
               </li>
               <li>
-                <a
+                <OutboundLink
                   href="https://twitter.com/climatechoice"
                   title="Tweet @climatechoice"
                 >
                   Tweet @climatechoice
-                </a>
+                </OutboundLink>
               </li>
             </ul>
             <a name="contribute" />
@@ -40,13 +44,16 @@ const ContactPage = () => (
           <h2>Want to help with the site?</h2>
           <p>
             {" "}
-            <a href="https://climatechoice.co/" title="Go home">
+            <Link to="/" title="Go home">
               ClimateChoice
-            </a>{" "}
+            </Link>{" "}
             is a non-profit project created by a{" "}
-            <a href="https://techimpactmakers.com" title="Impact Makers">
+            <OutboundLink
+              href="https://techimpactmakers.com"
+              title="Impact Makers"
+            >
               community of tech volunteers
-            </a>
+            </OutboundLink>
             , working to prevent climate breakdown.
           </p>
           <p>
@@ -56,12 +63,12 @@ const ContactPage = () => (
               send us an email
             </a>{" "}
             or{" "}
-            <a
+            <OutboundLink
               href="https://join.slack.com/t/impact-makers-group/shared_invite/enQtNjE1NjU0OTU0MTY1LTg2MmVjNjBkY2FiNDVlYmM3ZjQxYmYyNTlhMzc0Y2MxYzYwYjE5ZWFmMWE1MmM4OTg4NzA5NTE3M2M5OTRiNDk"
               title="The Impact Makers Slack"
             >
               join the Impact Makers slack community
-            </a>{" "}
+            </OutboundLink>{" "}
             to discuss how you can help. It doesn't matter what your skillset
             is, all motiviated people are welcome!
           </p>
@@ -70,57 +77,57 @@ const ContactPage = () => (
           <p>
             <ul>
               <li>
-                <a
+                <OutboundLink
                   href="https://twitter.com/shylands"
                   title="Follow @shylands on Twitter"
                 >
                   Steven Hylands
-                </a>{" "}
+                </OutboundLink>{" "}
                 - Design, content, development
               </li>
               <li>
-                <a
+                <OutboundLink
                   href="https://twitter.com/tobequitefrank1"
                   title="Follow @tobequitefrank1 on Twitter"
                 >
                   Rachel Franklin
-                </a>{" "}
+                </OutboundLink>{" "}
                 - Development
               </li>
               <li>
-                <a
+                <OutboundLink
                   href="https://twitter.com/thepaulmcbride"
                   title="Follow @thepaulmcbride on Twitter"
                 >
                   Paul McBride
-                </a>{" "}
+                </OutboundLink>{" "}
                 - Development
               </li>
               <li>
-                <a
+                <OutboundLink
                   href="https://twitter.com/barrymcgee"
                   title="Follow @barrymcgee on Twitter"
                 >
                   Barry McGee
-                </a>{" "}
+                </OutboundLink>{" "}
                 - Development
               </li>
               <li>
-                <a
+                <OutboundLink
                   href="https://twitter.com/alexprice"
                   title="Follow @remotealex on Twitter"
                 >
                   Alex Price
-                </a>{" "}
+                </OutboundLink>{" "}
                 - Feedback
               </li>
               <li>
-                <a
+                <OutboundLink
                   href="https://twitter.com/yesthatjon"
                   title="Follow @yesthatyon on Twitter"
                 >
                   Jon Williams
-                </a>{" "}
+                </OutboundLink>{" "}
                 - Feedback
               </li>
             </ul>

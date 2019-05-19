@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import { OutboundLink } from "gatsby-plugin-google-analytics";
 import FacebookIcon from "../Images/Icons/FacebookIcon";
 import TwitterIcon from "../Images/Icons/TwitterIcon";
 import LinkedinIcon from "../Images/Icons/LinkedinIcon";
@@ -34,30 +35,36 @@ const Footer = () => (
           </span> */}
           <ul className={Styles.social}>
             <li className={Styles.socialLink}>
-              <a
+              <OutboundLink
                 href="https://twitter.com/climatechoice"
                 title="Follow us on Twitter"
               >
                 <TwitterIcon />
-              </a>
+              </OutboundLink>
             </li>
             <li className={Styles.socialLink}>
-              <a href="https://facebook.com/" title="Like us on Facebook">
+              <OutboundLink
+                href="https://www.facebook.com/climatechoice"
+                title="Like us on Facebook"
+              >
                 <FacebookIcon />
-              </a>
+              </OutboundLink>
             </li>
             <li className={Styles.socialLink}>
-              <a href="https://instagram.com/" title="Follow us on Instagram">
+              <OutboundLink
+                href="https://instagram.com/yourclimatechoice"
+                title="Follow us on Instagram"
+              >
                 <InstagramIcon />
-              </a>
+              </OutboundLink>
             </li>
             <li className={Styles.socialLink}>
-              <a
-                href="https://www.linkedin.com/company/#"
+              <OutboundLink
+                href="https://www.linkedin.com/company/climatechoice"
                 title="Follow us on LinkedIn"
               >
                 <LinkedinIcon />
-              </a>
+              </OutboundLink>
             </li>
           </ul>
         </div>
@@ -79,10 +86,7 @@ const Footer = () => (
                 </Link>
               </li>
               <li className={Styles.navItem}>
-                <Link
-                  to="donate"
-                  title="Donate to ClimateChoice"
-                >
+                <Link to="donate" title="Donate to ClimateChoice">
                   Donate
                 </Link>
               </li>
@@ -161,34 +165,46 @@ const Footer = () => (
               href="https://twitter.com/shylands"
               title="Follow @shylands on Twitter"
             >
-              <img className={Styles.impactMakerAvatar} src={AvatarSteven} alt="Steven" />
+              <img
+                className={Styles.impactMakerAvatar}
+                src={AvatarSteven}
+                alt="Steven"
+              />
               @shylands
             </a>
           </li>
           <li className={Styles.impactMakersCreator}>
-            <a
+            <OutboundLink
               href="https://twitter.com/thepaulmcbride"
               title="Follow @thepaulmcbride on Twitter"
             >
-              <img className={Styles.impactMakerAvatar} src={AvatarPaul} alt="Paul" />
+              <img
+                className={Styles.impactMakerAvatar}
+                src={AvatarPaul}
+                alt="Paul"
+              />
               @thepaulmcbride
-            </a>
+            </OutboundLink>
           </li>
           <li className={Styles.impactMakersCreator}>
-            <a
+            <OutboundLink
               href="https://twitter.com/tobequitefrank1"
               title="Follow @tobequitefrank1 on Twitter"
             >
-              <img className={Styles.impactMakerAvatar} src={AvatarRachel} alt="Rachel" />
+              <img
+                className={Styles.impactMakerAvatar}
+                src={AvatarRachel}
+                alt="Rachel"
+              />
               @tobequitefrank1
-            </a>
+            </OutboundLink>
           </li>
         </ul>
         <p className={Styles.impactMakersDescription}>
           Impact Makers is a community of tech people who want to have a
           positive impact by helping prevent earth’s climate breaking down.
         </p>
-        <a
+        <OutboundLink
           className={Styles.impactMakersCta}
           href="https://techimpactmakers.com"
           title="Find out more about us"
@@ -200,7 +216,7 @@ const Footer = () => (
           >
             Find out more about us
           </button>
-        </a>
+        </OutboundLink>
       </div>
     </div>
   </footer>

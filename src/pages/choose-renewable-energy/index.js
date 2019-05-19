@@ -1,4 +1,5 @@
 import React from "react";
+import { OutboundLink } from "gatsby-plugin-google-analytics";
 import Layout from "../../components/layout";
 import ChoiceSupport from "../../components/ChoiceSupport";
 import SEO from "../../components/seo";
@@ -211,12 +212,12 @@ const ChooseRenewablePage = () => (
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               If you don’t have a renewable option with your existing supplier
               it’s time to shop around. A quick search online for{" "}
-              <a
+              <OutboundLink
                 href="https://www.google.com/search?ei=xajfXIqsIcuWkwXZ4puYAw&q=renewable+energy+supplier&oq=renewable+energy+supplier&gs_l=psy-ab.3..0l8.10087.10595..10882...0.0..0.82.200.3......0....1..gws-wiz.......0i71j33i22i29i30j0i22i30.742iU1EWxJs"
                 title="Search for a renewable energy supplier"
               >
                 ‘Renewable energy supplier + your location’
-              </a>{" "}
+              </OutboundLink>{" "}
               should point you in the right direction.
             </p>
             <h3
@@ -259,9 +260,9 @@ const ChooseRenewablePage = () => (
                 }`}
               >
                 <li>
-                  <a href="#" title="?">
+                  <OutboundLink href="#" title="?">
                     Find a renewable energy supplier near you →
-                  </a>
+                  </OutboundLink>
                 </li>
               </ul>
             </div>
@@ -336,24 +337,24 @@ const ChooseRenewablePage = () => (
                 }`}
               >
                 <li>
-                  <a href="#" title="?">
+                  <OutboundLink href="#" title="?">
                     Learn how to install your own solar panels →
-                  </a>
+                  </OutboundLink>
                 </li>
                 <li>
-                  <a href="#" title="?">
+                  <OutboundLink href="#" title="?">
                     Find out how much solar can save you →
-                  </a>
+                  </OutboundLink>
                 </li>
                 <li>
-                  <a href="#" title="?">
+                  <OutboundLink href="#" title="?">
                     Learn if you can get paid for your energy →
-                  </a>
+                  </OutboundLink>
                 </li>
                 <li>
-                  <a href="#" title="?">
+                  <OutboundLink href="#" title="?">
                     Learn how to install your own wind turbines →
-                  </a>
+                  </OutboundLink>
                 </li>
               </ul>
             </div>
