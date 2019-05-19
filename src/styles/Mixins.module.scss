@@ -179,6 +179,7 @@
   a.hover {
     color: $linkHover;
     -webkit-transition: top 0.04s ease-out;
+    transition: top 0.04s ease-out;
   }
   a:active {
     color: $linkActive;
@@ -229,6 +230,7 @@
   a.hover {
     border: none !important;
     -webkit-transition: top 0.04s ease-out;
+    transition: top 0.04s ease-out;
   }
   a:active {
     border: none !important;
