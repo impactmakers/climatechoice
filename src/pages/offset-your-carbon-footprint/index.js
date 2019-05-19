@@ -9,8 +9,16 @@ const OffsetPage = () => (
   <Layout>
     <SEO
       title="Offset your carbon footprint"
-      description="ClimateChoice is a non-profit volunteer project from Steven Hylands, Rachel Franklin, Paul McBride that launched in May 2019. The project was developed with the help of the Impact Makers group — a community of tech people who want to have a positive impact by helping prevent earth’s climate breaking down."
-      keywords={[`About Climate Choice`, `ClimateChoice`]}
+      description="Find out how you can reduce the size of your carbon footprint by paying to plant trees, support climate projects and more"
+      keywords={[
+        `Offset`,
+        `ClimateChoice``Offsetting`,
+        `Offset carbon footprint`,
+        `Reduce your carbon footprint`,
+        `Pay to help climate change`,
+        `Plant trees and offset`,
+        `Offsetting emissions`
+      ]}
     />
     <section
       className={`${GlobalStyles.container} ${GlobalStyles.subpageContainer}`}
