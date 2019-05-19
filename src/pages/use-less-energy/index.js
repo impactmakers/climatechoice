@@ -359,10 +359,13 @@ const UseLessEnergyPage = () => (
                   </OutboundLink>
                 </li>
                 <li>
-                  <OutboundLink href="#" title="?">
+                  <Link
+                    to="/offset-your-carbon-footprint"
+                    title="Offset your carbon footprint"
+                  >
                     Can’t help energy wastage? Consider offsetting your
                     household emittings. →
-                  </OutboundLink>
+                  </Link>
                 </li>
               </ul>
             </div>

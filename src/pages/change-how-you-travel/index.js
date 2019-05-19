@@ -313,7 +313,7 @@ const ChangeHowYouTravelPage = () => (
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               When you must fly, consider{" "}
               <Link
-                to="/pay-to-offset-your-carbon-footprint"
+                to="/offset-your-carbon-footprint"
                 title="Pay to offset your carbon footprint"
               >
                 paying a little to offset your carbon footprint
@@ -365,7 +365,7 @@ const ChangeHowYouTravelPage = () => (
               <li>Only fly when it’s absolutely necessary</li>
               <li>
                 <Link
-                  to="/pay-to-offset-your-carbon-footprint"
+                  to="/offset-your-carbon-footprint"
                   title="Pay to offset your carbon footprint"
                 >
                   Pay to offset your carbon footprint
