@@ -30,7 +30,7 @@ const homePageConfig = {
     "Then please share ClimateChoice with your friends, family and followers via our handy pre-written message!",
   url: "https://climatechoice.co/",
   whatsappTitle:
-    "Hey! The choices we make today can help prevent earth’s climate breaking down 🌎🔥 Check out this site to learn how you can make simple changes to reduce your carbon footprint 👣 https://climatechoice.co/"
+    "Hey! The choices we make today can help prevent earth’s climate breaking down 🌎🔥 Check out this site to learn how you can make simple changes to reduce your carbon footprint 👣"
 };
 
 export default homePageConfig;
