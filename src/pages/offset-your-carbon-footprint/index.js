@@ -12,7 +12,8 @@ const OffsetPage = () => (
       description="Find out how you can reduce the size of your carbon footprint by paying to plant trees, support climate projects and more"
       keywords={[
         `Offset`,
-        `ClimateChoice``Offsetting`,
+        `ClimateChoice`,
+        `Offsetting`,
         `Offset carbon footprint`,
         `Reduce your carbon footprint`,
         `Pay to help climate change`,
