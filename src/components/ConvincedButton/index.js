@@ -18,7 +18,7 @@ export default function ConvincedButton() {
   return (
     <div className={styles.ctaSecondary}>
       <button className={styles.removeDefault} onClick={() => openModal()}>
-        Need convinced? Watch this
+        Need convincing? Watch this
       </button>
       {showModal && (
         <VideoModal closeModal={closeModal} closeClick={closeModal} />
