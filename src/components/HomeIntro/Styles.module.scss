@@ -108,15 +108,17 @@
   }
   @include mq("tablet") {
     margin-top: 0;
-    max-width: 35%;
+    max-width: 30%;
     margin-left: 5%;
     @include pad-top-standard;
     @include pad-bot-standard;
   }
 }
 .bannerImg {
-  -webkit-filter: drop-shadow(0px 0px 41px rgba(244, 156, 0, 0.6));
-  filter: drop-shadow(0px 0px 41px rgba(244, 156, 0, 0.68));
+  // -webkit-filter: drop-shadow(0px 0px 21px rgba($orangeLight, 0.6));
+  // filter: drop-shadow(0px 0px 21px rgba($orangeLight, 0.68));
+  -webkit-filter: drop-shadow(0px 0px 62px rgba($black, 0.8));
+  filter: drop-shadow(0px 0px 62px rgba($black, 0.8));
   @include mq("tablet") {
     margin-top: 0;
     margin-bottom: 0;
