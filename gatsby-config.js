@@ -86,6 +86,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     "gatsby-transformer-yaml",
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-advanced-sitemap`,
     `gatsby-plugin-feed`,
     {
