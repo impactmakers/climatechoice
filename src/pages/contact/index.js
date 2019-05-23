@@ -64,7 +64,7 @@ const ContactPage = () => (
             </a>{" "}
             or{" "}
             <OutboundLink
-              href="https://join.slack.com/t/impact-makers-group/shared_invite/enQtNjE1NjU0OTU0MTY1LTg2MmVjNjBkY2FiNDVlYmM3ZjQxYmYyNTlhMzc0Y2MxYzYwYjE5ZWFmMWE1MmM4OTg4NzA5NTE3M2M5OTRiNDk"
+              href="https://join.slack.com/t/impact-makers-group/shared_invite/enQtNjQ2MTY3NDM1MjcxLWUwNjA1YWViZmI1NjQ5YTIzMjA1OWE2NzI3NzMwNzQ0ODBiMmZlMzI0YTI4MDUyMzlhNmZhZDFiOWZkODQ0Yjg"
               title="The Impact Makers Slack"
             >
               join the Impact Makers slack community
