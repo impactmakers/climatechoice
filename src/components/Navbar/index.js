@@ -49,10 +49,7 @@ function Navbar() {
             </Link>
           </li>
           <li className={`${Styles.navItem} ${Styles.navItemAction}`}>
-            <a
-              href="#your-choices"
-              className={Styles.ctaButton}
-            >
+            <a href="/#your-choices" className={Styles.ctaButton}>
               <button
                 className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnSm} ${
                   ButtonStyles.btnHeader
