@@ -130,6 +130,24 @@ const ContactPage = () => (
                 </OutboundLink>{" "}
                 - Feedback
               </li>
+              <li>
+                <OutboundLink
+                  href="https://twitter.com/coadstream"
+                  title="Follow @coadstream on Twitter"
+                >
+                  Elliot Coad
+                </OutboundLink>{" "}
+                - Feedback
+              </li>
+              <li>
+                <OutboundLink
+                  href="https://twitter.com/arcanerobobrain"
+                  title="Follow @arcanerobobrain on Twitter"
+                >
+                  James Haywood
+                </OutboundLink>{" "}
+                - Feedback
+              </li>
             </ul>
           </p>
         </div>
