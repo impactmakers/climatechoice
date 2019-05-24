@@ -36,7 +36,10 @@
 
 .icon {
   align-self: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  @include mq("tablet") {
+    margin-bottom: 20px;
+  }
 }
 .earthIcon {
   -webkit-filter: drop-shadow(1px 2px 13px rgba(37, 81, 97, 0.35));
@@ -74,6 +77,8 @@
   @include font-size($text-small);
   color: $white;
   @include mar-bot-small;
+  @include pad-top-small;
+  margin-top: 10px;
   @include mq("tablet") {
     @include mar-bot-standard;
   }
