@@ -116,7 +116,7 @@
 }
 
 .socialBlock p {
-  @include font-size($text-small);
+  @include font-size($text-body);
   color: $grayDark;
   width: 100%;
   margin-top: 0;
@@ -158,6 +158,7 @@
   background: $grayLightest;
   //border-top: 1px solid $grayBorder;
   width: 100%;
+  color: $grayDark;
   line-height: 55px;
   height: 55px;
   margin-top: 10px;

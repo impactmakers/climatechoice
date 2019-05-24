@@ -56,7 +56,7 @@ function ShareSocialCta({
             <h3 className={styles.subTitle}>Want to help? Great!</h3>
             <p>
               Send this page to your friends, family and followers via our handy
-              pre-written message
+              pre-written message.
             </p>
             <ul className={styles.socialContainer}>
               <li className={styles.socialButton}>
