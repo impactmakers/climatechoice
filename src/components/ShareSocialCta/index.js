@@ -9,6 +9,7 @@ import TwitterButton from "../SocialButtons/TwitterButton";
 import FacebookButton from "../SocialButtons/FacebookButton";
 import WhatsappButton from "../SocialButtons/WhatsappButton";
 import LinkedinButton from "../SocialButtons/LinkedInButton";
+import EarthIcon from "./EarthIcon.svg";
 
 function ShareSocialCta({
   children,
@@ -35,54 +36,77 @@ function ShareSocialCta({
       <div className={`${GlobalStyles.inner} ${styles.inner}`}>
         {/* cta block / right col */}
         <div className={styles.ctaCopy}>
-          <div className={styles.title}>{ctaTitle}</div>
+          <div className={styles.icon}>
+            <img
+              src={EarthIcon}
+              alt="CO2 Emissions Target"
+              className={styles.earthIcon}
+            />
+          </div>
+          <div className={styles.title}>
+            <span className={styles.titleShare}>Spread the word</span>
+            <span className={styles.titleSave}>to save the world</span>
+          </div>
           <p className={styles.copy}>{ctaCopy}</p>
         </div>
         {children}
         {/* social block  / right col */}
         <div className={styles.socialBlock}>
-          <h3 className={styles.subTitle}>{socialTitle}</h3>
-          <p>{socialCopy}</p>
-          <ul className={styles.socialContainer}>
-            <li className={styles.socialButton}>
-              <TwitterButton
-                url={url}
-                currentUrl={currentUrl}
-                twitterTitle={twitterTitle}
-                twitterAccount={twitterAccount}
-                hashtags={twitterHashtags}
-              />
-            </li>
-            <li className={styles.socialButton}>
-              <FacebookButton
-                url={url}
-                currentUrl={currentUrl}
-                facebookQuote={facebookQuote}
-                facebookHashtag={facebookHashtag}
-              />
-            </li>
-            <li className={styles.socialButton}>
-              <WhatsappButton url={url} whatsappTitle={whatsappTitle} />
-            </li>
-            <li className={styles.socialButton}>
-              <LinkedinButton
-                url={url}
-                currentUrl={currentUrl}
-                title={linkedinTitle}
-                description={linkedinDescription}
-              />
-            </li>
-            <li className={styles.socialButton}>
-              <EmailButton
-                emailBody={emailBody}
-                currentUrl={currentUrl}
-                emailSubject={emailSubject}
-              />
-            </li>
-            <li className={styles.socialButton}>
-              <CopyLinkButton currentUrl={currentUrl} />
-            </li>
-          </ul>
+          <div className={styles.socialBlockContent}>
+            <h3 className={styles.subTitle}>Want to help? Great!</h3>
+            <p>
+              Send this page to your friends, family and followers via our handy
+              pre-written message
+            </p>
+            <ul className={styles.socialContainer}>
+              <li className={styles.socialButton}>
+                <TwitterButton
+                  url={url}
+                  currentUrl={currentUrl}
+                  twitterTitle={twitterTitle}
+                  twitterAccount={twitterAccount}
+                  hashtags={twitterHashtags}
+                />
+              </li>
+              <li className={styles.socialButton}>
+                <FacebookButton
+                  url={url}
+                  currentUrl={currentUrl}
+                  facebookQuote={facebookQuote}
+                  facebookHashtag={facebookHashtag}
+                />
+              </li>
+              <li className={styles.socialButton}>
+                <WhatsappButton url={url} whatsappTitle={whatsappTitle} />
+              </li>
+            </ul>
+            <ul className={styles.socialContainer}>
+              <li className={styles.socialButton}>
+                <LinkedinButton
+                  url={url}
+                  currentUrl={currentUrl}
+                  title={linkedinTitle}
+                  description={linkedinDescription}
+                />
+              </li>
+              <li className={styles.socialButton}>
+                <EmailButton
+                  emailBody={emailBody}
+                  currentUrl={currentUrl}
+                  emailSubject={emailSubject}
+                />
+              </li>
+              <li className={styles.socialButton}>
+                <CopyLinkButton currentUrl={currentUrl} />
+              </li>
+            </ul>
+          </div>
+          <span className={styles.thanks}>
+            Thank you{" "}
+            <span role="img" aria-label="raising_hands">
+              🙌
+            </span>
+          </span>
         </div>
       </div>
     </section>
