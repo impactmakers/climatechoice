@@ -25,9 +25,9 @@ const homePageConfig = {
   twitterTitle: "Learn how you can help prevent earth’s climate breaking down",
   twitterAccount: "climatechoice",
   twitterHashtags: ["climatechange", "climatebreakdown"],
-  socialTitle: "Want to help others learn what to do about climate breakdown?",
+  socialTitle: "Want to help? Great!",
   socialCopy:
-    "Then please share ClimateChoice with your friends, family and followers via our handy pre-written message!",
+    "Send this page to your friends, family and followers via our handy pre-written message.",
   url: "https://climatechoice.co/",
   whatsappTitle:
     "Hey! The choices we make today can help prevent earth’s climate breaking down 🌎🔥 Check out this site to learn how you can make simple changes to reduce your carbon footprint 👣"
