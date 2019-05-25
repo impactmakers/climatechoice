@@ -6,7 +6,7 @@ import EarthIcon from "../Images/Icons/EarthIcon.svg";
 import Tick from "./BubbleTick.svg";
 
 const EarthyShare = () => (
-  <footer className={Styles.container}>
+  <div className={Styles.container}>
     <div className={Styles.bubble}>
       <span className={Styles.bubbleText}>
         <span role="img" aria-label="wave">
@@ -24,7 +24,7 @@ const EarthyShare = () => (
             ButtonStyles.btnPrimary
           } ${ButtonStyles.btnEarthyShare} `}
         >
-          Share it
+          Share
         </button>
       </a>
       <img src={Tick} alt="Bubble" className={Styles.bubbleTick} />
@@ -32,7 +32,7 @@ const EarthyShare = () => (
     <div className={Styles.icon}>
       <img src={EarthIcon} alt="Earthy" className={Styles.earthIcon} />
     </div>
-  </footer>
+  </div>
 );
 
 export default EarthyShare;
