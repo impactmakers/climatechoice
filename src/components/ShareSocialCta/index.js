@@ -9,7 +9,7 @@ import TwitterButton from "../SocialButtons/TwitterButton";
 import FacebookButton from "../SocialButtons/FacebookButton";
 import WhatsappButton from "../SocialButtons/WhatsappButton";
 import LinkedinButton from "../SocialButtons/LinkedInButton";
-import EarthIcon from "./EarthIcon.svg";
+import EarthIcon from "../Images/Icons/EarthIcon.svg";
 
 function ShareSocialCta({
   children,
@@ -37,11 +37,7 @@ function ShareSocialCta({
         {/* cta block / right col */}
         <div className={styles.ctaCopy}>
           <div className={styles.icon}>
-            <img
-              src={EarthIcon}
-              alt="CO2 Emissions Target"
-              className={styles.earthIcon}
-            />
+            <img src={EarthIcon} alt="Earthy" className={styles.earthIcon} />
           </div>
           <div className={styles.title}>
             <span className={styles.titleShare}>Spread the word</span>

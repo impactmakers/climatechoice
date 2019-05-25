@@ -1,0 +1,56 @@
+@import "../../styles/Variables.module.scss";
+@import "../../styles/Mixins.module.scss";
+@import "../../styles/Typography.module.scss";
+
+.container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 96px;
+  height: 161px;
+  z-index: 9;
+}
+
+.bubble {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 70px;
+  height: 72px;
+  padding: 10px;
+  text-align: center;
+  background: #16243e;
+  border-radius: 9px;
+  box-shadow: 1px 2px 13px 0 rgba(37, 81, 97, 0.35);
+}
+
+.bubbleText {
+  color: $white;
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.bubbleLink {
+  @include no-underline;
+}
+
+.bubbleTick {
+  position: absolute;
+  top: 88px;
+  right: 30px;
+  z-index: 3px;
+}
+
+.icon {
+  position: absolute;
+  // bottom: 69px;
+  right: 0;
+  margin-right: -6px;
+}
+.earthIcon {
+  width: 64px;
+  height: 64px;
+  -webkit-filter: drop-shadow(1px 2px 13px rgba(37, 81, 97, 0.35));
+  filter: drop-shadow(1px 2px 13px rgba(37, 81, 97, 0.358));
+  transform: rotate(-20deg);
+}

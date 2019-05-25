@@ -1,6 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
 import HomeIntro from "../components/HomeIntro";
+import EarthyShare from "../components/EarthyShare";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import ChoiceGrid from "../components/ChoiceGrid";
@@ -40,6 +41,7 @@ class HomePage extends React.Component {
         <HomeIntro />
         <ChoiceGrid />
         <ShareSocialCta {...shareConfig} />
+        <EarthyShare />
       </Layout>
     );
   }
