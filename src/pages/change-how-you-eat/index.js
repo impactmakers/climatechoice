@@ -12,6 +12,7 @@ import shareConfig from "../../configs/pages/choiceEatConfig";
 import ChoiceGridOnChoice from "../../components/ChoiceGrid/onChoice";
 import BannerImg from "../../components/Images/Graphics/choiceBannerEat.svg";
 import HowIcon from "../../components/Images/Icons/HowIcon.svg";
+import EarthyShare from "../../components/EarthyShare";
 
 const ChangeHowYouEatPage = () => (
   <Layout>
@@ -326,6 +327,7 @@ const ChangeHowYouEatPage = () => (
       </div>
     </section>
     <ChoiceGridOnChoice />
+    <EarthyShare />
   </Layout>
 );
 

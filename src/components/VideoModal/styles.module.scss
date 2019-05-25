@@ -23,7 +23,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  z-index: 4;
+  z-index: 10;
   @include mq("tablet") {
     padding: 2em 1.5em;
     width: 500px;

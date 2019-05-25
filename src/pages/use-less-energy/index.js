@@ -13,6 +13,7 @@ import ChoiceGridOnChoice from "../../components/ChoiceGrid/onChoice";
 import HowIcon from "../../components/Images/Icons/HowIcon.svg";
 import BannerImg from "../../components/Images/Graphics/choiceBannerLessEnergy.svg";
 import shareConfig from "../../configs/pages/choiceLessEnergyConfig";
+import EarthyShare from "../../components/EarthyShare";
 
 const UseLessEnergyPage = () => (
   <Layout>
@@ -414,6 +415,7 @@ const UseLessEnergyPage = () => (
       </div>
     </section>
     <ChoiceGridOnChoice />
+    <EarthyShare />
   </Layout>
 );
 
