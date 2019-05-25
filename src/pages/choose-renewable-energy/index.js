@@ -12,6 +12,7 @@ import ChoiceGridOnChoice from "../../components/ChoiceGrid/onChoice";
 import HowIcon from "../../components/Images/Icons/HowIcon.svg";
 import BannerImg from "../../components/Images/Graphics/choiceBannerRenewable.svg";
 import shareConfig from "../../configs/pages/choiceRenewableConfig";
+import EarthyShare from "../../components/EarthyShare";
 
 const ChooseRenewablePage = () => (
   <Layout>
@@ -378,6 +379,7 @@ const ChooseRenewablePage = () => (
       </div>
     </section>
     <ChoiceGridOnChoice />
+    <EarthyShare />
   </Layout>
 );
 

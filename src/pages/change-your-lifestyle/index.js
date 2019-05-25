@@ -13,6 +13,7 @@ import ChoiceGridOnChoice from "../../components/ChoiceGrid/onChoice";
 import HowIcon from "../../components/Images/Icons/HowIcon.svg";
 import BannerImg from "../../components/Images/Graphics/choiceBannerLifestyle.svg";
 import ShareSocialCta from "../../components/ShareSocialCta";
+import EarthyShare from "../../components/EarthyShare";
 
 const ChangeYourLifestylePage = () => (
   <Layout>
@@ -484,6 +485,7 @@ const ChangeYourLifestylePage = () => (
       </div>
     </section>
     <ChoiceGridOnChoice />
+    <EarthyShare />
   </Layout>
 );
 
