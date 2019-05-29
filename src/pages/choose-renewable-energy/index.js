@@ -13,6 +13,7 @@ import HowIcon from "../../components/Images/Icons/HowIcon.svg";
 import BannerImg from "../../components/Images/Graphics/choiceBannerRenewable.svg";
 import shareConfig from "../../configs/pages/choiceRenewableConfig";
 import EarthyShare from "../../components/EarthyShare";
+import SuccessBanner from "../../components/SuccessBanner";
 
 const ChooseRenewablePage = () => (
   <Layout>
@@ -342,6 +343,7 @@ const ChooseRenewablePage = () => (
       </div>
     </section>
     <ShareSocialCta {...shareConfig} />
+    <SuccessBanner />
     <ChoiceSupport />
     <section className={`${ChoiceStyles.tldr} ${Styles.tldr}`}>
       <a name="tldr" />

@@ -1,0 +1,45 @@
+@import "../../styles/Variables.module.scss";
+@import "../../styles/Mixins.module.scss";
+@import "../../styles/Typography.module.scss";
+@import "../../styles/Buttons.module.scss";
+
+.container {
+  background: $greenLight;
+}
+
+.inner {
+  @include pad-top-standard;
+  @include pad-bot-standard;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  @include mq("tablet") {
+    @include pad-top-small;
+    @include pad-bot-small;
+  }
+  @include mq("desktop") {
+    flex-direction: row;
+  }
+}
+
+.title {
+  @include font-size($text-large);
+  font-family: $sans;
+  margin: 0 0 7px;
+  color: $black;
+  @include mq("tablet") {
+    @include font-size($text-body);
+    margin: 0;
+  }
+}
+
+.text {
+  @include font-size($text-body);
+  text-align: center;
+  margin: 0;
+  @include mq("tablet") {
+    text-align: left;
+    @include font-size($text-body);
+  }
+}

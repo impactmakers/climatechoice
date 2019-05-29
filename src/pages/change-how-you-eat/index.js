@@ -13,6 +13,7 @@ import ChoiceGridOnChoice from "../../components/ChoiceGrid/onChoice";
 import BannerImg from "../../components/Images/Graphics/choiceBannerEat.svg";
 import HowIcon from "../../components/Images/Icons/HowIcon.svg";
 import EarthyShare from "../../components/EarthyShare";
+import SuccessBanner from "../../components/SuccessBanner";
 
 const ChangeHowYouEatPage = () => (
   <Layout>
@@ -290,6 +291,7 @@ const ChangeHowYouEatPage = () => (
       </div>
     </section>
     <ShareSocialCta {...shareConfig} />
+    <SuccessBanner />
     <ChoiceSupport />
     <section className={`${ChoiceStyles.tldr} ${Styles.tldr}`}>
       <a name="tldr" />

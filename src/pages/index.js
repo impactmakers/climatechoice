@@ -5,8 +5,10 @@ import EarthyShare from "../components/EarthyShare";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import ChoiceGrid from "../components/ChoiceGrid";
+
 import ShareSocialCta from "../components/ShareSocialCta";
 import shareConfig from "../configs/pages/homepageConfig";
+import SuccessBanner from "../components/SuccessBanner";
 
 class HomePage extends React.Component {
   render() {
@@ -41,6 +43,7 @@ class HomePage extends React.Component {
         <HomeIntro />
         <ChoiceGrid />
         <ShareSocialCta {...shareConfig} />
+        <SuccessBanner />
         <EarthyShare />
       </Layout>
     );
