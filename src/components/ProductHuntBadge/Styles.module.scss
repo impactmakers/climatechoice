@@ -1,0 +1,15 @@
+@import "../../styles/Variables.module.scss";
+@import "../../styles/Mixins.module.scss";
+@import "../../styles/Typography.module.scss";
+
+.container {
+  position: fixed;
+  bottom: 7px;
+  left: 10px;
+  z-index: 9;
+}
+
+.producthunt {
+  width: 250px;
+  height: 54px;
+}
