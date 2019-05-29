@@ -1,6 +1,7 @@
 @import "../../styles/Variables.module.scss";
 
 .notification {
+  transform: translate(0%, -110%);
   width: max-content !important;
   height: max-content;
   background-color: $black;
@@ -12,7 +13,7 @@
 #notificationslide {
   position: absolute;
   top: 0px;
-  right: 0px;
+  right: -20px;
 
   -webkit-animation: notificationslide 0.7s forwards;
   animation: notificationslide 0.7s forwards;
@@ -20,12 +21,12 @@
 
 @-webkit-keyframes notificationslide {
   100% {
-    right: 45px;
+    right: 0px;
   }
 }
 
 @keyframes notificationslide {
   100% {
-    right: 45px;
+    right: 0px;
   }
 }
