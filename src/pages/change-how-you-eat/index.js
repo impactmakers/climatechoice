@@ -122,8 +122,8 @@ const ChangeHowYouEatPage = () => (
               and when it’s dumped it rots becoming methane gas.
             </li>
             <li>
-              Forests are regularly cleared around the word for use by farms and
-              livestock resulting in lots of carbon being released.
+              Forests are regularly cleared around the world for use by farms
+              and livestock resulting in lots of carbon being released.
             </li>
           </ol>
         </div>
