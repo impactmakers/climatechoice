@@ -10,14 +10,14 @@ const SuccessBanner = () => (
         Has ClimateChoice helped you make changes?
       </h1>
       <p className={Styles.text}>
-        Then tweet your success{" "}
+        Then tweet your success story{" "}
         <OutboundLink
           href="https://twitter.com/climatechoice"
           title="Tweet @climatechoice"
         >
           @climatechoice
         </OutboundLink>{" "}
-        and we'll add your story here!
+        and we'll add it here!
       </p>
     </div>
   </section>

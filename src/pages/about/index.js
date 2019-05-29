@@ -43,12 +43,19 @@ const AboutPage = () => (
             >
               Paul McBride
             </OutboundLink>{" "}
-            and{" "}
+            ,{" "}
             <OutboundLink
               href="https://twitter.com/barrymcgee"
               title="Follow @barrymcgee on Twitter"
             >
               Barry McGee
+            </OutboundLink>{" "}
+            and{" "}
+            <OutboundLink
+              href="https://twitter.com/thisismbd"
+              title="Follow @thisismbd on Twitter"
+            >
+              Matt Budde
             </OutboundLink>{" "}
             that launched in May 2019. The project was developed with the help
             of the{" "}
