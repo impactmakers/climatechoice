@@ -69,7 +69,7 @@ const ContactPage = () => (
             >
               join the Impact Makers slack community
             </OutboundLink>{" "}
-            to discuss how you can help. It doesn't matter what your skillset
+            to discuss how you can help. It doesn't matter what your skill set
             is, all motiviated people are welcome!
           </p>
           <br />

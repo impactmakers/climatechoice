@@ -20,7 +20,7 @@ const ChangeHowYouTravelPage = () => (
   <Layout>
     <SEO
       title="Change how you travel to help prevent climate change"
-      description=" 26% of harmful greenhouse-gas emissions come from the production and use of vehicles like cars, lorries and planes. Learn how you can help prevent earth's climate breaking down by making simple changes."
+      description=" 26% of harmful greenhouse gas emissions come from the production and use of vehicles like cars, lorries and planes. Learn how you can help prevent earth's climate breaking down by making simple changes."
       image="https://climatechoice.co/images/Seo/travel.jpg"
       keywords={[
         `Travel`,
@@ -124,7 +124,7 @@ const ChangeHowYouTravelPage = () => (
             </li>
             <li>
               <b>11% comes from air travel</b>. The problems are much the same,
-              planes also use fossil fuel emitting greenhouse gasses into the
+              planes also use fossil fuel emitting greenhouse gases into the
               atmosphere.
             </li>
             <li>
@@ -236,7 +236,8 @@ const ChangeHowYouTravelPage = () => (
               How much would this help?
             </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              A lot! Everytime we take a carbon-emitting vehicle off the road we{" "}
+              A lot! Every time we take a carbon emitting vehicle off the road
+              we{" "}
               <b>
                 send a message to car companies that we don’t want fossil fuel
                 powered cars anymore

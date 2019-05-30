@@ -55,7 +55,7 @@ const ChooseRenewablePage = () => (
           </h1>
           <p className={`${ChoiceStyles.bannerDesc} ${Styles.bannerDesc}`}>
             <b>75%</b> of the energy used globally comes from coal, gas, oil and
-            nuclear — non-renewable sources that produce greenhouse-gas
+            nuclear — non-renewable sources that produce greenhouse gas
             emissions.
           </p>
 
@@ -209,7 +209,7 @@ const ChooseRenewablePage = () => (
               already give you the option to choose a green energy source over
               non-renewables. It may cost you a bit more, but it’s the easiest
               way to change. It’s also worthwhile researching other suppliers
-              near you. You might find a bretter price.
+              near you. You might find a better price.
             </p>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               If you don’t have a renewable option with your existing supplier

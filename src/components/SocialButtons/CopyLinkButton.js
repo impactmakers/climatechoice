@@ -34,7 +34,7 @@ export default function CopyLinkButton(props) {
         <div className={styles.logo}>
           <CopyLinkIcon fillColor="#16243E" />
         </div>
-        CopyLink
+        Copy Link
       </div>
     </>
   );

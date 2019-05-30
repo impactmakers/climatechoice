@@ -19,7 +19,7 @@ const ChangeHowYouEatPage = () => (
   <Layout>
     <SEO
       title="Change how you eat to help prevent climate change"
-      description=" 26% of harmful greenhouse-gas emissions come from the production and waste of food and drink. Learn how you can help prevent earth's climate breaking down by making simple changes."
+      description=" 26% of harmful greenhouse gas emissions come from the production and waste of food and drink. Learn how you can help prevent earth's climate breaking down by making simple changes."
       image="https://climatechoice.co/images/Seo/eat.jpg"
       keywords={[
         `Food`,
@@ -46,7 +46,7 @@ const ChangeHowYouEatPage = () => (
             Change how you eat to help prevent climate breakdown
           </h1>
           <p className={`${ChoiceStyles.bannerDesc} ${Styles.bannerDesc}`}>
-            <b>26%</b> of global greenhouse-gas emissions come from the
+            <b>26%</b> of global greenhouse gas emissions come from the
             production and waste of food and drink products.
           </p>
 
@@ -157,7 +157,7 @@ const ChangeHowYouEatPage = () => (
                 products so much that we can’t bring ourselves to quit them.
               </li>
               <li>
-                The way we eat today is percieved as normal, with changing comes
+                The way we eat today is perceived as normal, with changing comes
                 social pressure to return to 'normal' eating practices.
               </li>
               <li>
@@ -197,7 +197,7 @@ const ChangeHowYouEatPage = () => (
               The biggest impact can be had if you{" "}
               <b>eat less animal products — in particular meat and dairy</b>,
               however all purchased food items have a carbon footprint.{" "}
-              <b>If you’re really commited, go vegan</b>. Try to only buy items
+              <b>If you’re really committed, go vegan</b>. Try to only buy items
               with <b>sustainable, or no packaging</b>, and <b>buy local</b> so
               your food isn’t travelling around the world.
             </p>
