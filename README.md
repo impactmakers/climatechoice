@@ -7,7 +7,7 @@
 Clone the repo to your computer.
 
 ```bash
-git@github.com:shylands/climatechoice.git
+git@github.com:impactmakers/climatechoice.git
 cd climatechoice
 ```
 
