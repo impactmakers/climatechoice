@@ -45,7 +45,7 @@ The editable site is located in the src folder, it is structured as outlined bel
 |  |  |  |--styles.scss // The CSS for the component written in SASS
 |  |--pages             // This is where page specific components and styles live
 |  |--styles            // This is where site wide styles are defined
-|  |--templates         // Components for Ghost blog elements
+|  |--templates         // Components for blog elements
 ```
 
 ## Blog posts
