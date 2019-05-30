@@ -21,8 +21,6 @@ function ShareSocialCta({
   facebookHashtag,
   linkedinTitle,
   linkedinDescription,
-  socialTitle,
-  socialCopy,
   twitterTitle,
   twitterAccount,
   twitterHashtags,
