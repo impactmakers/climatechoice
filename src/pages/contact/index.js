@@ -38,7 +38,7 @@ const ContactPage = () => (
                 </OutboundLink>
               </li>
             </ul>
-            <a name="contribute" />
+            <div id="#contribute" aria-label={"Contribute"}> </div>
           </p>
           <br />
           <h2>Want to help with the site?</h2>

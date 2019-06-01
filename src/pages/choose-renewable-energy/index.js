@@ -65,16 +65,17 @@ const ChooseRenewablePage = () => (
               href="#actions"
               title="See how you can take action"
             >
-              <button
+              <a
                 className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
                   ButtonStyles.btnBanner
                 } ${ButtonStyles.btnMobile}`}
+                aria-label={"Learn what you can do"}
               >
                 Learn what you can do
-              </button>
+              </a>
             </a>
             <div className={ChoiceStyles.bannerCtaSecondary}>
-              <a href="#how" title="How it happens">
+              <a href="/choose-renewable-energy/#how" title="How it happens">
                 Discover how it happens
               </a>
             </div>
@@ -104,7 +105,7 @@ const ChooseRenewablePage = () => (
       </div>
     </section>
     <section className={`${ChoiceStyles.how} ${Styles.how}`}>
-      <a name="how" />
+      <div id="#how"> </div>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.howInner}`}>
         <div className={`${ChoiceStyles.howContent} ${Styles.howContent}`}>
           <h1 className={`${ChoiceStyles.howTitle} ${Styles.howTitle}`}>
@@ -187,7 +188,7 @@ const ChooseRenewablePage = () => (
       </div>
     </section>
     <section className={`${ChoiceStyles.actions} ${Styles.actions}`}>
-      <a name="actions" />
+      <div id="#actions" aria-label={"actions"}>{null}</div>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.actionsInner}`}>
         <div
           className={`${ChoiceStyles.actionsContent} ${Styles.actionsContent}`}
@@ -346,7 +347,7 @@ const ChooseRenewablePage = () => (
     <SuccessBanner />
     <ChoiceSupport />
     <section className={`${ChoiceStyles.tldr} ${Styles.tldr}`}>
-      <a name="tldr" />
+      <div id="#tldr">{null}</div>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.tldrInner}`}>
         <div className={`${ChoiceStyles.tldrImg} ${Styles.tldrImg}`} />
         <div className={`${ChoiceStyles.tldrContent} ${Styles.tldrContent}`}>

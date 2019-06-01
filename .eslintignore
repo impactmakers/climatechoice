@@ -1,0 +1,5 @@
+/build/**
+/Public/**
+/node_modules/**
+/templates/**
+!.eslintrc.js

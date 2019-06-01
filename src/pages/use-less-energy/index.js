@@ -65,7 +65,7 @@ const UseLessEnergyPage = () => (
           <div className={ChoiceStyles.bannerActions}>
             <a
               className={ChoiceStyles.bannerCtaPrimary}
-              href="#actions"
+              href="use-less-energy/#actions"
               title="See how you can take action"
             >
               <button
@@ -77,7 +77,7 @@ const UseLessEnergyPage = () => (
               </button>
             </a>
             <div className={ChoiceStyles.bannerCtaSecondary}>
-              <a href="#how" title="How it happens">
+              <a href="use-less-energy/#how" title="How it happens">
                 Discover how it happens
               </a>
             </div>
@@ -99,7 +99,7 @@ const UseLessEnergyPage = () => (
         Short on time?{" "}
         <a
           className={ChoiceStyles.cbaAction}
-          href="#tldr"
+          href="use-less-energy/#tldr"
           title="Read a summary"
         >
           Get a quick summary
@@ -107,7 +107,8 @@ const UseLessEnergyPage = () => (
       </div>
     </section>
     <section className={`${ChoiceStyles.how} ${Styles.how}`}>
-      <a name="how" />
+      <a href="#how"
+         aria-label={"How to use less energy"}>{null}</a>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.howInner}`}>
         <div className={`${ChoiceStyles.howContent} ${Styles.howContent}`}>
           <h1 className={`${ChoiceStyles.howTitle} ${Styles.howTitle}`}>
@@ -174,7 +175,7 @@ const UseLessEnergyPage = () => (
       </div>
     </section>
     <section className={`${ChoiceStyles.actions} ${Styles.actions}`}>
-      <a name="actions" />
+      <button id="#actions">{null}</button>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.actionsInner}`}>
         <div
           className={`${ChoiceStyles.actionsContent} ${Styles.actionsContent}`}
@@ -215,8 +216,9 @@ const UseLessEnergyPage = () => (
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               Lastly don’t forget to{" "}
               <Link
-                to="/choose-renewable-energy#actions"
+                to="/choose-renewable-energy/use-less-energy/#actions"
                 title="Use renewable energy"
+                aria-label={"User renewable energy"}
               >
                 power your home with renewable energy
               </Link>
@@ -380,7 +382,7 @@ const UseLessEnergyPage = () => (
     <SuccessBanner />
     <ChoiceSupport />
     <section className={`${ChoiceStyles.tldr} ${Styles.tldr}`}>
-      <a name="tldr" />
+      <div id="#tldr">{null}</div>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.tldrInner}`}>
         <div className={`${ChoiceStyles.tldrImg} ${Styles.tldrImg}`} />
         <div className={`${ChoiceStyles.tldrContent} ${Styles.tldrContent}`}>
@@ -406,7 +408,7 @@ const UseLessEnergyPage = () => (
               <li>Use less hot water and turn stuff off</li>
               <li>Vote for those who prioritize the planet</li>
               <li>
-                <a href="#share" alt="Spread the word">
+                <a href="use-less-energy/#share" alt="Spread the word">
                   Spread the word
                 </a>{" "}
                 so others make changes too
