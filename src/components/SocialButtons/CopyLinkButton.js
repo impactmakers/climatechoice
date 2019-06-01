@@ -9,8 +9,8 @@ export default function CopyLinkButton(props) {
 
   function copyLink() {
     const input = document.createElement("input");
-    const text = props.currentUrl;
-
+    const currentUrl = props.currentUrl;
+    const text = currentUrl.split("#")[0];
     document.body.appendChild(input);
     input.value = text;
 
