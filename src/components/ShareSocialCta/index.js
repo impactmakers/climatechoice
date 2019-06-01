@@ -30,7 +30,7 @@ function ShareSocialCta({
 }) {
   return (
     <section className={styles.container}>
-      <a name="share" />
+      <a id="`${{location.pathname}}`#share" aria-label={"Share"}>{null}</a>
       <div className={`${GlobalStyles.inner} ${styles.inner}`}>
         {/* cta block / right col */}
         <div className={styles.ctaCopy}>
@@ -68,7 +68,7 @@ function ShareSocialCta({
                   currentUrl={currentUrl}
                   facebookQuote={facebookQuote}
                   facebookHashtag={facebookHashtag}
-                />
+                >{null}</FacebookButton>
               </li>
               <li className={styles.socialButton}>
                 <WhatsappButton url={url} whatsappTitle={whatsappTitle} />
@@ -115,4 +115,8 @@ export default function(props) {
       )}
     </Location>
   );
+}
+
+function getLocation() {
+  return window.location.pathname;
 }
