@@ -3,7 +3,7 @@ module.exports = {
     title: `ClimateChoice`,
     author: `ClimateChoice`,
     description: `Learn how you can help prevent earth’s climate breaking down before it's too late.`,
-    siteUrl: `https://climatechoice.co/`,
+    siteUrl: `https://climatechoice.co`,
     defaultImage: `https://climatechoice.co/images/Seo/default.jpg`,
     social: {
       twitter: `climatechoice`
@@ -74,6 +74,8 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`
             }
           },
+
+          `gatsby-remark-social-cards`,
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`
