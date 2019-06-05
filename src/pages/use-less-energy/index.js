@@ -65,7 +65,7 @@ const UseLessEnergyPage = () => (
           <div className={ChoiceStyles.bannerActions}>
             <a
               className={ChoiceStyles.bannerCtaPrimary}
-              href="use-less-energy/#actions"
+              href='#actions"'
               title="See how you can take action"
             >
               <button
@@ -107,8 +107,9 @@ const UseLessEnergyPage = () => (
       </div>
     </section>
     <section className={`${ChoiceStyles.how} ${Styles.how}`}>
-      <a href="#how"
-         aria-label={"How to use less energy"}>{null}</a>
+      <a href="#how" aria-label={"How to use less energy"}>
+        {null}
+      </a>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.howInner}`}>
         <div className={`${ChoiceStyles.howContent} ${Styles.howContent}`}>
           <h1 className={`${ChoiceStyles.howTitle} ${Styles.howTitle}`}>
@@ -216,7 +217,7 @@ const UseLessEnergyPage = () => (
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               Lastly don’t forget to{" "}
               <Link
-                to="/choose-renewable-energy/use-less-energy/#actions"
+                to="use-less-energy/#actions"
                 title="Use renewable energy"
                 aria-label={"User renewable energy"}
               >

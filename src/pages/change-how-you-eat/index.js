@@ -95,7 +95,9 @@ const ChangeHowYouEatPage = () => (
       </div>
     </section>
     <section className={`${ChoiceStyles.how} ${Styles.how}`}>
-      <buttton id="#how" aria-label={"How"} >{null}</buttton>
+      <buttton name="how" aria-label={"How"}>
+        {null}
+      </buttton>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.howInner}`}>
         <div className={`${ChoiceStyles.howContent} ${Styles.howContent}`}>
           <h1 className={`${ChoiceStyles.howTitle} ${Styles.howTitle}`}>
@@ -176,7 +178,9 @@ const ChangeHowYouEatPage = () => (
       </div>
     </section>
     <section className={`${ChoiceStyles.actions} ${Styles.actions}`}>
-      <button id="#actions" aria-label={"Actions"}>{null}</button>
+      <button id="actions" aria-label={"Actions"}>
+        {null}
+      </button>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.actionsInner}`}>
         <div
           className={`${ChoiceStyles.actionsContent} ${Styles.actionsContent}`}
