@@ -65,7 +65,7 @@ const UseLessEnergyPage = () => (
           <div className={ChoiceStyles.bannerActions}>
             <a
               className={ChoiceStyles.bannerCtaPrimary}
-              href='#actions"'
+              href="#actions"
               title="See how you can take action"
             >
               <button
@@ -383,7 +383,7 @@ const UseLessEnergyPage = () => (
     <SuccessBanner />
     <ChoiceSupport />
     <section className={`${ChoiceStyles.tldr} ${Styles.tldr}`}>
-      <div id="#tldr">{null}</div>
+      <div id="tldr">{null}</div>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.tldrInner}`}>
         <div className={`${ChoiceStyles.tldrImg} ${Styles.tldrImg}`} />
         <div className={`${ChoiceStyles.tldrContent} ${Styles.tldrContent}`}>
