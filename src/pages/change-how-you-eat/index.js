@@ -15,11 +15,11 @@ import HowIcon from "../../components/Images/Icons/HowIcon.svg";
 import EarthyShare from "../../components/EarthyShare";
 import SuccessBanner from "../../components/SuccessBanner";
 
-const ChangeHowYouEatPage = props => {
-  console.log("props", props);
+const ChangeHowYouEatPage = () => {
   return (
     <Layout>
       <SEO
+        slug="hello"
         title="Change how you eat to help prevent climate change"
         description=" 26% of harmful greenhouse gas emissions come from the production and waste of food and drink. Learn how you can help prevent earth's climate breaking down by making simple changes."
         image="https://climatechoice.co/images/Seo/eat.jpg"

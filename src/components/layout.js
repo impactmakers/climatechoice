@@ -61,13 +61,6 @@ function Layout(props) {
             />
             <meta name="msapplication-TileColor" content="#da532c" />
             <meta name="theme-color" content="#ffffff" />
-            <meta name="twitter:card" content="summary_large_image" />
-            <meta
-              name="twitter:image"
-              content={`${
-                data.site.siteMetadata.siteUrl
-              }${slug}twitter-card.jpg`}
-            />
           </Helmet>
 
           <Navbar />

@@ -3,14 +3,18 @@ import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import { StaticQuery, graphql } from "gatsby";
 
-function SEO({ description, lang, meta, keywords, title, image }) {
+function SEO({ description, lang, meta, keywords, title, image, slug }) {
   return (
     <StaticQuery
       query={detailsQuery}
       render={data => {
         const metaDescription =
           description || data.site.siteMetadata.description;
-        const pageImage = image || data.site.siteMetadata.defaultImage;
+        const twitterCard = `${
+          data.site.siteMetadata.siteUrl
+        }${slug}twitter-card.jpg`;
+        const pageImage = image || twitterCard;
+
         const ogTitle = title || data.site.siteMetadata.title;
 
         return (
