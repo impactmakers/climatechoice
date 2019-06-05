@@ -77,7 +77,7 @@ const UseLessEnergyPage = () => (
               </button>
             </a>
             <div className={ChoiceStyles.bannerCtaSecondary}>
-              <a href="use-less-energy/#how" title="How it happens">
+              <a href="#how" title="How it happens">
                 Discover how it happens
               </a>
             </div>
@@ -99,7 +99,7 @@ const UseLessEnergyPage = () => (
         Short on time?{" "}
         <a
           className={ChoiceStyles.cbaAction}
-          href="use-less-energy/#tldr"
+          href="#tldr"
           title="Read a summary"
         >
           Get a quick summary
@@ -217,7 +217,7 @@ const UseLessEnergyPage = () => (
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               Lastly don’t forget to{" "}
               <Link
-                to="use-less-energy/#actions"
+                to="/choose-renewable-energy#actions"
                 title="Use renewable energy"
                 aria-label={"User renewable energy"}
               >
@@ -409,7 +409,7 @@ const UseLessEnergyPage = () => (
               <li>Use less hot water and turn stuff off</li>
               <li>Vote for those who prioritize the planet</li>
               <li>
-                <a href="use-less-energy/#share" alt="Spread the word">
+                <a href="#share" alt="Spread the word">
                   Spread the word
                 </a>{" "}
                 so others make changes too

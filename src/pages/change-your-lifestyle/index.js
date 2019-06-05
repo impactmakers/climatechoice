@@ -105,7 +105,7 @@ const ChangeYourLifestylePage = () => (
       </div>
     </section>
     <section className={`${ChoiceStyles.how} ${Styles.how}`}>
-      <div id="#how" aria-label={"How to change your lifestyle"}>
+      <div id="how" aria-label={"How to change your lifestyle"}>
         {null}
       </div>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.howInner}`}>

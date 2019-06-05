@@ -345,7 +345,7 @@ const ChangeHowYouTravelPage = () => (
     <SuccessBanner />
     <ChoiceSupport />
     <section className={`${ChoiceStyles.tldr} ${Styles.tldr}`}>
-      <button name="ldr" aria-label={"Choice of styles"}>
+      <button name="tldr" aria-label={"Choice of styles"}>
         {null}
       </button>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.tldrInner}`}>
