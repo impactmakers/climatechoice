@@ -100,7 +100,7 @@ const ChangeHowYouTravelPage = () => (
       </div>
     </section>
     <section className={`${ChoiceStyles.how} ${Styles.how}`}>
-      <button id="#how">{null}</button>
+      <button name="how">{null}</button>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.howInner}`}>
         <div className={`${ChoiceStyles.howContent} ${Styles.howContent}`}>
           <h1 className={`${ChoiceStyles.howTitle} ${Styles.howTitle}`}>
@@ -195,7 +195,9 @@ const ChangeHowYouTravelPage = () => (
       </div>
     </section>
     <section className={`${ChoiceStyles.actions} ${Styles.actions}`}>
-      <button id="#actions" aria-label={"Actions"}>{null}</button>
+      <button name="actions" aria-label={"Actions"}>
+        {null}
+      </button>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.actionsInner}`}>
         <div
           className={`${ChoiceStyles.actionsContent} ${Styles.actionsContent}`}
@@ -343,7 +345,9 @@ const ChangeHowYouTravelPage = () => (
     <SuccessBanner />
     <ChoiceSupport />
     <section className={`${ChoiceStyles.tldr} ${Styles.tldr}`}>
-      <button id="#tldr" aria-label={"Choice of styles"}>{null}</button>
+      <button name="ldr" aria-label={"Choice of styles"}>
+        {null}
+      </button>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.tldrInner}`}>
         <div className={`${ChoiceStyles.tldrImg} ${Styles.tldrImg}`} />
         <div className={`${ChoiceStyles.tldrContent} ${Styles.tldrContent}`}>

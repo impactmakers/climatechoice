@@ -105,7 +105,9 @@ const ChangeYourLifestylePage = () => (
       </div>
     </section>
     <section className={`${ChoiceStyles.how} ${Styles.how}`}>
-      <div id="#how" aria-label={"How to change your lifestyle"}>{null}</div>
+      <div id="#how" aria-label={"How to change your lifestyle"}>
+        {null}
+      </div>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.howInner}`}>
         <div className={`${ChoiceStyles.howContent} ${Styles.howContent}`}>
           <h1 className={`${ChoiceStyles.howTitle} ${Styles.howTitle}`}>
@@ -453,7 +455,9 @@ const ChangeYourLifestylePage = () => (
     <SuccessBanner />
     <ChoiceSupport />
     <section className={`${ChoiceStyles.tldr} ${Styles.tldr}`}>
-      <button id="#tldr" aria-label={"Too long; didn't read"}>{null}</button>
+      <button name="tldr" aria-label={"Too long; didn't read"}>
+        {null}
+      </button>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.tldrInner}`}>
         <div className={`${ChoiceStyles.tldrImg} ${Styles.tldrImg}`} />
         <div className={`${ChoiceStyles.tldrContent} ${Styles.tldrContent}`}>

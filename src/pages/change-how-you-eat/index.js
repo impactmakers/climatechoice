@@ -178,7 +178,7 @@ const ChangeHowYouEatPage = () => (
       </div>
     </section>
     <section className={`${ChoiceStyles.actions} ${Styles.actions}`}>
-      <button id="actions" aria-label={"Actions"}>
+      <button name="actions" aria-label={"Actions"}>
         {null}
       </button>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.actionsInner}`}>

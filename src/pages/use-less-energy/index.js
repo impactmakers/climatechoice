@@ -176,7 +176,7 @@ const UseLessEnergyPage = () => (
       </div>
     </section>
     <section className={`${ChoiceStyles.actions} ${Styles.actions}`}>
-      <button id="#actions">{null}</button>
+      <button name="actions">{null}</button>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.actionsInner}`}>
         <div
           className={`${ChoiceStyles.actionsContent} ${Styles.actionsContent}`}
