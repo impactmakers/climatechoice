@@ -6,7 +6,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import ChoiceGrid from "../components/ChoiceGrid";
 
-import ShareSocialCta from "../components/ShareSocialCta";
+import { ShareSocialCt } from "../components/ShareSocialCta";
 import shareConfig from "../configs/pages/homepageConfig";
 import SuccessBanner from "../components/SuccessBanner";
 

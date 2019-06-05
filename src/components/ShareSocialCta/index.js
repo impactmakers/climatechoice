@@ -1,7 +1,6 @@
 import React from "react";
 import GlobalStyles from "../../styles/Global.module.scss";
 import styles from "./Styles.module.scss";
-import { Location } from "@reach/router";
 
 import CopyLinkButton from "../SocialButtons/CopyLinkButton";
 import EmailButton from "../SocialButtons/EmailButton";
@@ -104,15 +103,5 @@ function ShareSocialCta({
         </div>
       </div>
     </section>
-  );
-}
-
-export default function(props) {
-  return (
-    <Location>
-      {({ location }) => (
-        <ShareSocialCta {...props} currentUrl={location.href} />
-      )}
-    </Location>
   );
 }
