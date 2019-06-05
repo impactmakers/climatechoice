@@ -30,7 +30,7 @@ function ShareSocialCta({
 }) {
   return (
     <section className={styles.container}>
-      <a id='share" aria-label={"Share"}>
+      <a id="share" aria-label={"Share"}>
         {null}
       </a>
       <div className={`${GlobalStyles.inner} ${styles.inner}`}>
