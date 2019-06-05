@@ -5399,10 +5399,10 @@ gatsby-plugin-sass@^2.0.10:
     "@babel/runtime" "^7.0.0"
     sass-loader "^7.0.1"
 
-gatsby-plugin-scroll-indicator@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-scroll-indicator/-/gatsby-plugin-scroll-indicator-0.1.1.tgz#fbb3966fb69b86d14723441d8b55b406acf1af9b"
-  integrity sha512-p99H2Ud9nDg0UGFy3mRD/pvGLpzzgc3mr48udnpJGrcg2EVc/J5moqU76t6QEATk6UyjbO/FOFoNQHxhbhM2vA==
+gatsby-plugin-scroll-indicator@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-scroll-indicator/-/gatsby-plugin-scroll-indicator-0.1.2.tgz#fbf6cc16f8c71789ce940c0bf84f7d8667d41e2e"
+  integrity sha512-fAH9rNRsY9d051VwO2hPMBAnIKCoJunMjSsryHk1tsQnUzABZvY2IpIiSS41KWjGpyWhAyp5EXZa9JAtkgUQhA==
   dependencies:
     "@babel/runtime" "7.4.5"
     multimatch "^4.0.0"
