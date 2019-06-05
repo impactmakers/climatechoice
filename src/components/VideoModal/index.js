@@ -51,6 +51,7 @@ export default function VideoModal({ closeClick, closeModal }) {
       <a
         className={Styles.link}
         href="https://climate.nasa.gov/evidence/"
+        target="_blank"
         rel="noopener noreferrer"
       >
         Sorry. I still need more proof

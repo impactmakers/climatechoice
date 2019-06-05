@@ -6,7 +6,9 @@ import TwitterIcon from "../Images/Icons/TwitterIcon";
 const AuthorCard = ({ author }) => {
   return (
     <div className={Styles.authorCard}>
-      <button aria-label={"Author"}>{null}</button>
+      <button id="author" aria-label={"Author"}>
+        {null}
+      </button>
       <img className={Styles.authorAvatar} src={author.avatar} alt="Author" />
       <div className={Styles.authorContent}>
         <h3 className={Styles.authorTitle}>{author.id}</h3>
