@@ -13,7 +13,7 @@ import SuccessBanner from "../components/SuccessBanner";
 class HomePage extends React.Component {
   render() {
     return (
-      <Layout location={this.props.location} banner>
+      <Layout location={this.props.location}>
         <SEO
           keywords={[
             `help prevent climate change`,
