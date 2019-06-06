@@ -107,7 +107,7 @@ const UseLessEnergyPage = () => (
       </div>
     </section>
     <section className={`${ChoiceStyles.how} ${Styles.how}`}>
-      <a href="#how" aria-label={"How to use less energy"}>
+      <a id="how" aria-label={"How to use less energy"}>
         {null}
       </a>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.howInner}`}>

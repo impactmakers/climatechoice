@@ -57,7 +57,9 @@ const DonatePage = () => (
               </button>
             </OutboundLink>
           </div>
-          <div id="#causes" aria-label={"Ways of preventing climate breakdown"}>{null}</div>
+          <div id="causes" aria-label={"Ways of preventing climate breakdown"}>
+            {null}
+          </div>
           <h2>Donate to causes working to prevent climate breakdown</h2>
           <p>
             We're crowdsourcing a resource which lists charities, movements and
