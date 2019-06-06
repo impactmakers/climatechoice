@@ -1,11 +1,8 @@
 import React from "react";
-import { OutboundLink } from "gatsby-plugin-google-analytics";
 import { Link } from "gatsby";
 import Layout from "../../components/layout";
 import SEO from "../../components/seo";
 import GlobalStyles from "../../styles/Global.module.scss";
-import ButtonStyles from "../../styles/Buttons.module.scss";
-import Styles from "./Styles.module.scss";
 import FooterCta from "../../components/FooterCta";
 
 const ResourcesPage = () => (

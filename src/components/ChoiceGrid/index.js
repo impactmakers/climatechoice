@@ -9,7 +9,7 @@ const ChoiceGrid = () => (
       Styles.choiceGridContainerOnHome
     }`}
   >
-    <a name="your-choices" />
+    <button name="your-choices" />
     <div
       className={`${GlobalStyles.inner} ${GlobalStyles.subpageInner} ${
         Styles.choiceGridInner
