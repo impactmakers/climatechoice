@@ -17,7 +17,7 @@ const ChoiceGridItems = () => {
   const [email, setEmail] = useState("");
   const [visited, setVisited] = useState({});
   const [message, setMessage] = useState();
-  const [result, setResult] = useState();
+  const [_, setResult] = useState();
 
   useEffect(function checkVisitedPages() {
     const visited = {

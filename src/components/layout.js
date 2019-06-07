@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Helmet from "react-helmet";
+import Banner from "../components/Banner";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import ProductHuntBadge from "../components/ProductHuntBadge";
@@ -11,7 +12,8 @@ function Layout(props) {
     localStorage.setItem(window.location.pathname, "visited");
   }, []);
 
-  const { children } = props;
+  const { banner, children } = props;
+
   return (
     <div>
       <Helmet>
@@ -44,7 +46,7 @@ function Layout(props) {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
       </Helmet>
-
+      {banner && <Banner />}
       <Navbar />
       <main>{children}</main>
       <ProductHuntBadge />

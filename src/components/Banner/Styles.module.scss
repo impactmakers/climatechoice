@@ -1,0 +1,16 @@
+@import "../../styles/Variables.module.scss";
+@import "../../styles/Mixins.module.scss";
+
+.bannerStyles {
+  background-color: $orangeOnDark;
+  color: $white;
+  text-align: center;
+
+  @include mq("tablet") {
+    padding: 1em 0;
+  }
+  padding: 1em 1em;
+}
+.link {
+  text-decoration: none;
+}

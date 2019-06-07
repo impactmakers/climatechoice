@@ -107,7 +107,9 @@ const UseLessEnergyPage = () => (
       </div>
     </section>
     <section className={`${ChoiceStyles.how} ${Styles.how}`}>
-      <a name="how" />
+      <a id="how" aria-label={"How to use less energy"}>
+        {null}
+      </a>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.howInner}`}>
         <div className={`${ChoiceStyles.howContent} ${Styles.howContent}`}>
           <h1 className={`${ChoiceStyles.howTitle} ${Styles.howTitle}`}>
@@ -174,7 +176,7 @@ const UseLessEnergyPage = () => (
       </div>
     </section>
     <section className={`${ChoiceStyles.actions} ${Styles.actions}`}>
-      <a name="actions" />
+      <button name="actions">{null}</button>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.actionsInner}`}>
         <div
           className={`${ChoiceStyles.actionsContent} ${Styles.actionsContent}`}
@@ -217,6 +219,7 @@ const UseLessEnergyPage = () => (
               <Link
                 to="/choose-renewable-energy#actions"
                 title="Use renewable energy"
+                aria-label={"User renewable energy"}
               >
                 power your home with renewable energy
               </Link>
@@ -380,7 +383,7 @@ const UseLessEnergyPage = () => (
     <SuccessBanner />
     <ChoiceSupport />
     <section className={`${ChoiceStyles.tldr} ${Styles.tldr}`}>
-      <a name="tldr" />
+      <div id="tldr">{null}</div>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.tldrInner}`}>
         <div className={`${ChoiceStyles.tldrImg} ${Styles.tldrImg}`} />
         <div className={`${ChoiceStyles.tldrContent} ${Styles.tldrContent}`}>
