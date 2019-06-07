@@ -5,11 +5,11 @@ import ChoiceGridItems from "./items";
 
 const ChoiceGrid = () => (
   <section
+    id="your-choices"
     className={`${GlobalStyles.container} ${Styles.choiceGridContainer} ${
       Styles.choiceGridContainerOnHome
     }`}
   >
-    <button name="your-choices" />
     <div
       className={`${GlobalStyles.inner} ${GlobalStyles.subpageInner} ${
         Styles.choiceGridInner
