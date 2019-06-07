@@ -102,7 +102,16 @@ module.exports = {
       }
     },
     `gatsby-plugin-offline`,
-    `gatsby-plugin-react-helmet`
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-intl`,
+      options: {
+        path: `${__dirname}/src/intl`,
+        languages: ["en", "fr"],
+        defaultLanguage: "en",
+        redirect: true
+      }
+    }
   ],
   mapping: {
     "MarkdownRemark.frontmatter.author": `AuthorYaml`
