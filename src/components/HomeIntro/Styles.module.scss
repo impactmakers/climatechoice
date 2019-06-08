@@ -46,6 +46,7 @@
   }
   @include mq("tablet") {
     text-align: left;
+    height: 200px;
   }
 }
 
