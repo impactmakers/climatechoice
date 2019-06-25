@@ -43,8 +43,8 @@ const ChoiceGridItems = () => {
             Styles.choiceReadStatusRead
           }`}
         >
-          <img src={Tick} alt="Read" />
-          Read
+          <img src={Tick} alt="Read it" />
+          You've read this
         </span>
       );
     }
