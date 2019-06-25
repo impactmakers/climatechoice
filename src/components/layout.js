@@ -3,7 +3,6 @@ import Helmet from "react-helmet";
 import Banner from "../components/Banner";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import ProductHuntBadge from "../components/ProductHuntBadge";
 
 import "../styles/normalize.css";
 
@@ -49,7 +48,6 @@ function Layout(props) {
       {banner && <Banner />}
       <Navbar />
       <main>{children}</main>
-      <ProductHuntBadge />
       <Footer />
     </div>
   );
