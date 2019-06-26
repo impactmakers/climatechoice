@@ -200,7 +200,7 @@
   margin: 13px auto 30px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  //align-items: center;
   @include mq("tablet") {
     flex-wrap: wrap;
   }
