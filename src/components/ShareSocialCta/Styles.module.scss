@@ -143,29 +143,6 @@
   grid-column: auto;
   grid-row: auto;
 }
-//.socialContainer {
-//  display: inline-flex;
-//  align-items: center;
-//  flex-wrap: wrap;
-//  justify-content: space-between;
-//  flex-direction: column;
-//  list-style-type: none;
-//  padding: 0;
-//  margin: 0;
-//  @include mq("tablet") {
-//    flex-direction: row;
-//  }
-//}
-
-//.socialButton {
-//  margin: 10px 0 0 0;
-//  &:last-child {
-//    margin-right: 0;
-//  }
-//  @include mq("tablet") {
-//    margin: 10px 10px 0 0;
-//  }
-//}
 
 .thanks {
   display: block;
@@ -173,7 +150,6 @@
   align-items: center;
   text-align: center;
   background: $grayLightest;
-  //border-top: 1px solid $grayBorder;
   width: 100%;
   color: $grayDark;
   line-height: 55px;
