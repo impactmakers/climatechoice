@@ -54,8 +54,9 @@ function ShareSocialCta({
               Send this page to your friends, family and followers via our handy
               pre written message.
             </p>
-            <ul className={styles.socialContainer}>
-              <li className={styles.socialButton}>
+
+            <div className={styles.socialContainer}>
+              <div className={styles.socialButton}>
                 <TwitterButton
                   url={url}
                   currentUrl={currentUrl}
@@ -63,8 +64,8 @@ function ShareSocialCta({
                   twitterAccount={twitterAccount}
                   hashtags={twitterHashtags}
                 />
-              </li>
-              <li className={styles.socialButton}>
+              </div>
+              <div className={styles.socialButton}>
                 <FacebookButton
                   url={url}
                   currentUrl={currentUrl}
@@ -73,31 +74,29 @@ function ShareSocialCta({
                 >
                   {null}
                 </FacebookButton>
-              </li>
-              <li className={styles.socialButton}>
+              </div>
+              <div className={styles.socialButton}>
                 <WhatsappButton url={url} whatsappTitle={whatsappTitle} />
-              </li>
-            </ul>
-            <ul className={styles.socialContainer}>
-              <li className={styles.socialButton}>
+              </div>
+              <div className={styles.socialButton}>
                 <LinkedinButton
                   url={url}
                   currentUrl={currentUrl}
                   title={linkedinTitle}
                   description={linkedinDescription}
                 />
-              </li>
-              <li className={styles.socialButton}>
+              </div>
+              <div className={styles.socialButton}>
                 <EmailButton
                   emailBody={emailBody}
                   currentUrl={currentUrl}
                   emailSubject={emailSubject}
                 />
-              </li>
-              <li className={styles.socialButton}>
+              </div>
+              <div className={styles.socialButton}>
                 <CopyLinkButton currentUrl={currentUrl} />
-              </li>
-            </ul>
+              </div>
+            </div>
           </div>
           <span className={styles.thanks}>
             Thank you{" "}

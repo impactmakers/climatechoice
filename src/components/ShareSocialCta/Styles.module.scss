@@ -128,27 +128,20 @@
 }
 
 .socialContainer {
-  display: inline-flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  flex-direction: column;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  @include mq("tablet") {
-    flex-direction: row;
+  display: grid;
+  grid-template-rows: repeat(6, auto);
+  grid-template-columns: [first] 100%;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  @include mq("mobile") {
+    grid-template-rows: [first] 50% [second] 50%;
+    grid-template-columns: 33% 33% 33%;
   }
 }
 
 .socialButton {
-  margin: 10px 0 0 0;
-  &:last-child {
-    margin-right: 0;
-  }
-  @include mq("tablet") {
-    margin: 10px 10px 0 0;
-  }
+  grid-column: auto;
+  grid-row: auto;
 }
 
 .thanks {
@@ -157,7 +150,6 @@
   align-items: center;
   text-align: center;
   background: $grayLightest;
-  //border-top: 1px solid $grayBorder;
   width: 100%;
   color: $grayDark;
   line-height: 55px;
