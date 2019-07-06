@@ -399,7 +399,7 @@ const UseLessEnergyPage = () => (
               className={`${ChoiceStyles.tldrSubtitle} ${Styles.tldrSubtitle}`}
             >
               We’re killing the planet by wasting so much of the energy we
-              product. We must become more efficient with out energy usage by:
+              produce. We must become more efficient with our energy usage by:
             </p>
             <ul className={`${ChoiceStyles.tldrList} ${Styles.tldrList}`}>
               <li>
