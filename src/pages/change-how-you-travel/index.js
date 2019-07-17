@@ -217,9 +217,13 @@ const ChangeHowYouTravelPage = () => (
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               To have the most impact{" "}
               <b>switch to cycling, public transport and walking</b>. For those
-              who must have a vehicle, it’s time to get an electric car. Review
-              your choices, it’s not as expensive as you might think and there
-              are cost savings to be made over the long-term — especially if you
+              who must have access to a car consider sharing one with others,
+              increasing the utility of each individual vehicle. If you
+              absolutely must own your own an electric car is your best bet —
+              though it's important to remember that the manufacturing process
+              of each electric car is still responsible for emissions. Owning an
+              electric car is not as expensive as you might think and there are
+              cost savings to be made over the long-term — especially if you
               install solar panels at your home to generate your own energy.
               <b>
                 {" "}
