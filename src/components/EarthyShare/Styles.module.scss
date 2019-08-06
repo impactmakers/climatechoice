@@ -9,6 +9,11 @@
   width: 88px;
   height: 144px;
   z-index: 9;
+  transition: height 1s;
+}
+
+.containerHidden {
+  height: 0px;
 }
 
 .bubble {
@@ -22,6 +27,13 @@
   background: #16243e;
   border-radius: 7px;
   box-shadow: 1px 2px 13px 0 rgba(37, 81, 97, 0.35);
+  position: relative;
+  transition: transform 0.333s 0.866s cubic-bezier(0.17, 0.67, 1, 1.44);
+  transform-origin: 80% bottom;
+}
+
+.containerHidden .bubble {
+  transform: scale(0);
 }
 
 .bubbleText {
@@ -54,4 +66,9 @@
   -webkit-filter: drop-shadow(1px 2px 13px rgba(37, 81, 97, 0.35));
   filter: drop-shadow(1px 2px 13px rgba(37, 81, 97, 0.358));
   transform: rotate(-20deg);
+  transition: transform 1s;
+}
+
+.containerHidden .earthIcon {
+  transform: rotate(-100deg) scale(0);
 }
