@@ -79,6 +79,15 @@ const OffsetPage = () => (
             <ul>
               <li>
                 <OutboundLink
+                  href="https://offset.earth/#"
+                  title="Offset Earth"
+                >
+                  Offset Earth
+                </OutboundLink>{" "}
+                - By fellow Impact Makers
+              </li>
+              <li>
+                <OutboundLink
                   href="https://offset.climateneutralnow.org/"
                   title="UN Carbon Offset Platform"
                 >
@@ -92,15 +101,6 @@ const OffsetPage = () => (
                 >
                   Mossy Earth
                 </OutboundLink>{" "}
-              </li>
-              <li>
-                <OutboundLink
-                  href="https://offset.earth/#"
-                  title="Offset Earth"
-                >
-                  Offset Earth
-                </OutboundLink>{" "}
-                - Launching later this year
               </li>
             </ul>
           </p>
