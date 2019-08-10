@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link, Events } from "react-scroll";
 import GlobalStyles from "../../styles/Global.module.scss";
 import ButtonStyles from "../../styles/Buttons.module.scss";
 import Styles from "./Styles.module.scss";
@@ -7,16 +8,25 @@ import Tick from "./BubbleTick.svg";
 
 const EarthyShare = () => {
   const [show, setShow] = useState(false);
+  const [wasShown, setWasShown] = useState(false);
 
-  let handleScroll = () => {
-    if (window.scrollY > 0) {
+  let handleWindowScroll = () => {
+    if (!wasShown && window.scrollY > 0) {
       setShow(true);
+      setWasShown(true);
     }
   };
 
+  let handleSmoothScrollEnd = () => setShow(false);
+
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleWindowScroll);
+    return () => window.removeEventListener("scroll", handleWindowScroll);
+  });
+
+  useEffect(() => {
+    Events.scrollEvent.register("end", handleSmoothScrollEnd);
+    return () => Events.scrollEvent.remove("end");
   });
 
   return (
@@ -32,19 +42,19 @@ const EarthyShare = () => {
           </span>{" "}
           Share this page
         </span>
-        <a
-          className={Styles.bubbleLink}
-          href="#share"
+
+        <Link
+          to="share"
+          smooth={"easeInOutQuad"}
+          duration={500}
           title="See how you can take action"
+          href="#share"
+          className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnXs} ${
+            ButtonStyles.btnPrimary
+          } ${ButtonStyles.btnEarthyShare} `}
         >
-          <button
-            className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnXs} ${
-              ButtonStyles.btnPrimary
-            } ${ButtonStyles.btnEarthyShare} `}
-          >
-            Share
-          </button>
-        </a>
+          Share
+        </Link>
         <img src={Tick} alt="Bubble" className={Styles.bubbleTick} />
       </div>
       <div className={Styles.icon}>

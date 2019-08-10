@@ -29,10 +29,7 @@ function ShareSocialCta({
   currentUrl
 }) {
   return (
-    <section className={styles.container}>
-      <a id="share" aria-label={"Share"}>
-        {null}
-      </a>
+    <section id="share" aria-label="share" className={styles.container}>
       <div className={`${GlobalStyles.inner} ${styles.inner}`}>
         {/* cta block / right col */}
         <div className={styles.ctaCopy}>

@@ -42,10 +42,6 @@
   line-height: 16px;
 }
 
-.bubbleLink {
-  @include no-underline;
-}
-
 .bubbleTick {
   position: absolute;
   top: 80px;

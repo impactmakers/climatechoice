@@ -41,6 +41,7 @@
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "react-helmet": "^5.2.0",
+    "react-scroll": "^1.7.12",
     "react-share": "^2.4.0",
     "react-typist": "^2.0.5",
     "react-typist-loop": "^0.0.5",
