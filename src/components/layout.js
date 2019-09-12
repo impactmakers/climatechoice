@@ -18,6 +18,7 @@ function Layout(props) {
       <Helmet>
         <link href="https://fast.fonts.net" rel="preconnect" crossorigin />
         <title>Climate Choice</title>
+        <script src="https://assets.digitalclimatestrike.net/widget.js" async />
         <script
           type="text/javascript"
           src="//fast.fonts.net/jsapi/7a7812b4-b519-456a-b42f-2ebffdee5e70.js"
