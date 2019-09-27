@@ -288,6 +288,14 @@ const ChangeHowYouTravelPage = () => (
                     The benefits of getting rid of your car →
                   </OutboundLink>
                 </li>
+                <li>
+                  <OutboundLink
+                    href="https://www.moneycrashers.com/living-without-car/"
+                    title="Tips on staying green while travelling"
+                  >
+                    Tips on staying green while travelling →
+                  </OutboundLink>
+                </li>
               </ul>
             </div>
           </div>
@@ -325,8 +333,12 @@ const ChangeHowYouTravelPage = () => (
               >
                 paying a little to offset your carbon footprint
               </Link>
-              . There are carbon footprint tools that will calculate the carbon
-              cost of your flight and make it easy to pay.
+              . Use a tool like{" "}
+              <OutboundLink href="https://air.care" title="AirCare">
+                AirCare
+              </OutboundLink>{" "}
+              to understand the carbon cost of your flight and pay to compensate
+              for it.
             </p>
             <h3
               className={`${ChoiceStyles.actionHowTitle} ${

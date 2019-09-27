@@ -74,7 +74,7 @@ const OffsetPage = () => (
               </li>
             </ul>
           </p>
-          <h2>Paid offsetting services</h2>
+          <h2>General offsetting services</h2>
           <p>
             <ul>
               <li>
@@ -83,8 +83,7 @@ const OffsetPage = () => (
                   title="Offset Earth"
                 >
                   Offset Earth
-                </OutboundLink>{" "}
-                - By fellow Impact Makers
+                </OutboundLink>
               </li>
               <li>
                 <OutboundLink
@@ -104,8 +103,18 @@ const OffsetPage = () => (
               </li>
             </ul>
           </p>
+          <h2>Air travel offsetting services</h2>
           <p>
-            <h2>Free offsetting services</h2>
+            <ul>
+              <li>
+                <OutboundLink href="https://air.care/" title="AirCare">
+                  AirCare
+                </OutboundLink>
+              </li>
+            </ul>
+          </p>
+          <h2>Free offsetting services</h2>
+          <p>
             <ul>
               <li>
                 <OutboundLink href="https://flygrn.com/" title="FlyGRN">
