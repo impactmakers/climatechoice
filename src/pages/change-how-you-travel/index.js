@@ -290,7 +290,7 @@ const ChangeHowYouTravelPage = () => (
                 </li>
                 <li>
                   <OutboundLink
-                    href="https://www.moneycrashers.com/living-without-car/"
+                    href="https://millionmilesecrets.com/guides/staying-green-while-traveling-how-to-reduce-your-carbon-footprint/"
                     title="Tips on staying green while travelling"
                   >
                     Tips on staying green while travelling →
