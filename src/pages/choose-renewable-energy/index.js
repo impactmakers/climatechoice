@@ -19,7 +19,7 @@ const ChooseRenewablePage = () => (
   <Layout>
     <SEO
       title="Choose renewable energy to help prevent climate change"
-      description="75% of the energy used globally comes from coal, gas, oil and nuclear — non-renewable sources that produce greenhouse gas emissions. Learn how you can help prevent earth's climate breaking down by making simple changes."
+      description="75% of the energy used globally comes from coal, gas and oil — non-renewable sources that produce greenhouse gas emissions. Learn how you can help prevent earth's climate breaking down by making simple changes."
       image="https://climatechoice.co/images/Seo/renewable.jpg"
       keywords={[
         `Renewable energy`,
@@ -54,9 +54,8 @@ const ChooseRenewablePage = () => (
             Choose renewable energy to help prevent climate breakdown
           </h1>
           <p className={`${ChoiceStyles.bannerDesc} ${Styles.bannerDesc}`}>
-            <b>75%</b> of the energy used globally comes from coal, gas, oil and
-            nuclear — non-renewable sources that produce greenhouse gas
-            emissions.
+            <b>75%</b> of the energy used globally comes from coal, gas and oil
+            — non-renewable sources that produce greenhouse gas emissions.
           </p>
 
           <div className={ChoiceStyles.bannerActions}>
@@ -122,15 +121,13 @@ const ChooseRenewablePage = () => (
             Coal is the most widely used energy source. It also emits more
             carbon than any other fossil fuel. Next up is natural gas. It might
             sound ‘green’ but much like coal it produces carbon when burned.
-            Then there’s oil, it’s only a small part of our total energy
+            Finally there’s oil, it’s only a small part of our total energy
             consumption, but it’s the second biggest emitter behind coal.
-            Finally, nuclear which is the cleanest of the non-renewables, but
-            it’s still responsible for emissions.
           </p>
           <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-            It’s worth noting renewable sources such as wind, solar and hydro
+            Nuclear and renewable sources such as wind, solar and hydro
             electricity also have a carbon footprint from their production, but
-            all have a lower environmental impact and won’t run out.
+            all have a much lower environmental impact.
           </p>
         </div>
         {/* <div className={`${ChoiceStyles.howImg} ${Styles.howImg}`}>Image</div> */}
@@ -362,8 +359,8 @@ const ChooseRenewablePage = () => (
               className={`${ChoiceStyles.tldrSubtitle} ${Styles.tldrSubtitle}`}
             >
               We’re killing the planet. 75% of our energy is supplied from the
-              greenhouse gas emitting sources coal, gas, oil and nuclear. To
-              reduce these we must:
+              greenhouse gas emitting sources coal, gas and oil. To reduce these
+              we must:
             </p>
             <ul className={`${ChoiceStyles.tldrList} ${Styles.tldrList}`}>
               <li>Transition to renewable energy providers</li>
