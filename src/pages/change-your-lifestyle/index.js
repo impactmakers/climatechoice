@@ -454,10 +454,11 @@ const ChangeYourLifestylePage = () => (
     <ShareSocialCta {...shareConfig} />
     <SuccessBanner />
     <ChoiceSupport />
-    <section className={`${ChoiceStyles.tldr} ${Styles.tldr}`}>
-      <button name="tldr" aria-label={"Too long; didn't read"}>
-        {null}
-      </button>
+    <section
+      className={`${ChoiceStyles.tldr} ${Styles.tldr}`}
+      id="tldr"
+      aria-label={"Too long; didn't read"}
+    >
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.tldrInner}`}>
         <div className={`${ChoiceStyles.tldrImg} ${Styles.tldrImg}`} />
         <div className={`${ChoiceStyles.tldrContent} ${Styles.tldrContent}`}>

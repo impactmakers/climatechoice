@@ -382,8 +382,7 @@ const UseLessEnergyPage = () => (
     <ShareSocialCta {...shareConfig} />
     <SuccessBanner />
     <ChoiceSupport />
-    <section className={`${ChoiceStyles.tldr} ${Styles.tldr}`}>
-      <div id="tldr">{null}</div>
+    <section className={`${ChoiceStyles.tldr} ${Styles.tldr}`} id="tldr">
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.tldrInner}`}>
         <div className={`${ChoiceStyles.tldrImg} ${Styles.tldrImg}`} />
         <div className={`${ChoiceStyles.tldrContent} ${Styles.tldrContent}`}>

@@ -360,10 +360,11 @@ const ChangeHowYouTravelPage = () => (
     <ShareSocialCta {...shareConfig} />
     <SuccessBanner />
     <ChoiceSupport />
-    <section className={`${ChoiceStyles.tldr} ${Styles.tldr}`}>
-      <button name="tldr" aria-label={"Choice of styles"}>
-        {null}
-      </button>
+    <section
+      className={`${ChoiceStyles.tldr} ${Styles.tldr}`}
+      id="tldr"
+      aria-label={"Choice of styles"}
+    >
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.tldrInner}`}>
         <div className={`${ChoiceStyles.tldrImg} ${Styles.tldrImg}`} />
         <div className={`${ChoiceStyles.tldrContent} ${Styles.tldrContent}`}>
