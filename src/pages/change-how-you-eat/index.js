@@ -94,10 +94,11 @@ const ChangeHowYouEatPage = () => (
         </a>
       </div>
     </section>
-    <section className={`${ChoiceStyles.how} ${Styles.how}`}>
-      <buttton name="how" aria-label={"How"}>
-        {null}
-      </buttton>
+    <section
+      className={`${ChoiceStyles.how} ${Styles.how}`}
+      id="how"
+      aria-label={"How"}
+    >
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.howInner}`}>
         <div className={`${ChoiceStyles.howContent} ${Styles.howContent}`}>
           <h1 className={`${ChoiceStyles.howTitle} ${Styles.howTitle}`}>
@@ -177,10 +178,11 @@ const ChangeHowYouEatPage = () => (
         </div>
       </div>
     </section>
-    <section className={`${ChoiceStyles.actions} ${Styles.actions}`}>
-      <button name="actions" aria-label={"Actions"}>
-        {null}
-      </button>
+    <section
+      className={`${ChoiceStyles.actions} ${Styles.actions}`}
+      id="actions"
+      aria-label={"Actions"}
+    >
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.actionsInner}`}>
         <div
           className={`${ChoiceStyles.actionsContent} ${Styles.actionsContent}`}

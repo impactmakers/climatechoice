@@ -106,10 +106,11 @@ const UseLessEnergyPage = () => (
         </a>
       </div>
     </section>
-    <section className={`${ChoiceStyles.how} ${Styles.how}`}>
-      <a id="how" aria-label={"How to use less energy"}>
-        {null}
-      </a>
+    <section
+      className={`${ChoiceStyles.how} ${Styles.how}`}
+      id="how"
+      aria-label={"How to use less energy"}
+    >
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.howInner}`}>
         <div className={`${ChoiceStyles.howContent} ${Styles.howContent}`}>
           <h1 className={`${ChoiceStyles.howTitle} ${Styles.howTitle}`}>
@@ -175,8 +176,10 @@ const UseLessEnergyPage = () => (
         </div>
       </div>
     </section>
-    <section className={`${ChoiceStyles.actions} ${Styles.actions}`}>
-      <button name="actions">{null}</button>
+    <section
+      className={`${ChoiceStyles.actions} ${Styles.actions}`}
+      id="actions"
+    >
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.actionsInner}`}>
         <div
           className={`${ChoiceStyles.actionsContent} ${Styles.actionsContent}`}
