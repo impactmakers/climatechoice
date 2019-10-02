@@ -104,10 +104,11 @@ const ChangeYourLifestylePage = () => (
         </a>
       </div>
     </section>
-    <section className={`${ChoiceStyles.how} ${Styles.how}`}>
-      <div id="how" aria-label={"How to change your lifestyle"}>
-        {null}
-      </div>
+    <section
+      className={`${ChoiceStyles.how} ${Styles.how}`}
+      id="how"
+      aria-label={"How to change your lifestyle"}
+    >
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.howInner}`}>
         <div className={`${ChoiceStyles.howContent} ${Styles.howContent}`}>
           <h1 className={`${ChoiceStyles.howTitle} ${Styles.howTitle}`}>
@@ -186,8 +187,10 @@ const ChangeYourLifestylePage = () => (
         </div>
       </div>
     </section>
-    <section className={`${ChoiceStyles.actions} ${Styles.actions}`}>
-      <div id="actions">{null}</div>
+    <section
+      className={`${ChoiceStyles.actions} ${Styles.actions}`}
+      id="actions"
+    >
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.actionsInner}`}>
         <div
           className={`${ChoiceStyles.actionsContent} ${Styles.actionsContent}`}
@@ -454,10 +457,11 @@ const ChangeYourLifestylePage = () => (
     <ShareSocialCta {...shareConfig} />
     <SuccessBanner />
     <ChoiceSupport />
-    <section className={`${ChoiceStyles.tldr} ${Styles.tldr}`}>
-      <button name="tldr" aria-label={"Too long; didn't read"}>
-        {null}
-      </button>
+    <section
+      className={`${ChoiceStyles.tldr} ${Styles.tldr}`}
+      id="tldr"
+      aria-label={"Too long; didn't read"}
+    >
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.tldrInner}`}>
         <div className={`${ChoiceStyles.tldrImg} ${Styles.tldrImg}`} />
         <div className={`${ChoiceStyles.tldrContent} ${Styles.tldrContent}`}>
