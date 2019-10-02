@@ -20,6 +20,7 @@ module.exports = {
           "/change-how-you-eat",
           "/change-how-you-travel",
           "/change-your-lifestyle",
+          "/change-your-job",
           "/choose-renewable-energy",
           "/use-less-energy"
         ]
