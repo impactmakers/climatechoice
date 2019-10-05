@@ -66,7 +66,7 @@ const ChoiceGridItems = () => {
           <Link className={Styles.choiceContainer} to="/change-how-you-eat">
             <div className={Styles.choiceHeader}>
               <div className={Styles.choiceIcon}>
-                <img src={EatIcon} alt="Change how you eat" />
+                <img src={EatIcon} alt="Cow" />
               </div>
 
               <img
@@ -88,7 +88,7 @@ const ChoiceGridItems = () => {
           <Link className={Styles.choiceContainer} to="/change-how-you-travel">
             <div className={Styles.choiceHeader}>
               <div className={Styles.choiceIcon}>
-                <img src={TravelIcon} alt="Change how you travel" />
+                <img src={TravelIcon} alt="Car" />
               </div>
 
               <img
@@ -113,7 +113,7 @@ const ChoiceGridItems = () => {
           >
             <div className={Styles.choiceHeader}>
               <div className={Styles.choiceIcon}>
-                <img src={RenewableIcon} alt="Choose renewable energy" />
+                <img src={RenewableIcon} alt="Sun" />
               </div>
 
               <img
@@ -132,7 +132,7 @@ const ChoiceGridItems = () => {
           <Link className={Styles.choiceContainer} to="/use-less-energy">
             <div className={Styles.choiceHeader}>
               <div className={Styles.choiceIcon}>
-                <img src={EnergyIcon} alt="Use less energy" />
+                <img src={EnergyIcon} alt="Light bulb" />
               </div>
 
               <img
@@ -154,7 +154,7 @@ const ChoiceGridItems = () => {
           <Link className={Styles.choiceContainer} to="/change-your-lifestyle">
             <div className={Styles.choiceHeader}>
               <div className={Styles.choiceIcon}>
-                <img src={LifestyleIcon} alt="Change your lifestyle" />
+                <img src={LifestyleIcon} alt="Recycle" />
               </div>
 
               <img
