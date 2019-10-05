@@ -16,6 +16,10 @@ import ShareSocialCta from "../../components/ShareSocialCta";
 import EarthyShare from "../../components/EarthyShare";
 import SuccessBanner from "../../components/SuccessBanner";
 
+// Links to work with:
+// https://www.pca.state.mn.us/sites/default/files/w-hhw1-14.pdf
+// https://www.epa.nsw.gov.au/your-environment/recycling-and-reuse/business-government-recycling
+// https://www.energy.gov.au/household-guides/work
 const ChangeYourJobPage = () => (
   <Layout>
     <SEO
@@ -133,7 +137,7 @@ const ChangeYourJobPage = () => (
             </li>
             <li>
               <b>Lack of recycling policies for wastage.</b>
-              This applies to all business enviroments, from offices to
+              This applies to all business environments, from offices to
               industrial factories. The wastage might be directly related to the
               production of the business or even organic waste such as the
               employee's lunch scraps.
@@ -163,7 +167,7 @@ const ChangeYourJobPage = () => (
               <li>
                 Businesses often believe that is more cost effective to keep
                 their current operation practices as opposed to adopting
-                enviromentally friendly policies.
+                environmentally friendly policies.
               </li>
               <li>
                 Even in this time and age, many business processes are done
@@ -172,11 +176,11 @@ const ChangeYourJobPage = () => (
               </li>
               <li>
                 Most people underestimate how much pollution is produced as part
-                of their work rutine.
+                of their work routine.
               </li>
               <li>
                 In many countries, there is little to no governance related to
-                enviromental practices at work, and as a result employees
+                environmental practices at work, and as a result employees
                 develop bad habits that are difficult to change.
               </li>
             </ol>
@@ -184,6 +188,7 @@ const ChangeYourJobPage = () => (
         </div>
       </div>
     </section>
+    {/*UP TO HERE*/}
     <section className={`${ChoiceStyles.actions} ${Styles.actions}`}>
       <button name="actions" aria-label={"Actions"}>
         {null}

@@ -173,7 +173,7 @@ const ChoiceGridItems = () => {
             </div>
           </Link>
         </li>
-        <li>
+        <li className={`${Styles.choiceGridItem} ${Styles.choiceJob}`}>
           <Link className={Styles.choiceContainer} to="/change-your-job">
             <div className={Styles.choiceHeader}>
               <div className={Styles.choiceIcon}>
