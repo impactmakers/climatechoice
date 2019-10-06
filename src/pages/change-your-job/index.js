@@ -188,7 +188,6 @@ const ChangeYourJobPage = () => (
         </div>
       </div>
     </section>
-    {/*UP TO HERE*/}
     <section className={`${ChoiceStyles.actions} ${Styles.actions}`}>
       <button name="actions" aria-label={"Actions"}>
         {null}
@@ -202,32 +201,59 @@ const ChangeYourJobPage = () => (
           </h1>
         </div>
         <div className={`${ChoiceStyles.action} ${Styles.action}`}>
+          <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
+            Here is a checklist you can use to implement better work practices:
+          </h2>
+
+          <div
+            className={`${ChoiceStyles.stopsListContainer} ${
+              Styles.stopsListContainer
+            }`}
+          >
+            <ol className={`${ChoiceStyles.choiceList} ${Styles.stopsList}`}>
+              <li>
+                Reduce waste by choosing products that have minimal packaging
+                and can be used productively and then recycled. Re-use plastic
+                bags and all types of containers if possible.
+              </li>
+              <li>
+                Buy quality goods that will last. Buy recycled goods which have
+                already saved resources and raw materials, and help reduce the
+                overall quantity of waste.
+              </li>
+              <li>
+                For paper specifically: Make double-sided copies when printing
+                and photocopying, wherever possible. Use the blank side of used
+                paper for notepaper before recycling.Re-use envelopes for
+                internal mail.Try to integrate electronic procedures to reduce
+                paper work.
+              </li>
+              <li>
+                Recycle waste material into useable products, wherever possible.
+                Re-use containers, packaging or waste products, wherever
+                possible.
+              </li>
+              <li>
+                For waste that can't be avoided, reused or recycled: treat the
+                waste to make it less harmful or reduce the volume of the
+                harmful component. Dispose of the waste safely.
+              </li>
+              <li>
+                Some strategies which can be implemented by the Manager and
+                Supervisors: Consider sustainability issues when making planning
+                and managing decisions. Promote and encourage environmental
+                awareness to ensure employees are aware of their environmental
+                responsibilities.
+              </li>
+              <li>
+                Use public transportation whenever possible, and research better
+                energy sources for your workplace to help with carbon emissions.
+              </li>
+            </ol>
+          </div>
           <div
             className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
           >
-            <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
-              The best thing to do is get rid of your fossil fuel powered
-              vehicles
-            </h2>
-            <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              To have the most impact{" "}
-              <b>switch to cycling, public transport and walking</b>. For those
-              who must have access to a car consider sharing one with others,
-              increasing the utility of each individual vehicle. If you
-              absolutely must own your own an electric car is your best bet —
-              though it's important to remember that the manufacturing process
-              of each electric car is still responsible for emissions. Owning an
-              electric car is not as expensive as you might think and there are
-              cost savings to be made over the long-term — especially if you
-              install solar panels at your home to generate your own energy.
-              <b>
-                {" "}
-                Many governments have already committed to ban fossil fuel
-                vehicle sales
-              </b>{" "}
-              in the near future and more will follow. Think of it as an
-              investment.
-            </p>
             <h3
               className={`${ChoiceStyles.actionHowTitle} ${
                 Styles.actionHowTitle
@@ -237,8 +263,8 @@ const ChangeYourJobPage = () => (
               How much would this help?
             </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              A lot! Every time we take a carbon emitting vehicle off the road
-              we{" "}
+              Quite significantly, since businesses are the biggest contributors
+              to climate change.{" "}
               <b>
                 send a message to car companies that we don’t want fossil fuel
                 powered cars anymore
@@ -295,61 +321,6 @@ const ChangeYourJobPage = () => (
             </div>
           </div>
         </div>
-        <div
-          className={`${ChoiceStyles.action} ${Styles.action} ${
-            ChoiceStyles.actionAnother
-          }`}
-        >
-          <div
-            className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
-          >
-            <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
-              Only fly when you absolutely must
-            </h2>
-            <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              Currently there is no viable alternative to air travel beyond
-              trains, buses and boats. Until someone figures out how to
-              decarbonise airplanes we are going to have to make some sacrifices
-              to our lifestyles. Try and{" "}
-              <b>
-                save flying for long-haul journeys which can’t be achieved any
-                other way
-              </b>
-              . If you need to travel a shorter distance there’s usually another
-              way. Look into it, cleaner travels methods like rail can be
-              cheaper, and while it may take longer, you will get to experience
-              more along the way.
-            </p>
-            <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              When you must fly, consider{" "}
-              <Link
-                to="/offset-your-carbon-footprint"
-                title="Pay to offset your carbon footprint"
-              >
-                paying a little to offset your carbon footprint
-              </Link>
-              . Use a tool like{" "}
-              <OutboundLink href="https://air.care" title="AirCare">
-                AirCare
-              </OutboundLink>{" "}
-              to understand the carbon cost of your flight and pay to compensate
-              for it.
-            </p>
-            <h3
-              className={`${ChoiceStyles.actionHowTitle} ${
-                Styles.actionHowTitle
-              }`}
-            >
-              <img src={HowIcon} alt="How it helps" />
-              How much would this help?
-            </h3>
-            <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              Air travel accounts for around 2% of global greenhouse gas
-              emissions. There are bigger issues that need addressed, but
-              remember every choice you make does have an impact.
-            </p>
-          </div>
-        </div>
       </div>
     </section>
     <ShareSocialCta {...shareConfig} />
@@ -373,22 +344,14 @@ const ChangeYourJobPage = () => (
             <p
               className={`${ChoiceStyles.tldrSubtitle} ${Styles.tldrSubtitle}`}
             >
-              We’re killing the planet. 26% of dangerous greenhouse gas
-              emissions enter our atmosphere because of the way we travel. To
-              reduce these we must:
+              The majority of all pollution produced can be traced back to some
+              form of business operation or it's production. To help with this
+              we must:
             </p>
             <ul className={`${ChoiceStyles.tldrList} ${Styles.tldrList}`}>
-              <li>Transition to electric cars or better no cars</li>
-              <li>Only fly when it’s absolutely necessary</li>
-              <li>
-                <Link
-                  to="/offset-your-carbon-footprint"
-                  title="Pay to offset your carbon footprint"
-                >
-                  Pay to offset your carbon footprint
-                </Link>{" "}
-                if you must fly
-              </li>
+              <li>Reduce waste and recycle when at work</li>
+              <li>Buy and use recycled good whenever possible</li>
+              <li>Inform all employees </li>
               <li>Vote for those who prioritize the planet</li>
               <li>
                 <a href="#share" alt="Spread the word">
