@@ -16,7 +16,7 @@ import ShareSocialCta from "../../components/ShareSocialCta";
 import EarthyShare from "../../components/EarthyShare";
 import SuccessBanner from "../../components/SuccessBanner";
 
-// Links to work with:
+// Sources of material in this page:
 // https://www.pca.state.mn.us/sites/default/files/w-hhw1-14.pdf
 // https://www.epa.nsw.gov.au/your-environment/recycling-and-reuse/business-government-recycling
 // https://www.energy.gov.au/household-guides/work
