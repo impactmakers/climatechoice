@@ -11,7 +11,7 @@ import Styles from "./Styles.module.scss";
 import shareConfig from "../../configs/pages/choiceTravelConfig";
 import ChoiceGridOnChoice from "../../components/ChoiceGrid/onChoice";
 import HowIcon from "../../components/Images/Icons/HowIcon.svg";
-import BannerImg from "../../components/Images/Graphics/choiceBannerTravel.svg";
+import BannerImg from "../../components/Images/Graphics/choiceBannerJob.svg";
 import ShareSocialCta from "../../components/ShareSocialCta";
 import EarthyShare from "../../components/EarthyShare";
 import SuccessBanner from "../../components/SuccessBanner";
@@ -105,8 +105,7 @@ const ChangeYourJobPage = () => (
         </a>
       </div>
     </section>
-    <section className={`${ChoiceStyles.how} ${Styles.how}`}>
-      <button name="how">{null}</button>
+    <section className={`${ChoiceStyles.how} ${Styles.how}`} id="how">
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.howInner}`}>
         <div className={`${ChoiceStyles.howContent} ${Styles.howContent}`}>
           <h1 className={`${ChoiceStyles.howTitle} ${Styles.howTitle}`}>
@@ -119,7 +118,8 @@ const ChangeYourJobPage = () => (
           >
             <li>
               <b>
-                Many jobs, especially office related, use large amounts of paper
+                Many jobs, use large amounts of non recycled material, such as
+                paper products
               </b>
               . According to the Minnesota Office of Environmental Assistance,
               the average office worker uses 10,000 sheets of copy paper each
@@ -129,18 +129,26 @@ const ChangeYourJobPage = () => (
               costs.
             </li>
             <li>
-              <b>Most businesses use energy from not clean sources</b>. Energy
+              <b>Most businesses use energy from unclean sources</b>. Energy
               usage is one of the largest contributors of pollution today. 75%
               of the methods used to produce electricity are considered to be
               harmful. Business energy consumption includes electricity for
               lighting and production as well as gas and oil for transportation.
             </li>
             <li>
-              <b>Lack of recycling policies for wastage.</b>
+              <b>Lack of recycling policies.</b>
               This applies to all business environments, from offices to
               industrial factories. The wastage might be directly related to the
               production of the business or even organic waste such as the
               employee's lunch scraps.
+            </li>
+            <li>
+              <b>
+                Increased use of environmentally harmful transportation means
+              </b>
+              From driving your car to work, to having your factory's products
+              be delivered using conventional fossil fuel trucks, all of those
+              contribute to increased carbon emissions.
             </li>
           </ol>
         </div>
@@ -264,15 +272,16 @@ const ChangeYourJobPage = () => (
             </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               Quite significantly, since businesses are the biggest contributors
-              to climate change.{" "}
+              to climate change{" "}
               <b>
-                send a message to car companies that we don’t want fossil fuel
-                powered cars anymore
+                make sure you inform your employees and co-workers about what
+                they can do to contribute in the fight to prevent climate
+                change.
               </b>
-              . As their demand drops, more electric cars will be bought. With
-              higher demand, supply and competition will increase causing prices
-              to drop. Plus we’d innovate faster on the technology — better
-              range, faster charging and more charging locations.
+              . The only way to make a change is by changing our practices at
+              work, but in order to be effective, we all have to take steps to
+              achieve that. That is why it is in your hands to research ways
+              your job can become more environmentally friendly.
             </p>
           </div>
           <div className={`${ChoiceStyles.actionAside} ${Styles.actionAside}`}>
@@ -295,26 +304,27 @@ const ChangeYourJobPage = () => (
               >
                 <li>
                   <OutboundLink
-                    href="https://electriccarbuyer.com/Compare.aspx"
-                    title="Compare electric cars"
+                    href="https://www.business.qld.gov.au/running-business/environment/environment-business/benefits"
+                    title="The benefits of an environmentally friendly business"
                   >
-                    Compare electric cars →
+                    The benefits of an environmentally friendly business →
                   </OutboundLink>
                 </li>
                 <li>
                   <OutboundLink
-                    href="https://www.moneycrashers.com/living-without-car/"
-                    title="Benefits of having no car"
+                    href="http://www.environmentalpolicy.com.au/"
+                    title="Environmental policy"
                   >
-                    The benefits of getting rid of your car →
+                    Environmental policy at work →
                   </OutboundLink>
                 </li>
                 <li>
                   <OutboundLink
-                    href="https://millionmilesecrets.com/guides/staying-green-while-traveling-how-to-reduce-your-carbon-footprint/"
-                    title="Tips on staying green while travelling"
+                    href="https://www.onyalife.com/how-to-incorporate-eco-friendly-policies-into-your-organisation/"
+                    title="THow To Incorporate Eco-Friendly Policies Into Your Organisation"
                   >
-                    Tips on staying green while travelling →
+                    How To Incorporate Eco-Friendly Policies Into Your
+                    Organisation →
                   </OutboundLink>
                 </li>
               </ul>
@@ -326,10 +336,7 @@ const ChangeYourJobPage = () => (
     <ShareSocialCta {...shareConfig} />
     <SuccessBanner />
     <ChoiceSupport />
-    <section className={`${ChoiceStyles.tldr} ${Styles.tldr}`}>
-      <button name="tldr" aria-label={"Choice of styles"}>
-        {null}
-      </button>
+    <section className={`${ChoiceStyles.tldr} ${Styles.tldr}`} id="tldr">
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.tldrInner}`}>
         <div className={`${ChoiceStyles.tldrImg} ${Styles.tldrImg}`} />
         <div className={`${ChoiceStyles.tldrContent} ${Styles.tldrContent}`}>
