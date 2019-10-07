@@ -109,39 +109,22 @@ const Footer = () => (
             <div className={Styles.choiceLists}>
               <ul className={`${Styles.navList} ${Styles.choiceList}`}>
                 <li className={`${Styles.navItem} ${Styles.choiceItem}`}>
-                  <Link to="/change-how-you-eat" title="Change how you eat">
-                    Change how you eat
-                  </Link>
+                  <Link to="/change-how-you-eat">Change how you eat</Link>
                 </li>
                 <li className={Styles.navItem}>
-                  <Link
-                    to="/change-how-you-travel"
-                    title="Change how you travel"
-                  >
-                    Change how you travel
-                  </Link>
+                  <Link to="/change-how-you-travel">Change how you travel</Link>
                 </li>
 
                 <li className={`${Styles.navItem} ${Styles.choiceItem}`}>
-                  <Link
-                    to="/choose-renewable-energy"
-                    title="Choose renewable energy"
-                  >
+                  <Link to="/choose-renewable-energy">
                     Choose renewable energy
                   </Link>
                 </li>
                 <li className={Styles.navItem}>
-                  <Link to="/use-less-energy" title="Use less energy">
-                    Use less energy
-                  </Link>
+                  <Link to="/use-less-energy">Use less energy</Link>
                 </li>
                 <li className={Styles.navItem}>
-                  <Link
-                    to="/change-your-lifestyle"
-                    title="Change your lifestyle"
-                  >
-                    Change your lifestyle
-                  </Link>
+                  <Link to="/change-your-lifestyle">Change your lifestyle</Link>
                 </li>
               </ul>
             </div>
@@ -236,7 +219,6 @@ const Footer = () => (
         <OutboundLink
           className={Styles.impactMakersCta}
           href="https://techimpactmakers.com"
-          title="Find out more about us"
         >
           <button
             className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${

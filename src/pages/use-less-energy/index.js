@@ -14,7 +14,6 @@ import HowIcon from "../../components/Images/Icons/HowIcon.svg";
 import BannerImg from "../../components/Images/Graphics/choiceBannerLessEnergy.svg";
 import shareConfig from "../../configs/pages/choiceLessEnergyConfig";
 import EarthyShare from "../../components/EarthyShare";
-import SuccessBanner from "../../components/SuccessBanner";
 
 const UseLessEnergyPage = () => (
   <Layout>
@@ -383,7 +382,6 @@ const UseLessEnergyPage = () => (
       </div>
     </section>
     <ShareSocialCta {...shareConfig} />
-    <SuccessBanner />
     <ChoiceSupport />
     <section className={`${ChoiceStyles.tldr} ${Styles.tldr}`} id="tldr">
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.tldrInner}`}>
