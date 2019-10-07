@@ -14,7 +14,6 @@ import HowIcon from "../../components/Images/Icons/HowIcon.svg";
 import BannerImg from "../../components/Images/Graphics/choiceBannerLifestyle.svg";
 import ShareSocialCta from "../../components/ShareSocialCta";
 import EarthyShare from "../../components/EarthyShare";
-import SuccessBanner from "../../components/SuccessBanner";
 
 const ChangeYourLifestylePage = () => (
   <Layout>
@@ -455,7 +454,7 @@ const ChangeYourLifestylePage = () => (
       </div>
     </section>
     <ShareSocialCta {...shareConfig} />
-    <SuccessBanner />
+
     <ChoiceSupport />
     <section
       className={`${ChoiceStyles.tldr} ${Styles.tldr}`}

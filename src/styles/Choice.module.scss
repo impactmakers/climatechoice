@@ -199,6 +199,37 @@
   }
 }
 
+.nowList {
+  @include text-small;
+  list-style: none;
+  counter-reset: li;
+  margin: 0;
+  padding: 0 0 0 40px;
+  :before {
+    content: counter(li);
+    color: $blue;
+    background: $blueLight;
+    font-weight: bold;
+    display: inline-block;
+    width: 30px;
+    margin-left: -2.8em;
+    margin-right: 1em;
+    text-align: center;
+    direction: rtl;
+  }
+  li {
+    counter-increment: li;
+    padding: 0 5px 30px;
+    margin: 0;
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+  @include mq("tablet") {
+    padding-left: 43px;
+  }
+}
+
 .bold {
   font-weight: bold;
 }

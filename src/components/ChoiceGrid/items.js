@@ -12,6 +12,7 @@ import EnergyIcon from "../Images/Icons/ChoiceEnergyIcon.svg";
 import RenewableIcon from "../Images/Icons/ChoiceRenewableIcon.svg";
 import SoonIcon from "../Images/Icons/ChoiceSoonIcon.svg";
 import Chevron from "../Images/Icons/ChevronGrayRightIcon.svg";
+import JobIcon from "../Images/Icons/ChoiceJob.svg";
 
 const ChoiceGridItems = () => {
   const [email, setEmail] = useState("");
@@ -29,7 +30,8 @@ const ChoiceGridItems = () => {
         localStorage.getItem("/choose-renewable-energy") === "visited",
       "use-less-energy": localStorage.getItem("/use-less-energy") === "visited",
       "change-your-lifestyle":
-        localStorage.getItem("/change-your-lifestyle") === "visited"
+        localStorage.getItem("/change-your-lifestyle") === "visited",
+      "change-your-job": localStorage.getItem("/change-your-job") === "visited"
     };
 
     setVisited(visited);
@@ -169,6 +171,28 @@ const ChoiceGridItems = () => {
             </h2>
             <div className={Styles.choiceMeta}>
               {renderReadStatus("change-your-lifestyle")}
+            </div>
+          </Link>
+        </li>
+        <li className={`${Styles.choiceGridItem} ${Styles.choiceJob}`}>
+          <Link className={Styles.choiceContainer} to="/change-your-job">
+            <div className={Styles.choiceHeader}>
+              <div className={Styles.choiceIcon}>
+                <img src={JobIcon} alt="Change your job" />
+              </div>
+
+              <img
+                className={Styles.choiceChevron}
+                src={Chevron}
+                alt="Chevron"
+              />
+            </div>
+            <h2 className={Styles.choiceTitle}>
+              Change your <br />
+              job
+            </h2>
+            <div className={Styles.choiceMeta}>
+              {renderReadStatus("change-your-job")}
             </div>
           </Link>
         </li>
