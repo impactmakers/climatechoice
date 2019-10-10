@@ -80,7 +80,7 @@ const AboutPage = () => (
           <h2>Why we decided to make ClimateChoice</h2>
           <p>
             <b>
-              Our planet's climate is breakdown down and we aren’t doing enough
+              Our planet's climate is breaking down and we aren’t doing enough
               about it
             </b>
             . If we all made a few life changes and supported the right people,
@@ -118,7 +118,7 @@ const AboutPage = () => (
             </OutboundLink>
             . If you’re interested in working on your own project to raise
             awareness of the climate breakdown issue and help people to take
-            action. Then please{" "}
+            action, then please{" "}
             <OutboundLink
               href="https://techimpactmakers.com"
               title="Impact Makers"

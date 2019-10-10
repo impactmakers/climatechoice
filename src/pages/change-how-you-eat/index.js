@@ -201,7 +201,7 @@ const ChangeHowYouEatPage = () => (
             </h2>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               The biggest impact can be had if you{" "}
-              <b>eat less animal products — in particular meat and dairy</b>,
+              <b>eat fewer animal products — in particular meat and dairy</b>,
               however all purchased food items have a carbon footprint.{" "}
               <b>If you’re really committed, go vegan</b>. Try to only buy items
               with <b>sustainable, or no packaging</b>, and <b>buy local</b> so
@@ -246,7 +246,7 @@ const ChangeHowYouEatPage = () => (
                     href="https://www.bbc.com/news/science-environment-46459714"
                     title="Food Carbon Footprint Calculator"
                   >
-                    Calculate your foods carbon footprint →
+                    Calculate your food's carbon footprint →
                   </OutboundLink>
                 </li>
               </ul>

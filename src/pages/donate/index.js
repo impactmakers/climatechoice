@@ -37,10 +37,10 @@ const DonatePage = () => (
               Impact Makers
             </OutboundLink>{" "}
             community of tech volunteers, working to prevent earth's climate
-            breaking down. Any donations made will be put towards the
-            development of ClimateChoice and other non-profit Impact Makers
-            projects which help raise awareness of the climate issue, and people
-            to take action.
+            breaking down. Donations will be put towards the development of
+            ClimateChoice and other non-profit Impact Makers projects which help
+            raise awareness of the climate issue, and encourage people to take
+            action.
           </p>
           <div className={Styles.ctaActions}>
             <OutboundLink

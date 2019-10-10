@@ -265,9 +265,10 @@ const ChooseRenewablePage = () => (
               to the electricity grid. That’s right — get paid for your energy!
             </p>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              Wind is another option. It can generate you energy 24 hours a day
-              but there are some downsides. Wind requires more specialised
-              maintenance, it can be noisy, unsightly and dangerous to birds.
+              Wind is another option. It can generate energy 24 hours a day but
+              there are some downsides. Wind requires more specialised
+              maintenance, and it can be noisy, unsightly, and dangerous to
+              birds.
             </p>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               <b>Most people choose solar</b> as it’s easier to install, less

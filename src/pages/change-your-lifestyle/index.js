@@ -241,9 +241,9 @@ const ChangeYourLifestylePage = () => (
               How much would this help?
             </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              If we stop buying so much, less items will be produced leader to
-              reduced energy production and energy wastage. By recycling we’re
-              decreasing the amount that goes to waste and ensuring less new
+              If we stop buying so much, fewer items will be produced, leading
+              to reduced energy production and energy wastage. By recycling, we
+              decrease the amount that goes to waste and ensure that fewer new
               materials are needed for future production.
             </p>
           </div>
@@ -311,7 +311,7 @@ const ChangeYourLifestylePage = () => (
               estimated we only recycle 20% of global plastic so a lot does.
             </p>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              8 million tonnes of it ends up in our oceans each year causing
+              8 million tonnes of it end up in our oceans each year, causing
               great harm to animals. We must use less and recycle all plastic
               used to end this life threatening cycle. Here are some of the main
               choices you can make to help:

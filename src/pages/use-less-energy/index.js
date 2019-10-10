@@ -304,9 +304,9 @@ const UseLessEnergyPage = () => (
               Switch off your heating
             </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              Adjust your thermostat and radiators. Only chose to heat your home
-              when absolutely necessary. Warmer clothes or a blanket can often
-              do the same job.
+              Adjust your thermostat and radiators. Only choose to heat your
+              home when absolutely necessary. Warmer clothes or a blanket can
+              often do the same job.
             </p>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               <OutboundLink
