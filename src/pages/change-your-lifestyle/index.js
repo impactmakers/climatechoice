@@ -120,7 +120,7 @@ const ChangeYourLifestylePage = () => (
             }`}
           >
             <li>
-              Many of us buy items we don’t need. The more things you own the
+              Many of us buy items we don’t need. The more things you own, the
               greater the size of your carbon footprint.
             </li>
             <li>
@@ -173,8 +173,8 @@ const ChangeYourLifestylePage = () => (
               </li>
               <li>
                 Availability - A lot of the time we just don’t have a choice
-                available to us. When you walk into the average supermarket the
-                vast majority of items are sold in unsustainable packaging.
+                available to us. The vast majority of items in the average
+                supermarket are sold in unsustainable packaging.
               </li>
               <li>
                 Consumerism - In our society, it has become the norm to buy more
@@ -305,10 +305,11 @@ const ChangeYourLifestylePage = () => (
               Ditch single-use plastics and replace with reusable items
             </h2>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              Plastic is a major problem. First of all its production emits
-              dangerous greenhouse gases into the atmosphere. When it goes to
-              waste it can take up to 1,000 years to decompose - and It’s
-              estimated we only recycle 20% of global plastic so a lot does.
+              Plastic is a major problem. Its production emits dangerous
+              greenhouse gases into the atmosphere, and when it goes to waste it
+              can take up to 1,000 years to decompose. It’s estimated that we
+              recycle only 20% of global plastic, so most single-use plastics
+              are truly only ever used once.
             </p>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               8 million tonnes of it end up in our oceans each year, causing

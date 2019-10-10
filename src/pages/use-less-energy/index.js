@@ -209,12 +209,12 @@ const UseLessEnergyPage = () => (
               over 20 years.
             </p>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              When you need to replace an appliance purchase an energy efficient
-              alternative.{" "}
+              When you need to replace an appliance, purchase an energy
+              efficient alternative.{" "}
               <b>Check potential purchases for energy efficiency ratings</b> and
               consider higher quality items – they last longer. Consider getting
-              rid of desktop computers, laptops are 5 times more energy
-              efficient.
+              rid of desktop computers, as laptops can be up to 5 times more
+              energy efficient.
             </p>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               Lastly don’t forget to{" "}
@@ -326,10 +326,10 @@ const UseLessEnergyPage = () => (
               How much would this help?
             </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              75% of energy production is harmful to the environment, we could
-              reduce this harm greatly by simply becoming more efficient with
-              our energy usage. We’d then be able to provide almost half of our
-              energy with renewable sources like solar and wind.
+              75% of energy production is harmful to the environment, and we
+              could reduce this harm greatly by reducing energy usage. We’d then
+              be able to provide almost half of our energy with renewable
+              sources like solar and wind.
             </p>
           </div>
 

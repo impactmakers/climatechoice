@@ -41,9 +41,9 @@ const ChoiceSupport = () => (
             How can I do even more?
           </h3>
           <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-            Become a vocal advocate of helping prevent climate breakdown. You
-            could stand as a political candidate prioritising the planet, join
-            an activist group or charity.
+            Become a vocal advocate of preventing climate breakdown. You could
+            stand as a political candidate prioritising the planet, or join an
+            activist group or charity.
           </p>
           <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
             Why not start your own business or charity trying to fix a problem

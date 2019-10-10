@@ -99,13 +99,13 @@ const AboutPage = () => (
           <br />
           <h2>Future Developments</h2>
           <p>
-            ClimateChoice is a work in progress. We plan on adding more choice
+            ClimateChoice is a work in progress. We plan to add more choice
             guides and to continually improve the site so we can provide you
             with the best possible place to learn about how to prevent climate
             breakdown.
           </p>
           <p>
-            If you have any feedback or would like to contribute feel free to{" "}
+            If you have any feedback or would like to contribute, feel free to{" "}
             <a href="mailto:yourclimatechoice@gmail.com" title="Email us">
               email
             </a>{" "}

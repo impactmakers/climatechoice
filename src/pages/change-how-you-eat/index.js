@@ -110,7 +110,7 @@ const ChangeHowYouEatPage = () => (
             }`}
           >
             <li>
-              When livestock digests their food they burp up methane gas. Manure
+              Livestock burp up methane gas while digesting their food. Manure
               and rice paddies are also big contributors to methane in the
               atmosphere.
             </li>
