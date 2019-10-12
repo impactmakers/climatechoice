@@ -1,10 +1,8 @@
 module.exports = {
-  extends: [
-    'eslint:recommended'
-  ],
+  extends: ["eslint:recommended", "plugin:jsx-a11y/recommended"],
   settings: {
     react: {
-      version: 'detect'
+      version: "detect"
     }
   },
   env: {
@@ -18,13 +16,13 @@ module.exports = {
       jsx: true
     },
     ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
-    sourceType: 'module' // Allows for the use of imports
+    sourceType: "module" // Allows for the use of imports
   },
   overrides: [
     {
-      files: ['*.js'],
+      files: ["*.js"],
       rules: {
-        'no-unused-vars': ['off', "error", {"varsIgnorePattern": "_"}] // Allows for use of '_' as a not-needed variable.
+        "no-unused-vars": ["off", "error", { varsIgnorePattern: "_" }] // Allows for use of '_' as a not-needed variable.
       }
     }
   ]
