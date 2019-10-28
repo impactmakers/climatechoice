@@ -1,0 +1,9 @@
+@import "../../styles/Variables.module.scss";
+@import "../../styles/Mixins.module.scss";
+@import "../../styles/Typography.module.scss";
+
+.stopsImg {
+  background: url("https://gdb.voanews.com/6b04ee96-c529-40d1-86e3-0432d1a276fa_w800_h450.jpg")
+    no-repeat top center;
+  background-size: cover;
+}
