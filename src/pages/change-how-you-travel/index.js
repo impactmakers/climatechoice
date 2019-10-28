@@ -350,8 +350,8 @@ const ChangeHowYouTravelPage = () => (
             </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               Air travel accounts for around 2% of global greenhouse gas
-              emissions. There are bigger issues that need addressed, but
-              remember every choice you make does have an impact.
+              emissions. There are bigger issues that need to be addressed, but
+              remember that every choice you make has an impact.
             </p>
           </div>
         </div>

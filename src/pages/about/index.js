@@ -80,7 +80,7 @@ const AboutPage = () => (
           <h2>Why we decided to make ClimateChoice</h2>
           <p>
             <b>
-              Our planet's climate is breakdown down and we aren’t doing enough
+              Our planet's climate is breaking down and we aren’t doing enough
               about it
             </b>
             . If we all made a few life changes and supported the right people,
@@ -99,13 +99,13 @@ const AboutPage = () => (
           <br />
           <h2>Future Developments</h2>
           <p>
-            ClimateChoice is a work in progress. We plan on adding more choice
+            ClimateChoice is a work in progress. We plan to add more choice
             guides and to continually improve the site so we can provide you
             with the best possible place to learn about how to prevent climate
             breakdown.
           </p>
           <p>
-            If you have any feedback or would like to contribute feel free to{" "}
+            If you have any feedback or would like to contribute, feel free to{" "}
             <a href="mailto:yourclimatechoice@gmail.com" title="Email us">
               email
             </a>{" "}
@@ -118,7 +118,7 @@ const AboutPage = () => (
             </OutboundLink>
             . If you’re interested in working on your own project to raise
             awareness of the climate breakdown issue and help people to take
-            action. Then please{" "}
+            action, then please{" "}
             <OutboundLink
               href="https://techimpactmakers.com"
               title="Impact Makers"

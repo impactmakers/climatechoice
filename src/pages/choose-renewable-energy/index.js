@@ -65,9 +65,7 @@ const ChooseRenewablePage = () => (
               title="See how you can take action"
             >
               <button
-                className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
-                  ButtonStyles.btnBanner
-                } ${ButtonStyles.btnMobile}`}
+                className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${ButtonStyles.btnBanner} ${ButtonStyles.btnMobile}`}
               >
                 Learn what you can do
               </button>
@@ -83,9 +81,7 @@ const ChooseRenewablePage = () => (
           <img
             src={BannerImg}
             alt="Yomo"
-            className={`${ChoiceStyles.bannerImgShadow} ${
-              Styles.bannerImgShadow
-            }`}
+            className={`${ChoiceStyles.bannerImgShadow} ${Styles.bannerImgShadow}`}
           />
         </div>
       </div>
@@ -142,14 +138,10 @@ const ChooseRenewablePage = () => (
         </div>
         <div className={`${ChoiceStyles.stopsContent} ${Styles.stopsContent}`}>
           <div
-            className={`${ChoiceStyles.stopsListContainer} ${
-              Styles.stopsListContainer
-            }`}
+            className={`${ChoiceStyles.stopsListContainer} ${Styles.stopsListContainer}`}
           >
             <ol
-              className={`${ChoiceStyles.choiceList} ${
-                ChoiceStyles.stopsList
-              } ${Styles.stopsList}`}
+              className={`${ChoiceStyles.choiceList} ${ChoiceStyles.stopsList} ${Styles.stopsList}`}
             >
               <li>
                 Cost - Buying renewable energy can be more expensive than
@@ -220,9 +212,7 @@ const ChooseRenewablePage = () => (
               should point you in the right direction.
             </p>
             <h3
-              className={`${ChoiceStyles.actionHowTitle} ${
-                Styles.actionHowTitle
-              }`}
+              className={`${ChoiceStyles.actionHowTitle} ${Styles.actionHowTitle}`}
             >
               <img src={HowIcon} alt="How it helps" />
               How much would this help?
@@ -242,9 +232,7 @@ const ChooseRenewablePage = () => (
           </div>
         </div>
         <div
-          className={`${ChoiceStyles.action} ${Styles.action} ${
-            ChoiceStyles.actionAnother
-          }`}
+          className={`${ChoiceStyles.action} ${Styles.action} ${ChoiceStyles.actionAnother}`}
         >
           <div
             className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
@@ -265,49 +253,41 @@ const ChooseRenewablePage = () => (
               to the electricity grid. That’s right — get paid for your energy!
             </p>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              Wind is another option. It can generate you energy 24 hours a day
-              but there are some downsides. Wind requires more specialised
-              maintenance, it can be noisy, unsightly and dangerous to birds.
+              Wind is another option. It can generate energy 24 hours a day but
+              there are some downsides. Wind requires more specialised
+              maintenance, and it can be noisy, unsightly, and dangerous to
+              birds.
             </p>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              <b>Most people choose solar</b> as it’s easier to install, less
-              maintenance and doesn’t get in peoples way. Consider which option
-              best suits your location.
+              <b>Most people choose solar</b> as it is easier to install,
+              requires less maintenance, and doesn’t get in peoples' way.
+              Consider which option best suits your location.
             </p>
             <h3
-              className={`${ChoiceStyles.actionHowTitle} ${
-                Styles.actionHowTitle
-              }`}
+              className={`${ChoiceStyles.actionHowTitle} ${Styles.actionHowTitle}`}
             >
               <img src={HowIcon} alt="How it helps" />
               How much would this help?
             </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              Having your own supply means other people can use the currently
-              limited renewable sources from existing energy suppliers. If
-              everyone has renewable energy available to them we’d be a lot
-              closer to eliminating our dependency on coal, gas, oil and nuclear
-              energy.
+              Supplying your own energy allows other people to use the limited
+              renewable resources from existing energy suppliers. If everyone
+              had renewable energy available to them, we’d be a lot closer to
+              eliminating our dependency on coal, gas, and oil.
             </p>
           </div>
 
           <div className={`${ChoiceStyles.actionAside} ${Styles.actionAside}`}>
             <div
-              className={`${ChoiceStyles.actionAsideContainer} ${
-                Styles.actionAsideContainer
-              }`}
+              className={`${ChoiceStyles.actionAsideContainer} ${Styles.actionAsideContainer}`}
             >
               <h3
-                className={`${ChoiceStyles.actionAsideTitle} ${
-                  Styles.actionAsideTitle
-                }`}
+                className={`${ChoiceStyles.actionAsideTitle} ${Styles.actionAsideTitle}`}
               >
                 Learn more
               </h3>
               <ul
-                className={`${ChoiceStyles.actionAsideList} ${
-                  Styles.actionAsideList
-                }`}
+                className={`${ChoiceStyles.actionAsideList} ${Styles.actionAsideList}`}
               >
                 <li>
                   <OutboundLink
@@ -347,9 +327,7 @@ const ChooseRenewablePage = () => (
         <div className={`${ChoiceStyles.tldrImg} ${Styles.tldrImg}`} />
         <div className={`${ChoiceStyles.tldrContent} ${Styles.tldrContent}`}>
           <div
-            className={`${ChoiceStyles.tldrListContainer} ${
-              Styles.tldrListContainer
-            }`}
+            className={`${ChoiceStyles.tldrListContainer} ${Styles.tldrListContainer}`}
           >
             <h1 className={`${ChoiceStyles.tldrTitle} ${Styles.tldrTitle}`}>
               Too long; didn't read?
