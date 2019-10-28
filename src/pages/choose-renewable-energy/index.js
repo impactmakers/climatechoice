@@ -65,7 +65,9 @@ const ChooseRenewablePage = () => (
               title="See how you can take action"
             >
               <button
-                className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${ButtonStyles.btnBanner} ${ButtonStyles.btnMobile}`}
+                className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
+                  ButtonStyles.btnBanner
+                } ${ButtonStyles.btnMobile}`}
               >
                 Learn what you can do
               </button>
@@ -81,7 +83,9 @@ const ChooseRenewablePage = () => (
           <img
             src={BannerImg}
             alt="Yomo"
-            className={`${ChoiceStyles.bannerImgShadow} ${Styles.bannerImgShadow}`}
+            className={`${ChoiceStyles.bannerImgShadow} ${
+              Styles.bannerImgShadow
+            }`}
           />
         </div>
       </div>
@@ -98,8 +102,7 @@ const ChooseRenewablePage = () => (
         </a>
       </div>
     </section>
-    <section className={`${ChoiceStyles.how} ${Styles.how}`}>
-      <a name="how" />
+    <section id="how" className={`${ChoiceStyles.how} ${Styles.how}`}>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.howInner}`}>
         <div className={`${ChoiceStyles.howContent} ${Styles.howContent}`}>
           <h1 className={`${ChoiceStyles.howTitle} ${Styles.howTitle}`}>
@@ -138,10 +141,14 @@ const ChooseRenewablePage = () => (
         </div>
         <div className={`${ChoiceStyles.stopsContent} ${Styles.stopsContent}`}>
           <div
-            className={`${ChoiceStyles.stopsListContainer} ${Styles.stopsListContainer}`}
+            className={`${ChoiceStyles.stopsListContainer} ${
+              Styles.stopsListContainer
+            }`}
           >
             <ol
-              className={`${ChoiceStyles.choiceList} ${ChoiceStyles.stopsList} ${Styles.stopsList}`}
+              className={`${ChoiceStyles.choiceList} ${
+                ChoiceStyles.stopsList
+              } ${Styles.stopsList}`}
             >
               <li>
                 Cost - Buying renewable energy can be more expensive than
@@ -175,8 +182,10 @@ const ChooseRenewablePage = () => (
         </div>
       </div>
     </section>
-    <section className={`${ChoiceStyles.actions} ${Styles.actions}`}>
-      <a name="actions" />
+    <section
+      id="actions"
+      className={`${ChoiceStyles.actions} ${Styles.actions}`}
+    >
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.actionsInner}`}>
         <div
           className={`${ChoiceStyles.actionsContent} ${Styles.actionsContent}`}
@@ -212,7 +221,9 @@ const ChooseRenewablePage = () => (
               should point you in the right direction.
             </p>
             <h3
-              className={`${ChoiceStyles.actionHowTitle} ${Styles.actionHowTitle}`}
+              className={`${ChoiceStyles.actionHowTitle} ${
+                Styles.actionHowTitle
+              }`}
             >
               <img src={HowIcon} alt="How it helps" />
               How much would this help?
@@ -232,7 +243,9 @@ const ChooseRenewablePage = () => (
           </div>
         </div>
         <div
-          className={`${ChoiceStyles.action} ${Styles.action} ${ChoiceStyles.actionAnother}`}
+          className={`${ChoiceStyles.action} ${Styles.action} ${
+            ChoiceStyles.actionAnother
+          }`}
         >
           <div
             className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
@@ -264,7 +277,9 @@ const ChooseRenewablePage = () => (
               Consider which option best suits your location.
             </p>
             <h3
-              className={`${ChoiceStyles.actionHowTitle} ${Styles.actionHowTitle}`}
+              className={`${ChoiceStyles.actionHowTitle} ${
+                Styles.actionHowTitle
+              }`}
             >
               <img src={HowIcon} alt="How it helps" />
               How much would this help?
@@ -279,15 +294,21 @@ const ChooseRenewablePage = () => (
 
           <div className={`${ChoiceStyles.actionAside} ${Styles.actionAside}`}>
             <div
-              className={`${ChoiceStyles.actionAsideContainer} ${Styles.actionAsideContainer}`}
+              className={`${ChoiceStyles.actionAsideContainer} ${
+                Styles.actionAsideContainer
+              }`}
             >
               <h3
-                className={`${ChoiceStyles.actionAsideTitle} ${Styles.actionAsideTitle}`}
+                className={`${ChoiceStyles.actionAsideTitle} ${
+                  Styles.actionAsideTitle
+                }`}
               >
                 Learn more
               </h3>
               <ul
-                className={`${ChoiceStyles.actionAsideList} ${Styles.actionAsideList}`}
+                className={`${ChoiceStyles.actionAsideList} ${
+                  Styles.actionAsideList
+                }`}
               >
                 <li>
                   <OutboundLink
@@ -327,7 +348,9 @@ const ChooseRenewablePage = () => (
         <div className={`${ChoiceStyles.tldrImg} ${Styles.tldrImg}`} />
         <div className={`${ChoiceStyles.tldrContent} ${Styles.tldrContent}`}>
           <div
-            className={`${ChoiceStyles.tldrListContainer} ${Styles.tldrListContainer}`}
+            className={`${ChoiceStyles.tldrListContainer} ${
+              Styles.tldrListContainer
+            }`}
           >
             <h1 className={`${ChoiceStyles.tldrTitle} ${Styles.tldrTitle}`}>
               Too long; didn't read?

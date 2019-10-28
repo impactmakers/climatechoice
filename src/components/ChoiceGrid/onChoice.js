@@ -5,9 +5,9 @@ import ChoiceGridItems from "./items";
 
 const ChoiceGridOnChoice = () => (
   <section
+    id="your-choices"
     className={`${GlobalStyles.container} ${Styles.choiceGridContainer} `}
   >
-    <a name="your-choices" />
     <div
       className={`${GlobalStyles.inner} ${GlobalStyles.subpageInner} ${
         Styles.choiceGridInner

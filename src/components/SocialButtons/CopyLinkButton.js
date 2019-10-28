@@ -27,7 +27,7 @@ export default function CopyLinkButton(props) {
   return (
     <>
       {showNotification && <Notification />}
-      <div
+      <button
         className={`${styles.button} ${buttonStyles.btnSimple}`}
         onClick={copyLink}
       >
@@ -35,7 +35,7 @@ export default function CopyLinkButton(props) {
           <CopyLinkIcon fillColor="#16243E" />
         </div>
         Copy Link
-      </div>
+      </button>
     </>
   );
 }

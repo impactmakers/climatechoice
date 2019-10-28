@@ -116,6 +116,60 @@ const ContactPage = () => (
               </li>
               <li>
                 <OutboundLink
+                  href="https://au.linkedin.com/in/stefanos-bekiaris-01ab18113"
+                  title="View on Linkedin"
+                >
+                  Stefanos Bekiaris
+                </OutboundLink>{" "}
+                - Development / Content
+              </li>
+              <li>
+                <OutboundLink
+                  href="https://github.com/eostrom"
+                  title="Follow on Github"
+                >
+                  Erik Ostrom
+                </OutboundLink>{" "}
+                - Development
+              </li>
+              <li>
+                <OutboundLink
+                  href="https://github.com/mfix22"
+                  title="Follow on Github"
+                >
+                  Michael Fix
+                </OutboundLink>{" "}
+                - Development
+              </li>
+              <li>
+                <OutboundLink
+                  href="https://github.com/exoen"
+                  title="Follow on Github"
+                >
+                  Andreas Lilleskare
+                </OutboundLink>{" "}
+                - Development
+              </li>
+              <li>
+                <OutboundLink
+                  href="https://github.com/demir-delic"
+                  title="Follow on Github"
+                >
+                  Demir Delic
+                </OutboundLink>{" "}
+                - Development
+              </li>
+              <li>
+                <OutboundLink
+                  href="https://github.com/andrew-pyle"
+                  title="Follow on Github"
+                >
+                  Andrew Pyle
+                </OutboundLink>{" "}
+                - Development
+              </li>
+              <li>
+                <OutboundLink
                   href="https://twitter.com/alexprice"
                   title="Follow @remotealex on Twitter"
                 >
