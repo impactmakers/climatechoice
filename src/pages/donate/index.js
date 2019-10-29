@@ -44,17 +44,12 @@ const DonatePage = () => (
           </p>
           <div className={Styles.ctaActions}>
             <OutboundLink
-              className={Styles.ctaButton}
+              className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
+                ButtonStyles.btnPrimary
+              } ${ButtonStyles.btnMobile} `}
               href="https://liberapay.com/impactmakers/"
-              title="Donate to Impact Makers"
             >
-              <button
-                className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
-                  ButtonStyles.btnPrimary
-                } ${ButtonStyles.btnMobile} `}
-              >
-                Donate to Impact Makers
-              </button>
+              Donate to Impact Makers
             </OutboundLink>
           </div>
           <div
