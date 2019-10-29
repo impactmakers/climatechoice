@@ -9,7 +9,7 @@ A project from [Impact Makers](https://techimpactmakers.com) — A global commun
 Clone the repo to your computer.
 
 ```bash
-git@github.com:impactmakers/climatechoice.git
+git clone git@github.com:impactmakers/climatechoice.git
 cd climatechoice
 ```
 
