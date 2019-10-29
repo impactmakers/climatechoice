@@ -13,7 +13,7 @@ git@github.com:impactmakers/climatechoice.git
 cd climatechoice
 ```
 
-Then install dependencies
+Then install dependencies using [yarn](https://yarnpkg.com/en/docs/install)
 
 ```bash
 yarn install
@@ -26,6 +26,8 @@ Start the development server and visit http://localhost:8000/
 ```bash
 gatsby develop
 ```
+
+If you've not used Gatsby before, you might need to [install the Gatsby CLI](https://www.gatsbyjs.org/tutorial/part-zero/) first.
 
 &nbsp;
 
