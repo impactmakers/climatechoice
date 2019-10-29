@@ -447,9 +447,9 @@
 .btn-header {
   width: 100%;
   background: #1f3357;
-  height: 52px;
+  height: 46px;
   box-sizing: border-box;
-  padding: 15px;
+  padding-top: 15px;
   @include mq("tablet") {
     width: auto;
     height: auto;
