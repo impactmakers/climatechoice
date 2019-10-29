@@ -82,6 +82,7 @@
   color: $white;
   -webkit-transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
   transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+  text-decoration: none;
 
   @media only screen and (max-width: $mobile) {
     width: 100%;
@@ -417,6 +418,8 @@
   background: $orange;
   border: 2px solid $orange;
   color: $white;
+  display: inline-block;
+  margin-top: 20px;
 }
 
 .btn-yellow {
@@ -438,16 +441,15 @@
 }
 
 .btn-mobile {
-  width: 100%;
-  @include mq("tablet") {
-    width: auto;
-  }
+  width: auto;
 }
 
 .btn-header {
   width: 100%;
   background: #1f3357;
   height: 52px;
+  box-sizing: border-box;
+  padding: 15px;
   @include mq("tablet") {
     width: auto;
     height: auto;

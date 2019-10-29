@@ -51,17 +51,12 @@ const HomeIntro = () => {
           </h1>
           <div className={Styles.ctas}>
             <a
-              className={Styles.ctaPrimary}
+              className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
+                ButtonStyles.btnBanner
+              } ${ButtonStyles.btnMobile}`}
               href="#your-choices"
-              title="How you can help prevent climate breakdown"
             >
-              <button
-                className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
-                  ButtonStyles.btnBanner
-                } ${ButtonStyles.btnMobile}`}
-              >
-                Learn how you can help
-              </button>
+              Learn how you can help
             </a>
             <ConvincedButton />
           </div>

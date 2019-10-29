@@ -216,18 +216,16 @@ const Footer = () => (
           Impact Makers is a community of tech people who want to have a
           positive impact by helping prevent earth’s climate breaking down.
         </p>
-        <OutboundLink
-          className={Styles.impactMakersCta}
-          href="https://techimpactmakers.com"
-        >
-          <button
+        <div>
+          <OutboundLink
             className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
               ButtonStyles.btnOrange
             } ${ButtonStyles.btnMobile}`}
+            href="https://techimpactmakers.com"
           >
             Find out more about us
-          </button>
-        </OutboundLink>
+          </OutboundLink>
+        </div>
       </div>
     </div>
   </footer>

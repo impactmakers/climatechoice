@@ -15,19 +15,14 @@ const Footer = () => (
           help save the planet.
         </p>
       </div>
-      <div className={Styles.ctaActions}>
+      <div>
         <a
-          className={Styles.ctaButton}
+          className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
+            ButtonStyles.btnOrange
+          } ${ButtonStyles.btnMobile}`}
           href="/#your-choices"
-          title="View your choices"
         >
-          <button
-            className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
-              ButtonStyles.btnOrange
-            } ${ButtonStyles.btnMobile}`}
-          >
-            Learn about your choices
-          </button>
+          Learn about your choices
         </a>
       </div>
     </div>
