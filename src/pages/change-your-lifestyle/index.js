@@ -62,17 +62,12 @@ const ChangeYourLifestylePage = () => (
 
           <div className={ChoiceStyles.bannerActions}>
             <a
-              className={ChoiceStyles.bannerCtaPrimary}
+              className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
+                ButtonStyles.btnBanner
+              } ${ButtonStyles.btnMobile}`}
               href="#actions"
-              title="See how you can take action"
             >
-              <button
-                className={`${ButtonStyles.btnSimple} ${ButtonStyles.btnMd} ${
-                  ButtonStyles.btnBanner
-                } ${ButtonStyles.btnMobile}`}
-              >
-                Learn what you can do
-              </button>
+              Learn what you can do
             </a>
             <div className={ChoiceStyles.bannerCtaSecondary}>
               <a href="#how" title="How it happens">

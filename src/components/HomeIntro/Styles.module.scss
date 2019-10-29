@@ -74,14 +74,6 @@
   }
 }
 
-.ctaPrimary {
-  @include no-underline;
-  width: 100%;
-  @include mq("tablet") {
-    width: auto;
-  }
-}
-
 .ctaSecondary {
   @include links-on-dark;
   padding-top: 10px;
