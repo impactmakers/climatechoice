@@ -5,16 +5,18 @@ import Styles from "./Styles.module.scss";
 import Typist from "react-typist";
 import TypistLoop from "react-typist-loop";
 import HomeBanner from "./homeBanner.svg";
+import { formatMessage } from "gatsby-plugin-intl";
+import { injectIntl } from "react-intl";
 
 import ConvincedButton from "../ConvincedButton";
 
-const HomeIntro = () => {
+const HomeIntro = ({ intl }) => {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     setTimeout(() => {
       setMounted(true);
-    }, 2000);
+    }, 4000);
   }, []);
 
   return (
@@ -26,24 +28,25 @@ const HomeIntro = () => {
             {!mounted ? (
               <span className={Styles.titleEmphasis}>mass extinctions</span>
             ) : (
-              <TypistLoop interval={0}>
+              <TypistLoop interval={3000}>
                 {[
-                  "extreme weather",
-                  "water shortages",
-                  "crop failures",
+                  "extreme_weather",
+                  "water_shortages",
+                  "crop_failures",
                   "wildfires",
-                  "mass migrations",
-                  "sea level rises",
-                  "mass extinctions"
+                  "mass_migrations",
+                  "sea_level rises",
+                  "mass_extinctions"
                 ].map(text => (
                   <Typist
                     className={Styles.typist}
-                    key={text}
+                    key={{ text }}
                     cursor={{ show: false }}
-                    avgTypingDelay={45}
+                    interval={1000}
                   >
-                    <span className={Styles.titleEmphasis}>{text}</span>
-                    <Typist.Backspace count={text.length} delay={3000} />
+                    <span className={Styles.titleEmphasis}>
+                      {intl.formatMessage({ id: { text }.text })}
+                    </span>
                   </Typist>
                 ))}
               </TypistLoop>
@@ -78,4 +81,4 @@ const HomeIntro = () => {
   );
 };
 
-export default HomeIntro;
+export default injectIntl(HomeIntro);

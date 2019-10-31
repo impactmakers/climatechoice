@@ -16,6 +16,7 @@
     "gatsby-plugin-emotion": "^4.0.3",
     "gatsby-plugin-feed": "^2.0.13",
     "gatsby-plugin-google-analytics": "^2.0.20",
+    "gatsby-plugin-intl@beta": "^0.1.7",
     "gatsby-plugin-mailchimp": "^5.1.0",
     "gatsby-plugin-manifest": "^2.0.18",
     "gatsby-plugin-netlify-cms": "^3.0.12",

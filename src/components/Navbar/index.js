@@ -1,12 +1,13 @@
 import React, { useState } from "react";
-import { Link } from "gatsby";
 import MenuIcon from "../Images/Icons/MenuIcon";
 import GlobalStyles from "../../styles/Global.module.scss";
 import ButtonStyles from "../../styles/Buttons.module.scss";
 import Styles from "./Styles.module.scss";
 import Logo from "./LogoOnDark.svg";
+import { Link, FormattedMessage } from "gatsby-plugin-intl";
+import { injectIntl } from "react-intl";
 
-function Navbar() {
+const Navbar = ({ intl }) => {
   const [navOpen, setNavOpen] = useState(false);
 
   function toggleNav(e) {
@@ -22,7 +23,7 @@ function Navbar() {
     >
       <div className={`${GlobalStyles.inner} ${Styles.inner}`}>
         <div className={Styles.logo}>
-          <Link to="/" title="Go back home">
+          <Link to="/" title={intl.formatMessage({ id: "link_to_root" })}>
             <img src={Logo} alt="ClimateChoice" />
           </Link>
         </div>
@@ -39,13 +40,16 @@ function Navbar() {
           className={`${Styles.navList} ${navOpen ? Styles.navListOpen : ""}`}
         >
           <li className={`${Styles.navItem} ${Styles.navItemLink}`}>
-            <Link to="/contact#contribute" title="Contribute to ClimateChoice">
-              Contribute
+            <Link
+              to="/contact#contribute"
+              title={intl.formatMessage({ id: "contribute" })}
+            >
+              {intl.formatMessage({ id: "contribute" })}
             </Link>
           </li>
           <li className={`${Styles.navItem} ${Styles.navItemLink}`}>
-            <Link to="/donate" title="Donate to climate causes">
-              Donate
+            <Link to="/donate" title={intl.formatMessage({ id: "donate" })}>
+              <FormattedMessage id="donate" />
             </Link>
           </li>
           <li className={`${Styles.navItem} ${Styles.navItemAction}`}>
@@ -55,7 +59,7 @@ function Navbar() {
                   ButtonStyles.btnHeader
                 } `}
               >
-                View your choices
+                <FormattedMessage id="choices" />
               </button>
             </a>
           </li>
@@ -63,6 +67,6 @@ function Navbar() {
       </div>
     </nav>
   );
-}
+};
 
-export default Navbar;
+export default injectIntl(Navbar);
