@@ -90,7 +90,7 @@ function ShareSocialCta({
   whatsappTitle,
   currentUrl
 }) {
-  const webShareApi = "share" in navigator;
+  const webShareApi = "share" in window.navigator;
   const propsForFallbackShareButtons = {
     ctaTitle,
     emailBody,
