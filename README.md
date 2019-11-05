@@ -19,8 +19,6 @@ Then install dependencies
 yarn install
 ```
 
-If you have not used Gatsby before, make sure to [install the Gatsby CLI globally](https://github.com/gatsbyjs/gatsby#-get-up-and-running-in-5-minutes).
-
 ## Running
 
 Start the development server and visit http://localhost:8000/
