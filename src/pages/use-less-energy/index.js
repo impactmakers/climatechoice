@@ -303,15 +303,48 @@ const UseLessEnergyPage = () => (
               home when absolutely necessary. Warmer clothes or a blanket can
               often do the same job.
             </p>
-            <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              <OutboundLink
-                href="https://blog.constellation.com/2016/01/01/31-ways-to-save-energy-in-your-home/"
-                title="Energy efficiency tips"
+          </div>
+
+          <div className={`${ChoiceStyles.actionAside} ${Styles.actionAside}`}>
+            <div
+              className={`${ChoiceStyles.actionAsideContainer} ${
+                Styles.actionAsideContainer
+              }`}
+            >
+              <h3
+                className={`${ChoiceStyles.actionAsideTitle} ${
+                  Styles.actionAsideTitle
+                }`}
               >
-                Read this to learn more ways to become energy efficient
-              </OutboundLink>
-              .
-            </p>
+                More ways to save at home
+              </h3>
+              <ul
+                className={`${ChoiceStyles.actionAsideList} ${
+                  Styles.actionAsideList
+                }`}
+              >
+                <li>
+                  <OutboundLink
+                    href="https://blog.constellation.com/2016/01/01/31-ways-to-save-energy-in-your-home/"
+                    title="31 Ways to Save Energy in Your Home"
+                  >
+                    31 Ways to Save Energy in Your Home
+                  </OutboundLink>
+                </li>
+                <li>
+                  <OutboundLink
+                    href="https://finalscope.com/award-winning-ideas-to-save-energy-at-home/"
+                    title="Award-Winning Ideas To Save Energy At Home/Offices"
+                  >
+                    Award-Winning Ideas To Save Energy At Home/Offices
+                  </OutboundLink>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
+          >
             <h3
               className={`${ChoiceStyles.actionHowTitle} ${
                 Styles.actionHowTitle
