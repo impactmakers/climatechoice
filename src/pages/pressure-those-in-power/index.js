@@ -19,7 +19,7 @@ const PressureThoseInPower = () => (
   <Layout>
     <SEO
       title="Pressure those in power to help prevent climate change"
-      description="Climate change is an urgent crisis that cannot be held seperate from politics for real change to occur"
+      description="Climate change is an urgent crisis that cannot be held separate from politics for real change to occur"
       image="https://climatechoice.co/images/Seo/eat.jpg"
       keywords={[
         `politics`,
