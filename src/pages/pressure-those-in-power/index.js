@@ -301,7 +301,7 @@ const PressureThoseInPower = () => (
                         href="http://www.assemblee-nationale.fr/dyn/vos-deputes"
                         title="Contact a public official"
                       >
-                        Find and contact Deputies of the National Assembly →
+                        Find and contact your Deputies of the National Assembly →
                       </OutboundLink>
                     </li>
                     <h3>
@@ -331,7 +331,7 @@ const PressureThoseInPower = () => (
                         href="https://www.bundesrat.de/DE/bundesrat/mitglieder/mitglieder-node.html"
                         title="Contact a public official"
                       >
-                        Find and contact members of the Bundesrat →
+                        Find and contact your members of the Bundesrat →
                       </OutboundLink>
                     </li>
                     <h3>
@@ -342,14 +342,68 @@ const PressureThoseInPower = () => (
                       href="http://www.senato.it/leg/18/BGT/Schede/Attsen/Sena.html"
                       title="Contact a public official"
                     >
-                      Find and contact your members of the Senate →
+                      Find and contact your Senators →
                     </OutboundLink>
                     <li>
                       <OutboundLink
                         href="https://www.camera.it/leg18/28"
                         title="Contact a public official"
                       >
-                        Find and contact members of the Chamber of Deputies →
+                        Find and contact your members of the Chamber of Deputies →
+                      </OutboundLink>
+                    </li>
+                    <h3>
+                      {" "}
+                      <u> Canada </u>
+                    </h3>
+                    <OutboundLink
+                      href="https://www.ourcommons.ca/Members/en/search"
+                      title="Contact a public official"
+                    >
+                      Find and contact your members of Parliament →
+                    </OutboundLink>
+                    <li>
+                      <OutboundLink
+                        href="https://sencanada.ca/en/senators-list/"
+                        title="Contact a public official"
+                      >
+                        Find and contact your Senators →
+                      </OutboundLink>
+                    </li>
+                    <h3>
+                      {" "}
+                      <u> India </u>
+                    </h3>
+                    <OutboundLink
+                      href="http://loksabhaph.nic.in/Members/AlphabeticalList.aspx"
+                      title="Contact a public official"
+                    >
+                      Find and contact your members of the House of the People →
+                    </OutboundLink>
+                    <li>
+                      <OutboundLink
+                        href="https://rajyasabha.nic.in/rsnew/member_site/memberlist.aspx"
+                        title="Contact a public official"
+                      >
+                        Find and contact your members of the Council of States →
+                      </OutboundLink>
+                    </li>
+                    <h3>
+                      {" "}
+                      <u> Australia </u>
+                    </h3>
+                    <OutboundLink
+                      href="https://www.aph.gov.au/Senators_and_Members/Parliamentarian_Search_Results?q=&mem=1&par=-1&gen=0&ps=0"
+                      title="Contact a public official"
+                    >
+                      Find and contact your members of Parliament →
+                    </OutboundLink>
+                    <li>
+                      <OutboundLink
+                        href="https://www.aph.gov.au/Senators_and_Members/Parliamentarian_Search_Results?q=&sen=1&par=-1&gen=0&ps=0"
+                        title="Contact a public official"
+                      >
+                        Find and contact your Senators →
                       </OutboundLink>
                     </li>
                   </li>
