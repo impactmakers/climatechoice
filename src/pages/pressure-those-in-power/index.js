@@ -46,10 +46,10 @@ const PressureThoseInPower = () => (
           className={`${ChoiceStyles.bannerContent} ${Styles.bannerContent}`}
         >
           <h1 className={`${ChoiceStyles.bannerTitle} ${Styles.bannerTitle}`}>
-            Pressure those in power help prevent climate breakdown
+            Pressure those in power to help prevent climate breakdown
           </h1>
           <p className={`${ChoiceStyles.bannerDesc} ${Styles.bannerDesc}`}>
-            Climate change is an urgent crisis that cannot be held seperate from
+            Climate change is an urgent crisis that cannot be held separate from
             politics for real change to occur
           </p>
 
@@ -115,12 +115,12 @@ const PressureThoseInPower = () => (
           >
             <li>
               Those with political power make decisions for the world that
-              effect emissions and the state of our planet.
+              affect emissions and the state of our planet.
             </li>
             <li>
               Lobbiest for big oil and other large energy companies use their
-              immense budget to influence politicians causing politicians who do
-              take climate change seriously and seek a solution are severely
+              immense budget to influence politicians, causing politicians who
+              do take climate change seriously and seek a solution severely
               underfunded comparitively.
             </li>
             <li>
@@ -169,7 +169,7 @@ const PressureThoseInPower = () => (
               </li>
               <li>
                 Many people vote based on political affiliation regardless of
-                policies the politicain holds.
+                policies the politician holds.
               </li>
               <li>
                 Often people do not know where to start or believe that they
@@ -225,10 +225,10 @@ const PressureThoseInPower = () => (
               How much would this help?
             </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              If we are able to elect officails who value our planet and hope to
+              If we are able to elect officials who value our planet and hope to
               minimize or eliminate the effects humans have on the climate, then
               their policies would be reflective of that. This would incentivise
-              industry to change with their ways or get left behind. No true
+              the industry to change with their ways or get left behind. No true
               change can come until the political conversation changes as well.
             </p>
           </div>
@@ -251,6 +251,10 @@ const PressureThoseInPower = () => (
                 }`}
               >
                 <li>
+                  <h3>
+                    {" "}
+                    <u>United States </u>{" "}
+                  </h3>
                   <OutboundLink
                     href="https://www.govtrack.us/"
                     title="Contact a public official"
@@ -264,6 +268,90 @@ const PressureThoseInPower = () => (
                     >
                       Find any elected offical →
                     </OutboundLink>
+                    <h3>
+                      {" "}
+                      <u> United Kingdom </u>
+                    </h3>
+                    <OutboundLink
+                      href="https://members.parliament.uk/members/Lords"
+                      title="Contact a public official"
+                    >
+                      Find and contact your members of the House of Lords→
+                    </OutboundLink>
+                    <li>
+                      <OutboundLink
+                        href="https://members.parliament.uk/members/Commons"
+                        title="Contact a public official"
+                      >
+                        Find and contact your members of the House of Commons →
+                      </OutboundLink>
+                    </li>
+                    <h3>
+                      {" "}
+                      <u> France </u>
+                    </h3>
+                    <OutboundLink
+                      href="https://www.senat.fr/elus.html"
+                      title="Contact a public official"
+                    >
+                      Find and contact your Senators→
+                    </OutboundLink>
+                    <li>
+                      <OutboundLink
+                        href="http://www.assemblee-nationale.fr/dyn/vos-deputes"
+                        title="Contact a public official"
+                      >
+                        Find and contact Deputies of the National Assembly →
+                      </OutboundLink>
+                    </li>
+                    <h3>
+                      {" "}
+                      <u> Spain </u>
+                    </h3>
+                    <OutboundLink
+                      href="http://www.senado.es/web/relacionesciudadanos/atencionciudadano/contactar/index.html"
+                      title="Contact a public official"
+                    >
+                      Find and contact your President, Senators and
+                      Parliamentary groups/administration →
+                    </OutboundLink>
+
+                    <h3>
+                      {" "}
+                      <u> Germany </u>
+                    </h3>
+                    <OutboundLink
+                      href="https://www.bundestag.de/en/members#"
+                      title="Contact a public official"
+                    >
+                      Find and contact your members of the Bundestag →
+                    </OutboundLink>
+                    <li>
+                      <OutboundLink
+                        href="https://www.bundesrat.de/DE/bundesrat/mitglieder/mitglieder-node.html"
+                        title="Contact a public official"
+                      >
+                        Find and contact members of the Bundesrat →
+                      </OutboundLink>
+                    </li>
+                    <h3>
+                      {" "}
+                      <u> Italy </u>
+                    </h3>
+                    <OutboundLink
+                      href="http://www.senato.it/leg/18/BGT/Schede/Attsen/Sena.html"
+                      title="Contact a public official"
+                    >
+                      Find and contact your members of the Senate →
+                    </OutboundLink>
+                    <li>
+                      <OutboundLink
+                        href="https://www.camera.it/leg18/28"
+                        title="Contact a public official"
+                      >
+                        Find and contact members of the Chamber of Deputies →
+                      </OutboundLink>
+                    </li>
                   </li>
                 </li>
               </ul>
