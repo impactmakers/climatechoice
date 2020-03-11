@@ -118,7 +118,7 @@ const PressureThoseInPower = () => (
               affect emissions and the state of our planet.
             </li>
             <li>
-              Lobbiest for big oil and other large energy companies use their
+              Lobbyist for big oil and other large energy companies use their
               immense budget to influence politicians, causing politicians who
               do take climate change seriously and seek a solution severely
               underfunded comparitively.
