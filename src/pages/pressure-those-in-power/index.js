@@ -121,7 +121,7 @@ const PressureThoseInPower = () => (
               Lobbyists for big oil and other large energy companies use their
               immense budget to influence politicians, causing politicians who
               do take climate change seriously and seek a solution severely
-              underfunded comparitively.
+              underfunded comparatively.
             </li>
             <li>
               People in power use convincing rhetoric to mold the opinions of
@@ -207,12 +207,12 @@ const PressureThoseInPower = () => (
             </h2>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               The biggest impact can be had if you{" "}
-              <b>investigate the polcies of those up for election</b>, then vote
+              <b>investigate the policies of those up for election</b>, then vote
               for who's views best align with your own.{" "}
               <b>Reach out to public officials!</b> All congressmen and
               congresswomen have public contacts. <b>Start local!</b> Before you
               try and fix a nation, fix your own backyard. Local officials are
-              the politicans whos policies most directly affect your day to day
+              the politicans who's policies most directly affect your day to day
               life. This also lays the groundwork for changing the planet from
               the bottom-up.
             </p>
@@ -227,7 +227,7 @@ const PressureThoseInPower = () => (
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               If we are able to elect officials who value our planet and hope to
               minimize or eliminate the effects humans have on the climate, then
-              their policies would be reflective of that. This would incentivise
+              their policies would be reflective of that. This would incentivize
               the industry to change with their ways or get left behind. No true
               change can come until the political conversation changes as well.
             </p>
