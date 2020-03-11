@@ -253,20 +253,29 @@ const PressureThoseInPower = () => (
                 <li>
                   <h3>
                     {" "}
-                    <u>United States </u>{" "}
+                    <u>United States </u>
                   </h3>
+                  
                   <OutboundLink
+                    href="https://www.whitehouse.gov/contact/"
+                    title="Contact a public official"
+                  >
+                    Contact the President of the United States →
+                  </OutboundLink>
+                  <li>
+                    <OutboundLink
                     href="https://www.govtrack.us/"
                     title="Contact a public official"
                   >
                     Find and contact your congressmen and congresswomen →
                   </OutboundLink>
+                  </li>
                   <li>
                     <OutboundLink
                       href="https://www.usa.gov/elected-officials"
                       title="Contact a public official"
                     >
-                      Find any elected offical →
+                      Find and contact any elected offical →
                     </OutboundLink>
                     <h3>
                       {" "}
