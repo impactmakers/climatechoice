@@ -255,7 +255,7 @@ const PressureThoseInPower = () => (
                     {" "}
                     <u>United States </u>
                   </h3>
-                  
+
                   <OutboundLink
                     href="https://www.whitehouse.gov/contact/"
                     title="Contact a public official"
@@ -264,18 +264,18 @@ const PressureThoseInPower = () => (
                   </OutboundLink>
                   <li>
                     <OutboundLink
-                    href="https://www.govtrack.us/"
-                    title="Contact a public official"
-                  >
-                    Find and contact your congressmen and congresswomen →
-                  </OutboundLink>
+                      href="https://www.govtrack.us/"
+                      title="Contact a public official"
+                    >
+                      Find and contact your congressmen and congresswomen →
+                    </OutboundLink>
                   </li>
                   <li>
                     <OutboundLink
                       href="https://www.usa.gov/elected-officials"
                       title="Contact a public official"
                     >
-                      Find and contact any elected offical →
+                      Find and contact any elected official →
                     </OutboundLink>
                     <h3>
                       {" "}
@@ -310,7 +310,8 @@ const PressureThoseInPower = () => (
                         href="http://www.assemblee-nationale.fr/dyn/vos-deputes"
                         title="Contact a public official"
                       >
-                        Find and contact your Deputies of the National Assembly →
+                        Find and contact your Deputies of the National Assembly
+                        →
                       </OutboundLink>
                     </li>
                     <h3>
@@ -358,7 +359,8 @@ const PressureThoseInPower = () => (
                         href="https://www.camera.it/leg18/28"
                         title="Contact a public official"
                       >
-                        Find and contact your members of the Chamber of Deputies →
+                        Find and contact your members of the Chamber of Deputies
+                        →
                       </OutboundLink>
                     </li>
                     <h3>
@@ -416,6 +418,82 @@ const PressureThoseInPower = () => (
                       </OutboundLink>
                     </li>
                   </li>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className={`${ChoiceStyles.actionAside} ${Styles.actionAside}`}>
+            <div
+              className={`${ChoiceStyles.actionAsideContainer} ${
+                Styles.actionAsideContainer
+              }`}
+            >
+              <h3
+                className={`${ChoiceStyles.actionAsideTitle} ${
+                  Styles.actionAsideTitle
+                }`}
+              >
+               Want to read more or find additional ways to help?
+              </h3>
+              <ul
+                className={`${ChoiceStyles.actionAsideList} ${
+                  Styles.actionAsideList
+                }`}
+              >
+                <li>                
+                  <OutboundLink
+                    href="https://protect.earth/politics/"
+                    title="Visit Protect.Earth"
+                  >
+                    Find protests, petitions and important votes near you! →
+                  </OutboundLink>
+                </li>
+                <li>
+                  <OutboundLink
+                    href="https://climate.nasa.gov/"
+                    title="Visit NASA"
+                  >
+                    Learn more from the experts at NASA →
+                  </OutboundLink>
+                </li>
+                <li>
+                <OutboundLink
+                    href="https://www.opsociety.org/"
+                    title="Visit the Oceanic Preservation Society"
+                  >
+                    Learn more and protect our oceans with the Oceanic Preservation Society →
+                  </OutboundLink>
+                </li>
+                <li>
+                <OutboundLink
+                    href="https://standfortrees.org/en/climate-change"
+                    title="Visit Stand For Trees"
+                  >
+                    Learn more and protect our forests with Stand For Trees →
+                  </OutboundLink>
+                </li>
+                <h3
+                className={`${ChoiceStyles.actionAsideTitle} ${
+                  Styles.actionAsideTitle
+                }`}
+              >
+               Want to really dig deep?
+              </h3>
+              <li>
+                <OutboundLink
+                    href="https://www.environmentalsciencedegree.com/climate-change/"
+                    title="101 Top web resources"
+                  >
+                    Browse the top 101 web resources on climate change from enivronmental science degree →
+                  </OutboundLink>
+                </li>
+                <li>
+                <OutboundLink
+                    href="http://www.world.org/weo/climate"
+                    title="100 Top climate change sites"
+                  >
+                    Browse the top 100 climate change sites via World.org →
+                  </OutboundLink>
                 </li>
               </ul>
             </div>
