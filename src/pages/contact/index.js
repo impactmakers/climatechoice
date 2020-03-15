@@ -59,20 +59,25 @@ const ContactPage = () => (
             , working to prevent climate breakdown.
           </p>
           <p>
-            If you're interested in volunteering some of your time to contribute
-            to ClimateChoice please{" "}
+            If you're interested in contributing to ClimateChoice please{" "}
             <a href="mailto:yourclimatechoice@gmail.com" title="Email us">
               send us an email
-            </a>{" "}
-            or{" "}
+            </a>,{" "}
+            <OutboundLink
+              href="https://github.com/impactmakers/climatechoice/blob/master/CONTRIBUTING.md"
+              title="ClimateChoice GitHub Contributing Guide"
+            >
+              swing by GitHub to help us work on some issues
+            </OutboundLink>
+            , or{" "}
             <OutboundLink
               href="https://join.slack.com/t/impact-makers-group/shared_invite/enQtNjQ2MTY3NDM1MjcxLWUwNjA1YWViZmI1NjQ5YTIzMjA1OWE2NzI3NzMwNzQ0ODBiMmZlMzI0YTI4MDUyMzlhNmZhZDFiOWZkODQ0Yjg"
               title="The Impact Makers Slack"
             >
-              join the Impact Makers slack community
+              join the Impact Makers Slack community
             </OutboundLink>{" "}
             to discuss how you can help. It doesn't matter what your skill set
-            is, all motiviated people are welcome!
+            is, all motivated people are welcome!
           </p>
           <br />
           <h3>Contributors so far:</h3>
@@ -203,6 +208,15 @@ const ContactPage = () => (
                   James Haywood
                 </OutboundLink>{" "}
                 - Feedback
+              </li>
+              <li>
+                <OutboundLink
+                  href="https://twitter.com/philsturgeon"
+                  title="Follow @philsturgeon on Twitter"
+                >
+                  Phil Sturgeon
+                </OutboundLink>{" "}
+                - Feedback / Content
               </li>
             </ul>
           </p>
