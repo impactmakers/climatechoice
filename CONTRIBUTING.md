@@ -1,8 +1,8 @@
 # Contributing
 
-When contributing to this repository, please first discuss the change you wish to make in the [Impact Makers #proj-climatechoice Slack channel](https://impact-makers-group.slack.com/messages/CJ42T62DT).
+When contributing to this repository, please first discuss the change you wish to make in the [Impact Makers `#proj-climatechoice` Slack channel](https://impact-makers-group.slack.com/messages/CJ42T62DT).
 
-Please check the [repo's issues page to see if your change has already been sugggested.](https://github.com/impactmakers/climatechoice/issues)
+Please check the [repo's issues page to see if your change has already been suggested.](https://github.com/impactmakers/climatechoice/issues)
 
 ## New to the project?
 
