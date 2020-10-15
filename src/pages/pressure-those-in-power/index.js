@@ -8,9 +8,9 @@ import ChoiceStyles from "../../styles/Choice.module.scss";
 import ButtonStyles from "../../styles/Buttons.module.scss";
 import Styles from "./Styles.module.scss";
 import ShareSocialCta from "../../components/ShareSocialCta";
-import shareConfig from "../../configs/pages/choiceEatConfig";
+import shareConfig from "../../configs/pages/pressureThoseInPower";
 import ChoiceGridOnChoice from "../../components/ChoiceGrid/onChoice";
-import BannerImg from "../../components/Images/Graphics/choiceBannerEat.svg";
+import BannerImg from "../../components/Images/Graphics/pressureThoseInPowerBanner.svg";
 import HowIcon from "../../components/Images/Icons/HowIcon.svg";
 import EarthyShare from "../../components/EarthyShare";
 import SuccessBanner from "../../components/SuccessBanner";
@@ -20,7 +20,7 @@ const PressureThoseInPower = () => (
     <SEO
       title="Pressure those in power to help prevent climate change"
       description="Climate change is an urgent crisis that cannot be held separate from politics for real change to occur"
-      image="https://climatechoice.co/images/Seo/eat.jpg"
+      image="https://climatechoice.co/images/Seo/power.jpg"
       keywords={[
         `politics`,
         `policies`,
@@ -143,7 +143,7 @@ const PressureThoseInPower = () => (
     </section>
     <section className={`${ChoiceStyles.stops} ${Styles.stops}`}>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.stopsInner}`}>
-        <div className={`${ChoiceStyles.stopsImg} ${Styles.stopsImg}`}>
+        <div className={`${ChoiceStyles.powerImg} ${Styles.stopsImg}`}>
           <h1 className={`${ChoiceStyles.stopsTitle} ${Styles.stopsTitle}`}>
             What stops us from pressuring those in power?
           </h1>
@@ -207,8 +207,8 @@ const PressureThoseInPower = () => (
             </h2>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               The biggest impact can be had if you{" "}
-              <b>investigate the policies of those up for election</b>, then vote
-              for who's views best align with your own.{" "}
+              <b>investigate the policies of those up for election</b>, then
+              vote for who's views best align with your own.{" "}
               <b>Reach out to public officials!</b> All congressmen and
               congresswomen have public contacts. <b>Start local!</b> Before you
               try and fix a nation, fix your own backyard. Local officials are
@@ -433,14 +433,14 @@ const PressureThoseInPower = () => (
                   Styles.actionAsideTitle
                 }`}
               >
-               Want to read more or find additional ways to help?
+                Want to read more or find additional ways to help?
               </h3>
               <ul
                 className={`${ChoiceStyles.actionAsideList} ${
                   Styles.actionAsideList
                 }`}
               >
-                <li>                
+                <li>
                   <OutboundLink
                     href="https://protect.earth/politics/"
                     title="Visit Protect.Earth"
@@ -457,15 +457,16 @@ const PressureThoseInPower = () => (
                   </OutboundLink>
                 </li>
                 <li>
-                <OutboundLink
+                  <OutboundLink
                     href="https://www.opsociety.org/"
                     title="Visit the Oceanic Preservation Society"
                   >
-                    Learn more and protect our oceans with the Oceanic Preservation Society →
+                    Learn more and protect our oceans with the Oceanic
+                    Preservation Society →
                   </OutboundLink>
                 </li>
                 <li>
-                <OutboundLink
+                  <OutboundLink
                     href="https://standfortrees.org/en/climate-change"
                     title="Visit Stand For Trees"
                   >
@@ -473,22 +474,23 @@ const PressureThoseInPower = () => (
                   </OutboundLink>
                 </li>
                 <h3
-                className={`${ChoiceStyles.actionAsideTitle} ${
-                  Styles.actionAsideTitle
-                }`}
-              >
-               Want to really dig deep?
-              </h3>
-              <li>
-                <OutboundLink
+                  className={`${ChoiceStyles.actionAsideTitle} ${
+                    Styles.actionAsideTitle
+                  }`}
+                >
+                  Want to really dig deep?
+                </h3>
+                <li>
+                  <OutboundLink
                     href="https://www.environmentalsciencedegree.com/climate-change/"
                     title="101 Top web resources"
                   >
-                    Browse the top 101 web resources on climate change from enivronmental science degree →
+                    Browse the top 101 web resources on climate change from
+                    enivronmental science degree →
                   </OutboundLink>
                 </li>
                 <li>
-                <OutboundLink
+                  <OutboundLink
                     href="http://www.world.org/weo/climate"
                     title="100 Top climate change sites"
                   >

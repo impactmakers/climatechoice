@@ -6,6 +6,7 @@ import FormStyles from "./Form.module.scss";
 import addToMailchimp from "gatsby-plugin-mailchimp";
 import Tick from "./TickGreenIcon.svg";
 import EatIcon from "../Images/Icons/ChoiceEatIcon.svg";
+import PowerIcon from "../Images/Icons/PowerIcon.svg";
 import TravelIcon from "../Images/Icons/ChoiceTravelIcon.svg";
 import LifestyleIcon from "../Images/Icons/ChoiceLifestyleIcon.svg";
 import EnergyIcon from "../Images/Icons/ChoiceEnergyIcon.svg";
@@ -198,14 +199,14 @@ const ChoiceGridItems = () => {
             </div>
           </Link>
         </li>
-        <li className={`${Styles.choiceGridItem} ${Styles.choiceEat}`}>
+        <li className={`${Styles.choiceGridItem} ${Styles.choicePower}`}>
           <Link
             className={Styles.choiceContainer}
             to="/pressure-those-in-power"
           >
             <div className={Styles.choiceHeader}>
               <div className={Styles.choiceIcon}>
-                <img src={EatIcon} alt="Politician" />
+                <img src={PowerIcon} alt="Gavel" />
               </div>
 
               <img
