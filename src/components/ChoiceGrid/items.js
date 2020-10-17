@@ -6,6 +6,7 @@ import FormStyles from "./Form.module.scss";
 import addToMailchimp from "gatsby-plugin-mailchimp";
 import Tick from "./TickGreenIcon.svg";
 import EatIcon from "../Images/Icons/ChoiceEatIcon.svg";
+import PowerIcon from "../Images/Icons/PowerIcon.svg";
 import TravelIcon from "../Images/Icons/ChoiceTravelIcon.svg";
 import LifestyleIcon from "../Images/Icons/ChoiceLifestyleIcon.svg";
 import EnergyIcon from "../Images/Icons/ChoiceEnergyIcon.svg";
@@ -31,7 +32,9 @@ const ChoiceGridItems = () => {
       "use-less-energy": localStorage.getItem("/use-less-energy") === "visited",
       "change-your-lifestyle":
         localStorage.getItem("/change-your-lifestyle") === "visited",
-      "change-your-job": localStorage.getItem("/change-your-job") === "visited"
+      "change-your-job": localStorage.getItem("/change-your-job") === "visited",
+      "pressure-those-in-power":
+        localStorage.getItem("/pressure-those-in-power") === "visited"
     };
 
     setVisited(visited);
@@ -193,6 +196,31 @@ const ChoiceGridItems = () => {
             </h2>
             <div className={Styles.choiceMeta}>
               {renderReadStatus("change-your-job")}
+            </div>
+          </Link>
+        </li>
+        <li className={`${Styles.choiceGridItem} ${Styles.choicePower}`}>
+          <Link
+            className={Styles.choiceContainer}
+            to="/pressure-those-in-power"
+          >
+            <div className={Styles.choiceHeader}>
+              <div className={Styles.choiceIcon}>
+                <img src={PowerIcon} alt="Gavel" />
+              </div>
+
+              <img
+                className={Styles.choiceChevron}
+                src={Chevron}
+                alt="Chevron"
+              />
+            </div>
+            <h2 className={Styles.choiceTitle}>
+              Pressure those <br />
+              in power
+            </h2>
+            <div className={Styles.choiceMeta}>
+              {renderReadStatus("pressure-those-in-power")}
             </div>
           </Link>
         </li>
