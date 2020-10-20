@@ -9,7 +9,69 @@ import TwitterButton from "../SocialButtons/TwitterButton";
 import FacebookButton from "../SocialButtons/FacebookButton";
 import WhatsappButton from "../SocialButtons/WhatsappButton";
 import LinkedinButton from "../SocialButtons/LinkedInButton";
+import NativeShareButton from "../SocialButtons/NativeShareButton";
 import EarthIcon from "../Images/Icons/EarthIcon.svg";
+
+function FallbackShareButtons({
+  ctaTitle,
+  emailBody,
+  emailSubject,
+  facebookQuote,
+  facebookHashtag,
+  linkedinTitle,
+  linkedinDescription,
+  twitterTitle,
+  twitterAccount,
+  twitterHashtags,
+  url,
+  whatsappTitle,
+  currentUrl
+}) {
+  return (
+    <div className={styles.socialContainer}>
+      <div className={styles.socialButton}>
+        <TwitterButton
+          url={url}
+          currentUrl={currentUrl}
+          twitterTitle={twitterTitle}
+          twitterAccount={twitterAccount}
+          hashtags={twitterHashtags}
+        />
+      </div>
+      <div className={styles.socialButton}>
+        <FacebookButton
+          url={url}
+          currentUrl={currentUrl}
+          facebookQuote={facebookQuote}
+          facebookHashtag={facebookHashtag}
+        >
+          {null}
+        </FacebookButton>
+      </div>
+      <div className={styles.socialButton}>
+        <WhatsappButton url={url} whatsappTitle={whatsappTitle} />
+      </div>
+      <div className={styles.socialButton}>
+        <LinkedinButton
+          url={url}
+          currentUrl={currentUrl}
+          title={linkedinTitle}
+          description={linkedinDescription}
+        />
+      </div>
+      <div className={styles.socialButton}>
+        <EmailButton
+          emailBody={emailBody}
+          currentUrl={currentUrl}
+          emailSubject={emailSubject}
+        />
+      </div>
+      <div className={styles.socialButton}>
+        <CopyLinkButton currentUrl={currentUrl} />
+      </div>
+    </div>
+  );
+}
 
 function ShareSocialCta({
   children,
@@ -28,6 +90,30 @@ function ShareSocialCta({
   whatsappTitle,
   currentUrl
 }) {
+  const webShareApi =
+    typeof window !== "undefined" && "share" in window.navigator;
+  const propsForFallbackShareButtons = {
+    ctaTitle,
+    emailBody,
+    emailSubject,
+    facebookQuote,
+    facebookHashtag,
+    linkedinTitle,
+    linkedinDescription,
+    twitterTitle,
+    twitterAccount,
+    twitterHashtags,
+    url,
+    whatsappTitle,
+    currentUrl
+  };
+
+  const shareButtons = webShareApi ? (
+    <NativeShareButton title="Climate Choice" text={twitterTitle} url={url} />
+  ) : (
+    <FallbackShareButtons {...propsForFallbackShareButtons} />
+  );
+
   return (
     <section id="share" aria-label="share" className={styles.container}>
       <div className={`${GlobalStyles.inner} ${styles.inner}`}>
@@ -51,50 +137,9 @@ function ShareSocialCta({
               Send this page to your friends, family and followers via our handy
               pre written message.
             </p>
-
-            <div className={styles.socialContainer}>
-              <div className={styles.socialButton}>
-                <TwitterButton
-                  url={url}
-                  currentUrl={currentUrl}
-                  twitterTitle={twitterTitle}
-                  twitterAccount={twitterAccount}
-                  hashtags={twitterHashtags}
-                />
-              </div>
-              <div className={styles.socialButton}>
-                <FacebookButton
-                  url={url}
-                  currentUrl={currentUrl}
-                  facebookQuote={facebookQuote}
-                  facebookHashtag={facebookHashtag}
-                >
-                  {null}
-                </FacebookButton>
-              </div>
-              <div className={styles.socialButton}>
-                <WhatsappButton url={url} whatsappTitle={whatsappTitle} />
-              </div>
-              <div className={styles.socialButton}>
-                <LinkedinButton
-                  url={url}
-                  currentUrl={currentUrl}
-                  title={linkedinTitle}
-                  description={linkedinDescription}
-                />
-              </div>
-              <div className={styles.socialButton}>
-                <EmailButton
-                  emailBody={emailBody}
-                  currentUrl={currentUrl}
-                  emailSubject={emailSubject}
-                />
-              </div>
-              <div className={styles.socialButton}>
-                <CopyLinkButton currentUrl={currentUrl} />
-              </div>
-            </div>
+            {shareButtons}
           </div>
+
           <span className={styles.thanks}>
             Thank you{" "}
             <span role="img" aria-label="raising_hands">
