@@ -104,10 +104,10 @@ const PressureThoseInPower = () => (
     >
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.howInner}`}>
         <div className={`${ChoiceStyles.howContent} ${Styles.howContent}`}>
-          <h1 className={`${ChoiceStyles.howTitle} ${Styles.howTitle}`}>
+          <h2 className={`${ChoiceStyles.howTitle} ${Styles.howTitle}`}>
             How politics, policy and those in power contributes to climate
             breakdown
-          </h1>
+          </h2>
           <ol
             className={`${ChoiceStyles.choiceList} ${ChoiceStyles.howList} ${
               Styles.howList
@@ -144,9 +144,9 @@ const PressureThoseInPower = () => (
     <section className={`${ChoiceStyles.stops} ${Styles.stops}`}>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.stopsInner}`}>
         <div className={`${ChoiceStyles.powerImg} ${Styles.stopsImg}`}>
-          <h1 className={`${ChoiceStyles.stopsTitle} ${Styles.stopsTitle}`}>
+          <h2 className={`${ChoiceStyles.stopsTitle} ${Styles.stopsTitle}`}>
             What stops us from pressuring those in power?
-          </h1>
+          </h2>
         </div>
         <div className={`${ChoiceStyles.stopsContent} ${Styles.stopsContent}`}>
           <div
@@ -194,17 +194,17 @@ const PressureThoseInPower = () => (
         <div
           className={`${ChoiceStyles.actionsContent} ${Styles.actionsContent}`}
         >
-          <h1 className={`${ChoiceStyles.actionsTitle} ${Styles.actionsTitle}`}>
+          <h2 className={`${ChoiceStyles.actionsTitle} ${Styles.actionsTitle}`}>
             What you can do now
-          </h1>
+          </h2>
         </div>
         <div className={`${ChoiceStyles.action} ${Styles.action}`}>
           <div
             className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
           >
-            <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
+            <h3 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
               The most important thing to do is becoming more informed!
-            </h2>
+            </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               The biggest impact can be had if you{" "}
               <b>investigate the policies of those up for election</b>, then
@@ -216,14 +216,14 @@ const PressureThoseInPower = () => (
               life. This also lays the groundwork for changing the planet from
               the bottom-up.
             </p>
-            <h3
+            <h4
               className={`${ChoiceStyles.actionHowTitle} ${
                 Styles.actionHowTitle
               }`}
             >
               <img src={HowIcon} alt="How it helps" />
               How much would this help?
-            </h3>
+            </h4>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               If we are able to elect officials who value our planet and hope to
               minimize or eliminate the effects humans have on the climate, then
@@ -238,23 +238,23 @@ const PressureThoseInPower = () => (
                 Styles.actionAsideContainer
               }`}
             >
-              <h3
+              <h4
                 className={`${ChoiceStyles.actionAsideTitle} ${
                   Styles.actionAsideTitle
                 }`}
               >
                 Need help pressuring for change?
-              </h3>
+              </h4>
               <ul
                 className={`${ChoiceStyles.actionAsideList} ${
                   Styles.actionAsideList
                 }`}
               >
                 <li>
-                  <h3>
+                  <h4>
                     {" "}
                     <u>United States </u>
-                  </h3>
+                  </h4>
 
                   <OutboundLink
                     href="https://www.whitehouse.gov/contact/"
@@ -277,10 +277,10 @@ const PressureThoseInPower = () => (
                     >
                       Find and contact any elected official →
                     </OutboundLink>
-                    <h3>
+                    <h4>
                       {" "}
                       <u> United Kingdom </u>
-                    </h3>
+                    </h4>
                     <OutboundLink
                       href="https://members.parliament.uk/members/Lords"
                       title="Contact a public official"
@@ -295,10 +295,10 @@ const PressureThoseInPower = () => (
                         Find and contact your members of the House of Commons →
                       </OutboundLink>
                     </li>
-                    <h3>
+                    <h4>
                       {" "}
                       <u> France </u>
-                    </h3>
+                    </h4>
                     <OutboundLink
                       href="https://www.senat.fr/elus.html"
                       title="Contact a public official"
@@ -314,10 +314,10 @@ const PressureThoseInPower = () => (
                         →
                       </OutboundLink>
                     </li>
-                    <h3>
+                    <h4>
                       {" "}
                       <u> Spain </u>
-                    </h3>
+                    </h4>
                     <OutboundLink
                       href="http://www.senado.es/web/relacionesciudadanos/atencionciudadano/contactar/index.html"
                       title="Contact a public official"
@@ -326,10 +326,10 @@ const PressureThoseInPower = () => (
                       Parliamentary groups/administration →
                     </OutboundLink>
 
-                    <h3>
+                    <h4>
                       {" "}
                       <u> Germany </u>
-                    </h3>
+                    </h4>
                     <OutboundLink
                       href="https://www.bundestag.de/en/members#"
                       title="Contact a public official"
@@ -344,10 +344,10 @@ const PressureThoseInPower = () => (
                         Find and contact your members of the Bundesrat →
                       </OutboundLink>
                     </li>
-                    <h3>
+                    <h4>
                       {" "}
                       <u> Italy </u>
-                    </h3>
+                    </h4>
                     <OutboundLink
                       href="http://www.senato.it/leg/18/BGT/Schede/Attsen/Sena.html"
                       title="Contact a public official"
@@ -363,10 +363,10 @@ const PressureThoseInPower = () => (
                         →
                       </OutboundLink>
                     </li>
-                    <h3>
+                    <h4>
                       {" "}
                       <u> Canada </u>
-                    </h3>
+                    </h4>
                     <OutboundLink
                       href="https://www.ourcommons.ca/Members/en/search"
                       title="Contact a public official"
@@ -381,10 +381,10 @@ const PressureThoseInPower = () => (
                         Find and contact your Senators →
                       </OutboundLink>
                     </li>
-                    <h3>
+                    <h4>
                       {" "}
                       <u> India </u>
-                    </h3>
+                    </h4>
                     <OutboundLink
                       href="http://loksabhaph.nic.in/Members/AlphabeticalList.aspx"
                       title="Contact a public official"
@@ -399,10 +399,10 @@ const PressureThoseInPower = () => (
                         Find and contact your members of the Council of States →
                       </OutboundLink>
                     </li>
-                    <h3>
+                    <h4>
                       {" "}
                       <u> Australia </u>
-                    </h3>
+                    </h4>
                     <OutboundLink
                       href="https://www.aph.gov.au/Senators_and_Members/Parliamentarian_Search_Results?q=&mem=1&par=-1&gen=0&ps=0"
                       title="Contact a public official"
@@ -428,13 +428,13 @@ const PressureThoseInPower = () => (
                 Styles.actionAsideContainer
               }`}
             >
-              <h3
+              <h4
                 className={`${ChoiceStyles.actionAsideTitle} ${
                   Styles.actionAsideTitle
                 }`}
               >
                 Want to read more or find additional ways to help?
-              </h3>
+              </h4>
               <ul
                 className={`${ChoiceStyles.actionAsideList} ${
                   Styles.actionAsideList
@@ -473,13 +473,13 @@ const PressureThoseInPower = () => (
                     Learn more and protect our forests with Stand For Trees →
                   </OutboundLink>
                 </li>
-                <h3
+                <h4
                   className={`${ChoiceStyles.actionAsideTitle} ${
                     Styles.actionAsideTitle
                   }`}
                 >
                   Want to really dig deep?
-                </h3>
+                </h4>
                 <li>
                   <OutboundLink
                     href="https://www.environmentalsciencedegree.com/climate-change/"
@@ -515,9 +515,9 @@ const PressureThoseInPower = () => (
               Styles.tldrListContainer
             }`}
           >
-            <h1 className={`${ChoiceStyles.tldrTitle} ${Styles.tldrTitle}`}>
+            <h2 className={`${ChoiceStyles.tldrTitle} ${Styles.tldrTitle}`}>
               Too long; didn't read?
-            </h1>
+            </h2>
             <p
               className={`${ChoiceStyles.tldrSubtitle} ${Styles.tldrSubtitle}`}
             >

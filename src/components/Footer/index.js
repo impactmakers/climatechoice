@@ -141,9 +141,9 @@ const Footer = () => (
         </p>
       </div>
       <div className={Styles.impactMakers}>
-        <h1 className={Styles.impactMakersTitle}>
+        <h2 className={Styles.impactMakersTitle}>
           An Impact Makers project from:
-        </h1>
+        </h2>
         <ul className={Styles.impactMakersCreators}>
           <li className={Styles.impactMakersCreator}>
             <a

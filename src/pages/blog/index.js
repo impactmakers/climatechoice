@@ -37,7 +37,7 @@ class BlogIndex extends React.Component {
                         />
                       </div>
                       <div className={Styles.contentText}>
-                        <h2 className={Styles.contentTitle}>{title}</h2>
+                        <h3 className={Styles.contentTitle}>{title}</h3>
 
                         <p
                           className={Styles.contentExcerpt}

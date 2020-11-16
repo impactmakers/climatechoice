@@ -7,9 +7,9 @@ const Footer = () => (
   <footer className={Styles.container}>
     <div className={`${GlobalStyles.inner} ${Styles.ctaInner}`}>
       <div className={Styles.ctaContent}>
-        <h1 className={Styles.ctaTitle}>
+        <h2 className={Styles.ctaTitle}>
           Want to help prevent climate breakdown?
-        </h1>
+        </h2>
         <p className={Styles.ctaText}>
           Then read our straight-forward guides on choices you can make today to
           help save the planet.

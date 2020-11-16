@@ -23,7 +23,7 @@ const DonatePage = () => (
           <h1 className={`${GlobalStyles.title} ${GlobalStyles.subpageTitle}`}>
             Donations
           </h1>{" "}
-          <h2>Donate to the development of this site and others</h2>
+          <h3>Donate to the development of this site and others</h3>
           <p>
             {" "}
             <Link to="https://climatechoice.co/" title="Go home">
@@ -56,7 +56,7 @@ const DonatePage = () => (
             id="causes"
             aria-label={"Ways of preventing climate breakdown"}
           />
-          <h2>Donate to causes working to prevent climate breakdown</h2>
+          <h3>Donate to causes working to prevent climate breakdown</h3>
           <p>
             We're crowdsourcing a resource which lists charities, movements and
             organisations around the world that you can contribute to. Have a

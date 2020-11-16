@@ -12,17 +12,17 @@ const ChoiceSupport = () => (
       <div
         className={`${ChoiceStyles.actionsContent} ${Styles.actionsContent}`}
       >
-        <h1 className={`${ChoiceStyles.actionsTitle} ${Styles.actionsTitle}`}>
+        <h2 className={`${ChoiceStyles.actionsTitle} ${Styles.actionsTitle}`}>
           Help change the system
-        </h1>
+        </h2>
       </div>
       <div className={`${ChoiceStyles.action} ${Styles.action}`}>
         <div
           className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
         >
-          <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
+          <h3 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
             Support the people, groups and parties who prioritise the planet
-          </h2>
+          </h3>
           <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
             All global warming could be helped by changes to laws across the
             world which prioritise the planet. Find your local candidates who
@@ -32,14 +32,14 @@ const ChoiceSupport = () => (
             Get involved on a grassroots level with activist groups and
             charities trying to raise awareness.
           </p>
-          <h3
+          <h4
             className={`${ChoiceStyles.actionHowTitle} ${
               Styles.actionHowTitle
             }`}
           >
             <img src={HowIcon} alt="How to do more" />
             How can I do even more?
-          </h3>
+          </h4>
           <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
             Become a vocal advocate of preventing climate breakdown. You could
             stand as a political candidate prioritising the planet, or join an
@@ -70,13 +70,13 @@ const ChoiceSupport = () => (
               Styles.actionAsideContainer
             }`}
           >
-            <h3
+            <h4
               className={`${ChoiceStyles.actionAsideTitle} ${
                 Styles.actionAsideTitle
               }`}
             >
               Find who to support
-            </h3>
+            </h4>
             <ul
               className={`${ChoiceStyles.actionAsideList} ${
                 Styles.actionAsideList

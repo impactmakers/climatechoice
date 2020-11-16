@@ -107,9 +107,9 @@ const UseLessEnergyPage = () => (
     >
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.howInner}`}>
         <div className={`${ChoiceStyles.howContent} ${Styles.howContent}`}>
-          <h1 className={`${ChoiceStyles.howTitle} ${Styles.howTitle}`}>
+          <h2 className={`${ChoiceStyles.howTitle} ${Styles.howTitle}`}>
             How wasting energy contributes to climate breakdown
-          </h1>
+          </h2>
           <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
             Every year we waste more energy than we use. Our inefficient use of
             this energy results in the production of a greater amount than is
@@ -130,9 +130,9 @@ const UseLessEnergyPage = () => (
     <section className={`${ChoiceStyles.stops} ${Styles.stops}`}>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.stopsInner}`}>
         <div className={`${ChoiceStyles.stopsImg} ${Styles.stopsImg}`}>
-          <h1 className={`${ChoiceStyles.stopsTitle} ${Styles.stopsTitle}`}>
+          <h2 className={`${ChoiceStyles.stopsTitle} ${Styles.stopsTitle}`}>
             What don't we stop wasting energy?
-          </h1>
+          </h2>
         </div>
         <div className={`${ChoiceStyles.stopsContent} ${Styles.stopsContent}`}>
           <div
@@ -178,17 +178,17 @@ const UseLessEnergyPage = () => (
         <div
           className={`${ChoiceStyles.actionsContent} ${Styles.actionsContent}`}
         >
-          <h1 className={`${ChoiceStyles.actionsTitle} ${Styles.actionsTitle}`}>
+          <h2 className={`${ChoiceStyles.actionsTitle} ${Styles.actionsTitle}`}>
             What you can do now
-          </h1>
+          </h2>
         </div>
         <div className={`${ChoiceStyles.action} ${Styles.action}`}>
           <div
             className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
           >
-            <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
+            <h3 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
               Setup your home so less energy is required
-            </h2>
+            </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               To start, one of the easiest things to do is{" "}
               <b>improve your insulation</b>. Doing so can reduce your energy
@@ -229,13 +229,13 @@ const UseLessEnergyPage = () => (
                 Styles.actionAsideContainer
               }`}
             >
-              <h3
+              <h4
                 className={`${ChoiceStyles.actionAsideTitle} ${
                   Styles.actionAsideTitle
                 }`}
               >
                 Need help changing?
-              </h3>
+              </h4>
               <ul
                 className={`${ChoiceStyles.actionAsideList} ${
                   Styles.actionAsideList
@@ -261,43 +261,43 @@ const UseLessEnergyPage = () => (
           <div
             className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
           >
-            <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
+            <h3 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
               When you do use energy, choose to be more efficient to reduce
               waste
-            </h2>
+            </h3>
 
-            <h3
+            <h4
               className={`${ChoiceStyles.actionPointTitle} ${
                 Styles.actionPointTitle
               }`}
             >
               Use less hot water
-            </h3>
+            </h4>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               Heating water uses energy. Try taking short showers instead of
               filling the bathtub. Lower your washing machine temperature. When
               your clothes are washed hang dry them instead of using a dryer.
             </p>
 
-            <h3
+            <h4
               className={`${ChoiceStyles.actionPointTitle} ${
                 Styles.actionPointTitle
               }`}
             >
               Turn everything off
-            </h3>
+            </h4>
 
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               Don’t leave your appliances on standby, switch them off. When you
               leave a room always make sure you turn any lights off too.
             </p>
-            <h3
+            <h4
               className={`${ChoiceStyles.actionPointTitle} ${
                 Styles.actionPointTitle
               }`}
             >
               Switch off your heating
-            </h3>
+            </h4>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               Adjust your thermostat and radiators. Only choose to heat your
               home when absolutely necessary. Warmer clothes or a blanket can
@@ -312,14 +312,14 @@ const UseLessEnergyPage = () => (
               </OutboundLink>
               .
             </p>
-            <h3
+            <h4
               className={`${ChoiceStyles.actionHowTitle} ${
                 Styles.actionHowTitle
               }`}
             >
               <img src={HowIcon} alt="How it helps" />
               How much would this help?
-            </h3>
+            </h4>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               75% of energy production is harmful to the environment, and we
               could reduce this harm greatly by reducing energy usage. We’d then
@@ -334,13 +334,13 @@ const UseLessEnergyPage = () => (
                 Styles.actionAsideContainer
               }`}
             >
-              <h3
+              <h4
                 className={`${ChoiceStyles.actionAsideTitle} ${
                   Styles.actionAsideTitle
                 }`}
               >
                 Need help changing?
-              </h3>
+              </h4>
               <ul
                 className={`${ChoiceStyles.actionAsideList} ${
                   Styles.actionAsideList
@@ -387,9 +387,9 @@ const UseLessEnergyPage = () => (
               Styles.tldrListContainer
             }`}
           >
-            <h1 className={`${ChoiceStyles.tldrTitle} ${Styles.tldrTitle}`}>
+            <h2 className={`${ChoiceStyles.tldrTitle} ${Styles.tldrTitle}`}>
               Too long; didn't read?
-            </h1>
+            </h2>
             <p
               className={`${ChoiceStyles.tldrSubtitle} ${Styles.tldrSubtitle}`}
             >

@@ -100,9 +100,9 @@ const ChooseRenewablePage = () => (
     <section id="how" className={`${ChoiceStyles.how} ${Styles.how}`}>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.howInner}`}>
         <div className={`${ChoiceStyles.howContent} ${Styles.howContent}`}>
-          <h1 className={`${ChoiceStyles.howTitle} ${Styles.howTitle}`}>
+          <h2 className={`${ChoiceStyles.howTitle} ${Styles.howTitle}`}>
             How energy usage contributes to climate breakdown
-          </h1>
+          </h2>
           <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
             In the modern world we have become dependent on electrical energy to
             power our lives. Unfortunately{" "}
@@ -130,9 +130,9 @@ const ChooseRenewablePage = () => (
     <section className={`${ChoiceStyles.stops} ${Styles.stops}`}>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.stopsInner}`}>
         <div className={`${ChoiceStyles.stopsImg} ${Styles.stopsImg}`}>
-          <h1 className={`${ChoiceStyles.stopsTitle} ${Styles.stopsTitle}`}>
+          <h2 className={`${ChoiceStyles.stopsTitle} ${Styles.stopsTitle}`}>
             What stops us from choosing renewable energy?
-          </h1>
+          </h2>
         </div>
         <div className={`${ChoiceStyles.stopsContent} ${Styles.stopsContent}`}>
           <div
@@ -185,18 +185,18 @@ const ChooseRenewablePage = () => (
         <div
           className={`${ChoiceStyles.actionsContent} ${Styles.actionsContent}`}
         >
-          <h1 className={`${ChoiceStyles.actionsTitle} ${Styles.actionsTitle}`}>
+          <h2 className={`${ChoiceStyles.actionsTitle} ${Styles.actionsTitle}`}>
             What you can do now
-          </h1>
+          </h2>
         </div>
         <div className={`${ChoiceStyles.action} ${Styles.action}`}>
           <div
             className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
           >
-            <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
+            <h3 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
               The easiest thing to do is find a local renewable energy supplier
               and make the switch.
-            </h2>
+            </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               <b>Start by checking with your existing energy supplier</b>, many
               already give you the option to choose a green energy source over
@@ -215,14 +215,14 @@ const ChooseRenewablePage = () => (
               </OutboundLink>{" "}
               should point you in the right direction.
             </p>
-            <h3
+            <h4
               className={`${ChoiceStyles.actionHowTitle} ${
                 Styles.actionHowTitle
               }`}
             >
               <img src={HowIcon} alt="How it helps" />
               How much would this help?
-            </h3>
+            </h4>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               100% renewable energy is likely inevitable. But{" "}
               <b>
@@ -245,10 +245,10 @@ const ChooseRenewablePage = () => (
           <div
             className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
           >
-            <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
+            <h3 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
               Create your own energy supply by installing solar panels or wind
               turbines
-            </h2>
+            </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               While creating your own renewable energy source has an upfront
               cost,{" "}
@@ -271,14 +271,14 @@ const ChooseRenewablePage = () => (
               requires less maintenance, and doesn’t get in peoples' way.
               Consider which option best suits your location.
             </p>
-            <h3
+            <h4
               className={`${ChoiceStyles.actionHowTitle} ${
                 Styles.actionHowTitle
               }`}
             >
               <img src={HowIcon} alt="How it helps" />
               How much would this help?
-            </h3>
+            </h4>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               Supplying your own energy allows other people to use the limited
               renewable resources from existing energy suppliers. If everyone
@@ -293,13 +293,13 @@ const ChooseRenewablePage = () => (
                 Styles.actionAsideContainer
               }`}
             >
-              <h3
+              <h4
                 className={`${ChoiceStyles.actionAsideTitle} ${
                   Styles.actionAsideTitle
                 }`}
               >
                 Learn more
-              </h3>
+              </h4>
               <ul
                 className={`${ChoiceStyles.actionAsideList} ${
                   Styles.actionAsideList
@@ -347,9 +347,9 @@ const ChooseRenewablePage = () => (
               Styles.tldrListContainer
             }`}
           >
-            <h1 className={`${ChoiceStyles.tldrTitle} ${Styles.tldrTitle}`}>
+            <h2 className={`${ChoiceStyles.tldrTitle} ${Styles.tldrTitle}`}>
               Too long; didn't read?
-            </h1>
+            </h2>
             <p
               className={`${ChoiceStyles.tldrSubtitle} ${Styles.tldrSubtitle}`}
             >

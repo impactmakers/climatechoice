@@ -77,7 +77,7 @@ const AboutPage = () => (
             .
           </p>
           <br />
-          <h2>Why we decided to make ClimateChoice</h2>
+          <h3>Why we decided to make ClimateChoice</h3>
           <p>
             <b>
               Our planet's climate is breaking down and we aren’t doing enough
@@ -97,7 +97,7 @@ const AboutPage = () => (
             friends and family know how they take action too.
           </p>
           <br />
-          <h2>Future Developments</h2>
+          <h3>Future Developments</h3>
           <p>
             ClimateChoice is a work in progress. We plan to add more choice
             guides and to continually improve the site so we can provide you

@@ -80,10 +80,10 @@ const ChoiceGridItems = () => {
                 alt="Chevron"
               />
             </div>
-            <h2 className={Styles.choiceTitle}>
+            <h3 className={Styles.choiceTitle}>
               Change how <br />
               you eat
-            </h2>
+            </h3>
             <div className={Styles.choiceMeta}>
               {renderReadStatus("change-how-you-eat")}
             </div>
@@ -102,10 +102,10 @@ const ChoiceGridItems = () => {
                 alt="Chevron"
               />
             </div>
-            <h2 className={Styles.choiceTitle}>
+            <h3 className={Styles.choiceTitle}>
               Change how <br />
               you travel
-            </h2>
+            </h3>
             <div className={Styles.choiceMeta}>
               {renderReadStatus("change-how-you-travel")}
             </div>
@@ -127,7 +127,7 @@ const ChoiceGridItems = () => {
                 alt="Chevron"
               />
             </div>
-            <h2 className={Styles.choiceTitle}>Choose renewable energy</h2>
+            <h3 className={Styles.choiceTitle}>Choose renewable energy</h3>
             <div className={Styles.choiceMeta}>
               {renderReadStatus("choose-renewable-energy")}
             </div>
@@ -146,10 +146,10 @@ const ChoiceGridItems = () => {
                 alt="Chevron"
               />
             </div>
-            <h2 className={Styles.choiceTitle}>
+            <h3 className={Styles.choiceTitle}>
               Use less <br />
               energy
-            </h2>
+            </h3>
             <div className={Styles.choiceMeta}>
               {renderReadStatus("use-less-energy")}
             </div>
@@ -168,10 +168,10 @@ const ChoiceGridItems = () => {
                 alt="Chevron"
               />
             </div>
-            <h2 className={Styles.choiceTitle}>
+            <h3 className={Styles.choiceTitle}>
               Change your <br />
               lifestyle
-            </h2>
+            </h3>
             <div className={Styles.choiceMeta}>
               {renderReadStatus("change-your-lifestyle")}
             </div>
@@ -190,10 +190,10 @@ const ChoiceGridItems = () => {
                 alt="Chevron"
               />
             </div>
-            <h2 className={Styles.choiceTitle}>
+            <h3 className={Styles.choiceTitle}>
               Change your <br />
               job
-            </h2>
+            </h3>
             <div className={Styles.choiceMeta}>
               {renderReadStatus("change-your-job")}
             </div>
@@ -215,10 +215,10 @@ const ChoiceGridItems = () => {
                 alt="Chevron"
               />
             </div>
-            <h2 className={Styles.choiceTitle}>
+            <h3 className={Styles.choiceTitle}>
               Pressure those <br />
               in power
-            </h2>
+            </h3>
             <div className={Styles.choiceMeta}>
               {renderReadStatus("pressure-those-in-power")}
             </div>
@@ -231,10 +231,10 @@ const ChoiceGridItems = () => {
                 <img src={SoonIcon} alt="More guides coming soon" />
               </div>
             </div>
-            <h2 className={`${Styles.choiceTitle} ${Styles.choiceSoonTitle}`}>
+            <h3 className={`${Styles.choiceTitle} ${Styles.choiceSoonTitle}`}>
               Watch this <br />
               space...
-            </h2>
+            </h3>
             <div className={Styles.choiceMeta}>
               <span className={Styles.choiceReadStatus}>
                 More guides coming soon
@@ -245,9 +245,9 @@ const ChoiceGridItems = () => {
       </ul>
       <div className={Styles.subscribe}>
         <div className={Styles.subscribeForm}>
-          <h3 className={Styles.subscribeTitle}>
+          <h4 className={Styles.subscribeTitle}>
             Get notified when we add more choice guides
-          </h3>
+          </h4>
           <form className={FormStyles.fieldContainer} onSubmit={handleSubmit}>
             <input
               type="email"

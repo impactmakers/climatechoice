@@ -29,7 +29,7 @@ const OffsetPage = () => (
           <h1 className={`${GlobalStyles.title} ${GlobalStyles.subpageTitle}`}>
             Offset your carbon footprint
           </h1>
-          <h2>Assess your impact</h2>
+          <h3>Assess your impact</h3>
           <p>
             <ul>
               <li>
@@ -74,7 +74,7 @@ const OffsetPage = () => (
               </li>
             </ul>
           </p>
-          <h2>General offsetting services</h2>
+          <h3>General offsetting services</h3>
           <p>
             <ul>
               <li>
@@ -103,7 +103,7 @@ const OffsetPage = () => (
               </li>
             </ul>
           </p>
-          <h2>Air travel offsetting services</h2>
+          <h3>Air travel offsetting services</h3>
           <p>
             <ul>
               <li>
@@ -113,7 +113,7 @@ const OffsetPage = () => (
               </li>
             </ul>
           </p>
-          <h2>Free offsetting services</h2>
+          <h3>Free offsetting services</h3>
           <p>
             <ul>
               <li>

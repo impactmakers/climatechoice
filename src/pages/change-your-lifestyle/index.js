@@ -106,9 +106,9 @@ const ChangeYourLifestylePage = () => (
     >
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.howInner}`}>
         <div className={`${ChoiceStyles.howContent} ${Styles.howContent}`}>
-          <h1 className={`${ChoiceStyles.howTitle} ${Styles.howTitle}`}>
+          <h2 className={`${ChoiceStyles.howTitle} ${Styles.howTitle}`}>
             How our lifestyles contribute to climate breakdown
-          </h1>
+          </h2>
           <ol
             className={`${ChoiceStyles.choiceList} ${ChoiceStyles.howList} ${
               Styles.howList
@@ -144,9 +144,9 @@ const ChangeYourLifestylePage = () => (
     <section className={`${ChoiceStyles.stops} ${Styles.stops}`}>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.stopsInner}`}>
         <div className={`${ChoiceStyles.stopsImg} ${Styles.stopsImg}`}>
-          <h1 className={`${ChoiceStyles.stopsTitle} ${Styles.stopsTitle}`}>
+          <h2 className={`${ChoiceStyles.stopsTitle} ${Styles.stopsTitle}`}>
             What stops us from changing our lifestyles?
-          </h1>
+          </h2>
         </div>
         <div className={`${ChoiceStyles.stopsContent} ${Styles.stopsContent}`}>
           <div
@@ -190,17 +190,17 @@ const ChangeYourLifestylePage = () => (
         <div
           className={`${ChoiceStyles.actionsContent} ${Styles.actionsContent}`}
         >
-          <h1 className={`${ChoiceStyles.actionsTitle} ${Styles.actionsTitle}`}>
+          <h2 className={`${ChoiceStyles.actionsTitle} ${Styles.actionsTitle}`}>
             What you can do now
-          </h1>
+          </h2>
         </div>
         <div className={`${ChoiceStyles.action} ${Styles.action}`}>
           <div
             className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
           >
-            <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
+            <h3 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
               Buy less, recycle more
-            </h2>
+            </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               <b>
                 Break the consumer cycle and become comfortable with only buying
@@ -227,14 +227,14 @@ const ChangeYourLifestylePage = () => (
               </OutboundLink>{" "}
               to learn more about what you need to do.
             </p>
-            <h3
+            <h4
               className={`${ChoiceStyles.actionHowTitle} ${
                 Styles.actionHowTitle
               }`}
             >
               <img src={HowIcon} alt="How it helps" />
               How much would this help?
-            </h3>
+            </h4>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               If we stop buying so much, fewer items will be produced, leading
               to reduced energy production and energy wastage. By recycling, we
@@ -248,13 +248,13 @@ const ChangeYourLifestylePage = () => (
                 Styles.actionAsideContainer
               }`}
             >
-              <h3
+              <h4
                 className={`${ChoiceStyles.actionAsideTitle} ${
                   Styles.actionAsideTitle
                 }`}
               >
                 Need help changing?
-              </h3>
+              </h4>
               <ul
                 className={`${ChoiceStyles.actionAsideList} ${
                   Styles.actionAsideList
@@ -296,9 +296,9 @@ const ChangeYourLifestylePage = () => (
           <div
             className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
           >
-            <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
+            <h3 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
               Ditch single-use plastics and replace with reusable items
-            </h2>
+            </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               Plastic is a major problem. Its production emits dangerous
               greenhouse gases into the atmosphere, and when it goes to waste it
@@ -335,14 +335,14 @@ const ChangeYourLifestylePage = () => (
                 <li>Buy high quality items, they will last longer</li>
               </ul>
             </p>
-            <h3
+            <h4
               className={`${ChoiceStyles.actionHowTitle} ${
                 Styles.actionHowTitle
               }`}
             >
               <img src={HowIcon} alt="How it helps" />
               How much would this help?
-            </h3>
+            </h4>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               Plastic might not be the first thing people think of as a
               contributor to climate breakdown, but its existence causes many
@@ -358,13 +358,13 @@ const ChangeYourLifestylePage = () => (
                 Styles.actionAsideContainer
               }`}
             >
-              <h3
+              <h4
                 className={`${ChoiceStyles.actionAsideTitle} ${
                   Styles.actionAsideTitle
                 }`}
               >
                 Need help changing?
-              </h3>
+              </h4>
               <ul
                 className={`${ChoiceStyles.actionAsideList} ${
                   Styles.actionAsideList
@@ -398,9 +398,9 @@ const ChangeYourLifestylePage = () => (
           <div
             className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
           >
-            <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
+            <h3 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
               Live a more independent life
-            </h2>
+            </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               We don’t have to rely on corporations and other third parties to
               live, this is just how our society has developed. Consider
@@ -424,13 +424,13 @@ const ChangeYourLifestylePage = () => (
                 Styles.actionAsideContainer
               }`}
             >
-              <h3
+              <h4
                 className={`${ChoiceStyles.actionAsideTitle} ${
                   Styles.actionAsideTitle
                 }`}
               >
                 Learn more
-              </h3>
+              </h4>
               <ul
                 className={`${ChoiceStyles.actionAsideList} ${
                   Styles.actionAsideList
@@ -466,9 +466,9 @@ const ChangeYourLifestylePage = () => (
               Styles.tldrListContainer
             }`}
           >
-            <h1 className={`${ChoiceStyles.tldrTitle} ${Styles.tldrTitle}`}>
+            <h2 className={`${ChoiceStyles.tldrTitle} ${Styles.tldrTitle}`}>
               Too long; didn't read?
-            </h1>
+            </h2>
             <p
               className={`${ChoiceStyles.tldrSubtitle} ${Styles.tldrSubtitle}`}
             >

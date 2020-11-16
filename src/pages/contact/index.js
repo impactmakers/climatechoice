@@ -20,7 +20,7 @@ const ContactPage = () => (
           <h1 className={`${GlobalStyles.title} ${GlobalStyles.subpageTitle}`}>
             Contact & contribute
           </h1>
-          <h2>General enquiries & feedback</h2>
+          <h3>General enquiries & feedback</h3>
           <p>
             <ul>
               <li>
@@ -43,7 +43,7 @@ const ContactPage = () => (
             </div>
           </p>
           <br />
-          <h2>Want to help with the site?</h2>
+          <h3>Want to help with the site?</h3>
           <p>
             {" "}
             <Link to="/" title="Go home">
@@ -62,7 +62,8 @@ const ContactPage = () => (
             If you're interested in contributing to ClimateChoice please{" "}
             <a href="mailto:yourclimatechoice@gmail.com" title="Email us">
               send us an email
-            </a>,{" "}
+            </a>
+            ,{" "}
             <OutboundLink
               href="https://github.com/impactmakers/climatechoice/blob/master/CONTRIBUTING.md"
               title="ClimateChoice GitHub Contributing Guide"
@@ -80,7 +81,7 @@ const ContactPage = () => (
             is, all motivated people are welcome!
           </p>
           <br />
-          <h3>Contributors so far:</h3>
+          <h4>Contributors so far:</h4>
           <p>
             <ul>
               <li>

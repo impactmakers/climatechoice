@@ -94,9 +94,9 @@ const ChangeHowYouEatPage = () => (
     >
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.howInner}`}>
         <div className={`${ChoiceStyles.howContent} ${Styles.howContent}`}>
-          <h1 className={`${ChoiceStyles.howTitle} ${Styles.howTitle}`}>
+          <h2 className={`${ChoiceStyles.howTitle} ${Styles.howTitle}`}>
             How food contributes to climate breakdown
-          </h1>
+          </h2>
           <ol
             className={`${ChoiceStyles.choiceList} ${ChoiceStyles.howList} ${
               Styles.howList
@@ -129,9 +129,9 @@ const ChangeHowYouEatPage = () => (
     <section className={`${ChoiceStyles.stops} ${Styles.stops}`}>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.stopsInner}`}>
         <div className={`${ChoiceStyles.stopsImg} ${Styles.stopsImg}`}>
-          <h1 className={`${ChoiceStyles.stopsTitle} ${Styles.stopsTitle}`}>
+          <h2 className={`${ChoiceStyles.stopsTitle} ${Styles.stopsTitle}`}>
             What stops us from changing how we eat?
-          </h1>
+          </h2>
         </div>
         <div className={`${ChoiceStyles.stopsContent} ${Styles.stopsContent}`}>
           <div
@@ -180,18 +180,18 @@ const ChangeHowYouEatPage = () => (
         <div
           className={`${ChoiceStyles.actionsContent} ${Styles.actionsContent}`}
         >
-          <h1 className={`${ChoiceStyles.actionsTitle} ${Styles.actionsTitle}`}>
+          <h2 className={`${ChoiceStyles.actionsTitle} ${Styles.actionsTitle}`}>
             What you can do now
-          </h1>
+          </h2>
         </div>
         <div className={`${ChoiceStyles.action} ${Styles.action}`}>
           <div
             className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
           >
-            <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
+            <h3 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
               The easiest thing to do is to consume less food with a high carbon
               footprint
-            </h2>
+            </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               The biggest impact can be had if you{" "}
               <b>eat fewer animal products — in particular meat and dairy</b>,
@@ -200,14 +200,14 @@ const ChangeHowYouEatPage = () => (
               with <b>sustainable, or no packaging</b>, and <b>buy local</b> so
               your food isn’t travelling around the world.
             </p>
-            <h3
+            <h4
               className={`${ChoiceStyles.actionHowTitle} ${
                 Styles.actionHowTitle
               }`}
             >
               <img src={HowIcon} alt="How it helps" />
               How much would this help?
-            </h3>
+            </h4>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               If we all did this, demand for harmful food and drink products
               would go down causing the supply chain to shrink. Since we’d be
@@ -222,13 +222,13 @@ const ChangeHowYouEatPage = () => (
                 Styles.actionAsideContainer
               }`}
             >
-              <h3
+              <h4
                 className={`${ChoiceStyles.actionAsideTitle} ${
                   Styles.actionAsideTitle
                 }`}
               >
                 Need help changing?
-              </h3>
+              </h4>
               <ul
                 className={`${ChoiceStyles.actionAsideList} ${
                   Styles.actionAsideList
@@ -254,10 +254,10 @@ const ChangeHowYouEatPage = () => (
           <div
             className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
           >
-            <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
+            <h3 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
               STOP wasting food. If something does go to waste make sure it’s
               recycled
-            </h2>
+            </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               Be more conscious when you shop and try to{" "}
               <b>only buy what you’re sure will be consumed</b>. When you have
@@ -272,14 +272,14 @@ const ChangeHowYouEatPage = () => (
               </OutboundLink>
               .
             </p>
-            <h3
+            <h4
               className={`${ChoiceStyles.actionHowTitle} ${
                 Styles.actionHowTitle
               }`}
             >
               <img src={HowIcon} alt="How it helps" />
               How much would this help?
-            </h3>
+            </h4>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               Roughly 1/3 of food each year goes to waste. If we all became more
               efficient with our food, less would need to be produced and less
@@ -301,9 +301,9 @@ const ChangeHowYouEatPage = () => (
               Styles.tldrListContainer
             }`}
           >
-            <h1 className={`${ChoiceStyles.tldrTitle} ${Styles.tldrTitle}`}>
+            <h2 className={`${ChoiceStyles.tldrTitle} ${Styles.tldrTitle}`}>
               Too long; didn't read?
-            </h1>
+            </h2>
             <p
               className={`${ChoiceStyles.tldrSubtitle} ${Styles.tldrSubtitle}`}
             >

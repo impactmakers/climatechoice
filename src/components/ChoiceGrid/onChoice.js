@@ -14,10 +14,10 @@ const ChoiceGridOnChoice = () => (
       }`}
     >
       <div className={GlobalStyles.subpageContent}>
-        <h1 className={`${GlobalStyles.title} ${GlobalStyles.subpageTitle}`}>
+        <h2 className={`${GlobalStyles.title} ${GlobalStyles.subpageTitle}`}>
           Discover more choices you can make today to help prevent climate
           breakdown
-        </h1>
+        </h2>
         {/* <p>
           It’s not too late to curb the effects of global warming before they
           spiral out of control, causing irreversible devastation across our

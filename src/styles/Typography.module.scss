@@ -276,28 +276,28 @@ $text-xsmall: (
 
 // Text Style Application
 
-h1 {
+h1,
+h2 {
   @include title-xlarge;
 }
 
-h2 {
+h3 {
   margin: 0.5em 0 0.5em 0;
   @include blue-title;
 }
 
-h3 {
-  margin: 0 0 0.5em 0;
-  @include font-size($text-large);
-  color: $black;
-}
-
 h4 {
+  margin: 0 0 0.5em 0;
+  @include font-size($text-large);
+  color: $black;
+}
+
+h5 {
   @include font-size($text-large);
   margin: 0 0 0.5em 0;
   color: $black;
 }
 
-h5,
 h6 {
   margin: 0.5em 0 0.5em 0;
   @include title-uppercase-small;
