@@ -103,7 +103,20 @@ module.exports = {
       }
     },
     `gatsby-plugin-offline`,
-    `gatsby-plugin-react-helmet`
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-source-airtable`,
+      options: {
+        apiKey: process.env.AIRTABLE_API_KEY,
+        tables: [
+          {
+            baseId: process.env.AIRTABLE_BASE,
+            tableName: `Production`
+          }
+        ]
+      }
+    }
   ],
   mapping: {
     "MarkdownRemark.frontmatter.author": `AuthorYaml`
